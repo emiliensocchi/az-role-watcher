@@ -427,7 +427,6 @@ Microsoft Sentinel Contributor
 Microsoft Sentinel Playbook Operator
 Microsoft Sentinel Reader
 Microsoft Sentinel Responder
-Microsoft.Edge Winfields federated subscription read access role
 Microsoft.Kubernetes connected cluster role
 Monitored Objects Contributor
 Monitoring Contributor
