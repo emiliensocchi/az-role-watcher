@@ -1,0 +1,15 @@
+name: 'Check if built-in roles and permissions have changed'
+description: 'Verifies whether the built-in roles and permissions from Entra ID and Azure have changed'
+inputs:
+  user_email:
+    description: 'Email for the git commit'
+    required: true
+  user_name:
+    description: 'Github username for the git commit'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.user-email }}
+    - ${{ inputs.user-name }}

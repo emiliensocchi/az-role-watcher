@@ -1,0 +1,8 @@
+<rss version="2.0">
+    <channel>
+        <title>AzRoleWatcher</title>
+        <description>Continuously monitor roles and permissions in Entra ID and Microsoft Azure.</description>
+        <language>en</language>
+        <pubDate>Tue, 16 Jul 2024 16:03:50  +0200</pubDate>
+    </channel>
+</rss>
