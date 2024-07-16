@@ -37,7 +37,7 @@ git config --global user.name "$INPUT_USER_NAME"
 git add .
 if git status | grep -q "Changes to be committed"
 then
-  git commit --message "Merge queries"
+  git commit --message "Update"
   git push -u origin HEAD:"$DESTINATION_BRANCH"
   echo "Pushing commit repository"
 else
