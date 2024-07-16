@@ -4,19 +4,18 @@
 
 ## 📃 Description 
 
-This project continously verifies if the following assets have been updated with additions and/or removals during the **last 24 hours**:
-- Azure roles
-- Entra roles
-- Microsoft Graph application permissions
+This project continously verifies if the following assets have been updated with **additions** and/or **removals** during the **last 24 hours**:
+- **Azure roles**
+- **Entra roles**
+- **Microsoft Graph application permissions**
 
 The latest available roles and permissions are pulled once a day from the MS Graph and ARM APIs directly, and compared to a local snapshot to detect any changes.
 
 ## 📣 How to get notified?
 
-[Show me now!]()
+[Preview an example](https://www.joydeepdeb.com/misc/rss-feed-reader.html?url_id=https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/examples/example.rss)
 
-Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/azmonitor/main/latest.rss?token=GHSAT0AAAAAACSLR6FSJNNOAWE3ITJJKSUMZUWTVFQ) to get notified. The file is updated daily around 03:00 AM Central European Time (1:00 AM UTC). 
-
+Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss). The file is updated daily around 03:00 AM Central European Time (1:00 AM UTC). 
 
 ## ⚙️ Setting up this project against your own Entra tenant
 
