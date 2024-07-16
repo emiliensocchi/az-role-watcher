@@ -13,7 +13,7 @@ jobs:
     steps:
     - name: Checkout
       uses: emiliensocchi/actions@checkout
-    - name: Run AzMonitor
+    - name: Run AzRoleWatcher
       uses: ./.github/actions/pull-for-changes
       with:
         user_email: 'emilien.socchi@gmail.com'
