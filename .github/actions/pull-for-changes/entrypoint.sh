@@ -9,7 +9,7 @@ echo "Verifying if roles and permissions have changed"
 
 script_dir='./.github/actions/pull-for-changes/scripts'
 pip3 install -r "${script_dir}/requirements.txt" --break-system-packages
-python3 "${script_dir}//azRoleWatcher.py"
+python3 "${script_dir}/azRoleWatcher.py"
 
 ## Stage 1 ##############################################################
 
