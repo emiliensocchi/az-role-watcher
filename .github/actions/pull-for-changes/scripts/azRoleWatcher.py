@@ -165,8 +165,22 @@ def get_builtin_azure_role_objects_from_arm(token):
         print('FATAL ERROR - The Azure roles could not be retrieved from ARM.')
         exit()
 
-    response_content = response.json()['value']
-    return response_content
+    paginated_response = response.json()['value']
+    complete_response = paginated_response
+    next_page = response.json()['nextLink'] if 'nextLink' in response.json() else ''
+
+    while next_page:
+        response = requests.get(next_page, headers = headers)
+
+        if response.status_code != 200:
+            print('FATAL ERROR - The Azure roles could not be retrieved from ARM.')
+            exit()
+        
+        paginated_response = response.json()['value']
+        next_page = response.json()['nextLink'] if 'nextLink' in response.json() else ''
+        complete_response += paginated_response
+
+    return complete_response
 
 
 def get_builtin_from_snapshot(snapshot_file):
@@ -319,7 +333,7 @@ if __name__ == "__main__":
     current_builtin_entra_roles = sorted([role_object['displayName'] for role_object in current_builtin_entra_role_objects])
     current_builtin_azure_roles = sorted([role_object['properties']['roleName'] for role_object in current_builtin_azure_role_objects])
 
-    # Set local rss file
+     # Set local rss file
     github_action_dir_name = '.github'
     absolute_path_to_script = os.path.abspath(sys.argv[0])
     root_dir = absolute_path_to_script.split(github_action_dir_name)[0]
