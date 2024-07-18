@@ -300,7 +300,6 @@ Device Update Deployments Administrator
 Device Update Deployments Reader
 Device Update Reader
 Disk Backup Reader
-Disk Encryption Set Operator for Managed Disks
 Disk Pool Operator
 Disk Restore Operator
 Disk Snapshot Contributor
