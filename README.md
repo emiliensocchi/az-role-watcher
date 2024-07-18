@@ -34,7 +34,11 @@ The project can be configured against a specific Entra tenant as follows:
     1. [`RoleManagement.Read.Directory`](https://learn.microsoft.com/en-us/graph/permissions-reference#rolemanagementreaddirectory) (required to read Entra role definitions)
     2. [`Application.Read.All`](https://learn.microsoft.com/en-us/graph/permissions-reference#applicationreadall) (required to read the definitions of application permissions)
 
-4. In the forked project, configure a GitHub secret with the following name and value, replacing `__PLACEHOLDER__` with the values collected in step 2:
+4. In the forked project, configure a GitHub secret named `API_TOKEN_GITHUB` containing a GitHub Personal Access Token (PAT) providing the following access to the forked repository:
+   - Read access to metadata
+   - Read and Write access to actions and code
+
+5. In the forked project, configure a GitHub secret with the following name and value, replacing `__PLACEHOLDER__` with the values collected in step 2:
 
 | GitHub secret name | Value (string) | 
 |---|---|
