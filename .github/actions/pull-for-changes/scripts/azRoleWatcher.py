@@ -219,13 +219,12 @@ def generate_rss(items):
     rss_feed_description = 'Continuously monitor roles and permissions in Microsoft Entra ID and Azure.'
     rss_feed_language = 'en'
     now = datetime.datetime.now()
-    rss_feed_last_updated = now.strftime("%a, %d %b %Y %X %z +0200")
+    rss_feed_last_updated = now.strftime("%a, %d %b %Y %X")
 
     rss = '<rss version="2.0"><channel>'
     rss += f"<title>{rss_feed_title}</title>"
     rss += f"<description>{rss_feed_description}</description>"
     rss += f"<language>{rss_feed_language}</language>"
-    rss += f"<pubDate>{rss_feed_last_updated}</pubDate>"
 
     for item in items:
         title = item['title']
@@ -236,6 +235,7 @@ def generate_rss(items):
 
         rss += '<item>'
         rss += f"<title>{title}</title>"
+        rss += f"<pubDate>{rss_feed_last_updated}</pubDate>"
         rss += f"<description><![CDATA[<b>Id:</b> {id} <br><b>Display name:</b> {name} <br><b>Description:</b> {description} <br><b>Link:</b> {link}]]></description>"
         rss += '</item>'
 
