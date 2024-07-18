@@ -339,7 +339,6 @@ GeoCatalog Administrator
 GeoCatalog Reader
 Grafana Admin
 Grafana Editor
-Grafana Limited Viewer
 Grafana Viewer
 Graph Owner
 GroupQuota Reader
@@ -551,7 +550,6 @@ Test Base Reader
 ToolchainOrchestrator Admin Role
 ToolchainOrchestrator Viewer Role
 Traffic Manager Contributor
-Transparency Logs Owner
 Trusted Signing Certificate Profile Signer
 Trusted Signing Identity Verifier
 User Access Administrator
