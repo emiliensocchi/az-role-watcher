@@ -15,7 +15,9 @@ The latest available roles and permissions are pulled once a day from the MS Gra
 
 [Preview an example](https://www.joydeepdeb.com/misc/rss-feed-reader.html?url_id=https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/examples/example.rss)
 
-Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss). The file is updated daily around 04:00 AM Central European Time (2:00 AM UTC). 
+Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss). 
+
+The file is updated every time a change is detected and stays unmodified otherwise. Note that AzRoleWatcher is run daily around 04:00 AM Central European Time (2:00 AM UTC) to detect changes.
 
 ## ⚙️ Setting up this project against your own Entra tenant
 
