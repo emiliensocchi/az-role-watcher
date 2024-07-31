@@ -17,9 +17,9 @@ The latest available roles and permissions are pulled once a day from the MS Gra
 
 Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss). 
 
-The file is updated every time a change is detected and stays unmodified otherwise. This means the date of the **latest commit** to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss) corresponds to the **date of the latest addition or removal** in either Azure roles, Entra roles or Microsoft Graph application permissions.
+The file is updated every time a change is detected and stays unmodified otherwise. This means the date of the **latest commit** corresponds to the date of the **latest addition or removal** of an Azure role, Entra role or Microsoft Graph application permission.
 
-Note that AzRoleWatcher is run daily around 04:00 AM Central European Time (2:00 AM UTC) to detect changes.
+Note that AzRoleWatcher is **run daily** around 04:00 AM Central European Time (2:00 AM UTC) to detect changes.
 
 ## ⚙️ Setting up this project against your own Entra tenant
 
