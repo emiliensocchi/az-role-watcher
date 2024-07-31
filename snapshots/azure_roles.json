@@ -1,0 +1,3464 @@
+[
+    {
+        "id": "8311e382-0749-4cb8-b61a-304f252e45ec",
+        "name": "AcrPush",
+        "description": "acr push",
+        "link": "https://management.azure.com8311e382-0749-4cb8-b61a-304f252e45ec?api-version=2022-04-01"
+    },
+    {
+        "id": "312a565d-c81f-4fd8-895a-4e21e48d571c",
+        "name": "API Management Service Contributor",
+        "description": "Can manage service and the APIs",
+        "link": "https://management.azure.com312a565d-c81f-4fd8-895a-4e21e48d571c?api-version=2022-04-01"
+    },
+    {
+        "id": "7f951dda-4ed3-4680-a7ca-43fe172d538d",
+        "name": "AcrPull",
+        "description": "acr pull",
+        "link": "https://management.azure.com7f951dda-4ed3-4680-a7ca-43fe172d538d?api-version=2022-04-01"
+    },
+    {
+        "id": "6cef56e8-d556-48e5-a04f-b8e64114680f",
+        "name": "AcrImageSigner",
+        "description": "acr image signer",
+        "link": "https://management.azure.com6cef56e8-d556-48e5-a04f-b8e64114680f?api-version=2022-04-01"
+    },
+    {
+        "id": "c2f4ef07-c644-48eb-af81-4b1b4947fb11",
+        "name": "AcrDelete",
+        "description": "acr delete",
+        "link": "https://management.azure.comc2f4ef07-c644-48eb-af81-4b1b4947fb11?api-version=2022-04-01"
+    },
+    {
+        "id": "cdda3590-29a3-44f6-95f2-9f980659eb04",
+        "name": "AcrQuarantineReader",
+        "description": "acr quarantine data reader",
+        "link": "https://management.azure.comcdda3590-29a3-44f6-95f2-9f980659eb04?api-version=2022-04-01"
+    },
+    {
+        "id": "c8d4ff99-41c3-41a8-9f60-21dfdad59608",
+        "name": "AcrQuarantineWriter",
+        "description": "acr quarantine data writer",
+        "link": "https://management.azure.comc8d4ff99-41c3-41a8-9f60-21dfdad59608?api-version=2022-04-01"
+    },
+    {
+        "id": "e022efe7-f5ba-4159-bbe4-b44f577e9b61",
+        "name": "API Management Service Operator Role",
+        "description": "Can manage service but not the APIs",
+        "link": "https://management.azure.come022efe7-f5ba-4159-bbe4-b44f577e9b61?api-version=2022-04-01"
+    },
+    {
+        "id": "71522526-b88f-4d52-b57f-d31fc3546d0d",
+        "name": "API Management Service Reader Role",
+        "description": "Read-only access to service and APIs",
+        "link": "https://management.azure.com71522526-b88f-4d52-b57f-d31fc3546d0d?api-version=2022-04-01"
+    },
+    {
+        "id": "ae349356-3a1b-4a5e-921d-050484c6347e",
+        "name": "Application Insights Component Contributor",
+        "description": "Can manage Application Insights components",
+        "link": "https://management.azure.comae349356-3a1b-4a5e-921d-050484c6347e?api-version=2022-04-01"
+    },
+    {
+        "id": "08954f03-6346-4c2e-81c0-ec3a5cfae23b",
+        "name": "Application Insights Snapshot Debugger",
+        "description": "Gives user permission to use Application Insights Snapshot Debugger features",
+        "link": "https://management.azure.com08954f03-6346-4c2e-81c0-ec3a5cfae23b?api-version=2022-04-01"
+    },
+    {
+        "id": "fd1bd22b-8476-40bc-a0bc-69b95687b9f3",
+        "name": "Attestation Reader",
+        "description": "Can read the attestation provider properties",
+        "link": "https://management.azure.comfd1bd22b-8476-40bc-a0bc-69b95687b9f3?api-version=2022-04-01"
+    },
+    {
+        "id": "4fe576fe-1146-4730-92eb-48519fa6bf9f",
+        "name": "Automation Job Operator",
+        "description": "Create and Manage Jobs using Automation Runbooks.",
+        "link": "https://management.azure.com4fe576fe-1146-4730-92eb-48519fa6bf9f?api-version=2022-04-01"
+    },
+    {
+        "id": "5fb5aef8-1081-4b8e-bb16-9d5d0385bab5",
+        "name": "Automation Runbook Operator",
+        "description": "Read Runbook properties - to be able to create Jobs of the runbook.",
+        "link": "https://management.azure.com5fb5aef8-1081-4b8e-bb16-9d5d0385bab5?api-version=2022-04-01"
+    },
+    {
+        "id": "d3881f73-407a-4167-8283-e981cbba0404",
+        "name": "Automation Operator",
+        "description": "Automation Operators are able to start, stop, suspend, and resume jobs",
+        "link": "https://management.azure.comd3881f73-407a-4167-8283-e981cbba0404?api-version=2022-04-01"
+    },
+    {
+        "id": "4f8fab4f-1852-4a58-a46a-8eaf358af14a",
+        "name": "Avere Contributor",
+        "description": "Can create and manage an Avere vFXT cluster.",
+        "link": "https://management.azure.com4f8fab4f-1852-4a58-a46a-8eaf358af14a?api-version=2022-04-01"
+    },
+    {
+        "id": "c025889f-8102-4ebf-b32c-fc0c6f0c6bd9",
+        "name": "Avere Operator",
+        "description": "Used by the Avere vFXT cluster to manage the cluster",
+        "link": "https://management.azure.comc025889f-8102-4ebf-b32c-fc0c6f0c6bd9?api-version=2022-04-01"
+    },
+    {
+        "id": "0ab0b1a8-8aac-4efd-b8c2-3ee1fb270be8",
+        "name": "Azure Kubernetes Service Cluster Admin Role",
+        "description": "List cluster admin credential action.",
+        "link": "https://management.azure.com0ab0b1a8-8aac-4efd-b8c2-3ee1fb270be8?api-version=2022-04-01"
+    },
+    {
+        "id": "4abbcc35-e782-43d8-92c5-2d3f1bd2253f",
+        "name": "Azure Kubernetes Service Cluster User Role",
+        "description": "List cluster user credential action.",
+        "link": "https://management.azure.com4abbcc35-e782-43d8-92c5-2d3f1bd2253f?api-version=2022-04-01"
+    },
+    {
+        "id": "423170ca-a8f6-4b0f-8487-9e4eb8f49bfa",
+        "name": "Azure Maps Data Reader",
+        "description": "Grants access to read map related data from an Azure maps account.",
+        "link": "https://management.azure.com423170ca-a8f6-4b0f-8487-9e4eb8f49bfa?api-version=2022-04-01"
+    },
+    {
+        "id": "6f12a6df-dd06-4f3e-bcb1-ce8be600526a",
+        "name": "Azure Stack Registration Owner",
+        "description": "Lets you manage Azure Stack registrations.",
+        "link": "https://management.azure.com6f12a6df-dd06-4f3e-bcb1-ce8be600526a?api-version=2022-04-01"
+    },
+    {
+        "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
+        "name": "Backup Contributor",
+        "description": "Lets you manage backups, but can't delete vaults and give access to others",
+        "link": "https://management.azure.com5e467623-bb1f-42f4-a55d-6e525e11384b?api-version=2022-04-01"
+    },
+    {
+        "id": "fa23ad8b-c56e-40d8-ac0c-ce449e1d2c64",
+        "name": "Billing Reader",
+        "description": "Allows read access to billing data",
+        "link": "https://management.azure.comfa23ad8b-c56e-40d8-ac0c-ce449e1d2c64?api-version=2022-04-01"
+    },
+    {
+        "id": "a795c7a0-d4a2-40c1-ae25-d81f01202912",
+        "name": "Backup Reader",
+        "description": "Can view backup services, but can't make changes",
+        "link": "https://management.azure.coma795c7a0-d4a2-40c1-ae25-d81f01202912?api-version=2022-04-01"
+    },
+    {
+        "id": "31a002a1-acaf-453e-8a5b-297c9ca1ea24",
+        "name": "Blockchain Member Node Access (Preview)",
+        "description": "Allows for access to Blockchain Member nodes",
+        "link": "https://management.azure.com31a002a1-acaf-453e-8a5b-297c9ca1ea24?api-version=2022-04-01"
+    },
+    {
+        "id": "5e3c6656-6cfa-4708-81fe-0de47ac73342",
+        "name": "BizTalk Contributor",
+        "description": "Lets you manage BizTalk services, but not access to them.",
+        "link": "https://management.azure.com5e3c6656-6cfa-4708-81fe-0de47ac73342?api-version=2022-04-01"
+    },
+    {
+        "id": "426e0c7f-0c7e-4658-b36f-ff54d6c29b45",
+        "name": "CDN Endpoint Contributor",
+        "description": "Can manage CDN endpoints, but can't grant access to other users.",
+        "link": "https://management.azure.com426e0c7f-0c7e-4658-b36f-ff54d6c29b45?api-version=2022-04-01"
+    },
+    {
+        "id": "ec156ff8-a8d1-4d15-830c-5b80698ca432",
+        "name": "CDN Profile Contributor",
+        "description": "Can manage CDN and Azure Front Door standard and premium profiles and their endpoints, but can't grant access to other users.",
+        "link": "https://management.azure.comec156ff8-a8d1-4d15-830c-5b80698ca432?api-version=2022-04-01"
+    },
+    {
+        "id": "8f96442b-4075-438f-813d-ad51ab4019af",
+        "name": "CDN Profile Reader",
+        "description": "Can view CDN profiles and their endpoints, but can't make changes.",
+        "link": "https://management.azure.com8f96442b-4075-438f-813d-ad51ab4019af?api-version=2022-04-01"
+    },
+    {
+        "id": "b34d265f-36f7-4a0d-a4d4-e158ca92e90f",
+        "name": "Classic Network Contributor",
+        "description": "Lets you manage classic networks, but not access to them.",
+        "link": "https://management.azure.comb34d265f-36f7-4a0d-a4d4-e158ca92e90f?api-version=2022-04-01"
+    },
+    {
+        "id": "86e8f5dc-a6e9-4c67-9d15-de283e8eac25",
+        "name": "Classic Storage Account Contributor",
+        "description": "Lets you manage classic storage accounts, but not access to them.",
+        "link": "https://management.azure.com86e8f5dc-a6e9-4c67-9d15-de283e8eac25?api-version=2022-04-01"
+    },
+    {
+        "id": "985d6b00-f706-48f5-a6fe-d0ca12fb668d",
+        "name": "Classic Storage Account Key Operator Service Role",
+        "description": "Classic Storage Account Key Operators are allowed to list and regenerate keys on Classic Storage Accounts",
+        "link": "https://management.azure.com985d6b00-f706-48f5-a6fe-d0ca12fb668d?api-version=2022-04-01"
+    },
+    {
+        "id": "9106cda0-8a86-4e81-b686-29a22c54effe",
+        "name": "ClearDB MySQL DB Contributor",
+        "description": "Lets you manage ClearDB MySQL databases, but not access to them.",
+        "link": "https://management.azure.com9106cda0-8a86-4e81-b686-29a22c54effe?api-version=2022-04-01"
+    },
+    {
+        "id": "d73bb868-a0df-4d4d-bd69-98a00b01fccb",
+        "name": "Classic Virtual Machine Contributor",
+        "description": "Lets you manage classic virtual machines, but not access to them, and not the virtual network or storage account they\u2019re connected to.",
+        "link": "https://management.azure.comd73bb868-a0df-4d4d-bd69-98a00b01fccb?api-version=2022-04-01"
+    },
+    {
+        "id": "a97b65f3-24c7-4388-baec-2e87135dc908",
+        "name": "Cognitive Services User",
+        "description": "Lets you read and list keys of Cognitive Services.",
+        "link": "https://management.azure.coma97b65f3-24c7-4388-baec-2e87135dc908?api-version=2022-04-01"
+    },
+    {
+        "id": "b59867f0-fa02-499b-be73-45a86b5b3e1c",
+        "name": "Cognitive Services Data Reader (Preview)",
+        "description": "Lets you read Cognitive Services data.",
+        "link": "https://management.azure.comb59867f0-fa02-499b-be73-45a86b5b3e1c?api-version=2022-04-01"
+    },
+    {
+        "id": "25fbc0a9-bd7c-42a3-aa1a-3b75d497ee68",
+        "name": "Cognitive Services Contributor",
+        "description": "Lets you create, read, update, delete and manage keys of Cognitive Services.",
+        "link": "https://management.azure.com25fbc0a9-bd7c-42a3-aa1a-3b75d497ee68?api-version=2022-04-01"
+    },
+    {
+        "id": "db7b14f2-5adf-42da-9f96-f2ee17bab5cb",
+        "name": "CosmosBackupOperator",
+        "description": "Can submit restore request for a Cosmos DB database or a container for an account",
+        "link": "https://management.azure.comdb7b14f2-5adf-42da-9f96-f2ee17bab5cb?api-version=2022-04-01"
+    },
+    {
+        "id": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+        "name": "Contributor",
+        "description": "Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.",
+        "link": "https://management.azure.comb24988ac-6180-42a0-ab88-20f7382dd24c?api-version=2022-04-01"
+    },
+    {
+        "id": "fbdf93bf-df7d-467e-a4d2-9458aa1360c8",
+        "name": "Cosmos DB Account Reader Role",
+        "description": "Can read Azure Cosmos DB Accounts data",
+        "link": "https://management.azure.comfbdf93bf-df7d-467e-a4d2-9458aa1360c8?api-version=2022-04-01"
+    },
+    {
+        "id": "434105ed-43f6-45c7-a02f-909b2ba83430",
+        "name": "Cost Management Contributor",
+        "description": "Can view costs and manage cost configuration (e.g. budgets, exports)",
+        "link": "https://management.azure.com434105ed-43f6-45c7-a02f-909b2ba83430?api-version=2022-04-01"
+    },
+    {
+        "id": "72fafb9e-0641-4937-9268-a91bfd8191a3",
+        "name": "Cost Management Reader",
+        "description": "Can view cost data and configuration (e.g. budgets, exports)",
+        "link": "https://management.azure.com72fafb9e-0641-4937-9268-a91bfd8191a3?api-version=2022-04-01"
+    },
+    {
+        "id": "add466c9-e687-43fc-8d98-dfcf8d720be5",
+        "name": "Data Box Contributor",
+        "description": "Lets you manage everything under Data Box Service except giving access to others.",
+        "link": "https://management.azure.comadd466c9-e687-43fc-8d98-dfcf8d720be5?api-version=2022-04-01"
+    },
+    {
+        "id": "028f4ed7-e2a9-465e-a8f4-9c0ffdfdc027",
+        "name": "Data Box Reader",
+        "description": "Lets you manage Data Box Service except creating order or editing order details and giving access to others.",
+        "link": "https://management.azure.com028f4ed7-e2a9-465e-a8f4-9c0ffdfdc027?api-version=2022-04-01"
+    },
+    {
+        "id": "673868aa-7521-48a0-acc6-0f60742d39f5",
+        "name": "Data Factory Contributor",
+        "description": "Create and manage data factories, as well as child resources within them.",
+        "link": "https://management.azure.com673868aa-7521-48a0-acc6-0f60742d39f5?api-version=2022-04-01"
+    },
+    {
+        "id": "150f5e0c-0603-4f03-8c7f-cf70034c4e90",
+        "name": "Data Purger",
+        "description": "Can purge analytics data",
+        "link": "https://management.azure.com150f5e0c-0603-4f03-8c7f-cf70034c4e90?api-version=2022-04-01"
+    },
+    {
+        "id": "47b7735b-770e-4598-a7da-8b91488b4c88",
+        "name": "Data Lake Analytics Developer",
+        "description": "Lets you submit, monitor, and manage your own jobs but not create or delete Data Lake Analytics accounts.",
+        "link": "https://management.azure.com47b7735b-770e-4598-a7da-8b91488b4c88?api-version=2022-04-01"
+    },
+    {
+        "id": "76283e04-6283-4c54-8f91-bcf1374a3c64",
+        "name": "DevTest Labs User",
+        "description": "Lets you connect, start, restart, and shutdown your virtual machines in your Azure DevTest Labs.",
+        "link": "https://management.azure.com76283e04-6283-4c54-8f91-bcf1374a3c64?api-version=2022-04-01"
+    },
+    {
+        "id": "5bd9cd88-fe45-4216-938b-f97437e15450",
+        "name": "DocumentDB Account Contributor",
+        "description": "Lets you manage DocumentDB accounts, but not access to them.",
+        "link": "https://management.azure.com5bd9cd88-fe45-4216-938b-f97437e15450?api-version=2022-04-01"
+    },
+    {
+        "id": "befefa01-2a29-4197-83a8-272ff33ce314",
+        "name": "DNS Zone Contributor",
+        "description": "Lets you manage DNS zones and record sets in Azure DNS, but does not let you control who has access to them.",
+        "link": "https://management.azure.combefefa01-2a29-4197-83a8-272ff33ce314?api-version=2022-04-01"
+    },
+    {
+        "id": "428e0ff0-5e57-4d9c-a221-2c70d0e0a443",
+        "name": "EventGrid EventSubscription Contributor",
+        "description": "Lets you manage EventGrid event subscription operations.",
+        "link": "https://management.azure.com428e0ff0-5e57-4d9c-a221-2c70d0e0a443?api-version=2022-04-01"
+    },
+    {
+        "id": "2414bbcf-6497-4faf-8c65-045460748405",
+        "name": "EventGrid EventSubscription Reader",
+        "description": "Lets you read EventGrid event subscriptions.",
+        "link": "https://management.azure.com2414bbcf-6497-4faf-8c65-045460748405?api-version=2022-04-01"
+    },
+    {
+        "id": "b60367af-1334-4454-b71e-769d9a4f83d9",
+        "name": "Graph Owner",
+        "description": "Create and manage all aspects of the Enterprise Graph - Ontology, Schema mapping, Conflation and Conversational AI and Ingestions",
+        "link": "https://management.azure.comb60367af-1334-4454-b71e-769d9a4f83d9?api-version=2022-04-01"
+    },
+    {
+        "id": "8d8d5a11-05d3-4bda-a417-a08778121c7c",
+        "name": "HDInsight Domain Services Contributor",
+        "description": "Can Read, Create, Modify and Delete Domain Services related operations needed for HDInsight Enterprise Security Package",
+        "link": "https://management.azure.com8d8d5a11-05d3-4bda-a417-a08778121c7c?api-version=2022-04-01"
+    },
+    {
+        "id": "03a6d094-3444-4b3d-88af-7477090a9e5e",
+        "name": "Intelligent Systems Account Contributor",
+        "description": "Lets you manage Intelligent Systems accounts, but not access to them.",
+        "link": "https://management.azure.com03a6d094-3444-4b3d-88af-7477090a9e5e?api-version=2022-04-01"
+    },
+    {
+        "id": "f25e0fa2-a7c8-4377-a976-54943a77a395",
+        "name": "Key Vault Contributor",
+        "description": "Lets you manage key vaults, but not access to them.",
+        "link": "https://management.azure.comf25e0fa2-a7c8-4377-a976-54943a77a395?api-version=2022-04-01"
+    },
+    {
+        "id": "ee361c5d-f7b5-4119-b4b6-892157c8f64c",
+        "name": "Knowledge Consumer",
+        "description": "Knowledge Read permission to consume Enterprise Graph Knowledge using entity search and graph query",
+        "link": "https://management.azure.comee361c5d-f7b5-4119-b4b6-892157c8f64c?api-version=2022-04-01"
+    },
+    {
+        "id": "b97fb8bc-a8b2-4522-a38b-dd33c7e65ead",
+        "name": "Lab Creator",
+        "description": "Lets you create new labs under your Azure Lab Accounts.",
+        "link": "https://management.azure.comb97fb8bc-a8b2-4522-a38b-dd33c7e65ead?api-version=2022-04-01"
+    },
+    {
+        "id": "73c42c96-874c-492b-b04d-ab87d138a893",
+        "name": "Log Analytics Reader",
+        "description": "Log Analytics Reader can view and search all monitoring data as well as and view monitoring settings, including viewing the configuration of Azure diagnostics on all Azure resources.",
+        "link": "https://management.azure.com73c42c96-874c-492b-b04d-ab87d138a893?api-version=2022-04-01"
+    },
+    {
+        "id": "92aaf0da-9dab-42b6-94a3-d43ce8d16293",
+        "name": "Log Analytics Contributor",
+        "description": "Log Analytics Contributor can read all monitoring data and edit monitoring settings. Editing monitoring settings includes adding the VM extension to VMs; reading storage account keys to be able to configure collection of logs from Azure Storage; adding solutions; and configuring Azure diagnostics on all Azure resources.",
+        "link": "https://management.azure.com92aaf0da-9dab-42b6-94a3-d43ce8d16293?api-version=2022-04-01"
+    },
+    {
+        "id": "515c2055-d9d4-4321-b1b9-bd0c9a0f79fe",
+        "name": "Logic App Operator",
+        "description": "Lets you read, enable and disable logic app.",
+        "link": "https://management.azure.com515c2055-d9d4-4321-b1b9-bd0c9a0f79fe?api-version=2022-04-01"
+    },
+    {
+        "id": "87a39d53-fc1b-424a-814c-f7e04687dc9e",
+        "name": "Logic App Contributor",
+        "description": "Lets you manage logic app, but not access to them.",
+        "link": "https://management.azure.com87a39d53-fc1b-424a-814c-f7e04687dc9e?api-version=2022-04-01"
+    },
+    {
+        "id": "c7393b34-138c-406f-901b-d8cf2b17e6ae",
+        "name": "Managed Application Operator Role",
+        "description": "Lets you read and perform actions on Managed Application resources",
+        "link": "https://management.azure.comc7393b34-138c-406f-901b-d8cf2b17e6ae?api-version=2022-04-01"
+    },
+    {
+        "id": "b9331d33-8a36-4f8c-b097-4f54124fdb44",
+        "name": "Managed Applications Reader",
+        "description": "Lets you read resources in a managed app and request JIT access.",
+        "link": "https://management.azure.comb9331d33-8a36-4f8c-b097-4f54124fdb44?api-version=2022-04-01"
+    },
+    {
+        "id": "f1a07417-d97a-45cb-824c-7a7467783830",
+        "name": "Managed Identity Operator",
+        "description": "Read and Assign User Assigned Identity",
+        "link": "https://management.azure.comf1a07417-d97a-45cb-824c-7a7467783830?api-version=2022-04-01"
+    },
+    {
+        "id": "e40ec5ca-96e0-45a2-b4ff-59039f2c2b59",
+        "name": "Managed Identity Contributor",
+        "description": "Create, Read, Update, and Delete User Assigned Identity",
+        "link": "https://management.azure.come40ec5ca-96e0-45a2-b4ff-59039f2c2b59?api-version=2022-04-01"
+    },
+    {
+        "id": "5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c",
+        "name": "Management Group Contributor",
+        "description": "Management Group Contributor Role",
+        "link": "https://management.azure.com5d58bcaf-24a5-4b20-bdb6-eed9f69fbe4c?api-version=2022-04-01"
+    },
+    {
+        "id": "ac63b705-f282-497d-ac71-919bf39d939d",
+        "name": "Management Group Reader",
+        "description": "Management Group Reader Role",
+        "link": "https://management.azure.comac63b705-f282-497d-ac71-919bf39d939d?api-version=2022-04-01"
+    },
+    {
+        "id": "43d0d8ad-25c7-4714-9337-8ba259a9fe05",
+        "name": "Monitoring Reader",
+        "description": "Can read all monitoring data.",
+        "link": "https://management.azure.com43d0d8ad-25c7-4714-9337-8ba259a9fe05?api-version=2022-04-01"
+    },
+    {
+        "id": "4d97b98b-1d4f-4787-a291-c67834d212e7",
+        "name": "Network Contributor",
+        "description": "Lets you manage networks, but not access to them.",
+        "link": "https://management.azure.com4d97b98b-1d4f-4787-a291-c67834d212e7?api-version=2022-04-01"
+    },
+    {
+        "id": "5d28c62d-5b37-4476-8438-e587778df237",
+        "name": "New Relic APM Account Contributor",
+        "description": "Lets you manage New Relic Application Performance Management accounts and applications, but not access to them.",
+        "link": "https://management.azure.com5d28c62d-5b37-4476-8438-e587778df237?api-version=2022-04-01"
+    },
+    {
+        "id": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+        "name": "Owner",
+        "description": "Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.",
+        "link": "https://management.azure.com8e3af657-a8ff-443c-a75c-2fe8c4bcb635?api-version=2022-04-01"
+    },
+    {
+        "id": "6877c72c-edd3-4048-9b4b-cf8e514477b0",
+        "name": "PowerAppsReaderWithReshare",
+        "description": "PowerAppsReadersWithReshare can use the resource and re-share it with other users, but cannot edit the resource or re-share it with edit permissions.",
+        "link": "https://management.azure.com6877c72c-edd3-4048-9b4b-cf8e514477b0?api-version=2022-04-01"
+    },
+    {
+        "id": "53be45b2-ad40-43ab-bc1f-2c962ac99ded",
+        "name": "PowerApps Administrator",
+        "description": "The user has access to perform administrative actions on all PowerApps resources within the tenant.",
+        "link": "https://management.azure.com53be45b2-ad40-43ab-bc1f-2c962ac99ded?api-version=2022-04-01"
+    },
+    {
+        "id": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+        "name": "Reader",
+        "description": "View all resources, but does not allow you to make any changes.",
+        "link": "https://management.azure.comacdd72a7-3385-48ef-bd42-f606fba81ae7?api-version=2022-04-01"
+    },
+    {
+        "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
+        "name": "Redis Cache Contributor",
+        "description": "Lets you manage Redis caches, but not access to them.",
+        "link": "https://management.azure.come0f68234-74aa-48ed-b826-c38b57376e17?api-version=2022-04-01"
+    },
+    {
+        "id": "c12c1c16-33a1-487b-954d-41c89c60f349",
+        "name": "Reader and Data Access",
+        "description": "Lets you view everything but will not let you delete or create a storage account or contained resource. It will also allow read/write access to all data contained in a storage account via access to storage account keys.",
+        "link": "https://management.azure.comc12c1c16-33a1-487b-954d-41c89c60f349?api-version=2022-04-01"
+    },
+    {
+        "id": "36243c78-bf99-498c-9df9-86d9f8d28608",
+        "name": "Resource Policy Contributor",
+        "description": "Users with rights to create/modify resource policy, create support ticket and read resources/hierarchy.",
+        "link": "https://management.azure.com36243c78-bf99-498c-9df9-86d9f8d28608?api-version=2022-04-01"
+    },
+    {
+        "id": "188a0f2f-5c9e-469b-ae67-2aa5ce574b94",
+        "name": "Scheduler Job Collections Contributor",
+        "description": "Lets you manage Scheduler job collections, but not access to them.",
+        "link": "https://management.azure.com188a0f2f-5c9e-469b-ae67-2aa5ce574b94?api-version=2022-04-01"
+    },
+    {
+        "id": "7ca78c08-252a-4471-8644-bb5ff32d4ba0",
+        "name": "Search Service Contributor",
+        "description": "Lets you manage Search services, but not access to them.",
+        "link": "https://management.azure.com7ca78c08-252a-4471-8644-bb5ff32d4ba0?api-version=2022-04-01"
+    },
+    {
+        "id": "e3d13bf0-dd5a-482e-ba6b-9b8433878d10",
+        "name": "Security Manager (Legacy)",
+        "description": "This is a legacy role. Please use Security Administrator instead",
+        "link": "https://management.azure.come3d13bf0-dd5a-482e-ba6b-9b8433878d10?api-version=2022-04-01"
+    },
+    {
+        "id": "39bc4728-0917-49c7-9d2c-d95423bc2eb4",
+        "name": "Security Reader",
+        "description": "Security Reader Role",
+        "link": "https://management.azure.com39bc4728-0917-49c7-9d2c-d95423bc2eb4?api-version=2022-04-01"
+    },
+    {
+        "id": "8bbe83f1-e2a6-4df7-8cb4-4e04d4e5c827",
+        "name": "Spatial Anchors Account Contributor",
+        "description": "Lets you manage spatial anchors in your account, but not delete them",
+        "link": "https://management.azure.com8bbe83f1-e2a6-4df7-8cb4-4e04d4e5c827?api-version=2022-04-01"
+    },
+    {
+        "id": "6670b86e-a3f7-4917-ac9b-5d6ab1be4567",
+        "name": "Site Recovery Contributor",
+        "description": "Lets you manage Site Recovery service except vault creation and role assignment",
+        "link": "https://management.azure.com6670b86e-a3f7-4917-ac9b-5d6ab1be4567?api-version=2022-04-01"
+    },
+    {
+        "id": "494ae006-db33-4328-bf46-533a6560a3ca",
+        "name": "Site Recovery Operator",
+        "description": "Lets you failover and failback but not perform other Site Recovery management operations",
+        "link": "https://management.azure.com494ae006-db33-4328-bf46-533a6560a3ca?api-version=2022-04-01"
+    },
+    {
+        "id": "5d51204f-eb77-4b1c-b86a-2ec626c49413",
+        "name": "Spatial Anchors Account Reader",
+        "description": "Lets you locate and read properties of spatial anchors in your account",
+        "link": "https://management.azure.com5d51204f-eb77-4b1c-b86a-2ec626c49413?api-version=2022-04-01"
+    },
+    {
+        "id": "dbaa88c4-0c30-4179-9fb3-46319faa6149",
+        "name": "Site Recovery Reader",
+        "description": "Lets you view Site Recovery status but not perform other management operations",
+        "link": "https://management.azure.comdbaa88c4-0c30-4179-9fb3-46319faa6149?api-version=2022-04-01"
+    },
+    {
+        "id": "70bbe301-9835-447d-afdd-19eb3167307c",
+        "name": "Spatial Anchors Account Owner",
+        "description": "Lets you manage spatial anchors in your account, including deleting them",
+        "link": "https://management.azure.com70bbe301-9835-447d-afdd-19eb3167307c?api-version=2022-04-01"
+    },
+    {
+        "id": "4939a1f6-9ae0-4e48-a1e0-f2cbe897382d",
+        "name": "SQL Managed Instance Contributor",
+        "description": "Lets you manage SQL Managed Instances and required network configuration, but can\u2019t give access to others.",
+        "link": "https://management.azure.com4939a1f6-9ae0-4e48-a1e0-f2cbe897382d?api-version=2022-04-01"
+    },
+    {
+        "id": "9b7fa17d-e63e-47b0-bb0a-15c516ac86ec",
+        "name": "SQL DB Contributor",
+        "description": "Lets you manage SQL databases, but not access to them. Also, you can't manage their security-related policies or their parent SQL servers.",
+        "link": "https://management.azure.com9b7fa17d-e63e-47b0-bb0a-15c516ac86ec?api-version=2022-04-01"
+    },
+    {
+        "id": "056cd41c-7e88-42e1-933e-88ba6a50c9c3",
+        "name": "SQL Security Manager",
+        "description": "Lets you manage the security-related policies of SQL servers and databases, but not access to them.",
+        "link": "https://management.azure.com056cd41c-7e88-42e1-933e-88ba6a50c9c3?api-version=2022-04-01"
+    },
+    {
+        "id": "17d1049b-9a84-46fb-8f53-869881c3d3ab",
+        "name": "Storage Account Contributor",
+        "description": "Lets you manage storage accounts, including accessing storage account keys which provide full access to storage account data.",
+        "link": "https://management.azure.com17d1049b-9a84-46fb-8f53-869881c3d3ab?api-version=2022-04-01"
+    },
+    {
+        "id": "6d8ee4ec-f05a-4a1d-8b00-a9b17e38b437",
+        "name": "SQL Server Contributor",
+        "description": "Lets you manage SQL servers and databases, but not access to them, and not their security -related policies.",
+        "link": "https://management.azure.com6d8ee4ec-f05a-4a1d-8b00-a9b17e38b437?api-version=2022-04-01"
+    },
+    {
+        "id": "81a9662b-bebf-436f-a333-f67b29880f12",
+        "name": "Storage Account Key Operator Service Role",
+        "description": "Storage Account Key Operators are allowed to list and regenerate keys on Storage Accounts",
+        "link": "https://management.azure.com81a9662b-bebf-436f-a333-f67b29880f12?api-version=2022-04-01"
+    },
+    {
+        "id": "ba92f5b4-2d11-453d-a403-e96b0029c9fe",
+        "name": "Storage Blob Data Contributor",
+        "description": "Allows for read, write and delete access to Azure Storage blob containers and data",
+        "link": "https://management.azure.comba92f5b4-2d11-453d-a403-e96b0029c9fe?api-version=2022-04-01"
+    },
+    {
+        "id": "b7e6dc6d-f1e8-4753-8033-0f276bb0955b",
+        "name": "Storage Blob Data Owner",
+        "description": "Allows for full access to Azure Storage blob containers and data, including assigning POSIX access control.",
+        "link": "https://management.azure.comb7e6dc6d-f1e8-4753-8033-0f276bb0955b?api-version=2022-04-01"
+    },
+    {
+        "id": "2a2b9908-6ea1-4ae2-8e65-a410df84e7d1",
+        "name": "Storage Blob Data Reader",
+        "description": "Allows for read access to Azure Storage blob containers and data",
+        "link": "https://management.azure.com2a2b9908-6ea1-4ae2-8e65-a410df84e7d1?api-version=2022-04-01"
+    },
+    {
+        "id": "974c5e8b-45b9-4653-ba55-5f855dd0fb88",
+        "name": "Storage Queue Data Contributor",
+        "description": "Allows for read, write, and delete access to Azure Storage queues and queue messages",
+        "link": "https://management.azure.com974c5e8b-45b9-4653-ba55-5f855dd0fb88?api-version=2022-04-01"
+    },
+    {
+        "id": "8a0f0c08-91a1-4084-bc3d-661d67233fed",
+        "name": "Storage Queue Data Message Processor",
+        "description": "Allows for peek, receive, and delete access to Azure Storage queue messages",
+        "link": "https://management.azure.com8a0f0c08-91a1-4084-bc3d-661d67233fed?api-version=2022-04-01"
+    },
+    {
+        "id": "c6a89b2d-59bc-44d0-9896-0f6e12d7b80a",
+        "name": "Storage Queue Data Message Sender",
+        "description": "Allows for sending of Azure Storage queue messages",
+        "link": "https://management.azure.comc6a89b2d-59bc-44d0-9896-0f6e12d7b80a?api-version=2022-04-01"
+    },
+    {
+        "id": "19e7f393-937e-4f77-808e-94535e297925",
+        "name": "Storage Queue Data Reader",
+        "description": "Allows for read access to Azure Storage queues and queue messages",
+        "link": "https://management.azure.com19e7f393-937e-4f77-808e-94535e297925?api-version=2022-04-01"
+    },
+    {
+        "id": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e",
+        "name": "Support Request Contributor",
+        "description": "Lets you create and manage Support requests",
+        "link": "https://management.azure.comcfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e?api-version=2022-04-01"
+    },
+    {
+        "id": "a4b10055-b0c7-44c2-b00f-c7b5b3550cf7",
+        "name": "Traffic Manager Contributor",
+        "description": "Lets you manage Traffic Manager profiles, but does not let you control who has access to them.",
+        "link": "https://management.azure.coma4b10055-b0c7-44c2-b00f-c7b5b3550cf7?api-version=2022-04-01"
+    },
+    {
+        "id": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+        "name": "User Access Administrator",
+        "description": "Lets you manage user access to Azure resources.",
+        "link": "https://management.azure.com18d7d88d-d35e-4fb5-a5c3-7773c20a72d9?api-version=2022-04-01"
+    },
+    {
+        "id": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c",
+        "name": "Virtual Machine Contributor",
+        "description": "Lets you manage virtual machines, but not access to them, and not the virtual network or storage account they're connected to.",
+        "link": "https://management.azure.com9980e02c-c2be-4d73-94e8-173b1dc7cf3c?api-version=2022-04-01"
+    },
+    {
+        "id": "2cc479cb-7b4d-49a8-b449-8c00fd0f0a4b",
+        "name": "Web Plan Contributor",
+        "description": "Lets you manage the web plans for websites, but not access to them.",
+        "link": "https://management.azure.com2cc479cb-7b4d-49a8-b449-8c00fd0f0a4b?api-version=2022-04-01"
+    },
+    {
+        "id": "de139f84-1756-47ae-9be6-808fbbe84772",
+        "name": "Website Contributor",
+        "description": "Lets you manage websites (not web plans), but not access to them.",
+        "link": "https://management.azure.comde139f84-1756-47ae-9be6-808fbbe84772?api-version=2022-04-01"
+    },
+    {
+        "id": "090c5cfd-751d-490a-894a-3ce6f1109419",
+        "name": "Azure Service Bus Data Owner",
+        "description": "Allows for full access to Azure Service Bus resources.",
+        "link": "https://management.azure.com090c5cfd-751d-490a-894a-3ce6f1109419?api-version=2022-04-01"
+    },
+    {
+        "id": "f526a384-b230-433a-b45c-95f59c4a2dec",
+        "name": "Azure Event Hubs Data Owner",
+        "description": "Allows for full access to Azure Event Hubs resources.",
+        "link": "https://management.azure.comf526a384-b230-433a-b45c-95f59c4a2dec?api-version=2022-04-01"
+    },
+    {
+        "id": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
+        "name": "Attestation Contributor",
+        "description": "Can read write or delete the attestation provider instance",
+        "link": "https://management.azure.combbf86eb8-f7b4-4cce-96e4-18cddf81d86e?api-version=2022-04-01"
+    },
+    {
+        "id": "61ed4efc-fab3-44fd-b111-e24485cc132a",
+        "name": "HDInsight Cluster Operator",
+        "description": "Lets you read and modify HDInsight cluster configurations.",
+        "link": "https://management.azure.com61ed4efc-fab3-44fd-b111-e24485cc132a?api-version=2022-04-01"
+    },
+    {
+        "id": "230815da-be43-4aae-9cb4-875f7bd000aa",
+        "name": "Cosmos DB Operator",
+        "description": "Lets you manage Azure Cosmos DB accounts, but not access data in them. Prevents access to account keys and connection strings.",
+        "link": "https://management.azure.com230815da-be43-4aae-9cb4-875f7bd000aa?api-version=2022-04-01"
+    },
+    {
+        "id": "48b40c6e-82e0-4eb3-90d5-19e40f49b624",
+        "name": "Hybrid Server Resource Administrator",
+        "description": "Can read, write, delete, and re-onboard Hybrid servers to the Hybrid Resource Provider.",
+        "link": "https://management.azure.com48b40c6e-82e0-4eb3-90d5-19e40f49b624?api-version=2022-04-01"
+    },
+    {
+        "id": "5d1e5ee4-7c68-4a71-ac8b-0739630a3dfb",
+        "name": "Hybrid Server Onboarding",
+        "description": "Can onboard new Hybrid servers to the Hybrid Resource Provider.",
+        "link": "https://management.azure.com5d1e5ee4-7c68-4a71-ac8b-0739630a3dfb?api-version=2022-04-01"
+    },
+    {
+        "id": "a638d3c7-ab3a-418d-83e6-5f17a39d4fde",
+        "name": "Azure Event Hubs Data Receiver",
+        "description": "Allows receive access to Azure Event Hubs resources.",
+        "link": "https://management.azure.coma638d3c7-ab3a-418d-83e6-5f17a39d4fde?api-version=2022-04-01"
+    },
+    {
+        "id": "2b629674-e913-4c01-ae53-ef4638d8f975",
+        "name": "Azure Event Hubs Data Sender",
+        "description": "Allows send access to Azure Event Hubs resources.",
+        "link": "https://management.azure.com2b629674-e913-4c01-ae53-ef4638d8f975?api-version=2022-04-01"
+    },
+    {
+        "id": "4f6d3b9b-027b-4f4c-9142-0e5a2a2247e0",
+        "name": "Azure Service Bus Data Receiver",
+        "description": "Allows for receive access to Azure Service Bus resources.",
+        "link": "https://management.azure.com4f6d3b9b-027b-4f4c-9142-0e5a2a2247e0?api-version=2022-04-01"
+    },
+    {
+        "id": "69a216fc-b8fb-44d8-bc22-1f3c2cd27a39",
+        "name": "Azure Service Bus Data Sender",
+        "description": "Allows for send access to Azure Service Bus resources.",
+        "link": "https://management.azure.com69a216fc-b8fb-44d8-bc22-1f3c2cd27a39?api-version=2022-04-01"
+    },
+    {
+        "id": "aba4ae5f-2193-4029-9191-0cb91df5e314",
+        "name": "Storage File Data SMB Share Reader",
+        "description": "Allows for read access to Azure File Share over SMB",
+        "link": "https://management.azure.comaba4ae5f-2193-4029-9191-0cb91df5e314?api-version=2022-04-01"
+    },
+    {
+        "id": "0c867c2a-1d8c-454a-a3db-ab2ea1bdc8bb",
+        "name": "Storage File Data SMB Share Contributor",
+        "description": "Allows for read, write, and delete access in Azure Storage file shares over SMB",
+        "link": "https://management.azure.com0c867c2a-1d8c-454a-a3db-ab2ea1bdc8bb?api-version=2022-04-01"
+    },
+    {
+        "id": "b12aa53e-6015-4669-85d0-8515ebb3ae7f",
+        "name": "Private DNS Zone Contributor",
+        "description": "Lets you manage private DNS zone resources, but not the virtual networks they are linked to.",
+        "link": "https://management.azure.comb12aa53e-6015-4669-85d0-8515ebb3ae7f?api-version=2022-04-01"
+    },
+    {
+        "id": "db58b8e5-c6ad-4a2a-8342-4190687cbf4a",
+        "name": "Storage Blob Delegator",
+        "description": "Allows for generation of a user delegation key which can be used to sign SAS tokens",
+        "link": "https://management.azure.comdb58b8e5-c6ad-4a2a-8342-4190687cbf4a?api-version=2022-04-01"
+    },
+    {
+        "id": "1d18fff3-a72a-46b5-b4a9-0b38a3cd7e63",
+        "name": "Desktop Virtualization User",
+        "description": "Allows user to use the applications in an application group.",
+        "link": "https://management.azure.com1d18fff3-a72a-46b5-b4a9-0b38a3cd7e63?api-version=2022-04-01"
+    },
+    {
+        "id": "a7264617-510b-434b-a828-9731dc254ea7",
+        "name": "Storage File Data SMB Share Elevated Contributor",
+        "description": "Allows for read, write, delete and modify NTFS permission access in Azure Storage file shares over SMB",
+        "link": "https://management.azure.coma7264617-510b-434b-a828-9731dc254ea7?api-version=2022-04-01"
+    },
+    {
+        "id": "41077137-e803-4205-871c-5a86e6a753b4",
+        "name": "Blueprint Contributor",
+        "description": "Can manage blueprint definitions, but not assign them.",
+        "link": "https://management.azure.com41077137-e803-4205-871c-5a86e6a753b4?api-version=2022-04-01"
+    },
+    {
+        "id": "437d2ced-4a38-4302-8479-ed2bcb43d090",
+        "name": "Blueprint Operator",
+        "description": "Can assign existing published blueprints, but cannot create new blueprints. NOTE: this only works if the assignment is done with a user-assigned managed identity.",
+        "link": "https://management.azure.com437d2ced-4a38-4302-8479-ed2bcb43d090?api-version=2022-04-01"
+    },
+    {
+        "id": "ab8e14d6-4a74-4a29-9ba8-549422addade",
+        "name": "Microsoft Sentinel Contributor",
+        "description": "Microsoft Sentinel Contributor",
+        "link": "https://management.azure.comab8e14d6-4a74-4a29-9ba8-549422addade?api-version=2022-04-01"
+    },
+    {
+        "id": "3e150937-b8fe-4cfb-8069-0eaf05ecd056",
+        "name": "Microsoft Sentinel Responder",
+        "description": "Microsoft Sentinel Responder",
+        "link": "https://management.azure.com3e150937-b8fe-4cfb-8069-0eaf05ecd056?api-version=2022-04-01"
+    },
+    {
+        "id": "8d289c81-5878-46d4-8554-54e1e3d8b5cb",
+        "name": "Microsoft Sentinel Reader",
+        "description": "Microsoft Sentinel Reader",
+        "link": "https://management.azure.com8d289c81-5878-46d4-8554-54e1e3d8b5cb?api-version=2022-04-01"
+    },
+    {
+        "id": "66bb4e9e-b016-4a94-8249-4c0511c2be84",
+        "name": "Policy Insights Data Writer (Preview)",
+        "description": "Allows read access to resource policies and write access to resource component policy events.",
+        "link": "https://management.azure.com66bb4e9e-b016-4a94-8249-4c0511c2be84?api-version=2022-04-01"
+    },
+    {
+        "id": "04165923-9d83-45d5-8227-78b77b0a687e",
+        "name": "SignalR AccessKey Reader",
+        "description": "Read SignalR Service Access Keys",
+        "link": "https://management.azure.com04165923-9d83-45d5-8227-78b77b0a687e?api-version=2022-04-01"
+    },
+    {
+        "id": "8cf5e20a-e4b2-4e9d-b3a1-5ceb692c2761",
+        "name": "SignalR/Web PubSub Contributor",
+        "description": "Create, Read, Update, and Delete SignalR service resources",
+        "link": "https://management.azure.com8cf5e20a-e4b2-4e9d-b3a1-5ceb692c2761?api-version=2022-04-01"
+    },
+    {
+        "id": "b64e21ea-ac4e-4cdf-9dc9-5b892992bee7",
+        "name": "Azure Connected Machine Onboarding",
+        "description": "Can onboard Azure Connected Machines.",
+        "link": "https://management.azure.comb64e21ea-ac4e-4cdf-9dc9-5b892992bee7?api-version=2022-04-01"
+    },
+    {
+        "id": "91c1777a-f3dc-4fae-b103-61d183457e46",
+        "name": "Managed Services Registration assignment Delete Role",
+        "description": "Managed Services Registration Assignment Delete Role allows the managing tenant users to delete the registration assignment assigned to their tenant.",
+        "link": "https://management.azure.com91c1777a-f3dc-4fae-b103-61d183457e46?api-version=2022-04-01"
+    },
+    {
+        "id": "5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b",
+        "name": "App Configuration Data Owner",
+        "description": "Allows full access to App Configuration data.",
+        "link": "https://management.azure.com5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b?api-version=2022-04-01"
+    },
+    {
+        "id": "516239f1-63e1-4d78-a4de-a74fb236a071",
+        "name": "App Configuration Data Reader",
+        "description": "Allows read access to App Configuration data.",
+        "link": "https://management.azure.com516239f1-63e1-4d78-a4de-a74fb236a071?api-version=2022-04-01"
+    },
+    {
+        "id": "34e09817-6cbe-4d01-b1a2-e0eac5743d41",
+        "name": "Kubernetes Cluster - Azure Arc Onboarding",
+        "description": "Role definition to authorize any user/service to create connectedClusters resource",
+        "link": "https://management.azure.com34e09817-6cbe-4d01-b1a2-e0eac5743d41?api-version=2022-04-01"
+    },
+    {
+        "id": "7f646f1b-fa08-80eb-a22b-edd6ce5c915c",
+        "name": "Experimentation Contributor",
+        "description": "Experimentation Contributor",
+        "link": "https://management.azure.com7f646f1b-fa08-80eb-a22b-edd6ce5c915c?api-version=2022-04-01"
+    },
+    {
+        "id": "466ccd10-b268-4a11-b098-b4849f024126",
+        "name": "Cognitive Services QnA Maker Reader",
+        "description": "Let\u2019s you read and test a KB only.",
+        "link": "https://management.azure.com466ccd10-b268-4a11-b098-b4849f024126?api-version=2022-04-01"
+    },
+    {
+        "id": "f4cc2bf9-21be-47a1-bdf1-5c5804381025",
+        "name": "Cognitive Services QnA Maker Editor",
+        "description": "Let\u2019s you create, edit, import and export a KB. You cannot publish or delete a KB.",
+        "link": "https://management.azure.comf4cc2bf9-21be-47a1-bdf1-5c5804381025?api-version=2022-04-01"
+    },
+    {
+        "id": "7f646f1b-fa08-80eb-a33b-edd6ce5c915c",
+        "name": "Experimentation Administrator",
+        "description": "Experimentation Administrator",
+        "link": "https://management.azure.com7f646f1b-fa08-80eb-a33b-edd6ce5c915c?api-version=2022-04-01"
+    },
+    {
+        "id": "3df8b902-2a6f-47c7-8cc5-360e9b272a7e",
+        "name": "Remote Rendering Administrator",
+        "description": "Provides user with conversion, manage session, rendering and diagnostics capabilities for Azure Remote Rendering",
+        "link": "https://management.azure.com3df8b902-2a6f-47c7-8cc5-360e9b272a7e?api-version=2022-04-01"
+    },
+    {
+        "id": "d39065c4-c120-43c9-ab0a-63eed9795f0a",
+        "name": "Remote Rendering Client",
+        "description": "Provides user with manage session, rendering and diagnostics capabilities for Azure Remote Rendering.",
+        "link": "https://management.azure.comd39065c4-c120-43c9-ab0a-63eed9795f0a?api-version=2022-04-01"
+    },
+    {
+        "id": "641177b8-a67a-45b9-a033-47bc880bb21e",
+        "name": "Managed Application Contributor Role",
+        "description": "Allows for creating managed application resources.",
+        "link": "https://management.azure.com641177b8-a67a-45b9-a033-47bc880bb21e?api-version=2022-04-01"
+    },
+    {
+        "id": "612c2aa1-cb24-443b-ac28-3ab7272de6f5",
+        "name": "Security Assessment Contributor",
+        "description": "Lets you push assessments to Security Center",
+        "link": "https://management.azure.com612c2aa1-cb24-443b-ac28-3ab7272de6f5?api-version=2022-04-01"
+    },
+    {
+        "id": "4a9ae827-6dc8-4573-8ac7-8239d42aa03f",
+        "name": "Tag Contributor",
+        "description": "Lets you manage tags on entities, without providing access to the entities themselves.",
+        "link": "https://management.azure.com4a9ae827-6dc8-4573-8ac7-8239d42aa03f?api-version=2022-04-01"
+    },
+    {
+        "id": "c7aa55d3-1abb-444a-a5ca-5e51e485d6ec",
+        "name": "Integration Service Environment Developer",
+        "description": "Allows developers to create and update workflows, integration accounts and API connections in integration service environments.",
+        "link": "https://management.azure.comc7aa55d3-1abb-444a-a5ca-5e51e485d6ec?api-version=2022-04-01"
+    },
+    {
+        "id": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
+        "name": "Integration Service Environment Contributor",
+        "description": "Lets you manage integration service environments, but not access to them.",
+        "link": "https://management.azure.coma41e2c5b-bd99-4a07-88f4-9bf657a760b8?api-version=2022-04-01"
+    },
+    {
+        "id": "dd920d6d-f481-47f1-b461-f338c46b2d9f",
+        "name": "Marketplace Admin",
+        "description": "Marketplace Admin grants full access to manage Private Azure Marketplace, including read and take action for private marketplace notifications, but does not allow to assign Marketplace Admin role to others",
+        "link": "https://management.azure.comdd920d6d-f481-47f1-b461-f338c46b2d9f?api-version=2022-04-01"
+    },
+    {
+        "id": "ed7f3fbd-7b88-4dd4-9017-9adb7ce333f8",
+        "name": "Azure Kubernetes Service Contributor Role",
+        "description": "Grants access to read and write Azure Kubernetes Service clusters",
+        "link": "https://management.azure.comed7f3fbd-7b88-4dd4-9017-9adb7ce333f8?api-version=2022-04-01"
+    },
+    {
+        "id": "d57506d4-4c8d-48b1-8587-93c323f6a5a3",
+        "name": "Azure Digital Twins Data Reader",
+        "description": "Read-only role for Digital Twins data-plane properties",
+        "link": "https://management.azure.comd57506d4-4c8d-48b1-8587-93c323f6a5a3?api-version=2022-04-01"
+    },
+    {
+        "id": "bcd981a7-7f74-457b-83e1-cceb9e632ffe",
+        "name": "Azure Digital Twins Data Owner",
+        "description": "Full access role for Digital Twins data-plane",
+        "link": "https://management.azure.combcd981a7-7f74-457b-83e1-cceb9e632ffe?api-version=2022-04-01"
+    },
+    {
+        "id": "350f8d15-c687-4448-8ae1-157740a3936d",
+        "name": "Hierarchy Settings Administrator",
+        "description": "Allows users to edit and delete Hierarchy Settings",
+        "link": "https://management.azure.com350f8d15-c687-4448-8ae1-157740a3936d?api-version=2022-04-01"
+    },
+    {
+        "id": "5a1fc7df-4bf1-4951-a576-89034ee01acd",
+        "name": "FHIR Data Contributor",
+        "description": "Role allows user or principal full access to FHIR Data",
+        "link": "https://management.azure.com5a1fc7df-4bf1-4951-a576-89034ee01acd?api-version=2022-04-01"
+    },
+    {
+        "id": "3db33094-8700-4567-8da5-1501d4e7e843",
+        "name": "FHIR Data Exporter",
+        "description": "Role allows user or principal to read and export FHIR Data",
+        "link": "https://management.azure.com3db33094-8700-4567-8da5-1501d4e7e843?api-version=2022-04-01"
+    },
+    {
+        "id": "4c8d0bbc-75d3-4935-991f-5f3c56d81508",
+        "name": "FHIR Data Reader",
+        "description": "Role allows user or principal to read FHIR Data",
+        "link": "https://management.azure.com4c8d0bbc-75d3-4935-991f-5f3c56d81508?api-version=2022-04-01"
+    },
+    {
+        "id": "3f88fce4-5892-4214-ae73-ba5294559913",
+        "name": "FHIR Data Writer",
+        "description": "Role allows user or principal to read and write FHIR Data",
+        "link": "https://management.azure.com3f88fce4-5892-4214-ae73-ba5294559913?api-version=2022-04-01"
+    },
+    {
+        "id": "49632ef5-d9ac-41f4-b8e7-bbe587fa74a1",
+        "name": "Experimentation Reader",
+        "description": "Experimentation Reader",
+        "link": "https://management.azure.com49632ef5-d9ac-41f4-b8e7-bbe587fa74a1?api-version=2022-04-01"
+    },
+    {
+        "id": "4dd61c23-6743-42fe-a388-d8bdd41cb745",
+        "name": "Object Understanding Account Owner",
+        "description": "Provides user with ingestion capabilities for Azure Object Understanding.",
+        "link": "https://management.azure.com4dd61c23-6743-42fe-a388-d8bdd41cb745?api-version=2022-04-01"
+    },
+    {
+        "id": "8f5e0ce6-4f7b-4dcf-bddf-e6f48634a204",
+        "name": "Azure Maps Data Contributor",
+        "description": "Grants access to read, write, and delete access to map related data from an Azure maps account.",
+        "link": "https://management.azure.com8f5e0ce6-4f7b-4dcf-bddf-e6f48634a204?api-version=2022-04-01"
+    },
+    {
+        "id": "c1ff6cc2-c111-46fe-8896-e0ef812ad9f3",
+        "name": "Cognitive Services Custom Vision Contributor",
+        "description": "Full access to the project, including the ability to view, create, edit, or delete projects.",
+        "link": "https://management.azure.comc1ff6cc2-c111-46fe-8896-e0ef812ad9f3?api-version=2022-04-01"
+    },
+    {
+        "id": "5c4089e1-6d96-4d2f-b296-c1bc7137275f",
+        "name": "Cognitive Services Custom Vision Deployment",
+        "description": "Publish, unpublish or export models. Deployment can view the project but can\u2019t update.",
+        "link": "https://management.azure.com5c4089e1-6d96-4d2f-b296-c1bc7137275f?api-version=2022-04-01"
+    },
+    {
+        "id": "88424f51-ebe7-446f-bc41-7fa16989e96c",
+        "name": "Cognitive Services Custom Vision Labeler",
+        "description": "View, edit training images and create, add, remove, or delete the image tags. Labelers can view the project but can\u2019t update anything other than training images and tags.",
+        "link": "https://management.azure.com88424f51-ebe7-446f-bc41-7fa16989e96c?api-version=2022-04-01"
+    },
+    {
+        "id": "93586559-c37d-4a6b-ba08-b9f0940c2d73",
+        "name": "Cognitive Services Custom Vision Reader",
+        "description": "Read-only actions in the project. Readers can\u2019t create or update the project.",
+        "link": "https://management.azure.com93586559-c37d-4a6b-ba08-b9f0940c2d73?api-version=2022-04-01"
+    },
+    {
+        "id": "0a5ae4ab-0d65-4eeb-be61-29fc9b54394b",
+        "name": "Cognitive Services Custom Vision Trainer",
+        "description": "View, edit projects and train the models, including the ability to publish, unpublish, export the models. Trainers can\u2019t create or delete the project.",
+        "link": "https://management.azure.com0a5ae4ab-0d65-4eeb-be61-29fc9b54394b?api-version=2022-04-01"
+    },
+    {
+        "id": "00482a5a-887f-4fb3-b363-3b7fe8e74483",
+        "name": "Key Vault Administrator",
+        "description": "Perform all data plane operations on a key vault and all objects in it, including certificates, keys, and secrets. Cannot manage key vault resources or manage role assignments. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.com00482a5a-887f-4fb3-b363-3b7fe8e74483?api-version=2022-04-01"
+    },
+    {
+        "id": "12338af0-0e69-4776-bea7-57ae8d297424",
+        "name": "Key Vault Crypto User",
+        "description": "Perform cryptographic operations using keys. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.com12338af0-0e69-4776-bea7-57ae8d297424?api-version=2022-04-01"
+    },
+    {
+        "id": "b86a8fe4-44ce-4948-aee5-eccb2c155cd7",
+        "name": "Key Vault Secrets Officer",
+        "description": "Perform any action on the secrets of a key vault, except manage permissions. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.comb86a8fe4-44ce-4948-aee5-eccb2c155cd7?api-version=2022-04-01"
+    },
+    {
+        "id": "4633458b-17de-408a-b874-0445c86b69e6",
+        "name": "Key Vault Secrets User",
+        "description": "Read secret contents. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.com4633458b-17de-408a-b874-0445c86b69e6?api-version=2022-04-01"
+    },
+    {
+        "id": "a4417e6f-fecd-4de8-b567-7b0420556985",
+        "name": "Key Vault Certificates Officer",
+        "description": "Perform any action on the certificates of a key vault, except manage permissions. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.coma4417e6f-fecd-4de8-b567-7b0420556985?api-version=2022-04-01"
+    },
+    {
+        "id": "21090545-7ca7-4776-b22c-e363652d74d2",
+        "name": "Key Vault Reader",
+        "description": "Read metadata of key vaults and its certificates, keys, and secrets. Cannot read sensitive values such as secret contents or key material. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.com21090545-7ca7-4776-b22c-e363652d74d2?api-version=2022-04-01"
+    },
+    {
+        "id": "e147488a-f6f5-4113-8e2d-b22465e65bf6",
+        "name": "Key Vault Crypto Service Encryption User",
+        "description": "Read metadata of keys and perform wrap/unwrap operations. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.come147488a-f6f5-4113-8e2d-b22465e65bf6?api-version=2022-04-01"
+    },
+    {
+        "id": "63f0a09d-1495-4db4-a681-037d84835eb4",
+        "name": "Azure Arc Kubernetes Viewer",
+        "description": "Lets you view all resources in cluster/namespace, except secrets.",
+        "link": "https://management.azure.com63f0a09d-1495-4db4-a681-037d84835eb4?api-version=2022-04-01"
+    },
+    {
+        "id": "5b999177-9696-4545-85c7-50de3797e5a1",
+        "name": "Azure Arc Kubernetes Writer",
+        "description": "Lets you update everything in cluster/namespace, except (cluster)roles and (cluster)role bindings.",
+        "link": "https://management.azure.com5b999177-9696-4545-85c7-50de3797e5a1?api-version=2022-04-01"
+    },
+    {
+        "id": "8393591c-06b9-48a2-a542-1bd6b377f6a2",
+        "name": "Azure Arc Kubernetes Cluster Admin",
+        "description": "Lets you manage all resources in the cluster.",
+        "link": "https://management.azure.com8393591c-06b9-48a2-a542-1bd6b377f6a2?api-version=2022-04-01"
+    },
+    {
+        "id": "dffb1e0c-446f-4dde-a09f-99eb5cc68b96",
+        "name": "Azure Arc Kubernetes Admin",
+        "description": "Lets you manage all resources under cluster/namespace, except update or delete resource quotas and namespaces.",
+        "link": "https://management.azure.comdffb1e0c-446f-4dde-a09f-99eb5cc68b96?api-version=2022-04-01"
+    },
+    {
+        "id": "b1ff04bb-8a4e-4dc4-8eb5-8693973ce19b",
+        "name": "Azure Kubernetes Service RBAC Cluster Admin",
+        "description": "Lets you manage all resources in the cluster.",
+        "link": "https://management.azure.comb1ff04bb-8a4e-4dc4-8eb5-8693973ce19b?api-version=2022-04-01"
+    },
+    {
+        "id": "3498e952-d568-435e-9b2c-8d77e338d7f7",
+        "name": "Azure Kubernetes Service RBAC Admin",
+        "description": "Lets you manage all resources under cluster/namespace, except update or delete resource quotas and namespaces.",
+        "link": "https://management.azure.com3498e952-d568-435e-9b2c-8d77e338d7f7?api-version=2022-04-01"
+    },
+    {
+        "id": "7f6c6a51-bcf8-42ba-9220-52d62157d7db",
+        "name": "Azure Kubernetes Service RBAC Reader",
+        "description": "Allows read-only access to see most objects in a namespace. It does not allow viewing roles or role bindings. This role does not allow viewing Secrets, since reading the contents of Secrets enables access to ServiceAccount credentials in the namespace, which would allow API access as any ServiceAccount in the namespace (a form of privilege escalation). Applying this role at cluster scope will give access across all namespaces.",
+        "link": "https://management.azure.com7f6c6a51-bcf8-42ba-9220-52d62157d7db?api-version=2022-04-01"
+    },
+    {
+        "id": "a7ffa36f-339b-4b5c-8bdf-e2c188b2c0eb",
+        "name": "Azure Kubernetes Service RBAC Writer",
+        "description": "Allows read/write access to most objects in a namespace.This role does not allow viewing or modifying roles or role bindings. However, this role allows accessing Secrets and running Pods as any ServiceAccount in the namespace, so it can be used to gain the API access levels of any ServiceAccount in the namespace. Applying this role at cluster scope will give access across all namespaces.",
+        "link": "https://management.azure.coma7ffa36f-339b-4b5c-8bdf-e2c188b2c0eb?api-version=2022-04-01"
+    },
+    {
+        "id": "82200a5b-e217-47a5-b665-6d8765ee745b",
+        "name": "Services Hub Operator",
+        "description": "Services Hub Operator allows you to perform all read, write, and deletion operations related to Services Hub Connectors.",
+        "link": "https://management.azure.com82200a5b-e217-47a5-b665-6d8765ee745b?api-version=2022-04-01"
+    },
+    {
+        "id": "d18777c0-1514-4662-8490-608db7d334b6",
+        "name": "Object Understanding Account Reader",
+        "description": "Lets you read ingestion jobs for an object understanding account.",
+        "link": "https://management.azure.comd18777c0-1514-4662-8490-608db7d334b6?api-version=2022-04-01"
+    },
+    {
+        "id": "fd53cd77-2268-407a-8f46-7e7863d0f521",
+        "name": "SignalR REST API Owner",
+        "description": "Full access to Azure SignalR Service REST APIs",
+        "link": "https://management.azure.comfd53cd77-2268-407a-8f46-7e7863d0f521?api-version=2022-04-01"
+    },
+    {
+        "id": "daa9e50b-21df-454c-94a6-a8050adab352",
+        "name": "Collaborative Data Contributor",
+        "description": "Can manage data packages of a collaborative.",
+        "link": "https://management.azure.comdaa9e50b-21df-454c-94a6-a8050adab352?api-version=2022-04-01"
+    },
+    {
+        "id": "e9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f",
+        "name": "Device Update Reader",
+        "description": "Gives you read access to management and content operations, but does not allow making changes",
+        "link": "https://management.azure.come9dba6fb-3d52-4cf0-bce3-f06ce71b9e0f?api-version=2022-04-01"
+    },
+    {
+        "id": "02ca0879-e8e4-47a5-a61e-5c618b76e64a",
+        "name": "Device Update Administrator",
+        "description": "Gives you full access to management and content operations",
+        "link": "https://management.azure.com02ca0879-e8e4-47a5-a61e-5c618b76e64a?api-version=2022-04-01"
+    },
+    {
+        "id": "0378884a-3af5-44ab-8323-f5b22f9f3c98",
+        "name": "Device Update Content Administrator",
+        "description": "Gives you full access to content operations",
+        "link": "https://management.azure.com0378884a-3af5-44ab-8323-f5b22f9f3c98?api-version=2022-04-01"
+    },
+    {
+        "id": "d1ee9a80-8b14-47f0-bdc2-f4a351625a7b",
+        "name": "Device Update Content Reader",
+        "description": "Gives you read access to content operations, but does not allow making changes",
+        "link": "https://management.azure.comd1ee9a80-8b14-47f0-bdc2-f4a351625a7b?api-version=2022-04-01"
+    },
+    {
+        "id": "cb43c632-a144-4ec5-977c-e80c4affc34a",
+        "name": "Cognitive Services Metrics Advisor Administrator",
+        "description": "Full access to the project, including the system level configuration.",
+        "link": "https://management.azure.comcb43c632-a144-4ec5-977c-e80c4affc34a?api-version=2022-04-01"
+    },
+    {
+        "id": "3b20f47b-3825-43cb-8114-4bd2201156a8",
+        "name": "Cognitive Services Metrics Advisor User",
+        "description": "Access to the project.",
+        "link": "https://management.azure.com3b20f47b-3825-43cb-8114-4bd2201156a8?api-version=2022-04-01"
+    },
+    {
+        "id": "2c56ea50-c6b3-40a6-83c0-9d98858bc7d2",
+        "name": "Schema Registry Reader (Preview)",
+        "description": "Read and list Schema Registry groups and schemas.",
+        "link": "https://management.azure.com2c56ea50-c6b3-40a6-83c0-9d98858bc7d2?api-version=2022-04-01"
+    },
+    {
+        "id": "5dffeca3-4936-4216-b2bc-10343a5abb25",
+        "name": "Schema Registry Contributor (Preview)",
+        "description": "Read, write, and delete Schema Registry groups and schemas.",
+        "link": "https://management.azure.com5dffeca3-4936-4216-b2bc-10343a5abb25?api-version=2022-04-01"
+    },
+    {
+        "id": "7ec7ccdc-f61e-41fe-9aaf-980df0a44eba",
+        "name": "AgFood Platform Service Reader",
+        "description": "Provides read access to AgFood Platform Service",
+        "link": "https://management.azure.com7ec7ccdc-f61e-41fe-9aaf-980df0a44eba?api-version=2022-04-01"
+    },
+    {
+        "id": "8508508a-4469-4e45-963b-2518ee0bb728",
+        "name": "AgFood Platform Service Contributor",
+        "description": "Provides contribute access to AgFood Platform Service",
+        "link": "https://management.azure.com8508508a-4469-4e45-963b-2518ee0bb728?api-version=2022-04-01"
+    },
+    {
+        "id": "f8da80de-1ff9-4747-ad80-a19b7f6079e3",
+        "name": "AgFood Platform Service Admin",
+        "description": "Provides admin access to AgFood Platform Service",
+        "link": "https://management.azure.comf8da80de-1ff9-4747-ad80-a19b7f6079e3?api-version=2022-04-01"
+    },
+    {
+        "id": "18500a29-7fe2-46b2-a342-b16a415e101d",
+        "name": "Managed HSM contributor",
+        "description": "Lets you manage managed HSM pools, but not access to them.",
+        "link": "https://management.azure.com18500a29-7fe2-46b2-a342-b16a415e101d?api-version=2022-04-01"
+    },
+    {
+        "id": "0b555d9b-b4a7-4f43-b330-627f0e5be8f0",
+        "name": "Security Detonation Chamber Submitter",
+        "description": "Allowed to create submissions to Security Detonation Chamber",
+        "link": "https://management.azure.com0b555d9b-b4a7-4f43-b330-627f0e5be8f0?api-version=2022-04-01"
+    },
+    {
+        "id": "ddde6b66-c0df-4114-a159-3618637b3035",
+        "name": "SignalR REST API Reader",
+        "description": "Read-only access to Azure SignalR Service REST APIs",
+        "link": "https://management.azure.comddde6b66-c0df-4114-a159-3618637b3035?api-version=2022-04-01"
+    },
+    {
+        "id": "7e4f1700-ea5a-4f59-8f37-079cfe29dce3",
+        "name": "SignalR Service Owner",
+        "description": "Full access to Azure SignalR Service REST APIs",
+        "link": "https://management.azure.com7e4f1700-ea5a-4f59-8f37-079cfe29dce3?api-version=2022-04-01"
+    },
+    {
+        "id": "f7b75c60-3036-4b75-91c3-6b41c27c1689",
+        "name": "Reservation Purchaser",
+        "description": "Lets you purchase reservations",
+        "link": "https://management.azure.comf7b75c60-3036-4b75-91c3-6b41c27c1689?api-version=2022-04-01"
+    },
+    {
+        "id": "635dd51f-9968-44d3-b7fb-6d9a6bd613ae",
+        "name": "AzureML Metrics Writer (preview)",
+        "description": "Lets you write metrics to AzureML workspace",
+        "link": "https://management.azure.com635dd51f-9968-44d3-b7fb-6d9a6bd613ae?api-version=2022-04-01"
+    },
+    {
+        "id": "e5e2a7ff-d759-4cd2-bb51-3152d37e2eb1",
+        "name": "Storage Account Backup Contributor",
+        "description": "Lets you perform backup and restore operations using Azure Backup on the storage account.",
+        "link": "https://management.azure.come5e2a7ff-d759-4cd2-bb51-3152d37e2eb1?api-version=2022-04-01"
+    },
+    {
+        "id": "6188b7c9-7d01-4f99-a59f-c88b630326c0",
+        "name": "Experimentation Metric Contributor",
+        "description": "Allows for creation, writes and reads to the metric set via the metrics service APIs.",
+        "link": "https://management.azure.com6188b7c9-7d01-4f99-a59f-c88b630326c0?api-version=2022-04-01"
+    },
+    {
+        "id": "9ef4ef9c-a049-46b0-82ab-dd8ac094c889",
+        "name": "Project Babylon Data Curator",
+        "description": "The Microsoft.ProjectBabylon data curator can create, read, modify and delete catalog data objects and establish relationships between objects. This role is in preview and subject to change.",
+        "link": "https://management.azure.com9ef4ef9c-a049-46b0-82ab-dd8ac094c889?api-version=2022-04-01"
+    },
+    {
+        "id": "c8d896ba-346d-4f50-bc1d-7d1c84130446",
+        "name": "Project Babylon Data Reader",
+        "description": "The Microsoft.ProjectBabylon data reader can read catalog data objects. This role is in preview and subject to change.",
+        "link": "https://management.azure.comc8d896ba-346d-4f50-bc1d-7d1c84130446?api-version=2022-04-01"
+    },
+    {
+        "id": "05b7651b-dc44-475e-b74d-df3db49fae0f",
+        "name": "Project Babylon Data Source Administrator",
+        "description": "The Microsoft.ProjectBabylon data source administrator can manage data sources and data scans. This role is in preview and subject to change.",
+        "link": "https://management.azure.com05b7651b-dc44-475e-b74d-df3db49fae0f?api-version=2022-04-01"
+    },
+    {
+        "id": "ca6382a4-1721-4bcf-a114-ff0c70227b6b",
+        "name": "Application Group Contributor",
+        "description": "Contributor of the Application Group.",
+        "link": "https://management.azure.comca6382a4-1721-4bcf-a114-ff0c70227b6b?api-version=2022-04-01"
+    },
+    {
+        "id": "49a72310-ab8d-41df-bbb0-79b649203868",
+        "name": "Desktop Virtualization Reader",
+        "description": "Reader of Desktop Virtualization.",
+        "link": "https://management.azure.com49a72310-ab8d-41df-bbb0-79b649203868?api-version=2022-04-01"
+    },
+    {
+        "id": "082f0a83-3be5-4ba1-904c-961cca79b387",
+        "name": "Desktop Virtualization Contributor",
+        "description": "Contributor of Desktop Virtualization.",
+        "link": "https://management.azure.com082f0a83-3be5-4ba1-904c-961cca79b387?api-version=2022-04-01"
+    },
+    {
+        "id": "21efdde3-836f-432b-bf3d-3e8e734d4b2b",
+        "name": "Desktop Virtualization Workspace Contributor",
+        "description": "Contributor of the Desktop Virtualization Workspace.",
+        "link": "https://management.azure.com21efdde3-836f-432b-bf3d-3e8e734d4b2b?api-version=2022-04-01"
+    },
+    {
+        "id": "ea4bfff8-7fb4-485a-aadd-d4129a0ffaa6",
+        "name": "Desktop Virtualization User Session Operator",
+        "description": "Operator of the Desktop Virtualization Uesr Session.",
+        "link": "https://management.azure.comea4bfff8-7fb4-485a-aadd-d4129a0ffaa6?api-version=2022-04-01"
+    },
+    {
+        "id": "2ad6aaab-ead9-4eaa-8ac5-da422f562408",
+        "name": "Desktop Virtualization Session Host Operator",
+        "description": "Operator of the Desktop Virtualization Session Host.",
+        "link": "https://management.azure.com2ad6aaab-ead9-4eaa-8ac5-da422f562408?api-version=2022-04-01"
+    },
+    {
+        "id": "ceadfde2-b300-400a-ab7b-6143895aa822",
+        "name": "Desktop Virtualization Host Pool Reader",
+        "description": "Reader of the Desktop Virtualization Host Pool.",
+        "link": "https://management.azure.comceadfde2-b300-400a-ab7b-6143895aa822?api-version=2022-04-01"
+    },
+    {
+        "id": "e307426c-f9b6-4e81-87de-d99efb3c32bc",
+        "name": "Desktop Virtualization Host Pool Contributor",
+        "description": "Contributor of the Desktop Virtualization Host Pool.",
+        "link": "https://management.azure.come307426c-f9b6-4e81-87de-d99efb3c32bc?api-version=2022-04-01"
+    },
+    {
+        "id": "aebf23d0-b568-4e86-b8f9-fe83a2c6ab55",
+        "name": "Desktop Virtualization Application Group Reader",
+        "description": "Reader of the Desktop Virtualization Application Group.",
+        "link": "https://management.azure.comaebf23d0-b568-4e86-b8f9-fe83a2c6ab55?api-version=2022-04-01"
+    },
+    {
+        "id": "86240b0e-9422-4c43-887b-b61143f32ba8",
+        "name": "Desktop Virtualization Application Group Contributor",
+        "description": "Contributor of the Desktop Virtualization Application Group.",
+        "link": "https://management.azure.com86240b0e-9422-4c43-887b-b61143f32ba8?api-version=2022-04-01"
+    },
+    {
+        "id": "0fa44ee9-7a7d-466b-9bb2-2bf446b1204d",
+        "name": "Desktop Virtualization Workspace Reader",
+        "description": "Reader of the Desktop Virtualization Workspace.",
+        "link": "https://management.azure.com0fa44ee9-7a7d-466b-9bb2-2bf446b1204d?api-version=2022-04-01"
+    },
+    {
+        "id": "3e5e47e6-65f7-47ef-90b5-e5dd4d455f24",
+        "name": "Disk Backup Reader",
+        "description": "Provides permission to backup vault to perform disk backup.",
+        "link": "https://management.azure.com3e5e47e6-65f7-47ef-90b5-e5dd4d455f24?api-version=2022-04-01"
+    },
+    {
+        "id": "b50d9833-a0cb-478e-945f-707fcc997c13",
+        "name": "Disk Restore Operator",
+        "description": "Provides permission to backup vault to perform disk restore.",
+        "link": "https://management.azure.comb50d9833-a0cb-478e-945f-707fcc997c13?api-version=2022-04-01"
+    },
+    {
+        "id": "7efff54f-a5b4-42b5-a1c5-5411624893ce",
+        "name": "Disk Snapshot Contributor",
+        "description": "Provides permission to backup vault to manage disk snapshots.",
+        "link": "https://management.azure.com7efff54f-a5b4-42b5-a1c5-5411624893ce?api-version=2022-04-01"
+    },
+    {
+        "id": "5548b2cf-c94c-4228-90ba-30851930a12f",
+        "name": "Microsoft.Kubernetes connected cluster role",
+        "description": "Microsoft.Kubernetes connected cluster role.",
+        "link": "https://management.azure.com5548b2cf-c94c-4228-90ba-30851930a12f?api-version=2022-04-01"
+    },
+    {
+        "id": "a37b566d-3efa-4beb-a2f2-698963fa42ce",
+        "name": "Security Detonation Chamber Submission Manager",
+        "description": "Allowed to create and manage submissions to Security Detonation Chamber",
+        "link": "https://management.azure.coma37b566d-3efa-4beb-a2f2-698963fa42ce?api-version=2022-04-01"
+    },
+    {
+        "id": "352470b3-6a9c-4686-b503-35deb827e500",
+        "name": "Security Detonation Chamber Publisher",
+        "description": "Allowed to publish and modify platforms, workflows and toolsets to Security Detonation Chamber",
+        "link": "https://management.azure.com352470b3-6a9c-4686-b503-35deb827e500?api-version=2022-04-01"
+    },
+    {
+        "id": "7a6f0e70-c033-4fb1-828c-08514e5f4102",
+        "name": "Collaborative Runtime Operator",
+        "description": "Can manage resources created by AICS at runtime",
+        "link": "https://management.azure.com7a6f0e70-c033-4fb1-828c-08514e5f4102?api-version=2022-04-01"
+    },
+    {
+        "id": "5432c526-bc82-444a-b7ba-57c5b0b5b34f",
+        "name": "CosmosRestoreOperator",
+        "description": "Can perform restore action for Cosmos DB database account with continuous backup mode",
+        "link": "https://management.azure.com5432c526-bc82-444a-b7ba-57c5b0b5b34f?api-version=2022-04-01"
+    },
+    {
+        "id": "a1705bd2-3a8f-45a5-8683-466fcfd5cc24",
+        "name": "FHIR Data Converter",
+        "description": "Role allows user or principal to convert data from legacy format to FHIR",
+        "link": "https://management.azure.coma1705bd2-3a8f-45a5-8683-466fcfd5cc24?api-version=2022-04-01"
+    },
+    {
+        "id": "0e5f05e5-9ab9-446b-b98d-1e2157c94125",
+        "name": "Quota Request Operator",
+        "description": "Read and create quota requests, get quota request status, and create support tickets.",
+        "link": "https://management.azure.com0e5f05e5-9ab9-446b-b98d-1e2157c94125?api-version=2022-04-01"
+    },
+    {
+        "id": "1e241071-0855-49ea-94dc-649edcd759de",
+        "name": "EventGrid Contributor",
+        "description": "Lets you manage EventGrid operations.",
+        "link": "https://management.azure.com1e241071-0855-49ea-94dc-649edcd759de?api-version=2022-04-01"
+    },
+    {
+        "id": "28241645-39f8-410b-ad48-87863e2951d5",
+        "name": "Security Detonation Chamber Reader",
+        "description": "Allowed to query submission info and files from Security Detonation Chamber",
+        "link": "https://management.azure.com28241645-39f8-410b-ad48-87863e2951d5?api-version=2022-04-01"
+    },
+    {
+        "id": "4a167cdf-cb95-4554-9203-2347fe489bd9",
+        "name": "Object Anchors Account Reader",
+        "description": "Lets you read ingestion jobs for an object anchors account.",
+        "link": "https://management.azure.com4a167cdf-cb95-4554-9203-2347fe489bd9?api-version=2022-04-01"
+    },
+    {
+        "id": "ca0835dd-bacc-42dd-8ed2-ed5e7230d15b",
+        "name": "Object Anchors Account Owner",
+        "description": "Provides user with ingestion capabilities for an object anchors account.",
+        "link": "https://management.azure.comca0835dd-bacc-42dd-8ed2-ed5e7230d15b?api-version=2022-04-01"
+    },
+    {
+        "id": "d17ce0a2-0697-43bc-aac5-9113337ab61c",
+        "name": "WorkloadBuilder Migration Agent Role",
+        "description": "WorkloadBuilder Migration Agent Role.",
+        "link": "https://management.azure.comd17ce0a2-0697-43bc-aac5-9113337ab61c?api-version=2022-04-01"
+    },
+    {
+        "id": "b5537268-8956-4941-a8f0-646150406f0c",
+        "name": "Azure Spring Cloud Data Reader",
+        "description": "Allow read access to Azure Spring Cloud Data",
+        "link": "https://management.azure.comb5537268-8956-4941-a8f0-646150406f0c?api-version=2022-04-01"
+    },
+    {
+        "id": "0e75ca1e-0464-4b4d-8b93-68208a576181",
+        "name": "Cognitive Services Speech Contributor",
+        "description": "Full access to Speech projects, including read, write and delete all entities, for real-time speech recognition and batch transcription tasks, real-time speech synthesis and long audio tasks, custom speech and custom voice.",
+        "link": "https://management.azure.com0e75ca1e-0464-4b4d-8b93-68208a576181?api-version=2022-04-01"
+    },
+    {
+        "id": "9894cab4-e18a-44aa-828b-cb588cd6f2d7",
+        "name": "Cognitive Services Face Recognizer",
+        "description": "Lets you perform detect, verify, identify, group, and find similar operations on Face API. This role does not allow create or delete operations, which makes it well suited for endpoints that only need inferencing capabilities, following 'least privilege' best practices.",
+        "link": "https://management.azure.com9894cab4-e18a-44aa-828b-cb588cd6f2d7?api-version=2022-04-01"
+    },
+    {
+        "id": "054126f8-9a2b-4f1c-a9ad-eca461f08466",
+        "name": "Media Services Account Administrator",
+        "description": "Create, read, modify, and delete Media Services accounts; read-only access to other Media Services resources.",
+        "link": "https://management.azure.com054126f8-9a2b-4f1c-a9ad-eca461f08466?api-version=2022-04-01"
+    },
+    {
+        "id": "532bc159-b25e-42c0-969e-a1d439f60d77",
+        "name": "Media Services Live Events Administrator",
+        "description": "Create, read, modify, and delete Live Events, Assets, Asset Filters, and Streaming Locators; read-only access to other Media Services resources.",
+        "link": "https://management.azure.com532bc159-b25e-42c0-969e-a1d439f60d77?api-version=2022-04-01"
+    },
+    {
+        "id": "e4395492-1534-4db2-bedf-88c14621589c",
+        "name": "Media Services Media Operator",
+        "description": "Create, read, modify, and delete Assets, Asset Filters, Streaming Locators, and Jobs; read-only access to other Media Services resources.",
+        "link": "https://management.azure.come4395492-1534-4db2-bedf-88c14621589c?api-version=2022-04-01"
+    },
+    {
+        "id": "c4bba371-dacd-4a26-b320-7250bca963ae",
+        "name": "Media Services Policy Administrator",
+        "description": "Create, read, modify, and delete Account Filters, Streaming Policies, Content Key Policies, and Transforms; read-only access to other Media Services resources. Cannot create Jobs, Assets or Streaming resources.",
+        "link": "https://management.azure.comc4bba371-dacd-4a26-b320-7250bca963ae?api-version=2022-04-01"
+    },
+    {
+        "id": "99dba123-b5fe-44d5-874c-ced7199a5804",
+        "name": "Media Services Streaming Endpoints Administrator",
+        "description": "Create, read, modify, and delete Streaming Endpoints; read-only access to other Media Services resources.",
+        "link": "https://management.azure.com99dba123-b5fe-44d5-874c-ced7199a5804?api-version=2022-04-01"
+    },
+    {
+        "id": "1ec5b3c1-b17e-4e25-8312-2acb3c3c5abf",
+        "name": "Stream Analytics Query Tester",
+        "description": "Lets you perform query testing without creating a stream analytics job first",
+        "link": "https://management.azure.com1ec5b3c1-b17e-4e25-8312-2acb3c3c5abf?api-version=2022-04-01"
+    },
+    {
+        "id": "a2138dac-4907-4679-a376-736901ed8ad8",
+        "name": "AnyBuild Builder",
+        "description": "Basic user role for AnyBuild. This role allows listing of agent information and execution of remote build capabilities.",
+        "link": "https://management.azure.coma2138dac-4907-4679-a376-736901ed8ad8?api-version=2022-04-01"
+    },
+    {
+        "id": "b447c946-2db7-41ec-983d-d8bf3b1c77e3",
+        "name": "IoT Hub Data Reader",
+        "description": "Allows for full read access to IoT Hub data-plane properties",
+        "link": "https://management.azure.comb447c946-2db7-41ec-983d-d8bf3b1c77e3?api-version=2022-04-01"
+    },
+    {
+        "id": "494bdba2-168f-4f31-a0a1-191d2f7c028c",
+        "name": "IoT Hub Twin Contributor",
+        "description": "Allows for read and write access to all IoT Hub device and module twins.",
+        "link": "https://management.azure.com494bdba2-168f-4f31-a0a1-191d2f7c028c?api-version=2022-04-01"
+    },
+    {
+        "id": "4ea46cd5-c1b2-4a8e-910b-273211f9ce47",
+        "name": "IoT Hub Registry Contributor",
+        "description": "Allows for full access to IoT Hub device registry.",
+        "link": "https://management.azure.com4ea46cd5-c1b2-4a8e-910b-273211f9ce47?api-version=2022-04-01"
+    },
+    {
+        "id": "4fc6c259-987e-4a07-842e-c321cc9d413f",
+        "name": "IoT Hub Data Contributor",
+        "description": "Allows for full access to IoT Hub data plane operations.",
+        "link": "https://management.azure.com4fc6c259-987e-4a07-842e-c321cc9d413f?api-version=2022-04-01"
+    },
+    {
+        "id": "15e0f5a1-3450-4248-8e25-e2afe88a9e85",
+        "name": "Test Base Reader",
+        "description": "Let you view and download packages and test results.",
+        "link": "https://management.azure.com15e0f5a1-3450-4248-8e25-e2afe88a9e85?api-version=2022-04-01"
+    },
+    {
+        "id": "1407120a-92aa-4202-b7e9-c0e197c71c8f",
+        "name": "Search Index Data Reader",
+        "description": "Grants read access to Azure Cognitive Search index data.",
+        "link": "https://management.azure.com1407120a-92aa-4202-b7e9-c0e197c71c8f?api-version=2022-04-01"
+    },
+    {
+        "id": "8ebe5a00-799e-43f5-93ac-243d3dce84a7",
+        "name": "Search Index Data Contributor",
+        "description": "Grants full access to Azure Cognitive Search index data.",
+        "link": "https://management.azure.com8ebe5a00-799e-43f5-93ac-243d3dce84a7?api-version=2022-04-01"
+    },
+    {
+        "id": "76199698-9eea-4c19-bc75-cec21354c6b6",
+        "name": "Storage Table Data Reader",
+        "description": "Allows for read access to Azure Storage tables and entities",
+        "link": "https://management.azure.com76199698-9eea-4c19-bc75-cec21354c6b6?api-version=2022-04-01"
+    },
+    {
+        "id": "0a9a7e1f-b9d0-4cc4-a60d-0319b160aaa3",
+        "name": "Storage Table Data Contributor",
+        "description": "Allows for read, write and delete access to Azure Storage tables and entities",
+        "link": "https://management.azure.com0a9a7e1f-b9d0-4cc4-a60d-0319b160aaa3?api-version=2022-04-01"
+    },
+    {
+        "id": "e89c7a3c-2f64-4fa1-a847-3e4c9ba4283a",
+        "name": "DICOM Data Reader",
+        "description": "Read and search DICOM data.",
+        "link": "https://management.azure.come89c7a3c-2f64-4fa1-a847-3e4c9ba4283a?api-version=2022-04-01"
+    },
+    {
+        "id": "58a3b984-7adf-4c20-983a-32417c86fbc8",
+        "name": "DICOM Data Owner",
+        "description": "Full access to DICOM data.",
+        "link": "https://management.azure.com58a3b984-7adf-4c20-983a-32417c86fbc8?api-version=2022-04-01"
+    },
+    {
+        "id": "d5a91429-5739-47e2-a06b-3470a27159e7",
+        "name": "EventGrid Data Sender",
+        "description": "Allows send access to event grid events.",
+        "link": "https://management.azure.comd5a91429-5739-47e2-a06b-3470a27159e7?api-version=2022-04-01"
+    },
+    {
+        "id": "60fc6e62-5479-42d4-8bf4-67625fcc2840",
+        "name": "Disk Pool Operator",
+        "description": "Used by the StoragePool Resource Provider to manage Disks added to a Disk Pool.",
+        "link": "https://management.azure.com60fc6e62-5479-42d4-8bf4-67625fcc2840?api-version=2022-04-01"
+    },
+    {
+        "id": "f6c7c914-8db3-469d-8ca1-694a8f32e121",
+        "name": "AzureML Data Scientist",
+        "description": "Can perform all actions within an Azure Machine Learning workspace, except for creating or deleting compute resources and modifying the workspace itself.",
+        "link": "https://management.azure.comf6c7c914-8db3-469d-8ca1-694a8f32e121?api-version=2022-04-01"
+    },
+    {
+        "id": "22926164-76b3-42b3-bc55-97df8dab3e41",
+        "name": "Grafana Admin",
+        "description": "Manage server-wide settings and manage access to resources such as organizations, users, and licenses.",
+        "link": "https://management.azure.com22926164-76b3-42b3-bc55-97df8dab3e41?api-version=2022-04-01"
+    },
+    {
+        "id": "e8113dce-c529-4d33-91fa-e9b972617508",
+        "name": "Azure Connected SQL Server Onboarding",
+        "description": "Microsoft.AzureArcData\u00a0service\u00a0role\u00a0to\u00a0access\u00a0the\u00a0resources\u00a0of\u00a0Microsoft.AzureArcData\u00a0stored\u00a0with\u00a0RPSAAS.",
+        "link": "https://management.azure.come8113dce-c529-4d33-91fa-e9b972617508?api-version=2022-04-01"
+    },
+    {
+        "id": "26baccc8-eea7-41f1-98f4-1762cc7f685d",
+        "name": "Azure Relay Sender",
+        "description": "Allows for send access to Azure Relay resources.",
+        "link": "https://management.azure.com26baccc8-eea7-41f1-98f4-1762cc7f685d?api-version=2022-04-01"
+    },
+    {
+        "id": "2787bf04-f1f5-4bfe-8383-c8a24483ee38",
+        "name": "Azure Relay Owner",
+        "description": "Allows for full access to Azure Relay resources.",
+        "link": "https://management.azure.com2787bf04-f1f5-4bfe-8383-c8a24483ee38?api-version=2022-04-01"
+    },
+    {
+        "id": "26e0b698-aa6d-4085-9386-aadae190014d",
+        "name": "Azure Relay Listener",
+        "description": "Allows for listen access to Azure Relay resources.",
+        "link": "https://management.azure.com26e0b698-aa6d-4085-9386-aadae190014d?api-version=2022-04-01"
+    },
+    {
+        "id": "582fc458-8989-419f-a480-75249bc5db7e",
+        "name": "Reservations Reader",
+        "description": "Lets one read all the reservations in a tenant",
+        "link": "https://management.azure.com582fc458-8989-419f-a480-75249bc5db7e?api-version=2022-04-01"
+    },
+    {
+        "id": "a8889054-8d42-49c9-bc1c-52486c10e7cd",
+        "name": "Reservations Administrator",
+        "description": "Lets one read and manage all the reservations in a tenant",
+        "link": "https://management.azure.coma8889054-8d42-49c9-bc1c-52486c10e7cd?api-version=2022-04-01"
+    },
+    {
+        "id": "60921a7e-fef1-4a43-9b16-a26c52ad4769",
+        "name": "Grafana Viewer",
+        "description": "View dashboards, playlists, and query data sources.",
+        "link": "https://management.azure.com60921a7e-fef1-4a43-9b16-a26c52ad4769?api-version=2022-04-01"
+    },
+    {
+        "id": "a79a5197-3a5c-4973-a920-486035ffd60f",
+        "name": "Grafana Editor",
+        "description": "Create, edit, delete, or view dashboards; create, edit, or delete folders; and edit or view playlists.",
+        "link": "https://management.azure.coma79a5197-3a5c-4973-a920-486035ffd60f?api-version=2022-04-01"
+    },
+    {
+        "id": "f353d9bd-d4a6-484e-a77a-8050b599b867",
+        "name": "Automation Contributor",
+        "description": "Manage azure automation resources and other resources using azure automation.",
+        "link": "https://management.azure.comf353d9bd-d4a6-484e-a77a-8050b599b867?api-version=2022-04-01"
+    },
+    {
+        "id": "85cb6faf-e071-4c9b-8136-154b5a04f717",
+        "name": "Kubernetes Extension Contributor",
+        "description": "Can create, update, get, list and delete Kubernetes Extensions, and get extension async operations",
+        "link": "https://management.azure.com85cb6faf-e071-4c9b-8136-154b5a04f717?api-version=2022-04-01"
+    },
+    {
+        "id": "10745317-c249-44a1-a5ce-3a4353c0bbd8",
+        "name": "Device Provisioning Service Data Reader",
+        "description": "Allows for full read access to Device Provisioning Service data-plane properties.",
+        "link": "https://management.azure.com10745317-c249-44a1-a5ce-3a4353c0bbd8?api-version=2022-04-01"
+    },
+    {
+        "id": "dfce44e4-17b7-4bd1-a6d1-04996ec95633",
+        "name": "Device Provisioning Service Data Contributor",
+        "description": "Allows for full access to Device Provisioning Service data-plane operations.",
+        "link": "https://management.azure.comdfce44e4-17b7-4bd1-a6d1-04996ec95633?api-version=2022-04-01"
+    },
+    {
+        "id": "2837e146-70d7-4cfd-ad55-7efa6464f958",
+        "name": "Trusted Signing Certificate Profile Signer",
+        "description": "Sign files with a certificate profile. This role is in preview and subject to change.",
+        "link": "https://management.azure.com2837e146-70d7-4cfd-ad55-7efa6464f958?api-version=2022-04-01"
+    },
+    {
+        "id": "cff1b556-2399-4e7e-856d-a8f754be7b65",
+        "name": "Azure Spring Cloud Service Registry Reader",
+        "description": "Allow read access to Azure Spring Cloud Service Registry",
+        "link": "https://management.azure.comcff1b556-2399-4e7e-856d-a8f754be7b65?api-version=2022-04-01"
+    },
+    {
+        "id": "f5880b48-c26d-48be-b172-7927bfa1c8f1",
+        "name": "Azure Spring Cloud Service Registry Contributor",
+        "description": "Allow read, write and delete access to Azure Spring Cloud Service Registry",
+        "link": "https://management.azure.comf5880b48-c26d-48be-b172-7927bfa1c8f1?api-version=2022-04-01"
+    },
+    {
+        "id": "d04c6db6-4947-4782-9e91-30a88feb7be7",
+        "name": "Azure Spring Cloud Config Server Reader",
+        "description": "Allow read access to Azure Spring Cloud Config Server",
+        "link": "https://management.azure.comd04c6db6-4947-4782-9e91-30a88feb7be7?api-version=2022-04-01"
+    },
+    {
+        "id": "a06f5c24-21a7-4e1a-aa2b-f19eb6684f5b",
+        "name": "Azure Spring Cloud Config Server Contributor",
+        "description": "Allow read, write and delete access to Azure Spring Cloud Config Server",
+        "link": "https://management.azure.coma06f5c24-21a7-4e1a-aa2b-f19eb6684f5b?api-version=2022-04-01"
+    },
+    {
+        "id": "6ae96244-5829-4925-a7d3-5975537d91dd",
+        "name": "Azure VM Managed identities restore Contributor",
+        "description": "Azure VM Managed identities restore Contributors are allowed to perform Azure VM Restores with managed identities both user and system",
+        "link": "https://management.azure.com6ae96244-5829-4925-a7d3-5975537d91dd?api-version=2022-04-01"
+    },
+    {
+        "id": "6be48352-4f82-47c9-ad5e-0acacefdb005",
+        "name": "Azure Maps Search and Render Data Reader",
+        "description": "Grants access to very limited set of data APIs for common visual web SDK scenarios. Specifically, render and search data APIs.",
+        "link": "https://management.azure.com6be48352-4f82-47c9-ad5e-0acacefdb005?api-version=2022-04-01"
+    },
+    {
+        "id": "dba33070-676a-4fb0-87fa-064dc56ff7fb",
+        "name": "Azure Maps Contributor",
+        "description": "Grants access all Azure Maps resource management.",
+        "link": "https://management.azure.comdba33070-676a-4fb0-87fa-064dc56ff7fb?api-version=2022-04-01"
+    },
+    {
+        "id": "b748a06d-6150-4f8a-aaa9-ce3940cd96cb",
+        "name": "Azure Arc VMware VM Contributor",
+        "description": "Arc VMware VM Contributor has permissions to perform all VM actions.",
+        "link": "https://management.azure.comb748a06d-6150-4f8a-aaa9-ce3940cd96cb?api-version=2022-04-01"
+    },
+    {
+        "id": "ce551c02-7c42-47e0-9deb-e3b6fc3a9a83",
+        "name": "Azure Arc VMware Private Cloud User",
+        "description": "Azure Arc VMware Private Cloud User has permissions to use the VMware cloud resources to deploy VMs.",
+        "link": "https://management.azure.comce551c02-7c42-47e0-9deb-e3b6fc3a9a83?api-version=2022-04-01"
+    },
+    {
+        "id": "ddc140ed-e463-4246-9145-7c664192013f",
+        "name": "Azure Arc VMware Administrator role ",
+        "description": "Arc VMware VM Contributor has permissions to perform all connected VMwarevSphere actions.",
+        "link": "https://management.azure.comddc140ed-e463-4246-9145-7c664192013f?api-version=2022-04-01"
+    },
+    {
+        "id": "f72c8140-2111-481c-87ff-72b910f6e3f8",
+        "name": "Cognitive Services LUIS Owner",
+        "description": " Has access to all Read, Test, Write, Deploy and Delete functions under LUIS",
+        "link": "https://management.azure.comf72c8140-2111-481c-87ff-72b910f6e3f8?api-version=2022-04-01"
+    },
+    {
+        "id": "7628b7b8-a8b2-4cdc-b46f-e9b35248918e",
+        "name": "Cognitive Services Language Reader",
+        "description": "Has access to Read and Test functions under Language portal",
+        "link": "https://management.azure.com7628b7b8-a8b2-4cdc-b46f-e9b35248918e?api-version=2022-04-01"
+    },
+    {
+        "id": "f2310ca1-dc64-4889-bb49-c8e0fa3d47a8",
+        "name": "Cognitive Services Language Writer",
+        "description": " Has access to all Read, Test, and Write functions under Language Portal",
+        "link": "https://management.azure.comf2310ca1-dc64-4889-bb49-c8e0fa3d47a8?api-version=2022-04-01"
+    },
+    {
+        "id": "f07febfe-79bc-46b1-8b37-790e26e6e498",
+        "name": "Cognitive Services Language Owner",
+        "description": "Has access to all Read, Test, Write, Deploy and Delete functions under Language portal",
+        "link": "https://management.azure.comf07febfe-79bc-46b1-8b37-790e26e6e498?api-version=2022-04-01"
+    },
+    {
+        "id": "18e81cdc-4e98-4e29-a639-e7d10c5a6226",
+        "name": "Cognitive Services LUIS Reader",
+        "description": "Has access to Read and Test functions under LUIS.",
+        "link": "https://management.azure.com18e81cdc-4e98-4e29-a639-e7d10c5a6226?api-version=2022-04-01"
+    },
+    {
+        "id": "6322a993-d5c9-4bed-b113-e49bbea25b27",
+        "name": "Cognitive Services LUIS Writer",
+        "description": "Has access to all Read, Test, and Write functions under LUIS",
+        "link": "https://management.azure.com6322a993-d5c9-4bed-b113-e49bbea25b27?api-version=2022-04-01"
+    },
+    {
+        "id": "a9a19cc5-31f4-447c-901f-56c0bb18fcaf",
+        "name": "PlayFab Reader",
+        "description": "Provides read access to PlayFab resources",
+        "link": "https://management.azure.coma9a19cc5-31f4-447c-901f-56c0bb18fcaf?api-version=2022-04-01"
+    },
+    {
+        "id": "749a398d-560b-491b-bb21-08924219302e",
+        "name": "Load Test Contributor",
+        "description": "View, create, update, delete and execute load tests. View and list load test resources but can not make any changes.",
+        "link": "https://management.azure.com749a398d-560b-491b-bb21-08924219302e?api-version=2022-04-01"
+    },
+    {
+        "id": "45bb0b16-2f0c-4e78-afaa-a07599b003f6",
+        "name": "Load Test Owner",
+        "description": "Execute all operations on load test resources and load tests",
+        "link": "https://management.azure.com45bb0b16-2f0c-4e78-afaa-a07599b003f6?api-version=2022-04-01"
+    },
+    {
+        "id": "0c8b84dc-067c-4039-9615-fa1a4b77c726",
+        "name": "PlayFab Contributor",
+        "description": "Provides contributor access to PlayFab resources",
+        "link": "https://management.azure.com0c8b84dc-067c-4039-9615-fa1a4b77c726?api-version=2022-04-01"
+    },
+    {
+        "id": "3ae3fb29-0000-4ccd-bf80-542e7b26e081",
+        "name": "Load Test Reader",
+        "description": "View and list all load tests and load test resources but can not make any changes",
+        "link": "https://management.azure.com3ae3fb29-0000-4ccd-bf80-542e7b26e081?api-version=2022-04-01"
+    },
+    {
+        "id": "b2de6794-95db-4659-8781-7e080d3f2b9d",
+        "name": "Cognitive Services Immersive Reader User",
+        "description": "Provides access to create Immersive Reader sessions and call APIs",
+        "link": "https://management.azure.comb2de6794-95db-4659-8781-7e080d3f2b9d?api-version=2022-04-01"
+    },
+    {
+        "id": "f69b8690-cc87-41d6-b77a-a4bc3c0a966f",
+        "name": "Lab Services Contributor",
+        "description": "The lab services contributor role",
+        "link": "https://management.azure.comf69b8690-cc87-41d6-b77a-a4bc3c0a966f?api-version=2022-04-01"
+    },
+    {
+        "id": "2a5c394f-5eb7-4d4f-9c8e-e8eae39faebc",
+        "name": "Lab Services Reader",
+        "description": "The lab services reader role",
+        "link": "https://management.azure.com2a5c394f-5eb7-4d4f-9c8e-e8eae39faebc?api-version=2022-04-01"
+    },
+    {
+        "id": "ce40b423-cede-4313-a93f-9b28290b72e1",
+        "name": "Lab Assistant",
+        "description": "The lab assistant role",
+        "link": "https://management.azure.comce40b423-cede-4313-a93f-9b28290b72e1?api-version=2022-04-01"
+    },
+    {
+        "id": "a36e6959-b6be-4b12-8e9f-ef4b474d304d",
+        "name": "Lab Operator",
+        "description": "The lab operator role",
+        "link": "https://management.azure.coma36e6959-b6be-4b12-8e9f-ef4b474d304d?api-version=2022-04-01"
+    },
+    {
+        "id": "5daaa2af-1fe8-407c-9122-bba179798270",
+        "name": "Lab Contributor",
+        "description": "The lab contributor role",
+        "link": "https://management.azure.com5daaa2af-1fe8-407c-9122-bba179798270?api-version=2022-04-01"
+    },
+    {
+        "id": "fb1c8493-542b-48eb-b624-b4c8fea62acd",
+        "name": "Security Admin",
+        "description": "Security Admin Role",
+        "link": "https://management.azure.comfb1c8493-542b-48eb-b624-b4c8fea62acd?api-version=2022-04-01"
+    },
+    {
+        "id": "12cf5a90-567b-43ae-8102-96cf46c7d9b4",
+        "name": "Web PubSub Service Owner",
+        "description": "Full access to Azure Web PubSub Service REST APIs",
+        "link": "https://management.azure.com12cf5a90-567b-43ae-8102-96cf46c7d9b4?api-version=2022-04-01"
+    },
+    {
+        "id": "bfb1c7d2-fb1a-466b-b2ba-aee63b92deaf",
+        "name": "Web PubSub Service Reader",
+        "description": "Read-only access to Azure Web PubSub Service REST APIs",
+        "link": "https://management.azure.combfb1c7d2-fb1a-466b-b2ba-aee63b92deaf?api-version=2022-04-01"
+    },
+    {
+        "id": "420fcaa2-552c-430f-98ca-3264be4806c7",
+        "name": "SignalR App Server",
+        "description": "Lets your app server access SignalR Service with AAD auth options.",
+        "link": "https://management.azure.com420fcaa2-552c-430f-98ca-3264be4806c7?api-version=2022-04-01"
+    },
+    {
+        "id": "fb879df8-f326-4884-b1cf-06f3ad86be52",
+        "name": "Virtual Machine User Login",
+        "description": "View Virtual Machines in the portal and login as a regular user.",
+        "link": "https://management.azure.comfb879df8-f326-4884-b1cf-06f3ad86be52?api-version=2022-04-01"
+    },
+    {
+        "id": "1c0163c0-47e6-4577-8991-ea5c82e286e4",
+        "name": "Virtual Machine Administrator Login",
+        "description": "View Virtual Machines in the portal and login as administrator",
+        "link": "https://management.azure.com1c0163c0-47e6-4577-8991-ea5c82e286e4?api-version=2022-04-01"
+    },
+    {
+        "id": "cd570a14-e51a-42ad-bac8-bafd67325302",
+        "name": "Azure Connected Machine Resource Administrator",
+        "description": "Can read, write, delete and re-onboard Azure Connected Machines.",
+        "link": "https://management.azure.comcd570a14-e51a-42ad-bac8-bafd67325302?api-version=2022-04-01"
+    },
+    {
+        "id": "00c29273-979b-4161-815c-10b084fb9324",
+        "name": "Backup Operator",
+        "description": "Lets you manage backup services, except removal of backup, vault creation and giving access to others",
+        "link": "https://management.azure.com00c29273-979b-4161-815c-10b084fb9324?api-version=2022-04-01"
+    },
+    {
+        "id": "e8ddcd69-c73f-4f9f-9844-4100522f16ad",
+        "name": "Workbook Contributor",
+        "description": "Can save shared workbooks.",
+        "link": "https://management.azure.come8ddcd69-c73f-4f9f-9844-4100522f16ad?api-version=2022-04-01"
+    },
+    {
+        "id": "b279062a-9be3-42a0-92ae-8b3cf002ec4d",
+        "name": "Workbook Reader",
+        "description": "Can read workbooks.",
+        "link": "https://management.azure.comb279062a-9be3-42a0-92ae-8b3cf002ec4d?api-version=2022-04-01"
+    },
+    {
+        "id": "749f88d5-cbae-40b8-bcfc-e573ddc772fa",
+        "name": "Monitoring Contributor",
+        "description": "Can read all monitoring data and update monitoring settings.",
+        "link": "https://management.azure.com749f88d5-cbae-40b8-bcfc-e573ddc772fa?api-version=2022-04-01"
+    },
+    {
+        "id": "3913510d-42f4-4e42-8a64-420c390055eb",
+        "name": "Monitoring Metrics Publisher",
+        "description": "Enables publishing metrics against Azure resources",
+        "link": "https://management.azure.com3913510d-42f4-4e42-8a64-420c390055eb?api-version=2022-04-01"
+    },
+    {
+        "id": "8a3c2885-9b38-4fd2-9d99-91af537c1347",
+        "name": "Purview role 1 (Deprecated)",
+        "description": "Deprecated role.",
+        "link": "https://management.azure.com8a3c2885-9b38-4fd2-9d99-91af537c1347?api-version=2022-04-01"
+    },
+    {
+        "id": "200bba9e-f0c8-430f-892b-6f0794863803",
+        "name": "Purview role 2 (Deprecated)",
+        "description": "Deprecated role.",
+        "link": "https://management.azure.com200bba9e-f0c8-430f-892b-6f0794863803?api-version=2022-04-01"
+    },
+    {
+        "id": "ff100721-1b9d-43d8-af52-42b69c1272db",
+        "name": "Purview role 3 (Deprecated)",
+        "description": "Deprecated role.",
+        "link": "https://management.azure.comff100721-1b9d-43d8-af52-42b69c1272db?api-version=2022-04-01"
+    },
+    {
+        "id": "b8b15564-4fa6-4a59-ab12-03e1d9594795",
+        "name": "Autonomous Development Platform Data Contributor (Preview)",
+        "description": "Grants permissions to upload and manage new Autonomous Development Platform measurements.",
+        "link": "https://management.azure.comb8b15564-4fa6-4a59-ab12-03e1d9594795?api-version=2022-04-01"
+    },
+    {
+        "id": "27f8b550-c507-4db9-86f2-f4b8e816d59d",
+        "name": "Autonomous Development Platform Data Owner (Preview)",
+        "description": "Grants full access to Autonomous Development Platform data.",
+        "link": "https://management.azure.com27f8b550-c507-4db9-86f2-f4b8e816d59d?api-version=2022-04-01"
+    },
+    {
+        "id": "d63b75f7-47ea-4f27-92ac-e0d173aaf093",
+        "name": "Autonomous Development Platform Data Reader (Preview)",
+        "description": "Grants read access to Autonomous Development Platform data.",
+        "link": "https://management.azure.comd63b75f7-47ea-4f27-92ac-e0d173aaf093?api-version=2022-04-01"
+    },
+    {
+        "id": "14b46e9e-c2b7-41b4-b07b-48a6ebf60603",
+        "name": "Key Vault Crypto Officer",
+        "description": "Perform any action on the keys of a key vault, except manage permissions. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.com14b46e9e-c2b7-41b4-b07b-48a6ebf60603?api-version=2022-04-01"
+    },
+    {
+        "id": "49e2f5d2-7741-4835-8efa-19e1fe35e47f",
+        "name": "Device Update Deployments Reader",
+        "description": "Gives you read access to management operations, but does not allow making changes",
+        "link": "https://management.azure.com49e2f5d2-7741-4835-8efa-19e1fe35e47f?api-version=2022-04-01"
+    },
+    {
+        "id": "e4237640-0e3d-4a46-8fda-70bc94856432",
+        "name": "Device Update Deployments Administrator",
+        "description": "Gives you full access to management operations",
+        "link": "https://management.azure.come4237640-0e3d-4a46-8fda-70bc94856432?api-version=2022-04-01"
+    },
+    {
+        "id": "67d33e57-3129-45e6-bb0b-7cc522f762fa",
+        "name": "Azure Arc VMware Private Clouds Onboarding",
+        "description": "Azure Arc VMware Private Clouds Onboarding role has permissions to provision all the required resources for onboard and deboard vCenter instances to Azure.",
+        "link": "https://management.azure.com67d33e57-3129-45e6-bb0b-7cc522f762fa?api-version=2022-04-01"
+    },
+    {
+        "id": "4e9b8407-af2e-495b-ae54-bb60a55b1b5a",
+        "name": "Chamber Admin",
+        "description": "Lets you manage everything under your Modeling and Simulation Workbench chamber.",
+        "link": "https://management.azure.com4e9b8407-af2e-495b-ae54-bb60a55b1b5a?api-version=2022-04-01"
+    },
+    {
+        "id": "56be40e2-4db1-4ccf-93c3-7e44c597135b",
+        "name": "Monitored Objects Contributor",
+        "description": "Can read and update Monitored Objects and associated Data Collection Rules.",
+        "link": "https://management.azure.com56be40e2-4db1-4ccf-93c3-7e44c597135b?api-version=2022-04-01"
+    },
+    {
+        "id": "f4c81013-99ee-4d62-a7ee-b3f1f648599a",
+        "name": "Microsoft Sentinel Automation Contributor",
+        "description": "Microsoft Sentinel Automation Contributor",
+        "link": "https://management.azure.comf4c81013-99ee-4d62-a7ee-b3f1f648599a?api-version=2022-04-01"
+    },
+    {
+        "id": "871e35f6-b5c1-49cc-a043-bde969a0f2cd",
+        "name": "CDN Endpoint Reader",
+        "description": "Can view CDN endpoints, but can't make changes.",
+        "link": "https://management.azure.com871e35f6-b5c1-49cc-a043-bde969a0f2cd?api-version=2022-04-01"
+    },
+    {
+        "id": "4447db05-44ed-4da3-ae60-6cbece780e32",
+        "name": "Chamber User",
+        "description": "Lets you view everything under your Modeling and Simulation Workbench chamber, but not make any changes.",
+        "link": "https://management.azure.com4447db05-44ed-4da3-ae60-6cbece780e32?api-version=2022-04-01"
+    },
+    {
+        "id": "f2dc8367-1007-4938-bd23-fe263f013447",
+        "name": "Cognitive Services Speech User",
+        "description": "Access to the real-time speech recognition and batch transcription APIs, real-time speech synthesis and long audio APIs, as well as to read the data/test/model/endpoint for custom models, but can\u2019t create, delete or modify the data/test/model/endpoint for custom models.",
+        "link": "https://management.azure.comf2dc8367-1007-4938-bd23-fe263f013447?api-version=2022-04-01"
+    },
+    {
+        "id": "a6333a3e-0164-44c3-b281-7a577aff287f",
+        "name": "Windows Admin Center Administrator Login",
+        "description": "Let's you manage the OS of your resource via Windows Admin Center as an administrator.",
+        "link": "https://management.azure.coma6333a3e-0164-44c3-b281-7a577aff287f?api-version=2022-04-01"
+    },
+    {
+        "id": "18ed5180-3e48-46fd-8541-4ea054d57064",
+        "name": "Azure Kubernetes Service Policy Add-on Deployment",
+        "description": "Deploy the Azure Policy add-on on Azure Kubernetes Service clusters",
+        "link": "https://management.azure.com18ed5180-3e48-46fd-8541-4ea054d57064?api-version=2022-04-01"
+    },
+    {
+        "id": "088ab73d-1256-47ae-bea9-9de8e7131f31",
+        "name": "Guest Configuration Resource Contributor",
+        "description": "Lets you read, write Guest Configuration Resource.",
+        "link": "https://management.azure.com088ab73d-1256-47ae-bea9-9de8e7131f31?api-version=2022-04-01"
+    },
+    {
+        "id": "361898ef-9ed1-48c2-849c-a832951106bb",
+        "name": "Domain Services Reader",
+        "description": "Can view Azure AD Domain Services and related network configurations",
+        "link": "https://management.azure.com361898ef-9ed1-48c2-849c-a832951106bb?api-version=2022-04-01"
+    },
+    {
+        "id": "eeaeda52-9324-47f6-8069-5d5bade478b2",
+        "name": "Domain Services Contributor",
+        "description": "Can manage Azure AD Domain Services and related network configurations",
+        "link": "https://management.azure.comeeaeda52-9324-47f6-8069-5d5bade478b2?api-version=2022-04-01"
+    },
+    {
+        "id": "0f2ebee7-ffd4-4fc0-b3b7-664099fdad5d",
+        "name": "DNS Resolver Contributor",
+        "description": "Lets you manage DNS resolver resources.",
+        "link": "https://management.azure.com0f2ebee7-ffd4-4fc0-b3b7-664099fdad5d?api-version=2022-04-01"
+    },
+    {
+        "id": "00493d72-78f6-4148-b6c5-d3ce8e4799dd",
+        "name": "Azure Arc Enabled Kubernetes Cluster User Role",
+        "description": "List cluster user credentials action.",
+        "link": "https://management.azure.com00493d72-78f6-4148-b6c5-d3ce8e4799dd?api-version=2022-04-01"
+    },
+    {
+        "id": "959f8984-c045-4866-89c7-12bf9737be2e",
+        "name": "Data Operator for Managed Disks",
+        "description": "Provides permissions to upload data to empty managed disks, read, or export data of managed disks (not attached to running VMs) and snapshots using SAS URIs and Azure AD authentication.",
+        "link": "https://management.azure.com959f8984-c045-4866-89c7-12bf9737be2e?api-version=2022-04-01"
+    },
+    {
+        "id": "6b77f0a0-0d89-41cc-acd1-579c22c17a67",
+        "name": "AgFood Platform Sensor Partner Contributor",
+        "description": "Provides contribute access to manage sensor related entities in AgFood Platform Service",
+        "link": "https://management.azure.com6b77f0a0-0d89-41cc-acd1-579c22c17a67?api-version=2022-04-01"
+    },
+    {
+        "id": "1ef6a3be-d0ac-425d-8c01-acb62866290b",
+        "name": "Compute Gallery Sharing Admin",
+        "description": "This role allows user to share gallery to another subscription/tenant or share it to the public.",
+        "link": "https://management.azure.com1ef6a3be-d0ac-425d-8c01-acb62866290b?api-version=2022-04-01"
+    },
+    {
+        "id": "cd08ab90-6b14-449c-ad9a-8f8e549482c6",
+        "name": "Scheduled Patching Contributor",
+        "description": "Provides access to manage maintenance configurations with maintenance scope InGuestPatch and corresponding configuration assignments",
+        "link": "https://management.azure.comcd08ab90-6b14-449c-ad9a-8f8e549482c6?api-version=2022-04-01"
+    },
+    {
+        "id": "45d50f46-0b78-4001-a660-4198cbe8cd05",
+        "name": "DevCenter Dev Box User",
+        "description": "Provides access to create and manage dev boxes.",
+        "link": "https://management.azure.com45d50f46-0b78-4001-a660-4198cbe8cd05?api-version=2022-04-01"
+    },
+    {
+        "id": "331c37c6-af14-46d9-b9f4-e1909e1b95a0",
+        "name": "DevCenter Project Admin",
+        "description": "Provides access to manage project resources.",
+        "link": "https://management.azure.com331c37c6-af14-46d9-b9f4-e1909e1b95a0?api-version=2022-04-01"
+    },
+    {
+        "id": "602da2ba-a5c2-41da-b01d-5360126ab525",
+        "name": "Virtual Machine Local User Login",
+        "description": "View Virtual Machines in the portal and login as a local user configured on the arc server",
+        "link": "https://management.azure.com602da2ba-a5c2-41da-b01d-5360126ab525?api-version=2022-04-01"
+    },
+    {
+        "id": "e582369a-e17b-42a5-b10c-874c387c530b",
+        "name": "Azure Arc ScVmm VM Contributor",
+        "description": "Arc ScVmm VM Contributor has permissions to perform all VM actions.",
+        "link": "https://management.azure.come582369a-e17b-42a5-b10c-874c387c530b?api-version=2022-04-01"
+    },
+    {
+        "id": "a92dfd61-77f9-4aec-a531-19858b406c87",
+        "name": "Azure Arc ScVmm Administrator role",
+        "description": "Arc ScVmm VM Administrator has permissions to perform all ScVmm actions.",
+        "link": "https://management.azure.coma92dfd61-77f9-4aec-a531-19858b406c87?api-version=2022-04-01"
+    },
+    {
+        "id": "6aac74c4-6311-40d2-bbdd-7d01e7c6e3a9",
+        "name": "Azure Arc ScVmm Private Clouds Onboarding",
+        "description": "Azure Arc ScVmm Private Clouds Onboarding role has permissions to provision all the required resources for onboard and deboard vmm server instances to Azure.",
+        "link": "https://management.azure.com6aac74c4-6311-40d2-bbdd-7d01e7c6e3a9?api-version=2022-04-01"
+    },
+    {
+        "id": "c0781e91-8102-4553-8951-97c6d4243cda",
+        "name": "Azure Arc ScVmm Private Cloud User",
+        "description": "Azure Arc ScVmm Private Cloud User has permissions to use the ScVmm resources to deploy VMs.",
+        "link": "https://management.azure.comc0781e91-8102-4553-8951-97c6d4243cda?api-version=2022-04-01"
+    },
+    {
+        "id": "7656b436-37d4-490a-a4ab-d39f838f0042",
+        "name": "HDInsight on AKS Cluster Pool Admin",
+        "description": "Can read, create, modify and delete HDInsight on AKS cluster pools and create clusters",
+        "link": "https://management.azure.com7656b436-37d4-490a-a4ab-d39f838f0042?api-version=2022-04-01"
+    },
+    {
+        "id": "fd036e6b-1266-47a0-b0bb-a05d04831731",
+        "name": "HDInsight on AKS Cluster Admin",
+        "description": "Grants a user/group the ability to create, delete and manage clusters within a given cluster pool. Cluster Admin can also run workloads, monitor, and manage all user activity on these clusters.",
+        "link": "https://management.azure.comfd036e6b-1266-47a0-b0bb-a05d04831731?api-version=2022-04-01"
+    },
+    {
+        "id": "4465e953-8ced-4406-a58e-0f6e3f3b530b",
+        "name": "FHIR Data Importer",
+        "description": "Role allows user or principal to read and import FHIR Data",
+        "link": "https://management.azure.com4465e953-8ced-4406-a58e-0f6e3f3b530b?api-version=2022-04-01"
+    },
+    {
+        "id": "bcf28286-af25-4c81-bb6f-351fcab5dbe9",
+        "name": "HDInsight on AKS Cluster Operator",
+        "description": "Grants a user/group the ability to read cluster configurations, resize clusters and run jobs",
+        "link": "https://management.azure.combcf28286-af25-4c81-bb6f-351fcab5dbe9?api-version=2022-04-01"
+    },
+    {
+        "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
+        "name": "API Management Developer Portal Content Editor",
+        "description": "Can customize the developer portal, edit its content, and publish it.",
+        "link": "https://management.azure.comc031e6a8-4391-4de0-8d69-4706a7ed3729?api-version=2022-04-01"
+    },
+    {
+        "id": "d24ecba3-c1f4-40fa-a7bb-4588a071e8fd",
+        "name": "VM Scanner Operator",
+        "description": "Role that provides access to disk snapshot for security analysis.",
+        "link": "https://management.azure.comd24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
+    },
+    {
+        "id": "80dcbedb-47ef-405d-95bd-188a1b4ac406",
+        "name": "Elastic SAN Owner",
+        "description": "Allows for full access to all resources under Azure Elastic SAN including changing network security policies to unblock data path access",
+        "link": "https://management.azure.com80dcbedb-47ef-405d-95bd-188a1b4ac406?api-version=2022-04-01"
+    },
+    {
+        "id": "af6a70f8-3c9f-4105-acf1-d719e9fca4ca",
+        "name": "Elastic SAN Reader",
+        "description": "Allows for control path read access to Azure Elastic SAN",
+        "link": "https://management.azure.comaf6a70f8-3c9f-4105-acf1-d719e9fca4ca?api-version=2022-04-01"
+    },
+    {
+        "id": "a959dbd1-f747-45e3-8ba6-dd80f235f97c",
+        "name": "Desktop Virtualization Virtual Machine Contributor",
+        "description": "This role is in preview and subject to change. Provide permission to the Azure Virtual Desktop Resource Provider to create, delete, update, start, and stop virtual machines.",
+        "link": "https://management.azure.coma959dbd1-f747-45e3-8ba6-dd80f235f97c?api-version=2022-04-01"
+    },
+    {
+        "id": "40c5ff49-9181-41f8-ae61-143b0e78555e",
+        "name": "Desktop Virtualization Power On Off Contributor",
+        "description": "Provide permission to the Azure Virtual Desktop Resource Provider to start and stop virtual machines.",
+        "link": "https://management.azure.com40c5ff49-9181-41f8-ae61-143b0e78555e?api-version=2022-04-01"
+    },
+    {
+        "id": "489581de-a3bd-480d-9518-53dea7416b33",
+        "name": "Desktop Virtualization Power On Contributor",
+        "description": "Provide permission to the Azure Virtual Desktop Resource Provider to start virtual machines.",
+        "link": "https://management.azure.com489581de-a3bd-480d-9518-53dea7416b33?api-version=2022-04-01"
+    },
+    {
+        "id": "a8281131-f312-4f34-8d98-ae12be9f0d23",
+        "name": "Elastic SAN Volume Group Owner",
+        "description": "Allows for full access to a volume group in Azure Elastic SAN including changing network security policies to unblock data path access",
+        "link": "https://management.azure.coma8281131-f312-4f34-8d98-ae12be9f0d23?api-version=2022-04-01"
+    },
+    {
+        "id": "76cc9ee4-d5d3-4a45-a930-26add3d73475",
+        "name": "Access Review Operator Service Role",
+        "description": "Lets you grant Access Review System app permissions to discover and revoke access as needed by the access review process.",
+        "link": "https://management.azure.com76cc9ee4-d5d3-4a45-a930-26add3d73475?api-version=2022-04-01"
+    },
+    {
+        "id": "4339b7cf-9826-4e41-b4ed-c7f4505dac08",
+        "name": "Trusted Signing Identity Verifier",
+        "description": "Manage identity or business verification requests. This role is in preview and subject to change.",
+        "link": "https://management.azure.com4339b7cf-9826-4e41-b4ed-c7f4505dac08?api-version=2022-04-01"
+    },
+    {
+        "id": "a2c4a527-7dc0-4ee3-897b-403ade70fafb",
+        "name": "Video Indexer Restricted Viewer",
+        "description": "Has access to view and search through all video's insights and transcription in the Video Indexer portal. No access to model customization, embedding of widget, downloading videos, or sharing the account.",
+        "link": "https://management.azure.coma2c4a527-7dc0-4ee3-897b-403ade70fafb?api-version=2022-04-01"
+    },
+    {
+        "id": "b0d8363b-8ddd-447d-831f-62ca05bff136",
+        "name": "Monitoring Data Reader",
+        "description": "Can access the data in an Azure Monitor Workspace.",
+        "link": "https://management.azure.comb0d8363b-8ddd-447d-831f-62ca05bff136?api-version=2022-04-01"
+    },
+    {
+        "id": "5af6afb3-c06c-4fa4-8848-71a8aee05683",
+        "name": "Azure Kubernetes Fleet Manager RBAC Writer",
+        "description": "Grants read/write access to most Kubernetes resources within a namespace in the fleet-managed hub cluster. This role does not allow viewing or modifying roles or role bindings. However, this role allows accessing Secrets as any ServiceAccount in the namespace, so it can be used to gain the API access levels of any ServiceAccount in the namespace.\u00a0 Applying this role at cluster scope will give access across all namespaces.",
+        "link": "https://management.azure.com5af6afb3-c06c-4fa4-8848-71a8aee05683?api-version=2022-04-01"
+    },
+    {
+        "id": "434fb43a-c01c-447e-9f67-c3ad923cfaba",
+        "name": "Azure Kubernetes Fleet Manager RBAC Admin",
+        "description": "Grants read/write access to Kubernetes resources within a namespace in the fleet-managed hub cluster - provides write permissions on most objects within a a namespace, with the exception of ResourceQuota object and the namespace object itself. Applying this role at cluster scope will give access across all namespaces.",
+        "link": "https://management.azure.com434fb43a-c01c-447e-9f67-c3ad923cfaba?api-version=2022-04-01"
+    },
+    {
+        "id": "63bb64ad-9799-4770-b5c3-24ed299a07bf",
+        "name": "Azure Kubernetes Fleet Manager Contributor Role",
+        "description": "Grants read/write access to Azure resources provided by Azure Kubernetes Fleet Manager, including fleets, fleet members, fleet update strategies, fleet update runs, etc.",
+        "link": "https://management.azure.com63bb64ad-9799-4770-b5c3-24ed299a07bf?api-version=2022-04-01"
+    },
+    {
+        "id": "30b27cfc-9c84-438e-b0ce-70e35255df80",
+        "name": "Azure Kubernetes Fleet Manager RBAC Reader",
+        "description": "Grants read-only access to most Kubernetes resources within a namespace in the fleet-managed hub cluster. It does not allow viewing roles or role bindings. This role does not allow viewing Secrets, since reading the contents of Secrets enables access to ServiceAccount credentials in the namespace, which would allow API access as any ServiceAccount in the namespace (a form of privilege escalation).  Applying this role at cluster scope will give access across all namespaces.",
+        "link": "https://management.azure.com30b27cfc-9c84-438e-b0ce-70e35255df80?api-version=2022-04-01"
+    },
+    {
+        "id": "18ab4d3d-a1bf-4477-8ad9-8359bc988f69",
+        "name": "Azure Kubernetes Fleet Manager RBAC Cluster Admin",
+        "description": "Grants read/write access to all Kubernetes resources in the fleet-managed hub cluster.",
+        "link": "https://management.azure.com18ab4d3d-a1bf-4477-8ad9-8359bc988f69?api-version=2022-04-01"
+    },
+    {
+        "id": "ba79058c-0414-4a34-9e42-c3399d80cd5a",
+        "name": "Kubernetes Namespace User",
+        "description": "Allows a user to read namespace resources and retrieve kubeconfig for the cluster",
+        "link": "https://management.azure.comba79058c-0414-4a34-9e42-c3399d80cd5a?api-version=2022-04-01"
+    },
+    {
+        "id": "c6decf44-fd0a-444c-a844-d653c394e7ab",
+        "name": "Data Labeling - Labeler",
+        "description": "Can label data in Labeling.",
+        "link": "https://management.azure.comc6decf44-fd0a-444c-a844-d653c394e7ab?api-version=2022-04-01"
+    },
+    {
+        "id": "f58310d9-a9f6-439a-9e8d-f62e7b41a168",
+        "name": "Role Based Access Control Administrator",
+        "description": "Manage access to Azure resources by assigning roles using Azure RBAC. This role does not allow you to manage access using other ways, such as Azure Policy.",
+        "link": "https://management.azure.comf58310d9-a9f6-439a-9e8d-f62e7b41a168?api-version=2022-04-01"
+    },
+    {
+        "id": "1c9b6475-caf0-4164-b5a1-2142a7116f4b",
+        "name": "Template Spec Contributor",
+        "description": "Allows full access to Template Spec operations at the assigned scope.",
+        "link": "https://management.azure.com1c9b6475-caf0-4164-b5a1-2142a7116f4b?api-version=2022-04-01"
+    },
+    {
+        "id": "392ae280-861d-42bd-9ea5-08ee6d83b80e",
+        "name": "Template Spec Reader",
+        "description": "Allows read access to Template Specs at the assigned scope.",
+        "link": "https://management.azure.com392ae280-861d-42bd-9ea5-08ee6d83b80e?api-version=2022-04-01"
+    },
+    {
+        "id": "51d6186e-6489-4900-b93f-92e23144cca5",
+        "name": "Microsoft Sentinel Playbook Operator",
+        "description": "Microsoft Sentinel Playbook Operator",
+        "link": "https://management.azure.com51d6186e-6489-4900-b93f-92e23144cca5?api-version=2022-04-01"
+    },
+    {
+        "id": "18e40d4e-8d2e-438d-97e1-9528336e149c",
+        "name": "Deployment Environments User",
+        "description": "Provides access to manage environment resources.",
+        "link": "https://management.azure.com18e40d4e-8d2e-438d-97e1-9528336e149c?api-version=2022-04-01"
+    },
+    {
+        "id": "80558df3-64f9-4c0f-b32d-e5094b036b0b",
+        "name": "Azure Spring Apps Connect Role",
+        "description": "Azure Spring Apps Connect Role",
+        "link": "https://management.azure.com80558df3-64f9-4c0f-b32d-e5094b036b0b?api-version=2022-04-01"
+    },
+    {
+        "id": "a99b0159-1064-4c22-a57b-c9b3caa1c054",
+        "name": "Azure Spring Apps Remote Debugging Role",
+        "description": "Azure Spring Apps Remote Debugging Role",
+        "link": "https://management.azure.coma99b0159-1064-4c22-a57b-c9b3caa1c054?api-version=2022-04-01"
+    },
+    {
+        "id": "1823dd4f-9b8c-4ab6-ab4e-7397a3684615",
+        "name": "AzureML Registry User",
+        "description": "Can perform all actions on Machine Learning Services Registry assets\u00a0as well as get Registry resources.",
+        "link": "https://management.azure.com1823dd4f-9b8c-4ab6-ab4e-7397a3684615?api-version=2022-04-01"
+    },
+    {
+        "id": "e503ece1-11d0-4e8e-8e2c-7a6c3bf38815",
+        "name": "AzureML Compute Operator",
+        "description": "Can access and perform CRUD operations on Machine Learning Services managed compute resources (including Notebook VMs).",
+        "link": "https://management.azure.come503ece1-11d0-4e8e-8e2c-7a6c3bf38815?api-version=2022-04-01"
+    },
+    {
+        "id": "aabbc5dd-1af0-458b-a942-81af88f9c138",
+        "name": "Azure Center for SAP solutions service role",
+        "description": "Azure Center for SAP solutions service role - This role is intended to be used for providing the permissions to user assigned managed identity. Azure Center for SAP solutions will use this identity to deploy and manage SAP systems.",
+        "link": "https://management.azure.comaabbc5dd-1af0-458b-a942-81af88f9c138?api-version=2022-04-01"
+    },
+    {
+        "id": "05352d14-a920-4328-a0de-4cbe7430e26b",
+        "name": "Azure Center for SAP solutions reader",
+        "description": "This role provides read access to all capabilities of Azure Center for SAP solutions.",
+        "link": "https://management.azure.com05352d14-a920-4328-a0de-4cbe7430e26b?api-version=2022-04-01"
+    },
+    {
+        "id": "7b0c7e81-271f-4c71-90bf-e30bdfdbc2f7",
+        "name": "Azure Center for SAP solutions administrator",
+        "description": "This role provides read and write access to all capabilities of Azure Center for SAP solutions.",
+        "link": "https://management.azure.com7b0c7e81-271f-4c71-90bf-e30bdfdbc2f7?api-version=2022-04-01"
+    },
+    {
+        "id": "fbc52c3f-28ad-4303-a892-8a056630b8f1",
+        "name": "AppGw for Containers Configuration Manager",
+        "description": "Allows access and configuration updates to Application Gateway for Containers resource.",
+        "link": "https://management.azure.comfbc52c3f-28ad-4303-a892-8a056630b8f1?api-version=2022-04-01"
+    },
+    {
+        "id": "4ba50f17-9666-485c-a643-ff00808643f0",
+        "name": "FHIR SMART User",
+        "description": "Role allows user to access FHIR Service according to SMART on FHIR specification",
+        "link": "https://management.azure.com4ba50f17-9666-485c-a643-ff00808643f0?api-version=2022-04-01"
+    },
+    {
+        "id": "a001fd3d-188f-4b5d-821b-7da978bf7442",
+        "name": "Cognitive Services OpenAI Contributor",
+        "description": "Full access including the ability to fine-tune, deploy and generate text",
+        "link": "https://management.azure.coma001fd3d-188f-4b5d-821b-7da978bf7442?api-version=2022-04-01"
+    },
+    {
+        "id": "5e0bd9bd-7b93-4f28-af87-19fc36ad61bd",
+        "name": "Cognitive Services OpenAI User",
+        "description": "Ability to view files, models, deployments. Readers can't make any changes They can inference and create images",
+        "link": "https://management.azure.com5e0bd9bd-7b93-4f28-af87-19fc36ad61bd?api-version=2022-04-01"
+    },
+    {
+        "id": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
+        "name": "Impact Reporter",
+        "description": "Allows access to create/report, read and delete impacts",
+        "link": "https://management.azure.com36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
+    },
+    {
+        "id": "68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e",
+        "name": "Impact Reader",
+        "description": "Allows read-only access to reported impacts and impact categories",
+        "link": "https://management.azure.com68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e?api-version=2022-04-01"
+    },
+    {
+        "id": "1afdec4b-e479-420e-99e7-f82237c7c5e6",
+        "name": "Azure Kubernetes Service Cluster Monitoring User",
+        "description": "List cluster monitoring user credential action.",
+        "link": "https://management.azure.com1afdec4b-e479-420e-99e7-f82237c7c5e6?api-version=2022-04-01"
+    },
+    {
+        "id": "ad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b",
+        "name": "ContainerApp Reader",
+        "description": "View all containerapp resources, but does not allow you to make any changes.",
+        "link": "https://management.azure.comad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b?api-version=2022-04-01"
+    },
+    {
+        "id": "f5819b54-e033-4d82-ac66-4fec3cbf3f4c",
+        "name": "Azure Connected Machine Resource Manager",
+        "description": "Custom Role for AzureStackHCI RP to manage hybrid compute machines and hybrid connectivity endpoints in a resource group",
+        "link": "https://management.azure.comf5819b54-e033-4d82-ac66-4fec3cbf3f4c?api-version=2022-04-01"
+    },
+    {
+        "id": "189207d4-bb67-4208-a635-b06afe8b2c57",
+        "name": "SqlDb Migration Role",
+        "description": "Role for SqlDb migration",
+        "link": "https://management.azure.com189207d4-bb67-4208-a635-b06afe8b2c57?api-version=2022-04-01"
+    },
+    {
+        "id": "c4bc862a-3b64-4a35-a021-a380c159b042",
+        "name": "Bayer Ag Powered Services GDU Solution",
+        "description": "Provide access to GDU Solution by Bayer Ag Powered Services",
+        "link": "https://management.azure.comc4bc862a-3b64-4a35-a021-a380c159b042?api-version=2022-04-01"
+    },
+    {
+        "id": "ef29765d-0d37-4119-a4f8-f9f9902c9588",
+        "name": "Bayer Ag Powered Services Imagery Solution",
+        "description": "Provide access to Imagery Solution by Bayer Ag Powered Services",
+        "link": "https://management.azure.comef29765d-0d37-4119-a4f8-f9f9902c9588?api-version=2022-04-01"
+    },
+    {
+        "id": "0105a6b0-4bb9-43d2-982a-12806f9faddb",
+        "name": "Azure Center for SAP solutions Service role for management",
+        "description": "This role has permissions that the user assigned managed identity must have to enable registration for the existing systems.",
+        "link": "https://management.azure.com0105a6b0-4bb9-43d2-982a-12806f9faddb?api-version=2022-04-01"
+    },
+    {
+        "id": "6d949e1d-41e2-46e3-8920-c6e4f31a8310",
+        "name": "Azure Center for SAP solutions Management role",
+        "description": "This role has permissions which allow users to register existing systems, view and manage systems.",
+        "link": "https://management.azure.com6d949e1d-41e2-46e3-8920-c6e4f31a8310?api-version=2022-04-01"
+    },
+    {
+        "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
+        "name": "Kubernetes Agentless Operator",
+        "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
+        "link": "https://management.azure.comd5a2ae44-610b-4500-93be-660a0c5f5ca6?api-version=2022-04-01"
+    },
+    {
+        "id": "f0310ce6-e953-4cf8-b892-fb1c87eaf7f6",
+        "name": "Azure Usage Billing Data Sender",
+        "description": "Azure Usage Billing shared BuiltIn role to be used for all Customer Account Authentication",
+        "link": "https://management.azure.comf0310ce6-e953-4cf8-b892-fb1c87eaf7f6?api-version=2022-04-01"
+    },
+    {
+        "id": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
+        "name": "Azure Container Registry secure supply chain operator service role",
+        "description": "Grants Microsoft Defender for Cloud access to Azure Container Registry for security assessment of container images",
+        "link": "https://management.azure.com96062cf7-95ca-4f89-9b9d-2a2aa47356af?api-version=2022-04-01"
+    },
+    {
+        "id": "1d335eef-eee1-47fe-a9e0-53214eba8872",
+        "name": "SqlMI Migration Role",
+        "description": "Role for SqlMI migration",
+        "link": "https://management.azure.com1d335eef-eee1-47fe-a9e0-53214eba8872?api-version=2022-04-01"
+    },
+    {
+        "id": "a9b99099-ead7-47db-8fcf-072597a61dfa",
+        "name": "Bayer Ag Powered Services CWUM Solution",
+        "description": "Provide access to CWUM Solution by Bayer Ag Powered Services",
+        "link": "https://management.azure.coma9b99099-ead7-47db-8fcf-072597a61dfa?api-version=2022-04-01"
+    },
+    {
+        "id": "ae8036db-e102-405b-a1b9-bae082ea436d",
+        "name": "SqlVM Migration Role",
+        "description": "Role for SqlVM migration",
+        "link": "https://management.azure.comae8036db-e102-405b-a1b9-bae082ea436d?api-version=2022-04-01"
+    },
+    {
+        "id": "0ab34830-df19-4f8c-b84e-aa85b8afa6e8",
+        "name": "Azure Front Door Domain Contributor",
+        "description": "For internal use within Azure. Can manage Azure Front Door domains, but can't grant access to other users.",
+        "link": "https://management.azure.com0ab34830-df19-4f8c-b84e-aa85b8afa6e8?api-version=2022-04-01"
+    },
+    {
+        "id": "0db238c4-885e-4c4f-a933-aa2cef684fca",
+        "name": "Azure Front Door Secret Reader",
+        "description": "For internal use within Azure. Can view Azure Front Door secrets, but can't make changes.",
+        "link": "https://management.azure.com0db238c4-885e-4c4f-a933-aa2cef684fca?api-version=2022-04-01"
+    },
+    {
+        "id": "3f2eb865-5811-4578-b90a-6fc6fa0df8e5",
+        "name": "Azure Front Door Secret Contributor",
+        "description": "For internal use within Azure. Can manage Azure Front Door secrets, but can't grant access to other users.",
+        "link": "https://management.azure.com3f2eb865-5811-4578-b90a-6fc6fa0df8e5?api-version=2022-04-01"
+    },
+    {
+        "id": "0f99d363-226e-4dca-9920-b807cf8e1a5f",
+        "name": "Azure Front Door Domain Reader",
+        "description": "For internal use within Azure. Can view Azure Front Door domains, but can't make changes.",
+        "link": "https://management.azure.com0f99d363-226e-4dca-9920-b807cf8e1a5f?api-version=2022-04-01"
+    },
+    {
+        "id": "bda0d508-adf1-4af0-9c28-88919fc3ae06",
+        "name": "Azure Stack HCI Administrator",
+        "description": "Grants full access to the cluster and its resources, including the ability to register Azure Stack HCI and assign others as Azure Arc HCI VM Contributor and/or Azure Arc HCI VM Reader",
+        "link": "https://management.azure.combda0d508-adf1-4af0-9c28-88919fc3ae06?api-version=2022-04-01"
+    },
+    {
+        "id": "d18ad5f3-1baf-4119-b49b-d944edb1f9d0",
+        "name": "MySQL Backup And Export Operator",
+        "description": "Grants full access to manage backup and export resources",
+        "link": "https://management.azure.comd18ad5f3-1baf-4119-b49b-d944edb1f9d0?api-version=2022-04-01"
+    },
+    {
+        "id": "a8835c7d-b5cb-47fa-b6f0-65ea10ce07a2",
+        "name": "LocalNGFirewallAdministrator role",
+        "description": "Allows user to create, modify, describe, or delete NGFirewalls.",
+        "link": "https://management.azure.coma8835c7d-b5cb-47fa-b6f0-65ea10ce07a2?api-version=2022-04-01"
+    },
+    {
+        "id": "bfc3b73d-c6ff-45eb-9a5f-40298295bf20",
+        "name": "LocalRulestacksAdministrator role",
+        "description": "Allows users to create, modify, describe, or delete Rulestacks.",
+        "link": "https://management.azure.combfc3b73d-c6ff-45eb-9a5f-40298295bf20?api-version=2022-04-01"
+    },
+    {
+        "id": "7392c568-9289-4bde-aaaa-b7131215889d",
+        "name": "Azure Extension for SQL Server Deployment",
+        "description": "Microsoft.AzureArcData service role to enable deployment of Azure Extension for SQL Server",
+        "link": "https://management.azure.com7392c568-9289-4bde-aaaa-b7131215889d?api-version=2022-04-01"
+    },
+    {
+        "id": "d6470a16-71bd-43ab-86b3-6f3a73f4e787",
+        "name": "Azure Maps Data Read and Batch Role",
+        "description": "This role can be used to assign read and batch actions on Azure Maps.",
+        "link": "https://management.azure.comd6470a16-71bd-43ab-86b3-6f3a73f4e787?api-version=2022-04-01"
+    },
+    {
+        "id": "d59a3e9c-6d52-4a5a-aeed-6bf3cf0e31da",
+        "name": "API Management Service Workspace API Product Manager",
+        "description": "Has the same access as API Management Service Workspace API Developer as well as read access to users and write access to allow assigning users to groups. This role should be assigned on the service scope.",
+        "link": "https://management.azure.comd59a3e9c-6d52-4a5a-aeed-6bf3cf0e31da?api-version=2022-04-01"
+    },
+    {
+        "id": "56328988-075d-4c6a-8766-d93edd6725b6",
+        "name": "API Management Workspace API Developer",
+        "description": "Has read access to entities in the workspace and read and write access to entities for editing APIs. This role should be assigned on the workspace scope.",
+        "link": "https://management.azure.com56328988-075d-4c6a-8766-d93edd6725b6?api-version=2022-04-01"
+    },
+    {
+        "id": "ef1c2c96-4a77-49e8-b9a4-6179fe1d2fd2",
+        "name": "API Management Workspace Reader",
+        "description": "Has read-only access to entities in the workspace. This role should be assigned on the workspace scope.",
+        "link": "https://management.azure.comef1c2c96-4a77-49e8-b9a4-6179fe1d2fd2?api-version=2022-04-01"
+    },
+    {
+        "id": "73c2c328-d004-4c5e-938c-35c6f5679a1f",
+        "name": "API Management Workspace API Product Manager",
+        "description": "Has read access to entities in the workspace and read and write access to entities for publishing APIs. This role should be assigned on the workspace scope.",
+        "link": "https://management.azure.com73c2c328-d004-4c5e-938c-35c6f5679a1f?api-version=2022-04-01"
+    },
+    {
+        "id": "9565a273-41b9-4368-97d2-aeb0c976a9b3",
+        "name": "API Management Service Workspace API Developer",
+        "description": "Has read access to tags and products and write access to allow: assigning APIs to products, assigning tags to products and APIs. This role should be assigned on the service scope.",
+        "link": "https://management.azure.com9565a273-41b9-4368-97d2-aeb0c976a9b3?api-version=2022-04-01"
+    },
+    {
+        "id": "0c34c906-8d99-4cb7-8bb7-33f5b0a1a799",
+        "name": "API Management Workspace Contributor",
+        "description": "Can manage the workspace and view, but not modify its members. This role should be assigned on the workspace scope.",
+        "link": "https://management.azure.com0c34c906-8d99-4cb7-8bb7-33f5b0a1a799?api-version=2022-04-01"
+    },
+    {
+        "id": "b8eda974-7b85-4f76-af95-65846b26df6d",
+        "name": "Storage File Data Privileged Reader",
+        "description": "Customer has read access on Azure Storage file shares.",
+        "link": "https://management.azure.comb8eda974-7b85-4f76-af95-65846b26df6d?api-version=2022-04-01"
+    },
+    {
+        "id": "69566ab7-960f-475b-8e7c-b3118f30c6bd",
+        "name": "Storage File Data Privileged Contributor",
+        "description": "Customer has read, write, delete and modify NTFS permission access on Azure Storage file shares.",
+        "link": "https://management.azure.com69566ab7-960f-475b-8e7c-b3118f30c6bd?api-version=2022-04-01"
+    },
+    {
+        "id": "7eabc9a4-85f7-4f71-b8ab-75daaccc1033",
+        "name": "Windows 365 Network User",
+        "description": "This role is used by Windows 365 to read virtual networks and join the designated virtual networks.",
+        "link": "https://management.azure.com7eabc9a4-85f7-4f71-b8ab-75daaccc1033?api-version=2022-04-01"
+    },
+    {
+        "id": "3d55a8f6-4133-418d-8051-facdb1735758",
+        "name": "Windows365SubscriptionReader",
+        "description": "Read subscriptions, images, azure firewalls. This role is used in Windows365 scenarios.",
+        "link": "https://management.azure.com3d55a8f6-4133-418d-8051-facdb1735758?api-version=2022-04-01"
+    },
+    {
+        "id": "1f135831-5bbe-4924-9016-264044c00788",
+        "name": "Windows 365 Network Interface Contributor",
+        "description": "This role is used by Windows 365 to provision required network resources and join Microsoft-hosted VMs to network interfaces.",
+        "link": "https://management.azure.com1f135831-5bbe-4924-9016-264044c00788?api-version=2022-04-01"
+    },
+    {
+        "id": "ffc6bbe0-e443-4c3b-bf54-26581bb2f78e",
+        "name": "App Compliance Automation Reader",
+        "description": "Read, download the reports objects and related other resource objects.",
+        "link": "https://management.azure.comffc6bbe0-e443-4c3b-bf54-26581bb2f78e?api-version=2022-04-01"
+    },
+    {
+        "id": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
+        "name": "App Compliance Automation Administrator",
+        "description": "Create, read, download, modify and delete reports objects and related other resource objects.",
+        "link": "https://management.azure.com0f37683f-2463-46b6-9ce7-9b788b988ba2?api-version=2022-04-01"
+    },
+    {
+        "id": "8b9dfcab-4b77-4632-a6df-94bd07820648",
+        "name": "Azure Sphere Contributor",
+        "description": "Allows user read and write access to Azure Sphere resources.",
+        "link": "https://management.azure.com8b9dfcab-4b77-4632-a6df-94bd07820648?api-version=2022-04-01"
+    },
+    {
+        "id": "e9b8712a-cbcf-4ea7-b0f7-e71b803401e6",
+        "name": "SaaS Hub Contributor",
+        "description": "SaaS Hub contributor can manage SaaS Hub resource",
+        "link": "https://management.azure.come9b8712a-cbcf-4ea7-b0f7-e71b803401e6?api-version=2022-04-01"
+    },
+    {
+        "id": "c8ae6279-5a0b-4cb2-b3f0-d4d62845742c",
+        "name": "Azure Sphere Reader",
+        "description": "Allows user to read Azure Sphere resources.",
+        "link": "https://management.azure.comc8ae6279-5a0b-4cb2-b3f0-d4d62845742c?api-version=2022-04-01"
+    },
+    {
+        "id": "6d994134-994b-4a59-9974-f479f0b227fb",
+        "name": "Azure Sphere Publisher",
+        "description": "Allows user to read and download Azure Sphere resources and upload images.",
+        "link": "https://management.azure.com6d994134-994b-4a59-9974-f479f0b227fb?api-version=2022-04-01"
+    },
+    {
+        "id": "ea01e6af-a1c1-4350-9563-ad00f8c72ec5",
+        "name": "Azure Machine Learning Workspace Connection Secrets Reader",
+        "description": "Can list workspace connection secrets",
+        "link": "https://management.azure.comea01e6af-a1c1-4350-9563-ad00f8c72ec5?api-version=2022-04-01"
+    },
+    {
+        "id": "be1a1ac2-09d3-4261-9e57-a73a6e227f53",
+        "name": "Procurement Contributor",
+        "description": "Lets you manage the procurement of products and services.",
+        "link": "https://management.azure.combe1a1ac2-09d3-4261-9e57-a73a6e227f53?api-version=2022-04-01"
+    },
+    {
+        "id": "7ac06ca7-21ca-47e3-a67b-cbd6e6223baf",
+        "name": "Cognitive Search Serverless Data Contributor (Deprecated)",
+        "description": "This role has been deprecated",
+        "link": "https://management.azure.com7ac06ca7-21ca-47e3-a67b-cbd6e6223baf?api-version=2022-04-01"
+    },
+    {
+        "id": "79b01272-bf9f-4f4c-9517-5506269cf524",
+        "name": "Cognitive Search Serverless Data Reader (Deprecated)",
+        "description": "This role has been deprecated",
+        "link": "https://management.azure.com79b01272-bf9f-4f4c-9517-5506269cf524?api-version=2022-04-01"
+    },
+    {
+        "id": "5e28a61e-8040-49db-b175-bb5b88af6239",
+        "name": "Community Owner Role",
+        "description": "Community Owner Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.com5e28a61e-8040-49db-b175-bb5b88af6239?api-version=2022-04-01"
+    },
+    {
+        "id": "9c1607d1-791d-4c68-885d-c7b7aaff7c8a",
+        "name": "Firmware Analysis Admin",
+        "description": "Upload and analyze firmware images in Defender for IoT",
+        "link": "https://management.azure.com9c1607d1-791d-4c68-885d-c7b7aaff7c8a?api-version=2022-04-01"
+    },
+    {
+        "id": "8b54135c-b56d-4d72-a534-26097cfdc8d8",
+        "name": "Key Vault Data Access Administrator",
+        "description": "Manage access to Azure Key Vault by adding or removing role assignments for the Key Vault Administrator, Key Vault Certificates Officer, Key Vault Crypto Officer, Key Vault Crypto Service Encryption User, Key Vault Crypto User, Key Vault Reader, Key Vault Secrets Officer, or Key Vault Secrets User roles. Includes an ABAC condition to constrain role assignments.",
+        "link": "https://management.azure.com8b54135c-b56d-4d72-a534-26097cfdc8d8?api-version=2022-04-01"
+    },
+    {
+        "id": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
+        "name": "Defender for Storage Data Scanner",
+        "description": "Grants access to read blobs and update index tags. This role is used by the data scanner of Defender for Storage.",
+        "link": "https://management.azure.com1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40?api-version=2022-04-01"
+    },
+    {
+        "id": "df2711a6-406d-41cf-b366-b0250bff9ad1",
+        "name": "Compute Diagnostics Role",
+        "description": "Grants permissions to execute diagnostics provided by Compute Diagnostic Service for Compute Resources.",
+        "link": "https://management.azure.comdf2711a6-406d-41cf-b366-b0250bff9ad1?api-version=2022-04-01"
+    },
+    {
+        "id": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
+        "name": "Elastic SAN Network Admin",
+        "description": "Allows access to create Private Endpoints on SAN resources, and to read SAN resources",
+        "link": "https://management.azure.comfa6cecf6-5db3-4c43-8470-c540bcb4eafa?api-version=2022-04-01"
+    },
+    {
+        "id": "bba48692-92b0-4667-a9ad-c31c7b334ac2",
+        "name": "Cognitive Services Usages Reader",
+        "description": "Minimal permission to view Cognitive Services usages.",
+        "link": "https://management.azure.combba48692-92b0-4667-a9ad-c31c7b334ac2?api-version=2022-04-01"
+    },
+    {
+        "id": "c088a766-074b-43ba-90d4-1fb21feae531",
+        "name": "PostgreSQL Flexible Server Long Term Retention Backup Role",
+        "description": "Role to allow backup vault to access PostgreSQL Flexible Server Resource APIs for Long Term Retention Backup.",
+        "link": "https://management.azure.comc088a766-074b-43ba-90d4-1fb21feae531?api-version=2022-04-01"
+    },
+    {
+        "id": "a02f7c31-354d-4106-865a-deedf37fa038",
+        "name": "Search Parameter Manager",
+        "description": "Role allows user or principal access to $status and $reindex to update search parameters",
+        "link": "https://management.azure.coma02f7c31-354d-4106-865a-deedf37fa038?api-version=2022-04-01"
+    },
+    {
+        "id": "66f75aeb-eabe-4b70-9f1e-c350c4c9ad04",
+        "name": "Virtual Machine Data Access Administrator (preview)",
+        "description": "Manage access to Virtual Machines by adding or removing role assignments for the Virtual Machine Administrator Login and Virtual Machine User Login roles. Includes an ABAC condition to constrain role assignments.",
+        "link": "https://management.azure.com66f75aeb-eabe-4b70-9f1e-c350c4c9ad04?api-version=2022-04-01"
+    },
+    {
+        "id": "523776ba-4eb2-4600-a3c8-f2dc93da4bdb",
+        "name": "Logic Apps Standard Developer (Preview)",
+        "description": "You can create and edit workflows, connections, and settings for a Standard logic app. You can't make changes outside the workflow scope.",
+        "link": "https://management.azure.com523776ba-4eb2-4600-a3c8-f2dc93da4bdb?api-version=2022-04-01"
+    },
+    {
+        "id": "ad710c24-b039-4e85-a019-deb4a06e8570",
+        "name": "Logic Apps Standard Contributor (Preview)",
+        "description": "You can manage all aspects of a Standard logic app and workflows. You can't change access or ownership.",
+        "link": "https://management.azure.comad710c24-b039-4e85-a019-deb4a06e8570?api-version=2022-04-01"
+    },
+    {
+        "id": "b70c96e9-66fe-4c09-b6e7-c98e69c98555",
+        "name": "Logic Apps Standard Operator (Preview)",
+        "description": "You can enable and disable the logic app, resubmit workflow runs, as well as create connections. You can't edit workflows or settings.",
+        "link": "https://management.azure.comb70c96e9-66fe-4c09-b6e7-c98e69c98555?api-version=2022-04-01"
+    },
+    {
+        "id": "4accf36b-2c05-432f-91c8-5c532dff4c73",
+        "name": "Logic Apps Standard Reader (Preview)",
+        "description": "You have read-only access to all resources in a Standard logic app and workflows, including the workflow runs and their history.",
+        "link": "https://management.azure.com4accf36b-2c05-432f-91c8-5c532dff4c73?api-version=2022-04-01"
+    },
+    {
+        "id": "7b3e853f-ad5d-4fb5-a7b8-56a3581c7037",
+        "name": "IPAM Pool User",
+        "description": "Read IPAM Pools and child resources. Create and remove associations. This role is in preview and subject to change.",
+        "link": "https://management.azure.com7b3e853f-ad5d-4fb5-a7b8-56a3581c7037?api-version=2022-04-01"
+    },
+    {
+        "id": "e9c9ed2b-2a99-4071-b2ff-5b113ebf73a1",
+        "name": "SpatialMapsAccounts Account Owner",
+        "description": "Lets you manage data in your account, including deleting them",
+        "link": "https://management.azure.come9c9ed2b-2a99-4071-b2ff-5b113ebf73a1?api-version=2022-04-01"
+    },
+    {
+        "id": "0b962ed2-6d56-471c-bd5f-3477d83a7ba4",
+        "name": "Azure Resource Notifications System Topics Subscriber",
+        "description": "Lets you create system topics and event subscriptions on all system topics exposed currently and in the future by Azure Resource Notifications",
+        "link": "https://management.azure.com0b962ed2-6d56-471c-bd5f-3477d83a7ba4?api-version=2022-04-01"
+    },
+    {
+        "id": "90e8b822-3e73-47b5-868a-787dc80c008f",
+        "name": "Elastic SAN Volume Importer",
+        "description": "Allows for Importing Elastic San Volume",
+        "link": "https://management.azure.com90e8b822-3e73-47b5-868a-787dc80c008f?api-version=2022-04-01"
+    },
+    {
+        "id": "1c4770c0-34f7-4110-a1ea-a5855cc7a939",
+        "name": "Elastic SAN Snapshot Exporter",
+        "description": "Allows for creating and exporting Snapshot of Elastic San Volume",
+        "link": "https://management.azure.com1c4770c0-34f7-4110-a1ea-a5855cc7a939?api-version=2022-04-01"
+    },
+    {
+        "id": "49435da6-99fe-48a5-a235-fc668b9dc04a",
+        "name": "Community Contributor Role",
+        "description": "Community Contributor Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.com49435da6-99fe-48a5-a235-fc668b9dc04a?api-version=2022-04-01"
+    },
+    {
+        "id": "4b0f2fd7-60b4-4eca-896f-4435034f8bf5",
+        "name": "EventGrid TopicSpaces Subscriber",
+        "description": "Lets you subscribe messages on topicspaces.",
+        "link": "https://management.azure.com4b0f2fd7-60b4-4eca-896f-4435034f8bf5?api-version=2022-04-01"
+    },
+    {
+        "id": "a12b0b94-b317-4dcd-84a8-502ce99884c6",
+        "name": "EventGrid TopicSpaces Publisher",
+        "description": "Lets you publish messages on topicspaces.",
+        "link": "https://management.azure.coma12b0b94-b317-4dcd-84a8-502ce99884c6?api-version=2022-04-01"
+    },
+    {
+        "id": "d1a38570-4b05-4d70-b8e4-1100bcf76d12",
+        "name": "Data Boundary Tenant Administrator",
+        "description": "Allows tenant level administration for data boundaries.",
+        "link": "https://management.azure.comd1a38570-4b05-4d70-b8e4-1100bcf76d12?api-version=2022-04-01"
+    },
+    {
+        "id": "bb6577c4-ea0a-40b2-8962-ea18cb8ecd4e",
+        "name": "DeID Realtime Data User",
+        "description": "Execute requests against DeID realtime endpoint. This role is in preview and subject to change.",
+        "link": "https://management.azure.combb6577c4-ea0a-40b2-8962-ea18cb8ecd4e?api-version=2022-04-01"
+    },
+    {
+        "id": "b73a14ee-91f5-41b7-bd81-920e12466be9",
+        "name": "DeID Batch Data Reader",
+        "description": "Read DeID batch jobs. This role is in preview and subject to change.",
+        "link": "https://management.azure.comb73a14ee-91f5-41b7-bd81-920e12466be9?api-version=2022-04-01"
+    },
+    {
+        "id": "8a90fa6b-6997-4a07-8a95-30633a7c97b9",
+        "name": "DeID Batch Data Owner",
+        "description": "Create and manage DeID batch jobs. This role is in preview and subject to change.",
+        "link": "https://management.azure.com8a90fa6b-6997-4a07-8a95-30633a7c97b9?api-version=2022-04-01"
+    },
+    {
+        "id": "fa0d39e6-28e5-40cf-8521-1eb320653a4c",
+        "name": "Carbon Optimization Reader",
+        "description": "Allow read access to Azure Carbon Optimization data",
+        "link": "https://management.azure.comfa0d39e6-28e5-40cf-8521-1eb320653a4c?api-version=2022-04-01"
+    },
+    {
+        "id": "38863829-c2a4-4f8d-b1d2-2e325973ebc7",
+        "name": "Landing Zone Management Owner",
+        "description": "Microsoft.Sovereign Landing Zone Management Owner allowing to review and modify Landing Zone Configurations as well as reading and adding Landing Zone Registrations. Also enables read-access to policies and management groups for enabling the full user experience of the Sovereign Services RP in the Azure Portal (as otherwise some elements might not be accessible to end users).",
+        "link": "https://management.azure.com38863829-c2a4-4f8d-b1d2-2e325973ebc7?api-version=2022-04-01"
+    },
+    {
+        "id": "8fe6e843-6d9e-417b-9073-106b048f50bb",
+        "name": "Landing Zone Management Reader",
+        "description": "Microsoft.Sovereign Landing Zone Management Reader allowing to review Landing Zone Configurations and corresponding Registrations without the ability to modify. Also enables read-access to policies and management groups for enabling the full user experience of the Sovereign Services RP in the Azure Portal (as otherwise some elements might not be accessible to end users).",
+        "link": "https://management.azure.com8fe6e843-6d9e-417b-9073-106b048f50bb?api-version=2022-04-01"
+    },
+    {
+        "id": "865ae368-6a45-4bd1-8fbf-0d5151f56fc1",
+        "name": "Azure Stack HCI Device Management Role",
+        "description": "Microsoft.AzureStackHCI Device Management Role",
+        "link": "https://management.azure.com865ae368-6a45-4bd1-8fbf-0d5151f56fc1?api-version=2022-04-01"
+    },
+    {
+        "id": "4dae6930-7baf-46f5-909e-0383bc931c46",
+        "name": "Azure Customer Lockbox Approver for Subscription",
+        "description": "Can approve Microsoft support requests to access specific resources contained within a subscription, or the subscription itself, when Customer Lockbox for Microsoft Azure is enabled on the tenant where the subscription resides. - in Public Preview.",
+        "link": "https://management.azure.com4dae6930-7baf-46f5-909e-0383bc931c46?api-version=2022-04-01"
+    },
+    {
+        "id": "7b1f81f9-4196-4058-8aae-762e593270df",
+        "name": "Azure Resource Bridge Deployment Role",
+        "description": "Azure Resource Bridge Deployment Role",
+        "link": "https://management.azure.com7b1f81f9-4196-4058-8aae-762e593270df?api-version=2022-04-01"
+    },
+    {
+        "id": "4b3fe76c-f777-4d24-a2d7-b027b0f7b273",
+        "name": "Azure Stack HCI VM Reader",
+        "description": "Grants permissions to view VMs",
+        "link": "https://management.azure.com4b3fe76c-f777-4d24-a2d7-b027b0f7b273?api-version=2022-04-01"
+    },
+    {
+        "id": "64702f94-c441-49e6-a78b-ef80e0188fee",
+        "name": "Azure AI Developer",
+        "description": "Can perform all actions within an Azure AI resource besides managing the resource itself.",
+        "link": "https://management.azure.com64702f94-c441-49e6-a78b-ef80e0188fee?api-version=2022-04-01"
+    },
+    {
+        "id": "874d1c73-6003-4e60-a13a-cb31ea190a85",
+        "name": "Azure Stack HCI VM Contributor",
+        "description": "Grants permissions to perform all VM actions",
+        "link": "https://management.azure.com874d1c73-6003-4e60-a13a-cb31ea190a85?api-version=2022-04-01"
+    },
+    {
+        "id": "eb960402-bf75-4cc3-8d68-35b34f960f72",
+        "name": "Deployment Environments Reader",
+        "description": "Provides read access to environment resources.",
+        "link": "https://management.azure.comeb960402-bf75-4cc3-8d68-35b34f960f72?api-version=2022-04-01"
+    },
+    {
+        "id": "78cbd9e7-9798-4e2e-9b5a-547d9ebb31fb",
+        "name": "EventGrid Data Receiver",
+        "description": "Allows receive access to event grid events.",
+        "link": "https://management.azure.com78cbd9e7-9798-4e2e-9b5a-547d9ebb31fb?api-version=2022-04-01"
+    },
+    {
+        "id": "1d8c3fe3-8864-474b-8749-01e3783e8157",
+        "name": "EventGrid Data Contributor",
+        "description": "Allows send and receive access to event grid events.",
+        "link": "https://management.azure.com1d8c3fe3-8864-474b-8749-01e3783e8157?api-version=2022-04-01"
+    },
+    {
+        "id": "8aac15f0-d885-4138-8afa-bfb5872f7d13",
+        "name": "Advisor Reviews Contributor",
+        "description": "View reviews for a workload and triage recommendations linked to them.",
+        "link": "https://management.azure.com8aac15f0-d885-4138-8afa-bfb5872f7d13?api-version=2022-04-01"
+    },
+    {
+        "id": "c64499e0-74c3-47ad-921c-13865957895c",
+        "name": "Advisor Reviews Reader",
+        "description": "View reviews for a workload and recommendations linked to them.",
+        "link": "https://management.azure.comc64499e0-74c3-47ad-921c-13865957895c?api-version=2022-04-01"
+    },
+    {
+        "id": "3afb7f49-54cb-416e-8c09-6dc049efa503",
+        "name": "Azure AI Inference Deployment Operator",
+        "description": "Can perform all actions required to create a resource deployment within a resource group.",
+        "link": "https://management.azure.com3afb7f49-54cb-416e-8c09-6dc049efa503?api-version=2022-04-01"
+    },
+    {
+        "id": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",
+        "name": "Connected Cluster Managed Identity CheckAccess Reader",
+        "description": "Built-in role that allows a Connected Cluster managed identity to call the checkAccess API",
+        "link": "https://management.azure.com65a14201-8f6c-4c28-bec4-12619c5a9aaa?api-version=2022-04-01"
+    },
+    {
+        "id": "a8d4b70f-0fb9-4f72-b267-b87b2f990aec",
+        "name": "AgFood Platform Dataset Admin",
+        "description": "Provides access to Dataset APIs",
+        "link": "https://management.azure.coma8d4b70f-0fb9-4f72-b267-b87b2f990aec?api-version=2022-04-01"
+    },
+    {
+        "id": "0f641de8-0b88-4198-bdef-bd8b45ceba96",
+        "name": "Defender for Storage Scanner Operator",
+        "description": "Lets you enable and configure Microsoft Defender for Storage's malware scanning and sensitive data discovery features on your storage accounts. Includes an ABAC condition to limit role assignments.",
+        "link": "https://management.azure.com0f641de8-0b88-4198-bdef-bd8b45ceba96?api-version=2022-04-01"
+    },
+    {
+        "id": "662802e2-50f6-46b0-aed2-e834bacc6d12",
+        "name": "Azure Front Door Profile Reader",
+        "description": "Can view AFD standard and premium profiles and their endpoints, but can't make changes.",
+        "link": "https://management.azure.com662802e2-50f6-46b0-aed2-e834bacc6d12?api-version=2022-04-01"
+    },
+    {
+        "id": "86fede04-b259-4277-8c3e-e26b9865abd8",
+        "name": "Enclave Reader Role",
+        "description": "Enclave Reader Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.com86fede04-b259-4277-8c3e-e26b9865abd8?api-version=2022-04-01"
+    },
+    {
+        "id": "fc3f91a1-40bf-4439-8c46-45edbd83563a",
+        "name": "Azure Kubernetes Service Hybrid Cluster User Role",
+        "description": "List cluster user credential action.",
+        "link": "https://management.azure.comfc3f91a1-40bf-4439-8c46-45edbd83563a?api-version=2022-04-01"
+    },
+    {
+        "id": "b5092dac-c796-4349-8681-1a322a31c3f9",
+        "name": "Azure Kubernetes Service Hybrid Cluster Admin Role",
+        "description": "List cluster admin credential action.",
+        "link": "https://management.azure.comb5092dac-c796-4349-8681-1a322a31c3f9?api-version=2022-04-01"
+    },
+    {
+        "id": "e7037d40-443a-4434-a3fb-8cd202011e1d",
+        "name": "Azure Kubernetes Service Hybrid Contributor Role",
+        "description": "Grants access to read and write Azure Kubernetes Services hybrid clusters",
+        "link": "https://management.azure.come7037d40-443a-4434-a3fb-8cd202011e1d?api-version=2022-04-01"
+    },
+    {
+        "id": "3d5f3eff-eb94-473d-91e3-7aac74d6c0bb",
+        "name": "Enclave Owner Role",
+        "description": "Enclave Owner Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.com3d5f3eff-eb94-473d-91e3-7aac74d6c0bb?api-version=2022-04-01"
+    },
+    {
+        "id": "19feefae-eacc-4106-81fd-ac34c0671f14",
+        "name": "Enclave Contributor Role",
+        "description": "Enclave Contributor Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.com19feefae-eacc-4106-81fd-ac34c0671f14?api-version=2022-04-01"
+    },
+    {
+        "id": "e6aadb6b-e64f-41c0-9392-d2bba3bc3ebc",
+        "name": "Community Reader Role",
+        "description": "Community Reader Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.come6aadb6b-e64f-41c0-9392-d2bba3bc3ebc?api-version=2022-04-01"
+    },
+    {
+        "id": "a316ed6d-1efe-48ac-ac08-f7995a9c26fb",
+        "name": "Storage Account Encryption Scope Contributor Role",
+        "description": "Allows management of Encryption Scopes on a Storage Account",
+        "link": "https://management.azure.coma316ed6d-1efe-48ac-ac08-f7995a9c26fb?api-version=2022-04-01"
+    },
+    {
+        "id": "44f0a1a8-6fea-4b35-980a-8ff50c487c97",
+        "name": "Operator Nexus Key Vault Writer Service Role (Preview)",
+        "description": "(Preview) Provides Azure Operator Nexus services the ability to write to a Key Vault. This role is in preview and subject to change.",
+        "link": "https://management.azure.com44f0a1a8-6fea-4b35-980a-8ff50c487c97?api-version=2022-04-01"
+    },
+    {
+        "id": "08bbd89e-9f13-488c-ac41-acfcb10c90ab",
+        "name": "Key Vault Crypto Service Release User",
+        "description": "Release keys. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.com08bbd89e-9f13-488c-ac41-acfcb10c90ab?api-version=2022-04-01"
+    },
+    {
+        "id": "0cd9749a-3aaf-4ae5-8803-bd217705bf3b",
+        "name": "KubernetesRuntime Storage Class Contributor Role",
+        "description": "Read, write, and delete KubernetesRuntime storage classes in an Arc connected Kubernetes cluster",
+        "link": "https://management.azure.com0cd9749a-3aaf-4ae5-8803-bd217705bf3b?api-version=2022-04-01"
+    },
+    {
+        "id": "609c0c20-e0a0-4a71-b99f-e7e755ac493d",
+        "name": "Azure Programmable Connectivity Gateway User",
+        "description": "Allows access to all Gateway dataplane APIs.",
+        "link": "https://management.azure.com609c0c20-e0a0-4a71-b99f-e7e755ac493d?api-version=2022-04-01"
+    },
+    {
+        "id": "db79e9a7-68ee-4b58-9aeb-b90e7c24fcba",
+        "name": "Key Vault Certificate User",
+        "description": "Read certificate contents. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "link": "https://management.azure.comdb79e9a7-68ee-4b58-9aeb-b90e7c24fcba?api-version=2022-04-01"
+    },
+    {
+        "id": "52fd16bd-6ed5-46af-9c40-29cbd7952a29",
+        "name": "Azure Spring Apps Managed Components Log Reader Role",
+        "description": "Read real-time logs for all managed components in Azure Spring Apps",
+        "link": "https://management.azure.com52fd16bd-6ed5-46af-9c40-29cbd7952a29?api-version=2022-04-01"
+    },
+    {
+        "id": "6593e776-2a30-40f9-8a32-4fe28b77655d",
+        "name": "Azure Spring Apps Application Configuration Service Log Reader Role",
+        "description": "Read real-time logs for Application Configuration Service in Azure Spring Apps",
+        "link": "https://management.azure.com6593e776-2a30-40f9-8a32-4fe28b77655d?api-version=2022-04-01"
+    },
+    {
+        "id": "4301dc2a-25a9-44b0-ae63-3636cf7f2bd2",
+        "name": "Azure Spring Apps Spring Cloud Gateway Log Reader Role",
+        "description": "Read real-time logs for Spring Cloud Gateway in Azure Spring Apps",
+        "link": "https://management.azure.com4301dc2a-25a9-44b0-ae63-3636cf7f2bd2?api-version=2022-04-01"
+    },
+    {
+        "id": "207bcc4b-86a6-4487-9141-d6c1f4c238aa",
+        "name": "Azure Edge On-Site Deployment Engineer",
+        "description": "Grants you access to take actions as an on-site person to assist in the provisioning of an edge device",
+        "link": "https://management.azure.com207bcc4b-86a6-4487-9141-d6c1f4c238aa?api-version=2022-04-01"
+    },
+    {
+        "id": "c7244dfb-f447-457d-b2ba-3999044d1706",
+        "name": "Azure API Center Data Reader",
+        "description": "Allows for access to Azure API Center data plane read operations.",
+        "link": "https://management.azure.comc7244dfb-f447-457d-b2ba-3999044d1706?api-version=2022-04-01"
+    },
+    {
+        "id": "dfb2f09d-25f8-4558-8986-497084006d7a",
+        "name": "Azure impact-insight reader",
+        "description": "built-in role for azure impact-insight read access",
+        "link": "https://management.azure.comdfb2f09d-25f8-4558-8986-497084006d7a?api-version=2022-04-01"
+    },
+    {
+        "id": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
+        "name": "Defender Kubernetes Agent Operator",
+        "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
+        "link": "https://management.azure.com8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01"
+    },
+    {
+        "id": "a1f96423-95ce-4224-ab27-4e3dc72facd4",
+        "name": "Azure Red Hat OpenShift Cloud Controller Manager Role",
+        "description": "Enables permissions for the operator to manage and update the cloud controller managers deployed on top of OpenShift.",
+        "link": "https://management.azure.coma1f96423-95ce-4224-ab27-4e3dc72facd4?api-version=2022-04-01"
+    },
+    {
+        "id": "5b7237c5-45e1-49d6-bc18-a1f62f400748",
+        "name": "Azure Red Hat OpenShift Storage Operator Role",
+        "description": "Enables permissions to set OpenShift cluster-wide storage defaults. It ensures a default storageclass exists for clusters. It also installs Container Storage Interface (CSI) drivers which enable your cluster to use various storage backends.",
+        "link": "https://management.azure.com5b7237c5-45e1-49d6-bc18-a1f62f400748?api-version=2022-04-01"
+    },
+    {
+        "id": "be7a6435-15ae-4171-8f30-4a343eff9e8f",
+        "name": "Azure Red Hat OpenShift Network Operator Role",
+        "description": "Enables permissions to install and upgrade the networking components on an OpenShift cluster.",
+        "link": "https://management.azure.combe7a6435-15ae-4171-8f30-4a343eff9e8f?api-version=2022-04-01"
+    },
+    {
+        "id": "8b32b316-c2f5-4ddf-b05b-83dacd2d08b5",
+        "name": "Azure Red Hat OpenShift Image Registry Operator Role",
+        "description": "Enables permissions for the operator to manage a singleton instance of the OpenShift image registry. It manages all configuration of the registry, including creating storage.",
+        "link": "https://management.azure.com8b32b316-c2f5-4ddf-b05b-83dacd2d08b5?api-version=2022-04-01"
+    },
+    {
+        "id": "0d7aedc0-15fd-4a67-a412-efad370c947e",
+        "name": "Azure Red Hat OpenShift Azure Files Storage Operator Role",
+        "description": "Enables permissions to set OpenShift cluster-wide storage defaults. It ensures a default storageclass exists for clusters. It also installs Container Storage Interface (CSI) drivers which enable your cluster to use Azure Files.",
+        "link": "https://management.azure.com0d7aedc0-15fd-4a67-a412-efad370c947e?api-version=2022-04-01"
+    },
+    {
+        "id": "4436bae4-7702-4c84-919b-c4069ff25ee2",
+        "name": "Azure RedHat OpenShift Service Operator",
+        "description": "The ARO Operator is responsible for maintaining features, checks, and resources that are specific to an Azure Red Hat OpenShift cluster's continued functionality as a managed service. This includes, but is not limited to, machine management and health, network configuration, and monitoring.",
+        "link": "https://management.azure.com4436bae4-7702-4c84-919b-c4069ff25ee2?api-version=2022-04-01"
+    },
+    {
+        "id": "0358943c-7e01-48ba-8889-02cc51d78637",
+        "name": "Azure Red Hat OpenShift Machine API Operator Role",
+        "description": "Enables permissions for the operator to manage the lifecycle of specific purpose custom resource definitions (CRD), controllers, and RBAC objects that extend the Kubernetes API. This declares the desired state of machines in a cluster.",
+        "link": "https://management.azure.com0358943c-7e01-48ba-8889-02cc51d78637?api-version=2022-04-01"
+    },
+    {
+        "id": "0336e1d3-7a87-462b-b6db-342b63f7802c",
+        "name": "Azure Red Hat OpenShift Cluster Ingress Operator Role",
+        "description": "Enables permissions for the operator to configure and manage the OpenShift router.",
+        "link": "https://management.azure.com0336e1d3-7a87-462b-b6db-342b63f7802c?api-version=2022-04-01"
+    },
+    {
+        "id": "5a382001-fe36-41ff-bba4-8bf06bd54da9",
+        "name": "Azure Sphere Owner",
+        "description": "Allows user read and write access to Azure Sphere resources and RBAC configuration, includes an ABAC condition to constrain role assignments.",
+        "link": "https://management.azure.com5a382001-fe36-41ff-bba4-8bf06bd54da9?api-version=2022-04-01"
+    },
+    {
+        "id": "e2217c0e-04bb-4724-9580-91cf9871bc01",
+        "name": "GroupQuota Request Operator",
+        "description": "Read and create GroupQuota requests, get GroupQuota request status, and get groupQuotaLimits.",
+        "link": "https://management.azure.come2217c0e-04bb-4724-9580-91cf9871bc01?api-version=2022-04-01"
+    },
+    {
+        "id": "d0f495dc-44ef-4140-aeb0-b89110e6a7c1",
+        "name": "GroupQuota Reader",
+        "description": "Read GroupQuota requests, get GroupQuota request status, and get groupQuotaLimits.",
+        "link": "https://management.azure.comd0f495dc-44ef-4140-aeb0-b89110e6a7c1?api-version=2022-04-01"
+    },
+    {
+        "id": "539283cd-c185-4a9a-9503-d35217a1db7b",
+        "name": "Bayer Ag Powered Services Smart Boundary Solution User Role",
+        "description": "Provide access to Smart Boundary Solution by Bayer Ag Powered Services",
+        "link": "https://management.azure.com539283cd-c185-4a9a-9503-d35217a1db7b?api-version=2022-04-01"
+    },
+    {
+        "id": "8480c0f0-4509-4229-9339-7c10018cb8c4",
+        "name": "Defender CSPM Storage Scanner Operator",
+        "description": "Lets you enable and configure Microsoft Defender CSPM's sensitive data discovery feature on your storage accounts. Includes an ABAC condition to limit role assignments.",
+        "link": "https://management.azure.com8480c0f0-4509-4229-9339-7c10018cb8c4?api-version=2022-04-01"
+    },
+    {
+        "id": "6b534d80-e337-47c4-864f-140f5c7f593d",
+        "name": "Advisor Recommendations Contributor (Assessments and Reviews)",
+        "description": "View assessment recommendations, accepted review recommendations, and manage the recommendations lifecycle (mark recommendations as completed, postponed or dismissed, in progress, or not started).",
+        "link": "https://management.azure.com6b534d80-e337-47c4-864f-140f5c7f593d?api-version=2022-04-01"
+    },
+    {
+        "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
+        "name": "GeoCatalog Administrator",
+        "description": "Grants full access to manage GeoCatalogs, but does not allow you to assign roles in Azure RBAC.",
+        "link": "https://management.azure.comc9c97b9c-105d-4bb5-a2a7-7d15666c2484?api-version=2022-04-01"
+    },
+    {
+        "id": "b7b8f583-43d0-40ae-b147-6b46f53661c1",
+        "name": "GeoCatalog Reader",
+        "description": "View GeoCatalogs, but does not allow you to make any changes.",
+        "link": "https://management.azure.comb7b8f583-43d0-40ae-b147-6b46f53661c1?api-version=2022-04-01"
+    },
+    {
+        "id": "af854a69-80ce-4ff7-8447-f1118a2e0ca8",
+        "name": "Health Bot Editor",
+        "description": "Users with editor access can sign in, view and edit all the bot resources, scenarios and configuration setting except for the bot instance keys & secrets and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs). A read-only access to the bot skills and channels.",
+        "link": "https://management.azure.comaf854a69-80ce-4ff7-8447-f1118a2e0ca8?api-version=2022-04-01"
+    },
+    {
+        "id": "eb5a76d5-50e7-4c33-a449-070e7c9c4cf2",
+        "name": "Health Bot Reader",
+        "description": "Users with reader access can sign in, have read-only access to the bot resources, scenarios and configuration setting except for the bot instance keys & secrets (including Authentication, Data Connection and Channels keys) and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs).",
+        "link": "https://management.azure.comeb5a76d5-50e7-4c33-a449-070e7c9c4cf2?api-version=2022-04-01"
+    },
+    {
+        "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
+        "name": "Azure Programmable Connectivity Gateway Dataplane User",
+        "description": "Allows access to all Gateway dataplane APIs.",
+        "link": "https://management.azure.comc20923c5-b089-47a5-bf67-fd89569c4ad9?api-version=2022-04-01"
+    },
+    {
+        "id": "f1082fec-a70f-419f-9230-885d2550fb38",
+        "name": "Health Bot Admin",
+        "description": "Users with admin access can sign in, view and edit all of the bot resources, scenarios and configuration setting including the bot instance keys & secrets.",
+        "link": "https://management.azure.comf1082fec-a70f-419f-9230-885d2550fb38?api-version=2022-04-01"
+    },
+    {
+        "id": "b556d68e-0be0-4f35-a333-ad7ee1ce17ea",
+        "name": "Azure AI Enterprise Network Connection Approver",
+        "description": "Can approve private endpoint connections to Azure AI common dependency resources",
+        "link": "https://management.azure.comb556d68e-0be0-4f35-a333-ad7ee1ce17ea?api-version=2022-04-01"
+    },
+    {
+        "id": "08d4c71a-cc63-4ce4-a9c8-5dd251b4d619",
+        "name": "Azure Container Storage Operator",
+        "description": "Role required by a Managed Identity for Azure Container Storage operations",
+        "link": "https://management.azure.com08d4c71a-cc63-4ce4-a9c8-5dd251b4d619?api-version=2022-04-01"
+    },
+    {
+        "id": "95dd08a6-00bd-4661-84bf-f6726f83a4d0",
+        "name": "Azure Container Storage Contributor",
+        "description": "Lets you install Azure Container Storage and manage its storage resources",
+        "link": "https://management.azure.com95dd08a6-00bd-4661-84bf-f6726f83a4d0?api-version=2022-04-01"
+    },
+    {
+        "id": "95de85bd-744d-4664-9dde-11430bc34793",
+        "name": "Azure Container Storage Owner",
+        "description": "Lets you install Azure Container Storage and grants access to its storage resources",
+        "link": "https://management.azure.com95de85bd-744d-4664-9dde-11430bc34793?api-version=2022-04-01"
+    },
+    {
+        "id": "5d3f1697-4507-4d08-bb4a-477695db5f82",
+        "name": "Azure Kubernetes Service Arc Contributor Role",
+        "description": "Grants access to read and write Azure Kubernetes Services hybrid clusters",
+        "link": "https://management.azure.com5d3f1697-4507-4d08-bb4a-477695db5f82?api-version=2022-04-01"
+    },
+    {
+        "id": "233ca253-b031-42ff-9fba-87ef12d6b55f",
+        "name": "Azure Kubernetes Service Arc Cluster User Role",
+        "description": "List cluster user credential action.",
+        "link": "https://management.azure.com233ca253-b031-42ff-9fba-87ef12d6b55f?api-version=2022-04-01"
+    },
+    {
+        "id": "b29efa5f-7782-4dc3-9537-4d5bc70a5e9f",
+        "name": "Azure Kubernetes Service Arc Cluster Admin Role",
+        "description": "List cluster admin credential action.",
+        "link": "https://management.azure.comb29efa5f-7782-4dc3-9537-4d5bc70a5e9f?api-version=2022-04-01"
+    },
+    {
+        "id": "f54b6d04-23c6-443e-b462-9c16ab7b4a52",
+        "name": "Backup MUA Operator",
+        "description": "Backup MultiUser-Authorization. Allows user to perform critical operation protected by resourceguard",
+        "link": "https://management.azure.comf54b6d04-23c6-443e-b462-9c16ab7b4a52?api-version=2022-04-01"
+    },
+    {
+        "id": "c2a970b4-16a7-4a51-8c84-8a8ea6ee0bb8",
+        "name": "Backup MUA Admin",
+        "description": "Backup MultiUser-Authorization. Can create/delete ResourceGuard ",
+        "link": "https://management.azure.comc2a970b4-16a7-4a51-8c84-8a8ea6ee0bb8?api-version=2022-04-01"
+    },
+    {
+        "id": "d534ad90-4ac5-4815-a178-b2e47397baab",
+        "name": "Savings plan Reader",
+        "description": "Lets you read savings plans",
+        "link": "https://management.azure.comd534ad90-4ac5-4815-a178-b2e47397baab?api-version=2022-04-01"
+    },
+    {
+        "id": "3d24a3a0-c154-4f6f-a5ed-adc8e01ddb74",
+        "name": "Savings plan Purchaser",
+        "description": "Lets you purchase savings plans",
+        "link": "https://management.azure.com3d24a3a0-c154-4f6f-a5ed-adc8e01ddb74?api-version=2022-04-01"
+    },
+    {
+        "id": "182a574c-b3c6-4acc-b019-48ae44cd4677",
+        "name": "Savings plan Administrator",
+        "description": "Lets you read, manage savings plans and delegate savings plan-related roles",
+        "link": "https://management.azure.com182a574c-b3c6-4acc-b019-48ae44cd4677?api-version=2022-04-01"
+    },
+    {
+        "id": "b6ee44de-fe58-4ddc-b5c2-ab174eb23f05",
+        "name": "CrossConnectionReader",
+        "description": "Allows for read access to ExpressRoute CrossConnections",
+        "link": "https://management.azure.comb6ee44de-fe58-4ddc-b5c2-ab174eb23f05?api-version=2022-04-01"
+    },
+    {
+        "id": "399c3b2b-64c2-4ff1-af34-571db925b068",
+        "name": "CrossConnectionManager",
+        "description": "Allows for read, write access to ExpressRoute CrossConnections",
+        "link": "https://management.azure.com399c3b2b-64c2-4ff1-af34-571db925b068?api-version=2022-04-01"
+    },
+    {
+        "id": "5e93ba01-8f92-4c7a-b12a-801e3df23824",
+        "name": "Kubernetes Agent Operator",
+        "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
+        "link": "https://management.azure.com5e93ba01-8f92-4c7a-b12a-801e3df23824?api-version=2022-04-01"
+    },
+    {
+        "id": "dd24193f-ef65-44e5-8a7e-6fa6e03f7713",
+        "name": "Azure API Center Service Contributor",
+        "description": "Allows managing Azure API Center service.",
+        "link": "https://management.azure.comdd24193f-ef65-44e5-8a7e-6fa6e03f7713?api-version=2022-04-01"
+    },
+    {
+        "id": "6cba8790-29c5-48e5-bab1-c7541b01cb04",
+        "name": "Azure API Center Service Reader",
+        "description": "Allows read-only access to Azure API Center service.",
+        "link": "https://management.azure.com6cba8790-29c5-48e5-bab1-c7541b01cb04?api-version=2022-04-01"
+    },
+    {
+        "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
+        "name": "Azure API Center Compliance Manager",
+        "description": "Allows managing API compliance in Azure API Center service.",
+        "link": "https://management.azure.comede9aaa3-4627-494e-be13-4aa7c256148d?api-version=2022-04-01"
+    },
+    {
+        "id": "b5b192c1-773c-4543-bfb0-6c59254b74a9",
+        "name": "Bayer Ag Powered Services Historical Weather Data Solution User Role",
+        "description": "Provide access to Historical Weather Data Solution by Bayer Ag Powered Services",
+        "link": "https://management.azure.comb5b192c1-773c-4543-bfb0-6c59254b74a9?api-version=2022-04-01"
+    },
+    {
+        "id": "e9ce8739-6fa2-4123-a0a2-0ef41a67806f",
+        "name": "Oracle.Database VmCluster Administrator Built-in Role",
+        "description": "Grants full access to manage all VmCluster resources",
+        "link": "https://management.azure.come9ce8739-6fa2-4123-a0a2-0ef41a67806f?api-version=2022-04-01"
+    },
+    {
+        "id": "d623d097-b882-4e1e-a26f-ac60e31065a1",
+        "name": "Oracle.Database Reader Built-in Role",
+        "description": "Grants read access to all Oracle.Database resources",
+        "link": "https://management.azure.comd623d097-b882-4e1e-a26f-ac60e31065a1?api-version=2022-04-01"
+    },
+    {
+        "id": "4562aac9-b209-4bd7-a144-6d7f3bb516f4",
+        "name": "Oracle.Database Owner Built-in Role",
+        "description": "Grants full access to manage all Oracle.Database resources",
+        "link": "https://management.azure.com4562aac9-b209-4bd7-a144-6d7f3bb516f4?api-version=2022-04-01"
+    },
+    {
+        "id": "4caf51ec-f9f5-413f-8a94-b9f5fddba66b",
+        "name": "Oracle Subscriptions Manager Built-in Role",
+        "description": "Grants full access to manage all Oracle Subscriptions resources",
+        "link": "https://management.azure.com4caf51ec-f9f5-413f-8a94-b9f5fddba66b?api-version=2022-04-01"
+    },
+    {
+        "id": "4cfdd23b-aece-4fd1-b614-ad3a06c53453",
+        "name": "Oracle.Database Exadata Infrastructure Administrator Built-in Role",
+        "description": "Grants full access to manage all Exadata Infrastructure resources",
+        "link": "https://management.azure.com4cfdd23b-aece-4fd1-b614-ad3a06c53453?api-version=2022-04-01"
+    },
+    {
+        "id": "f27b7598-bc64-41f7-8a44-855ff16326c2",
+        "name": "Azure Messaging Catalog Data Owner",
+        "description": "Allows for full access to Azure Messaging Catalog resources.",
+        "link": "https://management.azure.comf27b7598-bc64-41f7-8a44-855ff16326c2?api-version=2022-04-01"
+    },
+    {
+        "id": "25211fc6-dc78-40b6-b205-e4ac934fd9fd",
+        "name": "Azure Spring Apps Application Configuration Service Config File Pattern Reader Role",
+        "description": "Read content of config file pattern for Application Configuration Service in Azure Spring Apps",
+        "link": "https://management.azure.com25211fc6-dc78-40b6-b205-e4ac934fd9fd?api-version=2022-04-01"
+    },
+    {
+        "id": "5d9c6a55-fc0e-4e21-ae6f-f7b095497342",
+        "name": "Azure Hybrid Database Administrator - Read Only Service Role",
+        "description": "Read only access to Azure hybrid database services resources.",
+        "link": "https://management.azure.com5d9c6a55-fc0e-4e21-ae6f-f7b095497342?api-version=2022-04-01"
+    },
+    {
+        "id": "c18f9900-27b8-47c7-a8f0-5b3b3d4c2bc2",
+        "name": "Microsoft Sentinel Business Applications Agent Operator",
+        "description": "List and update actions on a business applications system. This role is in preview and subject to change.",
+        "link": "https://management.azure.comc18f9900-27b8-47c7-a8f0-5b3b3d4c2bc2?api-version=2022-04-01"
+    },
+    {
+        "id": "0fb8eba5-a2bb-4abe-b1c1-49dfad359bb0",
+        "name": "Azure ContainerApps Session Executor",
+        "description": "Create and execute sessions in a sessionPool",
+        "link": "https://management.azure.com0fb8eba5-a2bb-4abe-b1c1-49dfad359bb0?api-version=2022-04-01"
+    },
+    {
+        "id": "83ee7727-862c-4213-8ed8-2ce6c5d69a40",
+        "name": "Microsoft.Edge Winfields federated subscription read access role",
+        "description": "Microsoft.Edge Winfields role for read access on federated subscriptions",
+        "link": "https://management.azure.com83ee7727-862c-4213-8ed8-2ce6c5d69a40?api-version=2022-04-01"
+    },
+    {
+        "id": "ef318e2a-8334-4a05-9e4a-295a196c6a6e",
+        "name": "Azure Red Hat OpenShift Federated Credential Role",
+        "description": "This role grants the permissions required in order to patch cluster managed identities with the federated credential to build a trust relationship between the managed identity, OIDC, and the service account.",
+        "link": "https://management.azure.comef318e2a-8334-4a05-9e4a-295a196c6a6e?api-version=2022-04-01"
+    },
+    {
+        "id": "39138f76-04e6-41f0-ba6b-c411b59081a9",
+        "name": "Bayer Ag Powered Services Crop Id Solution User Role",
+        "description": "Provide access to Crop Id Solution by Bayer Ag Powered Services",
+        "link": "https://management.azure.com39138f76-04e6-41f0-ba6b-c411b59081a9?api-version=2022-04-01"
+    },
+    {
+        "id": "28c0d4cd-558d-4de9-91a0-faa18e7b3266",
+        "name": "Savings plan Contributor",
+        "description": "Lets you read and manage savings plans but cannot delegate savings plan-related roles",
+        "link": "https://management.azure.com28c0d4cd-558d-4de9-91a0-faa18e7b3266?api-version=2022-04-01"
+    },
+    {
+        "id": "b67fe603-310e-4889-b9ee-8257d09d353d",
+        "name": "Scheduled Events Contributor",
+        "description": "Provides access to scheduled event actions",
+        "link": "https://management.azure.comb67fe603-310e-4889-b9ee-8257d09d353d?api-version=2022-04-01"
+    },
+    {
+        "id": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
+        "name": "Compute Recommendations Role",
+        "description": "Grants permissions to call Compute Recommendations APIs provided by Compute Diagnostic Resource Provider service.",
+        "link": "https://management.azure.come82342c9-ac7f-422b-af64-e426d2e12b2d?api-version=2022-04-01"
+    },
+    {
+        "id": "91422e52-bb88-4415-bb4a-90f5b71f6dcb",
+        "name": "Azure Spring Apps Job Execution Instance List Role",
+        "description": "List instances for job executions in Azure Spring Apps",
+        "link": "https://management.azure.com91422e52-bb88-4415-bb4a-90f5b71f6dcb?api-version=2022-04-01"
+    },
+    {
+        "id": "b459aa1d-e3c8-436f-ae21-c0531140f43e",
+        "name": "Azure Spring Apps Job Log Reader Role",
+        "description": "Read real-time logs for jobs in Azure Spring Apps",
+        "link": "https://management.azure.comb459aa1d-e3c8-436f-ae21-c0531140f43e?api-version=2022-04-01"
+    },
+    {
+        "id": "6cd4ddd5-44f4-45bf-853e-a23e79738ce8",
+        "name": "Copilot for Azure User",
+        "description": "Enables users access to Copilot for Azure.",
+        "link": "https://management.azure.com6cd4ddd5-44f4-45bf-853e-a23e79738ce8?api-version=2022-04-01"
+    },
+    {
+        "id": "05fdd44c-adc6-4aff-981c-61041f0c929a",
+        "name": "Nexus Network Fabric Service Reader",
+        "description": "Read-only access to Nexus Network Fabric Service",
+        "link": "https://management.azure.com05fdd44c-adc6-4aff-981c-61041f0c929a?api-version=2022-04-01"
+    },
+    {
+        "id": "a5eb8433-97a5-4a06-80b2-a877e1622c31",
+        "name": "Nexus Network Fabric Service Writer",
+        "description": "Read-write access to Nexus Network Fabric Service",
+        "link": "https://management.azure.coma5eb8433-97a5-4a06-80b2-a877e1622c31?api-version=2022-04-01"
+    },
+    {
+        "id": "bf7f8882-3383-422a-806a-6526c631a88a",
+        "name": "Azure Deployment Stack Contributor",
+        "description": "Allows a user to manage deployment stacks, but cannot create or delete deny assignments within the deployment stack.",
+        "link": "https://management.azure.combf7f8882-3383-422a-806a-6526c631a88a?api-version=2022-04-01"
+    },
+    {
+        "id": "adb29209-aa1d-457b-a786-c913953d2891",
+        "name": "Azure Deployment Stack Owner",
+        "description": "Allows a user to manage deployment stacks, including those with deny assignments.",
+        "link": "https://management.azure.comadb29209-aa1d-457b-a786-c913953d2891?api-version=2022-04-01"
+    },
+    {
+        "id": "74252426-c508-480e-9345-4607bbebead4",
+        "name": "Azure Spring Apps Spring Cloud Config Server Log Reader Role",
+        "description": "Read real-time logs for Spring Cloud Config Server in Azure Spring Apps",
+        "link": "https://management.azure.com74252426-c508-480e-9345-4607bbebead4?api-version=2022-04-01"
+    },
+    {
+        "id": "bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7",
+        "name": "ACR Registry Catalog Lister",
+        "description": "Allows for listing all repositories in an Azure Container Registry.",
+        "link": "https://management.azure.combfdb9389-c9a5-478a-bb2f-ba9ca092c3c7?api-version=2022-04-01"
+    },
+    {
+        "id": "2efddaa5-3f1f-4df3-97df-af3f13818f4c",
+        "name": "ACR Repository Contributor",
+        "description": "Allows for read, write, and delete access to Azure Container Registry repositories, but excluding catalog listing.",
+        "link": "https://management.azure.com2efddaa5-3f1f-4df3-97df-af3f13818f4c?api-version=2022-04-01"
+    },
+    {
+        "id": "2a1e307c-b015-4ebd-883e-5b7698a07328",
+        "name": "ACR Repository Writer",
+        "description": "Allows for read and write access to Azure Container Registry repositories, but excluding catalog listing.",
+        "link": "https://management.azure.com2a1e307c-b015-4ebd-883e-5b7698a07328?api-version=2022-04-01"
+    },
+    {
+        "id": "b93aa761-3e63-49ed-ac28-beffa264f7ac",
+        "name": "ACR Repository Reader",
+        "description": "Allows for read access to Azure Container Registry repositories, but excluding catalog listing.",
+        "link": "https://management.azure.comb93aa761-3e63-49ed-ac28-beffa264f7ac?api-version=2022-04-01"
+    },
+    {
+        "id": "78e4b983-1a0b-472e-8b7d-8d770f7c5890",
+        "name": "DeID Data Owner",
+        "description": "Full access to DeID data. This role is in preview and subject to change",
+        "link": "https://management.azure.com78e4b983-1a0b-472e-8b7d-8d770f7c5890?api-version=2022-04-01"
+    },
+    {
+        "id": "39fcb0de-8844-4706-b050-c28ddbe3ff83",
+        "name": "Standby Container Group Pool Contributor",
+        "description": "Allows users to manage standby container group pool resources.",
+        "link": "https://management.azure.com39fcb0de-8844-4706-b050-c28ddbe3ff83?api-version=2022-04-01"
+    },
+    {
+        "id": "85a2d0d9-2eba-4c9c-b355-11c2cc0788ab",
+        "name": "Compute Gallery Artifacts Publisher",
+        "description": "This is the role for publishing gallery artifacts.",
+        "link": "https://management.azure.com85a2d0d9-2eba-4c9c-b355-11c2cc0788ab?api-version=2022-04-01"
+    },
+    {
+        "id": "c5826735-177b-4a0d-a9a3-d0e4b4bda107",
+        "name": "ToolchainOrchestrator Viewer Role",
+        "description": "Grant access to view all Toolchain orchestrator resources.",
+        "link": "https://management.azure.comc5826735-177b-4a0d-a9a3-d0e4b4bda107?api-version=2022-04-01"
+    },
+    {
+        "id": "2ccf8795-8983-4912-8036-1c45212c95e8",
+        "name": "ToolchainOrchestrator Admin Role",
+        "description": "Grant full access to manage all Toolchain orchestrator resources.",
+        "link": "https://management.azure.com2ccf8795-8983-4912-8036-1c45212c95e8?api-version=2022-04-01"
+    },
+    {
+        "id": "4d8c6f2e-3fd6-4d40-826e-93e3dc4c3fc1",
+        "name": "ProviderHub Reader",
+        "description": "Allows you to view all Microsoft.ProviderHub resources created through the Resource Provider Platform, but does not allow you to make any changes to the resources.",
+        "link": "https://management.azure.com4d8c6f2e-3fd6-4d40-826e-93e3dc4c3fc1?api-version=2022-04-01"
+    },
+    {
+        "id": "a3ab03bc-5350-42ff-b0d5-00207672db55",
+        "name": "ProviderHub Contributor",
+        "description": "Allows you to create and manage Microsoft.ProviderHub resources through the Resource Provider Platform. Does not allow you to assign roles in Azure RBAC.",
+        "link": "https://management.azure.coma3ab03bc-5350-42ff-b0d5-00207672db55?api-version=2022-04-01"
+    },
+    {
+        "id": "c99c945f-8bd1-4fb1-a903-01460aae6068",
+        "name": "Azure Stack HCI Connected InfraVMs",
+        "description": "Role of Arc Integration for Azure Stack HCI Infrastructure Virtual Machines.",
+        "link": "https://management.azure.comc99c945f-8bd1-4fb1-a903-01460aae6068?api-version=2022-04-01"
+    },
+    {
+        "id": "dfce8971-25e3-42e3-ba33-6055438e3080",
+        "name": "VM Restore Operator",
+        "description": "Create and Delete resources during VM Restore. This role is in preview and subject to change.",
+        "link": "https://management.azure.comdfce8971-25e3-42e3-ba33-6055438e3080?api-version=2022-04-01"
+    },
+    {
+        "id": "0847e196-2fd2-4c2f-a48c-fca6fd030f44",
+        "name": "HDInsight Cluster Admin",
+        "description": "Can read, create, modify and delete HDInsight clusters, configuration, extensions, etc.",
+        "link": "https://management.azure.com0847e196-2fd2-4c2f-a48c-fca6fd030f44?api-version=2022-04-01"
+    },
+    {
+        "id": "4aa368ec-fba9-4e93-81ed-396b3d461cc5",
+        "name": "Operator Nexus Compute Contributor Role (Preview)",
+        "description": "(Preview) Manage and configure Azure Operator Nexus infrastructure resources. This role is in preview and subject to change.",
+        "link": "https://management.azure.com4aa368ec-fba9-4e93-81ed-396b3d461cc5?api-version=2022-04-01"
+    },
+    {
+        "id": "5d977122-f97e-4b4d-a52f-6b43003ddb4d",
+        "name": "Azure Container Instances Contributor Role",
+        "description": "Grants read/write access to container groups provided by Azure Container Instances",
+        "link": "https://management.azure.com5d977122-f97e-4b4d-a52f-6b43003ddb4d?api-version=2022-04-01"
+    },
+    {
+        "id": "6cdbb904-5ff3-429d-8169-7d7818b91bd8",
+        "name": "Connector Reader",
+        "description": "Read connectors and their associated resources, such as impacts and insights.",
+        "link": "https://management.azure.com6cdbb904-5ff3-429d-8169-7d7818b91bd8?api-version=2022-04-01"
+    },
+    {
+        "id": "8ad4d0ee-9bfb-49e8-93fc-01abb8db6240",
+        "name": "Transparency Logs Owner",
+        "description": "Grants full access to manage Transparency Log resources.",
+        "link": "https://management.azure.com8ad4d0ee-9bfb-49e8-93fc-01abb8db6240?api-version=2022-04-01"
+    },
+    {
+        "id": "41e04612-9dac-4699-a02b-c82ff2cc3fb5",
+        "name": "Grafana Limited Viewer",
+        "description": "View home page.",
+        "link": "https://management.azure.com41e04612-9dac-4699-a02b-c82ff2cc3fb5?api-version=2022-04-01"
+    },
+    {
+        "id": "136d308c-0937-4a49-9bd7-edfb42adbffc",
+        "name": "Disk Encryption Set Operator for Managed Disks",
+        "description": "Provides permissions to read, write or delete disk encryption sets which are used for encrypting managed disks with customer managed keys",
+        "link": "https://management.azure.com136d308c-0937-4a49-9bd7-edfb42adbffc?api-version=2022-04-01"
+    }
+]
