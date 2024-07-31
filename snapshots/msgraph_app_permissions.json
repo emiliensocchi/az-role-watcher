@@ -1,5 +1,17 @@
 [
     {
+        "id": "b86848a7-d5b1-41eb-a9b4-54a4e6306e97",
+        "name": "APIConnectors.Read.All",
+        "description": "Read API connectors for authentication flows",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b86848a7-d5b1-41eb-a9b4-54a4e6306e97"
+    },
+    {
+        "id": "1dfe531a-24a6-4f1b-80f4-7a0dc5a0a171",
+        "name": "APIConnectors.ReadWrite.All",
+        "description": "Read and write API connectors for authentication flows",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1dfe531a-24a6-4f1b-80f4-7a0dc5a0a171"
+    },
+    {
         "id": "d07a8cc0-3d51-4b77-b3b0-32704d1f69fa",
         "name": "AccessReview.Read.All",
         "description": "Read all access reviews",
@@ -54,18 +66,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d8e4ec18-f6c0-4620-8122-c8b1f2bf400e"
     },
     {
-        "id": "b86848a7-d5b1-41eb-a9b4-54a4e6306e97",
-        "name": "APIConnectors.Read.All",
-        "description": "Read API connectors for authentication flows",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b86848a7-d5b1-41eb-a9b4-54a4e6306e97"
-    },
-    {
-        "id": "1dfe531a-24a6-4f1b-80f4-7a0dc5a0a171",
-        "name": "APIConnectors.ReadWrite.All",
-        "description": "Read and write API connectors for authentication flows",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1dfe531a-24a6-4f1b-80f4-7a0dc5a0a171"
-    },
-    {
         "id": "e12dae10-5a57-4817-b79d-dfbec5348930",
         "name": "AppCatalog.Read.All",
         "description": "Read all app catalogs",
@@ -76,6 +76,12 @@
         "name": "AppCatalog.ReadWrite.All",
         "description": "Read and write to all app catalogs",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dc149144-f292-421e-b185-5953f2e98d7f"
+    },
+    {
+        "id": "06b708a9-e830-4db3-a914-8e69da51d44f",
+        "name": "AppRoleAssignment.ReadWrite.All",
+        "description": "Manage app permission grants and app role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/06b708a9-e830-4db3-a914-8e69da51d44f"
     },
     {
         "id": "3be0012a-cc4e-426b-895b-f9c836bf6381",
@@ -100,12 +106,6 @@
         "name": "Application.ReadWrite.OwnedBy",
         "description": "Manage apps that this app creates or owns",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/18a4783c-866b-4cc7-a460-3d5e5662c884"
-    },
-    {
-        "id": "06b708a9-e830-4db3-a914-8e69da51d44f",
-        "name": "AppRoleAssignment.ReadWrite.All",
-        "description": "Manage app permission grants and app role assignments",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/06b708a9-e830-4db3-a914-8e69da51d44f"
     },
     {
         "id": "93283d0a-6322-4fa8-966b-8c121624760d",
@@ -780,18 +780,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7e05723c-0bb0-42da-be95-ae9f08a6e53c"
     },
     {
-        "id": "50180013-6191-4d1e-a373-e590ff4e66af",
-        "name": "eDiscovery.Read.All",
-        "description": "Read all eDiscovery objects",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/50180013-6191-4d1e-a373-e590ff4e66af"
-    },
-    {
-        "id": "b2620db1-3bf7-4c5b-9cb9-576d29eac736",
-        "name": "eDiscovery.ReadWrite.All",
-        "description": "Read and write all eDiscovery objects",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b2620db1-3bf7-4c5b-9cb9-576d29eac736"
-    },
-    {
         "id": "7c9db06a-ec2d-4e7b-a592-5a1e30992566",
         "name": "EduAdministration.Read.All",
         "description": "Read Education app settings",
@@ -954,6 +942,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/761327c9-d819-4c08-9a5f-874cd2826608"
     },
     {
+        "id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
+        "name": "FileStorageContainer.Selected",
+        "description": "Access selected file storage containers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/40dc41bc-0f7e-42ff-89bd-d9516947e474"
+    },
+    {
         "id": "01d4889c-1287-42c6-ac1f-5d1e02578ef6",
         "name": "Files.Read.All",
         "description": "Read files in all site collections",
@@ -976,12 +970,6 @@
         "name": "Files.SelectedOperations.Selected",
         "description": "Access selected Files without a signed in user.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bd61925e-3bf4-4d62-bc0b-06b06c96d95c"
-    },
-    {
-        "id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
-        "name": "FileStorageContainer.Selected",
-        "description": "Access selected file storage containers",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/40dc41bc-0f7e-42ff-89bd-d9516947e474"
     },
     {
         "id": "4f0a8235-6f6f-4ec7-9500-34b452a4a0c3",
@@ -1416,36 +1404,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0c458cef-11f3-48c2-a568-c66751c238c0"
     },
     {
-        "id": "df01ed3b-eb61-4eca-9965-6b3d789751b2",
-        "name": "OnlineMeetingArtifact.Read.All",
-        "description": "Read online meeting artifacts",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/df01ed3b-eb61-4eca-9965-6b3d789751b2"
-    },
-    {
-        "id": "a4a08342-c95d-476b-b943-97e100569c8d",
-        "name": "OnlineMeetingRecording.Read.All",
-        "description": "Read all recordings of online meetings.",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a4a08342-c95d-476b-b943-97e100569c8d"
-    },
-    {
-        "id": "c1684f21-1984-47fa-9d61-2dc8c296bb70",
-        "name": "OnlineMeetings.Read.All",
-        "description": "Read online meeting details",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c1684f21-1984-47fa-9d61-2dc8c296bb70"
-    },
-    {
-        "id": "b8bb2037-6e08-44ac-a4ea-4674e010e2a4",
-        "name": "OnlineMeetings.ReadWrite.All",
-        "description": "Read and create online meetings",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b8bb2037-6e08-44ac-a4ea-4674e010e2a4"
-    },
-    {
-        "id": "a4a80d8d-d283-4bd8-8504-555ec3870630",
-        "name": "OnlineMeetingTranscript.Read.All",
-        "description": "Read all transcripts of online meetings.",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a4a80d8d-d283-4bd8-8504-555ec3870630"
-    },
-    {
         "id": "bb70e231-92dc-4729-aff5-697b3f04be95",
         "name": "OnPremDirectorySynchronization.Read.All",
         "description": "Read all on-premises directory synchronization information",
@@ -1464,28 +1422,34 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0b57845e-aa49-4e6f-8109-ce654fffa618"
     },
     {
-        "id": "498476ce-e0fe-48b0-b801-37ba7e2685c6",
-        "name": "Organization.Read.All",
-        "description": "Read organization information",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/498476ce-e0fe-48b0-b801-37ba7e2685c6"
+        "id": "df01ed3b-eb61-4eca-9965-6b3d789751b2",
+        "name": "OnlineMeetingArtifact.Read.All",
+        "description": "Read online meeting artifacts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/df01ed3b-eb61-4eca-9965-6b3d789751b2"
     },
     {
-        "id": "292d869f-3427-49a8-9dab-8c70152b74e9",
-        "name": "Organization.ReadWrite.All",
-        "description": "Read and write organization information",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/292d869f-3427-49a8-9dab-8c70152b74e9"
+        "id": "a4a08342-c95d-476b-b943-97e100569c8d",
+        "name": "OnlineMeetingRecording.Read.All",
+        "description": "Read all recordings of online meetings.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a4a08342-c95d-476b-b943-97e100569c8d"
     },
     {
-        "id": "eb76ac34-0d62-4454-b97c-185e4250dc20",
-        "name": "OrganizationalBranding.Read.All",
-        "description": "Read organizational branding information",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eb76ac34-0d62-4454-b97c-185e4250dc20"
+        "id": "a4a80d8d-d283-4bd8-8504-555ec3870630",
+        "name": "OnlineMeetingTranscript.Read.All",
+        "description": "Read all transcripts of online meetings.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a4a80d8d-d283-4bd8-8504-555ec3870630"
     },
     {
-        "id": "d2ebfbc1-a5f8-424b-83a6-56ab5927a73c",
-        "name": "OrganizationalBranding.ReadWrite.All",
-        "description": "Read and write organizational branding information",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d2ebfbc1-a5f8-424b-83a6-56ab5927a73c"
+        "id": "c1684f21-1984-47fa-9d61-2dc8c296bb70",
+        "name": "OnlineMeetings.Read.All",
+        "description": "Read online meeting details",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c1684f21-1984-47fa-9d61-2dc8c296bb70"
+    },
+    {
+        "id": "b8bb2037-6e08-44ac-a4ea-4674e010e2a4",
+        "name": "OnlineMeetings.ReadWrite.All",
+        "description": "Read and create online meetings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b8bb2037-6e08-44ac-a4ea-4674e010e2a4"
     },
     {
         "id": "e1a88a34-94c4-4418-be12-c87b00e26bea",
@@ -1552,6 +1516,30 @@
         "name": "OrgSettings-Todo.ReadWrite.All",
         "description": "Read and write organization-wide Microsoft To Do settings",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5febc9da-e0d0-4576-bd13-ae70b2179a39"
+    },
+    {
+        "id": "498476ce-e0fe-48b0-b801-37ba7e2685c6",
+        "name": "Organization.Read.All",
+        "description": "Read organization information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/498476ce-e0fe-48b0-b801-37ba7e2685c6"
+    },
+    {
+        "id": "292d869f-3427-49a8-9dab-8c70152b74e9",
+        "name": "Organization.ReadWrite.All",
+        "description": "Read and write organization information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/292d869f-3427-49a8-9dab-8c70152b74e9"
+    },
+    {
+        "id": "eb76ac34-0d62-4454-b97c-185e4250dc20",
+        "name": "OrganizationalBranding.Read.All",
+        "description": "Read organizational branding information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eb76ac34-0d62-4454-b97c-185e4250dc20"
+    },
+    {
+        "id": "d2ebfbc1-a5f8-424b-83a6-56ab5927a73c",
+        "name": "OrganizationalBranding.ReadWrite.All",
+        "description": "Read and write organizational branding information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d2ebfbc1-a5f8-424b-83a6-56ab5927a73c"
     },
     {
         "id": "7c3e1994-38ff-4412-a99b-9369f6bb7706",
@@ -1752,18 +1740,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/83cded22-8297-4ff6-a7fa-e97e9545a259"
     },
     {
-        "id": "9709bb33-4549-49d4-8ed9-a8f65e45bb0f",
-        "name": "Printer.Read.All",
-        "description": "Read printers",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9709bb33-4549-49d4-8ed9-a8f65e45bb0f"
-    },
-    {
-        "id": "f5b3f73d-6247-44df-a74c-866173fddab0",
-        "name": "Printer.ReadWrite.All",
-        "description": "Read and update printers",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f5b3f73d-6247-44df-a74c-866173fddab0"
-    },
-    {
         "id": "58a52f47-9e36-4b17-9ebe-ce4ef7f3e6c8",
         "name": "PrintJob.Manage.All",
         "description": "Perform advanced operations on print jobs",
@@ -1804,6 +1780,18 @@
         "name": "PrintTaskDefinition.ReadWrite.All",
         "description": "Read, write and update print task definitions",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/456b71a7-0ee0-4588-9842-c123fcc8f664"
+    },
+    {
+        "id": "9709bb33-4549-49d4-8ed9-a8f65e45bb0f",
+        "name": "Printer.Read.All",
+        "description": "Read printers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9709bb33-4549-49d4-8ed9-a8f65e45bb0f"
+    },
+    {
+        "id": "f5b3f73d-6247-44df-a74c-866173fddab0",
+        "name": "Printer.ReadWrite.All",
+        "description": "Read and update printers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f5b3f73d-6247-44df-a74c-866173fddab0"
     },
     {
         "id": "4cdc2547-9148-4295-8d11-be0db1391d6b",
@@ -1920,12 +1908,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eb158f57-df43-4751-8b21-b8932adb3d34"
     },
     {
-        "id": "230c1aed-a721-4c5d-9cb4-a90514e508ef",
-        "name": "Reports.Read.All",
-        "description": "Read all usage reports",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/230c1aed-a721-4c5d-9cb4-a90514e508ef"
-    },
-    {
         "id": "ee353f83-55ef-4b78-82da-555bfa2b4b95",
         "name": "ReportSettings.Read.All",
         "description": "Read all admin report settings",
@@ -1936,6 +1918,12 @@
         "name": "ReportSettings.ReadWrite.All",
         "description": "Read and write all admin report settings",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2a60023f-3219-47ad-baa4-40e17cd02a1d"
+    },
+    {
+        "id": "230c1aed-a721-4c5d-9cb4-a90514e508ef",
+        "name": "Reports.Read.All",
+        "description": "Read all usage reports",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/230c1aed-a721-4c5d-9cb4-a90514e508ef"
     },
     {
         "id": "acfca4d5-f49f-40ed-9648-84068b474c73",
@@ -2352,6 +2340,24 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4437522e-9a86-4a41-a7da-e380edd4a97d"
     },
     {
+        "id": "242607bd-1d2c-432c-82eb-bdb27baa23ab",
+        "name": "TeamSettings.Read.All",
+        "description": "Read all teams' settings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/242607bd-1d2c-432c-82eb-bdb27baa23ab"
+    },
+    {
+        "id": "bdd80a03-d9bc-451d-b7c4-ce7c63fe3c8f",
+        "name": "TeamSettings.ReadWrite.All",
+        "description": "Read and change all teams' settings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bdd80a03-d9bc-451d-b7c4-ce7c63fe3c8f"
+    },
+    {
+        "id": "6323133e-1f6e-46d4-9372-ac33a0870636",
+        "name": "TeamTemplates.Read.All",
+        "description": "Read all available Teams Templates",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6323133e-1f6e-46d4-9372-ac33a0870636"
+    },
+    {
         "id": "70dec828-f620-4914-aa83-a29117306807",
         "name": "TeamsActivity.Read.All",
         "description": "Read all users' teamwork activity feed",
@@ -2460,18 +2466,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/908de74d-f8b2-4d6b-a9ed-2a17b3b78179"
     },
     {
-        "id": "242607bd-1d2c-432c-82eb-bdb27baa23ab",
-        "name": "TeamSettings.Read.All",
-        "description": "Read all teams' settings",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/242607bd-1d2c-432c-82eb-bdb27baa23ab"
-    },
-    {
-        "id": "bdd80a03-d9bc-451d-b7c4-ce7c63fe3c8f",
-        "name": "TeamSettings.ReadWrite.All",
-        "description": "Read and change all teams' settings",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bdd80a03-d9bc-451d-b7c4-ce7c63fe3c8f"
-    },
-    {
         "id": "49981c42-fd7b-4530-be03-e77b21aed25e",
         "name": "TeamsTab.Create",
         "description": "Create tabs in Microsoft Teams.",
@@ -2530,12 +2524,6 @@
         "name": "TeamsUserConfiguration.Read.All",
         "description": "Read Teams user configurations",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a91eadaf-2c3c-4362-908b-fb172d208fc6"
-    },
-    {
-        "id": "6323133e-1f6e-46d4-9372-ac33a0870636",
-        "name": "TeamTemplates.Read.All",
-        "description": "Read all available Teams Templates",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6323133e-1f6e-46d4-9372-ac33a0870636"
     },
     {
         "id": "dfb0dd15-61de-45b2-be36-d6a69fba3c79",
@@ -2800,5 +2788,17 @@
         "name": "WorkforceIntegration.ReadWrite.All",
         "description": "Read and write workforce integrations",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/202bf709-e8e6-478e-bcfd-5d63c50b68e3"
+    },
+    {
+        "id": "50180013-6191-4d1e-a373-e590ff4e66af",
+        "name": "eDiscovery.Read.All",
+        "description": "Read all eDiscovery objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/50180013-6191-4d1e-a373-e590ff4e66af"
+    },
+    {
+        "id": "b2620db1-3bf7-4c5b-9cb9-576d29eac736",
+        "name": "eDiscovery.ReadWrite.All",
+        "description": "Read and write all eDiscovery objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b2620db1-3bf7-4c5b-9cb9-576d29eac736"
     }
 ]

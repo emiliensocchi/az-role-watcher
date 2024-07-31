@@ -507,6 +507,6 @@ if __name__ == "__main__":
     update_file(rss_file, rss_feed)
 
     # Update local snapshots with latest content from APIs
-    update_file(msgraph_app_permissions_snapshot_file, json.dumps(current_builtin_msgraph_app_permissions, indent = 4))
-    update_file(entra_roles_snapshot_file, json.dumps(current_builtin_entra_roles, indent = 4))
-    update_file(azure_roles_snapshot_file, json.dumps(current_builtin_azure_roles, indent = 4))
+    update_file(msgraph_app_permissions_snapshot_file, json.dumps(sorted(current_builtin_msgraph_app_permissions, key = lambda x: x['name']), indent = 4))
+    update_file(entra_roles_snapshot_file, json.dumps(sorted(current_builtin_entra_roles, key = lambda x: x['name']), indent = 4))
+    update_file(azure_roles_snapshot_file, json.dumps(sorted(current_builtin_azure_roles, key = lambda x: x['name']), indent = 4))
