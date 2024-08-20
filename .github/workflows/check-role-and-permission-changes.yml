@@ -16,5 +16,5 @@ jobs:
     - name: Run AzRoleWatcher
       uses: ./.github/actions/pull-for-changes
       with:
-        user_email: 'emilien.socchi@gmail.com'
-        user_name: 'emiliensocchi'
+        user_email: 'AzRoleWatcher-robot@gmail.com'
+        user_name: 'AzRoleWatcher-robot'
