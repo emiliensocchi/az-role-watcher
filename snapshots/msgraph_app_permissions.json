@@ -192,6 +192,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/18133149-5489-40ac-80f0-4b6fa85f6cdc"
     },
     {
+        "id": "6fe20a79-0e15-45a1-b019-834c125993a0",
+        "name": "BackupRestore-Control.Read.All",
+        "description": "Read the status of the M365 backup service",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6fe20a79-0e15-45a1-b019-834c125993a0"
+    },
+    {
+        "id": "fb240865-88f8-4a1d-923f-98dbc7920860",
+        "name": "BackupRestore-Control.ReadWrite.All",
+        "description": "Update or read the status of the M365 backup service",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fb240865-88f8-4a1d-923f-98dbc7920860"
+    },
+    {
         "id": "ecae8511-f2d7-4be4-bdbf-91f244d45986",
         "name": "BackupRestore-Monitor.Read.All",
         "description": "Read all monitoring, quota and billing information for the tenant",
