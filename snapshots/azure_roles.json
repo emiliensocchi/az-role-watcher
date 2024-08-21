@@ -1,5 +1,29 @@
 [
     {
+        "id": "bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7",
+        "name": "ACR Registry Catalog Lister",
+        "description": "Allows for listing all repositories in an Azure Container Registry.",
+        "link": "https://management.azure.combfdb9389-c9a5-478a-bb2f-ba9ca092c3c7?api-version=2022-04-01"
+    },
+    {
+        "id": "2efddaa5-3f1f-4df3-97df-af3f13818f4c",
+        "name": "ACR Repository Contributor",
+        "description": "Allows for read, write, and delete access to Azure Container Registry repositories, but excluding catalog listing.",
+        "link": "https://management.azure.com2efddaa5-3f1f-4df3-97df-af3f13818f4c?api-version=2022-04-01"
+    },
+    {
+        "id": "b93aa761-3e63-49ed-ac28-beffa264f7ac",
+        "name": "ACR Repository Reader",
+        "description": "Allows for read access to Azure Container Registry repositories, but excluding catalog listing.",
+        "link": "https://management.azure.comb93aa761-3e63-49ed-ac28-beffa264f7ac?api-version=2022-04-01"
+    },
+    {
+        "id": "2a1e307c-b015-4ebd-883e-5b7698a07328",
+        "name": "ACR Repository Writer",
+        "description": "Allows for read and write access to Azure Container Registry repositories, but excluding catalog listing.",
+        "link": "https://management.azure.com2a1e307c-b015-4ebd-883e-5b7698a07328?api-version=2022-04-01"
+    },
+    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -268,12 +292,6 @@
         "name": "Avere Operator",
         "description": "Used by the Avere vFXT cluster to manage the cluster",
         "link": "https://management.azure.comc025889f-8102-4ebf-b32c-fc0c6f0c6bd9?api-version=2022-04-01"
-    },
-    {
-        "id": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
-        "name": "Azure AI Administrator Service Role",
-        "description": "A Custom Role Assignment that has all permissions to work with Azure AI ",
-        "link": "https://management.azure.comb78c5d69-af96-48a3-bf8d-a8b4d589de94?api-version=2022-04-01"
     },
     {
         "id": "64702f94-c441-49e6-a78b-ef80e0188fee",
@@ -1506,30 +1524,6 @@
         "link": "https://management.azure.comaf61e8fc-2633-4b95-bed3-421ad6826515?api-version=2022-04-01"
     },
     {
-        "id": "bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7",
-        "name": "Container Registry Repository Catalog Lister",
-        "description": "Allows for listing all repositories in an Azure Container Registry. This role is in preview and subject to change.",
-        "link": "https://management.azure.combfdb9389-c9a5-478a-bb2f-ba9ca092c3c7?api-version=2022-04-01"
-    },
-    {
-        "id": "2efddaa5-3f1f-4df3-97df-af3f13818f4c",
-        "name": "Container Registry Repository Contributor",
-        "description": "Allows for read, write, and delete access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
-        "link": "https://management.azure.com2efddaa5-3f1f-4df3-97df-af3f13818f4c?api-version=2022-04-01"
-    },
-    {
-        "id": "b93aa761-3e63-49ed-ac28-beffa264f7ac",
-        "name": "Container Registry Repository Reader",
-        "description": "Allows for read access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
-        "link": "https://management.azure.comb93aa761-3e63-49ed-ac28-beffa264f7ac?api-version=2022-04-01"
-    },
-    {
-        "id": "2a1e307c-b015-4ebd-883e-5b7698a07328",
-        "name": "Container Registry Repository Writer",
-        "description": "Allows for read and write access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
-        "link": "https://management.azure.com2a1e307c-b015-4ebd-883e-5b7698a07328?api-version=2022-04-01"
-    },
-    {
         "id": "ad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b",
         "name": "ContainerApp Reader",
         "description": "View all containerapp resources, but does not allow you to make any changes.",
@@ -2407,8 +2401,8 @@
     },
     {
         "id": "0cd9749a-3aaf-4ae5-8803-bd217705bf3b",
-        "name": "Kubernetes Runtime Storage Class Contributor Role",
-        "description": "Read, write, and delete Kubernetes Runtime storage classes in an Arc connected Kubernetes cluster",
+        "name": "KubernetesRuntime Storage Class Contributor Role",
+        "description": "Read, write, and delete KubernetesRuntime storage classes in an Arc connected Kubernetes cluster",
         "link": "https://management.azure.com0cd9749a-3aaf-4ae5-8803-bd217705bf3b?api-version=2022-04-01"
     },
     {
