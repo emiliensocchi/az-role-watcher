@@ -270,6 +270,12 @@
         "link": "https://management.azure.comc025889f-8102-4ebf-b32c-fc0c6f0c6bd9?api-version=2022-04-01"
     },
     {
+        "id": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
+        "name": "Azure AI Administrator",
+        "description": "A Built-In Role that has all control plane permissions to work with Azure AI and its dependencies.",
+        "link": "https://management.azure.comb78c5d69-af96-48a3-bf8d-a8b4d589de94?api-version=2022-04-01"
+    },
+    {
         "id": "64702f94-c441-49e6-a78b-ef80e0188fee",
         "name": "Azure AI Developer",
         "description": "Can perform all actions within an Azure AI resource besides managing the resource itself.",
@@ -2404,6 +2410,12 @@
         "name": "Kubernetes Runtime Storage Class Contributor Role",
         "description": "Read, write, and delete Kubernetes Runtime storage classes in an Arc connected Kubernetes cluster",
         "link": "https://management.azure.com0cd9749a-3aaf-4ae5-8803-bd217705bf3b?api-version=2022-04-01"
+    },
+    {
+        "id": "1a5682fc-4f12-4b25-927e-e8cfed0c539e",
+        "name": "KubernetesRuntime Load Balancer Contributor Role",
+        "description": "Read, write, and delete load balancers in an Arc connected Kubernetes cluster",
+        "link": "https://management.azure.com1a5682fc-4f12-4b25-927e-e8cfed0c539e?api-version=2022-04-01"
     },
     {
         "id": "ce40b423-cede-4313-a93f-9b28290b72e1",
