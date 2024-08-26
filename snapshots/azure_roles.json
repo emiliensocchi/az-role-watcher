@@ -2412,6 +2412,12 @@
         "link": "https://management.azure.com0cd9749a-3aaf-4ae5-8803-bd217705bf3b?api-version=2022-04-01"
     },
     {
+        "id": "1a5682fc-4f12-4b25-927e-e8cfed0c539e",
+        "name": "KubernetesRuntime Load Balancer Contributor Role",
+        "description": "Read, write, and delete load balancers in an Arc connected Kubernetes cluster",
+        "link": "https://management.azure.com1a5682fc-4f12-4b25-927e-e8cfed0c539e?api-version=2022-04-01"
+    },
+    {
         "id": "ce40b423-cede-4313-a93f-9b28290b72e1",
         "name": "Lab Assistant",
         "description": "The lab assistant role",
