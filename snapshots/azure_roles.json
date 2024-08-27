@@ -1429,8 +1429,8 @@
     },
     {
         "id": "cf7c76d2-98a3-4358-a134-615aa78bf44d",
-        "name": "Compute Gallery Image Version Reader",
-        "description": "This is the role for reading gallery image versions.",
+        "name": "Compute Gallery Image Reader",
+        "description": "This is the role for reading gallery images.",
         "link": "https://management.azure.com/cf7c76d2-98a3-4358-a134-615aa78bf44d?api-version=2022-04-01"
     },
     {
