@@ -234,6 +234,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9e8be751-7eee-4c09-bcfd-d64f6b087fd8"
     },
     {
+        "id": "57f1cf28-c0c4-4ec3-9a30-19a2eaaf2f6e",
+        "name": "BitlockerKey.Read.All",
+        "description": "Read all BitLocker keys",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/57f1cf28-c0c4-4ec3-9a30-19a2eaaf2f6e"
+    },
+    {
+        "id": "f690d423-6b29-4d04-98c6-694c42282419",
+        "name": "BitlockerKey.ReadBasic.All",
+        "description": "Read all BitLocker keys basic information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f690d423-6b29-4d04-98c6-694c42282419"
+    },
+    {
         "id": "6e98f277-b046-4193-a4f2-6bf6a78cd491",
         "name": "Bookings.Read.All",
         "description": "Read all Bookings related resources.",
@@ -1326,6 +1338,30 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b633e1c5-b582-4048-a93e-9f11b44c7e96"
     },
     {
+        "id": "99280d24-a782-4793-93cc-0888549957f6",
+        "name": "MailboxFolder.Read.All",
+        "description": "Read all the users' mailbox folders",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/99280d24-a782-4793-93cc-0888549957f6"
+    },
+    {
+        "id": "fef87b92-8391-4589-9da7-eb93dab7dc8a",
+        "name": "MailboxFolder.ReadWrite.All",
+        "description": "Read and write all the users' mailbox folders",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fef87b92-8391-4589-9da7-eb93dab7dc8a"
+    },
+    {
+        "id": "76577085-e73d-4f1d-b26a-85fb33892327",
+        "name": "MailboxItem.ImportExport.All",
+        "description": "Allows the app to perform backup and restore for all mailbox items",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/76577085-e73d-4f1d-b26a-85fb33892327"
+    },
+    {
+        "id": "7d9f353d-a7bd-4fbb-822a-26d5dd39a3ce",
+        "name": "MailboxItem.Read.All",
+        "description": "Read all the users' mailbox items",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7d9f353d-a7bd-4fbb-822a-26d5dd39a3ce"
+    },
+    {
         "id": "40f97065-369a-49f4-947c-6a255697ae91",
         "name": "MailboxSettings.Read",
         "description": "Read all user mailbox settings",
@@ -1936,6 +1972,18 @@
         "name": "Reports.Read.All",
         "description": "Read all usage reports",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/230c1aed-a721-4c5d-9cb4-a90514e508ef"
+    },
+    {
+        "id": "2ff643d8-43e4-4a9b-88c1-86cb4a4b4c2f",
+        "name": "ResourceSpecificPermissionGrant.ReadForChat.All",
+        "description": "Read resource specific permissions granted on a chat",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2ff643d8-43e4-4a9b-88c1-86cb4a4b4c2f"
+    },
+    {
+        "id": "ad4600ae-d900-42cb-a9a2-2415d05593d0",
+        "name": "ResourceSpecificPermissionGrant.ReadForTeam.All",
+        "description": "Read resource specific permissions granted on a team",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ad4600ae-d900-42cb-a9a2-2415d05593d0"
     },
     {
         "id": "acfca4d5-f49f-40ed-9648-84068b474c73",
@@ -2674,6 +2722,30 @@
         "name": "User-LifeCycleInfo.ReadWrite.All",
         "description": "Read and write all users' lifecycle information",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/925f1248-0f97-47b9-8ec8-538c54e01325"
+    },
+    {
+        "id": "280d0935-0796-47d1-8d26-273470a3f17a",
+        "name": "User-Mail.ReadWrite.All",
+        "description": "Read and write all secondary mail addresses for users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/280d0935-0796-47d1-8d26-273470a3f17a"
+    },
+    {
+        "id": "cc117bb9-00cf-4eb8-b580-ea2a878fe8f7",
+        "name": "User-PasswordProfile.ReadWrite.All",
+        "description": "Read and write all password profiles and reset user passwords",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/cc117bb9-00cf-4eb8-b580-ea2a878fe8f7"
+    },
+    {
+        "id": "86ceff06-c822-49ff-989a-d912845ffe69",
+        "name": "User-Phone.ReadWrite.All",
+        "description": "Read and write all user mobile phone and business phones",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/86ceff06-c822-49ff-989a-d912845ffe69"
+    },
+    {
+        "id": "eccc023d-eccf-4e7b-9683-8813ab36cecc",
+        "name": "User.DeleteRestore.All",
+        "description": "Delete and restore all users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eccc023d-eccf-4e7b-9683-8813ab36cecc"
     },
     {
         "id": "3011c876-62b7-4ada-afa2-506cbbecc68c",
