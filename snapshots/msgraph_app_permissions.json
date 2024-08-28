@@ -66,6 +66,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d8e4ec18-f6c0-4620-8122-c8b1f2bf400e"
     },
     {
+        "id": "839c90ab-5771-41ee-aef8-a562e8487c1e",
+        "name": "AiEnterpriseInteraction.Read.All",
+        "description": "Read all AI enterprise interactions.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/839c90ab-5771-41ee-aef8-a562e8487c1e"
+    },
+    {
         "id": "e12dae10-5a57-4817-b79d-dfbec5348930",
         "name": "AppCatalog.Read.All",
         "description": "Read all app catalogs",
@@ -106,6 +112,18 @@
         "name": "Application.ReadWrite.OwnedBy",
         "description": "Manage apps that this app creates or owns",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/18a4783c-866b-4cc7-a460-3d5e5662c884"
+    },
+    {
+        "id": "9f265de7-8d5e-4e9a-a805-5e8bbc49656f",
+        "name": "ApprovalSolution.Read.All",
+        "description": "Read all approvals",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9f265de7-8d5e-4e9a-a805-5e8bbc49656f"
+    },
+    {
+        "id": "45583558-1113-4d06-8969-e79a28edc9ad",
+        "name": "ApprovalSolution.ReadWrite.All",
+        "description": "Read all approvals and manage approval subscriptions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/45583558-1113-4d06-8969-e79a28edc9ad"
     },
     {
         "id": "93283d0a-6322-4fa8-966b-8c121624760d",

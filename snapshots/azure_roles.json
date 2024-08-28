@@ -1429,8 +1429,8 @@
     },
     {
         "id": "cf7c76d2-98a3-4358-a134-615aa78bf44d",
-        "name": "Compute Gallery Image Reader",
-        "description": "This is the role for reading gallery images.",
+        "name": "Compute Gallery Image Version Reader",
+        "description": "This is the role for reading gallery image versions.",
         "link": "https://management.azure.com/cf7c76d2-98a3-4358-a134-615aa78bf44d?api-version=2022-04-01"
     },
     {
@@ -2410,12 +2410,6 @@
         "name": "Kubernetes Runtime Storage Class Contributor Role",
         "description": "Read, write, and delete Kubernetes Runtime storage classes in an Arc connected Kubernetes cluster",
         "link": "https://management.azure.com/0cd9749a-3aaf-4ae5-8803-bd217705bf3b?api-version=2022-04-01"
-    },
-    {
-        "id": "1a5682fc-4f12-4b25-927e-e8cfed0c539e",
-        "name": "KubernetesRuntime Load Balancer Contributor Role",
-        "description": "Read, write, and delete load balancers in an Arc connected Kubernetes cluster",
-        "link": "https://management.azure.com/1a5682fc-4f12-4b25-927e-e8cfed0c539e?api-version=2022-04-01"
     },
     {
         "id": "ce40b423-cede-4313-a93f-9b28290b72e1",
