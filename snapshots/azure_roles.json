@@ -504,12 +504,6 @@
         "link": "https://management.azure.com/adb29209-aa1d-457b-a786-c913953d2891?api-version=2022-04-01"
     },
     {
-        "id": "2a740172-0fc2-4039-972c-b31864cd47d6",
-        "name": "Azure Device Update Agent",
-        "description": "Provide full access to all Azure Device Update agent operations",
-        "link": "https://management.azure.com/2a740172-0fc2-4039-972c-b31864cd47d6?api-version=2022-04-01"
-    },
-    {
         "id": "bcd981a7-7f74-457b-83e1-cceb9e632ffe",
         "name": "Azure Digital Twins Data Owner",
         "description": "Full access role for Digital Twins data-plane",
@@ -1972,12 +1966,6 @@
         "name": "Elastic SAN Volume Importer",
         "description": "Allows for Importing Elastic San Volume",
         "link": "https://management.azure.com/90e8b822-3e73-47b5-868a-787dc80c008f?api-version=2022-04-01"
-    },
-    {
-        "id": "2142ea27-02ad-4094-bfea-2dbac6d24934",
-        "name": "Enclave Approver Role",
-        "description": "Read all resources in Azure Virtual Enclaves and Approve approval requests within the Enclave",
-        "link": "https://management.azure.com/2142ea27-02ad-4094-bfea-2dbac6d24934?api-version=2022-04-01"
     },
     {
         "id": "19feefae-eacc-4106-81fd-ac34c0671f14",
