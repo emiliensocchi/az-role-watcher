@@ -504,6 +504,12 @@
         "link": "https://management.azure.com/adb29209-aa1d-457b-a786-c913953d2891?api-version=2022-04-01"
     },
     {
+        "id": "2a740172-0fc2-4039-972c-b31864cd47d6",
+        "name": "Azure Device Update Agent",
+        "description": "Provide full access to all Azure Device Update agent operations",
+        "link": "https://management.azure.com/2a740172-0fc2-4039-972c-b31864cd47d6?api-version=2022-04-01"
+    },
+    {
         "id": "bcd981a7-7f74-457b-83e1-cceb9e632ffe",
         "name": "Azure Digital Twins Data Owner",
         "description": "Full access role for Digital Twins data-plane",
@@ -1278,6 +1284,12 @@
         "link": "https://management.azure.com/b59867f0-fa02-499b-be73-45a86b5b3e1c?api-version=2022-04-01"
     },
     {
+        "id": "b5b0c71d-aca9-4081-aee2-9b1bb335fc1a",
+        "name": "Cognitive Services Face Contributor",
+        "description": "Full access to perform all Face APIs",
+        "link": "https://management.azure.com/b5b0c71d-aca9-4081-aee2-9b1bb335fc1a?api-version=2022-04-01"
+    },
+    {
         "id": "9894cab4-e18a-44aa-828b-cb588cd6f2d7",
         "name": "Cognitive Services Face Recognizer",
         "description": "Lets you perform detect, verify, identify, group, and find similar operations on Face API. This role does not allow create or delete operations, which makes it well suited for endpoints that only need inferencing capabilities, following 'least privilege' best practices.",
@@ -1968,6 +1980,12 @@
         "link": "https://management.azure.com/90e8b822-3e73-47b5-868a-787dc80c008f?api-version=2022-04-01"
     },
     {
+        "id": "2142ea27-02ad-4094-bfea-2dbac6d24934",
+        "name": "Enclave Approver Role",
+        "description": "Read all resources in Azure Virtual Enclaves and Approve approval requests within the Enclave",
+        "link": "https://management.azure.com/2142ea27-02ad-4094-bfea-2dbac6d24934?api-version=2022-04-01"
+    },
+    {
         "id": "19feefae-eacc-4106-81fd-ac34c0671f14",
         "name": "Enclave Contributor Role",
         "description": "Enclave Contributor Role to access the resources of Microsoft.Mission stored with RPSAAS.",
@@ -2350,6 +2368,12 @@
         "name": "Key Vault Data Access Administrator",
         "description": "Manage access to Azure Key Vault by adding or removing role assignments for the Key Vault Administrator, Key Vault Certificates Officer, Key Vault Crypto Officer, Key Vault Crypto Service Encryption User, Key Vault Crypto User, Key Vault Reader, Key Vault Secrets Officer, or Key Vault Secrets User roles. Includes an ABAC condition to constrain role assignments.",
         "link": "https://management.azure.com/8b54135c-b56d-4d72-a534-26097cfdc8d8?api-version=2022-04-01"
+    },
+    {
+        "id": "a68e7c17-0ab2-4c09-9a58-125dae29748c",
+        "name": "Key Vault Purge Operator",
+        "description": "Allows permanent deletion of soft-deleted vaults.",
+        "link": "https://management.azure.com/a68e7c17-0ab2-4c09-9a58-125dae29748c?api-version=2022-04-01"
     },
     {
         "id": "21090545-7ca7-4776-b22c-e363652d74d2",

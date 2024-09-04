@@ -264,10 +264,22 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f690d423-6b29-4d04-98c6-694c42282419"
     },
     {
+        "id": "6b22000a-1228-42ec-88db-b8c00399aecb",
+        "name": "Bookings.Manage.All",
+        "description": "Manage bookings information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6b22000a-1228-42ec-88db-b8c00399aecb"
+    },
+    {
         "id": "6e98f277-b046-4193-a4f2-6bf6a78cd491",
         "name": "Bookings.Read.All",
         "description": "Read all Bookings related resources.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e98f277-b046-4193-a4f2-6bf6a78cd491"
+    },
+    {
+        "id": "0c4b2d20-7919-468d-8668-c54b09d4dee8",
+        "name": "Bookings.ReadWrite.All",
+        "description": "Read and write bookings information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0c4b2d20-7919-468d-8668-c54b09d4dee8"
     },
     {
         "id": "9769393e-5a9f-4302-9e3d-7e018ecb64a7",
@@ -1692,6 +1704,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/37730810-e9ba-4e46-b07e-8ca78d182097"
     },
     {
+        "id": "bdba4817-6ba1-4a7c-8a01-be9bc7c242dd",
+        "name": "Policy.Read.DeviceConfiguration",
+        "description": "Read your organization's device configuration policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bdba4817-6ba1-4a7c-8a01-be9bc7c242dd"
+    },
+    {
         "id": "b21b72f6-4e6a-4533-9112-47eea9f97b28",
         "name": "Policy.Read.IdentityProtection",
         "description": "Read your organization\u2019s identity protection policy",
@@ -1750,6 +1768,12 @@
         "name": "Policy.ReadWrite.CrossTenantAccess",
         "description": "Read and write your organization's cross tenant access policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/338163d7-f101-4c92-94ba-ca46fe52447c"
+    },
+    {
+        "id": "230fb2d5-aa21-49c1-bfa7-ae1be179d867",
+        "name": "Policy.ReadWrite.DeviceConfiguration",
+        "description": "Read and write your organization's device configuration policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/230fb2d5-aa21-49c1-bfa7-ae1be179d867"
     },
     {
         "id": "03cc4f92-788e-4ede-b93f-199424d144a5",
@@ -2360,13 +2384,13 @@
     {
         "id": "5ba43d2f-fa88-4db2-bd1c-a67c5f0fb1ce",
         "name": "Synchronization.Read.All",
-        "description": "Read all Azure AD synchronization data. ",
+        "description": "Read all Azure AD synchronization data.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5ba43d2f-fa88-4db2-bd1c-a67c5f0fb1ce"
     },
     {
         "id": "9b50c33d-700f-43b1-b2eb-87e89b703581",
         "name": "Synchronization.ReadWrite.All",
-        "description": "Read and write all Azure AD synchronization data. ",
+        "description": "Read and write all Azure AD synchronization data.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9b50c33d-700f-43b1-b2eb-87e89b703581"
     },
     {
