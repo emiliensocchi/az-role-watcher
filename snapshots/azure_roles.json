@@ -1284,12 +1284,6 @@
         "link": "https://management.azure.com/b59867f0-fa02-499b-be73-45a86b5b3e1c?api-version=2022-04-01"
     },
     {
-        "id": "b5b0c71d-aca9-4081-aee2-9b1bb335fc1a",
-        "name": "Cognitive Services Face Contributor",
-        "description": "Full access to perform all Face APIs",
-        "link": "https://management.azure.com/b5b0c71d-aca9-4081-aee2-9b1bb335fc1a?api-version=2022-04-01"
-    },
-    {
         "id": "9894cab4-e18a-44aa-828b-cb588cd6f2d7",
         "name": "Cognitive Services Face Recognizer",
         "description": "Lets you perform detect, verify, identify, group, and find similar operations on Face API. This role does not allow create or delete operations, which makes it well suited for endpoints that only need inferencing capabilities, following 'least privilege' best practices.",
