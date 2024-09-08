@@ -1482,12 +1482,6 @@
         "link": "https://management.azure.com/4e3d2b60-56ae-4dc6-a233-09c8e5a82e68?api-version=2022-04-01"
     },
     {
-        "id": "b9a307c4-5aa3-4b52-ba60-2b17c136cd7b",
-        "name": "Container Apps Jobs Operator",
-        "description": "Read, start, and stop Container Apps jobs.",
-        "link": "https://management.azure.com/b9a307c4-5aa3-4b52-ba60-2b17c136cd7b?api-version=2022-04-01"
-    },
-    {
         "id": "edd66693-d32a-450b-997d-0158c03976b0",
         "name": "Container Apps Jobs Reader",
         "description": "Read access to ContainerApps jobs",
@@ -2806,12 +2800,6 @@
         "name": "Operator Nexus Key Vault Writer Service Role (Preview)",
         "description": "(Preview) Provides Azure Operator Nexus services the ability to write to a Key Vault. This role is in preview and subject to change.",
         "link": "https://management.azure.com/44f0a1a8-6fea-4b35-980a-8ff50c487c97?api-version=2022-04-01"
-    },
-    {
-        "id": "77be276d-fb44-4f3b-beb5-9bf03c4cd2d3",
-        "name": "Operator Nexus Owner (Preview)",
-        "description": "(Preview) This role allows full access to Azure Operator Nexus Network Cloud resources. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/77be276d-fb44-4f3b-beb5-9bf03c4cd2d3?api-version=2022-04-01"
     },
     {
         "id": "4caf51ec-f9f5-413f-8a94-b9f5fddba66b",
