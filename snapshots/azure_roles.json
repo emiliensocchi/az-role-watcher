@@ -168,6 +168,12 @@
         "link": "https://management.azure.com/ffc6bbe0-e443-4c3b-bf54-26581bb2f78e?api-version=2022-04-01"
     },
     {
+        "id": "fe86443c-f201-4fc4-9d2a-ac61149fbda0",
+        "name": "App Configuration Contributor",
+        "description": "Grants permission for all management operations, except purge, for App Configuration resources.",
+        "link": "https://management.azure.com/fe86443c-f201-4fc4-9d2a-ac61149fbda0?api-version=2022-04-01"
+    },
+    {
         "id": "5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b",
         "name": "App Configuration Data Owner",
         "description": "Allows full access to App Configuration data.",
@@ -178,6 +184,12 @@
         "name": "App Configuration Data Reader",
         "description": "Allows read access to App Configuration data.",
         "link": "https://management.azure.com/516239f1-63e1-4d78-a4de-a74fb236a071?api-version=2022-04-01"
+    },
+    {
+        "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
+        "name": "App Configuration Reader",
+        "description": "Grants permission for read operations for App Configuration resources.",
+        "link": "https://management.azure.com/175b81b9-6e0d-490a-85e4-0d422273c10c?api-version=2022-04-01"
     },
     {
         "id": "fbc52c3f-28ad-4303-a892-8a056630b8f1",
@@ -394,6 +406,18 @@
         "name": "Azure Arc VMware VM Contributor",
         "description": "Arc VMware VM Contributor has permissions to perform all VM actions.",
         "link": "https://management.azure.com/b748a06d-6150-4f8a-aaa9-ce3940cd96cb?api-version=2022-04-01"
+    },
+    {
+        "id": "8d6517c1-e434-405c-9f3f-e0ae65085d76",
+        "name": "Azure Automanage Contributor",
+        "description": "Azure Automanage Contributor",
+        "link": "https://management.azure.com/8d6517c1-e434-405c-9f3f-e0ae65085d76?api-version=2022-04-01"
+    },
+    {
+        "id": "9fc6112f-f48e-4e27-8b09-72a5c94e4ae9",
+        "name": "Azure Bot Service Contributor Role",
+        "description": "To perform actions on the bots by copilot studio platform and extensibility team",
+        "link": "https://management.azure.com/9fc6112f-f48e-4e27-8b09-72a5c94e4ae9?api-version=2022-04-01"
     },
     {
         "id": "6d949e1d-41e2-46e3-8920-c6e4f31a8310",
