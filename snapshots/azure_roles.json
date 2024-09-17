@@ -402,6 +402,12 @@
         "link": "https://management.azure.com/8d6517c1-e434-405c-9f3f-e0ae65085d76?api-version=2022-04-01"
     },
     {
+        "id": "9fc6112f-f48e-4e27-8b09-72a5c94e4ae9",
+        "name": "Azure Bot Service Contributor Role",
+        "description": "To perform actions on the bots by copilot studio platform and extensibility team",
+        "link": "https://management.azure.com/9fc6112f-f48e-4e27-8b09-72a5c94e4ae9?api-version=2022-04-01"
+    },
+    {
         "id": "6d949e1d-41e2-46e3-8920-c6e4f31a8310",
         "name": "Azure Center for SAP solutions Management role",
         "description": "This role has permissions which allow users to register existing systems, view and manage systems.",
