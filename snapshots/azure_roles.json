@@ -168,6 +168,12 @@
         "link": "https://management.azure.com/ffc6bbe0-e443-4c3b-bf54-26581bb2f78e?api-version=2022-04-01"
     },
     {
+        "id": "fe86443c-f201-4fc4-9d2a-ac61149fbda0",
+        "name": "App Configuration Contributor",
+        "description": "Grants permission for all management operations, except purge, for App Configuration resources.",
+        "link": "https://management.azure.com/fe86443c-f201-4fc4-9d2a-ac61149fbda0?api-version=2022-04-01"
+    },
+    {
         "id": "5ae67dd6-50cb-40e7-96ff-dc2bfa4b606b",
         "name": "App Configuration Data Owner",
         "description": "Allows full access to App Configuration data.",
@@ -178,6 +184,12 @@
         "name": "App Configuration Data Reader",
         "description": "Allows read access to App Configuration data.",
         "link": "https://management.azure.com/516239f1-63e1-4d78-a4de-a74fb236a071?api-version=2022-04-01"
+    },
+    {
+        "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
+        "name": "App Configuration Reader",
+        "description": "Grants permission for read operations for App Configuration resources.",
+        "link": "https://management.azure.com/175b81b9-6e0d-490a-85e4-0d422273c10c?api-version=2022-04-01"
     },
     {
         "id": "fbc52c3f-28ad-4303-a892-8a056630b8f1",
