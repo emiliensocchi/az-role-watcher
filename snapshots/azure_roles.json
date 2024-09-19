@@ -3198,6 +3198,12 @@
         "link": "https://management.azure.com/db7003cd-07a9-490c-bfa5-23e40314f8d7?api-version=2022-04-01"
     },
     {
+        "id": "83f80186-3729-438c-ad2d-39e94d718838",
+        "name": "Service Fabric Managed Cluster Contributor",
+        "description": "Lets you managed your Service Fabric Managed Cluster resources",
+        "link": "https://management.azure.com/83f80186-3729-438c-ad2d-39e94d718838?api-version=2022-04-01"
+    },
+    {
         "id": "82200a5b-e217-47a5-b665-6d8765ee745b",
         "name": "Services Hub Operator",
         "description": "Services Hub Operator allows you to perform all read, write, and deletion operations related to Services Hub Connectors.",
