@@ -1548,6 +1548,12 @@
         "link": "https://management.azure.com/af61e8fc-2633-4b95-bed3-421ad6826515?api-version=2022-04-01"
     },
     {
+        "id": "577a9874-89fd-4f24-9dbd-b5034d0ad23a",
+        "name": "Container Registry Data Importer and Data Reader",
+        "description": "Provides the ability to import images into a registry through the registry import operation. Provides the ability to list repositories, view images and tags, get manifests, and pull images. Does not provide permissions for importing images through configuring registry transfer pipelines such as import and export pipelines. Does not provide permissions for importing through configuring Artifact Cache or Sync rules.",
+        "link": "https://management.azure.com/577a9874-89fd-4f24-9dbd-b5034d0ad23a?api-version=2022-04-01"
+    },
+    {
         "id": "bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7",
         "name": "Container Registry Repository Catalog Lister",
         "description": "Allows for listing all repositories in an Azure Container Registry. This role is in preview and subject to change.",
