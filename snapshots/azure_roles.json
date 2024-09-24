@@ -414,6 +414,12 @@
         "link": "https://management.azure.com/8d6517c1-e434-405c-9f3f-e0ae65085d76?api-version=2022-04-01"
     },
     {
+        "id": "a35466a1-cfd6-450a-b35e-683fcdf30363",
+        "name": "Azure Batch Service Orchestration Role",
+        "description": "Grants the required permissions to Azure Batch Resource Provider to manage compute and other backing resources in the subscription.",
+        "link": "https://management.azure.com/a35466a1-cfd6-450a-b35e-683fcdf30363?api-version=2022-04-01"
+    },
+    {
         "id": "9fc6112f-f48e-4e27-8b09-72a5c94e4ae9",
         "name": "Azure Bot Service Contributor Role",
         "description": "To perform actions on the bots by copilot studio platform and extensibility team",
@@ -1546,6 +1552,12 @@
         "name": "Container Apps SessionPools Reader",
         "description": "Read access to ContainerApps sessionpools.",
         "link": "https://management.azure.com/af61e8fc-2633-4b95-bed3-421ad6826515?api-version=2022-04-01"
+    },
+    {
+        "id": "577a9874-89fd-4f24-9dbd-b5034d0ad23a",
+        "name": "Container Registry Data Importer and Data Reader",
+        "description": "Provides the ability to import images into a registry through the registry import operation. Provides the ability to list repositories, view images and tags, get manifests, and pull images. Does not provide permissions for importing images through configuring registry transfer pipelines such as import and export pipelines. Does not provide permissions for importing through configuring Artifact Cache or Sync rules.",
+        "link": "https://management.azure.com/577a9874-89fd-4f24-9dbd-b5034d0ad23a?api-version=2022-04-01"
     },
     {
         "id": "bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7",
@@ -2686,6 +2698,12 @@
         "name": "Media Services Streaming Endpoints Administrator",
         "description": "Create, read, modify, and delete Streaming Endpoints; read-only access to other Media Services resources.",
         "link": "https://management.azure.com/99dba123-b5fe-44d5-874c-ced7199a5804?api-version=2022-04-01"
+    },
+    {
+        "id": "8c87871d-6201-42da-abb1-1c0c985ff71c",
+        "name": "Microsoft PowerBI Tenant Operations Role",
+        "description": "Allows management of tenant operations",
+        "link": "https://management.azure.com/8c87871d-6201-42da-abb1-1c0c985ff71c?api-version=2022-04-01"
     },
     {
         "id": "f4c81013-99ee-4d62-a7ee-b3f1f648599a",

@@ -2262,6 +2262,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d4dcee6d-0774-412a-b06c-aeabbd99e816"
     },
     {
+        "id": "3e5d0bee-973f-4736-a123-4e1ab146f3a8",
+        "name": "SecurityIdentitiesUserActions.Read.All",
+        "description": "Read all identity security available user actions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3e5d0bee-973f-4736-a123-4e1ab146f3a8"
+    },
+    {
+        "id": "b4146a3a-dd4f-4af4-8d91-7cc0eef3d041",
+        "name": "SecurityIdentitiesUserActions.ReadWrite.All",
+        "description": "Read and perform all identity security available user actions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b4146a3a-dd4f-4af4-8d91-7cc0eef3d041"
+    },
+    {
         "id": "45cc0394-e837-488b-a098-1918f48d186c",
         "name": "SecurityIncident.Read.All",
         "description": "Read all security incidents",
