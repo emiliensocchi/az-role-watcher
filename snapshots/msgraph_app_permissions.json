@@ -348,6 +348,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ef54d2bf-783f-4e0f-bca1-3210c0444d99"
     },
     {
+        "id": "f0a35f91-2aa6-4a99-9d5a-5b6bcb66204e",
+        "name": "CallEvents-Emergency.Read.All",
+        "description": "Read all emergency call events",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f0a35f91-2aa6-4a99-9d5a-5b6bcb66204e"
+    },
+    {
         "id": "1abb026f-7572-49f6-9ddd-ad61cbba181e",
         "name": "CallEvents.Read.All",
         "description": "Read all call events",
