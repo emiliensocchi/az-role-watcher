@@ -3216,9 +3216,15 @@
         "link": "https://management.azure.com/db7003cd-07a9-490c-bfa5-23e40314f8d7?api-version=2022-04-01"
     },
     {
+        "id": "b6efc156-f0da-4e90-a50a-8c000140b017",
+        "name": "Service Fabric Cluster Contributor",
+        "description": "Lets you manage your Service Fabric Cluster. Only provides Service Fabric permissions. You will need additional permissions to manage the cluster's underlying resources.",
+        "link": "https://management.azure.com/b6efc156-f0da-4e90-a50a-8c000140b017?api-version=2022-04-01"
+    },
+    {
         "id": "83f80186-3729-438c-ad2d-39e94d718838",
         "name": "Service Fabric Managed Cluster Contributor",
-        "description": "Lets you managed your Service Fabric Managed Cluster resources",
+        "description": "Lets you manage your Service Fabric Managed Cluster resource.",
         "link": "https://management.azure.com/83f80186-3729-438c-ad2d-39e94d718838?api-version=2022-04-01"
     },
     {
