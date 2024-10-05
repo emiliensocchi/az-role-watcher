@@ -744,6 +744,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/78145de6-330d-4800-a6ce-494ff2d33d07"
     },
     {
+        "id": "315b6e8c-d92a-4691-919d-00ce76d1344a",
+        "name": "DeviceManagementCloudCA.Read.All",
+        "description": "Read Microsoft Cloud PKI objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/315b6e8c-d92a-4691-919d-00ce76d1344a"
+    },
+    {
+        "id": "f15eb2ba-ef8a-4f70-991d-da5d045154e2",
+        "name": "DeviceManagementCloudCA.ReadWrite.All",
+        "description": "Read and write Microsoft Cloud PKI objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f15eb2ba-ef8a-4f70-991d-da5d045154e2"
+    },
+    {
         "id": "dc377aa6-52d8-4e23-b271-2a7ae04cedf3",
         "name": "DeviceManagementConfiguration.Read.All",
         "description": "Read Microsoft Intune device configuration and policies",
@@ -1498,6 +1510,18 @@
         "name": "OnPremisesPublishingProfiles.ReadWrite.All",
         "description": "Manage on-premises published resources",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0b57845e-aa49-4e6f-8109-ce654fffa618"
+    },
+    {
+        "id": "c0cf7895-985f-42d4-a693-b618f36674ad",
+        "name": "OnlineMeetingAiInsight.Read.All",
+        "description": "Read all AI Insights for online meetings.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c0cf7895-985f-42d4-a693-b618f36674ad"
+    },
+    {
+        "id": "01892c31-3b66-4bcf-b5f5-bf0a03d5ed9f",
+        "name": "OnlineMeetingAiInsight.Read.Chat",
+        "description": "Read all AI Insights for online meetings where the Teams application is installed.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/01892c31-3b66-4bcf-b5f5-bf0a03d5ed9f"
     },
     {
         "id": "df01ed3b-eb61-4eca-9965-6b3d789751b2",

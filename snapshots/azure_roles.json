@@ -60,6 +60,12 @@
         "link": "https://management.azure.com/ef1c2c96-4a77-49e8-b9a4-6179fe1d2fd2?api-version=2022-04-01"
     },
     {
+        "id": "d715fb95-a0f0-4f1c-8be6-5ad2d2767f67",
+        "name": "AVS Orchestrator Role",
+        "description": "Custom role for AVS to manage customer resources used for AVS scenarios.",
+        "link": "https://management.azure.com/d715fb95-a0f0-4f1c-8be6-5ad2d2767f67?api-version=2022-04-01"
+    },
+    {
         "id": "76cc9ee4-d5d3-4a45-a930-26add3d73475",
         "name": "Access Review Operator Service Role",
         "description": "Lets you grant Access Review System app permissions to discover and revoke access as needed by the access review process.",
@@ -1258,6 +1264,12 @@
         "name": "ClearDB MySQL DB Contributor",
         "description": "Lets you manage ClearDB MySQL databases, but not access to them.",
         "link": "https://management.azure.com/9106cda0-8a86-4e81-b686-29a22c54effe?api-version=2022-04-01"
+    },
+    {
+        "id": "4e9d0bd4-5aab-4f91-92df-9def33fe287c",
+        "name": "CloudTest Contributor Role",
+        "description": "Read, write, delete and perform actions on CloudTest Accounts, CloudTest Pools, 1ES Hosted Pools and 1ES Images.",
+        "link": "https://management.azure.com/4e9d0bd4-5aab-4f91-92df-9def33fe287c?api-version=2022-04-01"
     },
     {
         "id": "7ac06ca7-21ca-47e3-a67b-cbd6e6223baf",
@@ -3450,10 +3462,22 @@
         "link": "https://management.azure.com/76199698-9eea-4c19-bc75-cec21354c6b6?api-version=2022-04-01"
     },
     {
+        "id": "6e0c8711-85a0-4490-8365-8ec13c4560b4",
+        "name": "Stream Analytics Contributor",
+        "description": "Contributor access to Clusters and Streaming Jobs",
+        "link": "https://management.azure.com/6e0c8711-85a0-4490-8365-8ec13c4560b4?api-version=2022-04-01"
+    },
+    {
         "id": "1ec5b3c1-b17e-4e25-8312-2acb3c3c5abf",
         "name": "Stream Analytics Query Tester",
         "description": "Lets you perform query testing without creating a stream analytics job first",
         "link": "https://management.azure.com/1ec5b3c1-b17e-4e25-8312-2acb3c3c5abf?api-version=2022-04-01"
+    },
+    {
+        "id": "1dfc38e8-6ce7-447f-807c-029c65262c5f",
+        "name": "Stream Analytics Reader",
+        "description": "Read-only access to Clusters and Streaming Jobs",
+        "link": "https://management.azure.com/1dfc38e8-6ce7-447f-807c-029c65262c5f?api-version=2022-04-01"
     },
     {
         "id": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e",
