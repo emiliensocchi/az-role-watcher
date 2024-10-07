@@ -1998,6 +1998,12 @@
         "link": "https://management.azure.com/0ad04412-c4d5-4796-b79c-f76d14c8d402?api-version=2022-04-01"
     },
     {
+        "id": "80d0d6b0-f522-40a4-8886-a5a11720c375",
+        "name": "Durable Task Worker",
+        "description": "Used by worker applications to interact with the Durable Task service",
+        "link": "https://management.azure.com/80d0d6b0-f522-40a4-8886-a5a11720c375?api-version=2022-04-01"
+    },
+    {
         "id": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
         "name": "Elastic SAN Network Admin",
         "description": "Allows access to create Private Endpoints on SAN resources, and to read SAN resources",
