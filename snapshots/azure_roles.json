@@ -1321,7 +1321,7 @@
     },
     {
         "id": "b59867f0-fa02-499b-be73-45a86b5b3e1c",
-        "name": "Cognitive Services Data Reader (Preview)",
+        "name": "Cognitive Services Data Reader",
         "description": "Lets you read Cognitive Services data.",
         "link": "https://management.azure.com/b59867f0-fa02-499b-be73-45a86b5b3e1c?api-version=2022-04-01"
     },
