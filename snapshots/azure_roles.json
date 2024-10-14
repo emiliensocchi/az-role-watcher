@@ -2538,6 +2538,18 @@
         "link": "https://management.azure.com/2a5c394f-5eb7-4d4f-9c8e-e8eae39faebc?api-version=2022-04-01"
     },
     {
+        "id": "bf2b6809-e9a5-4aea-a6e1-40a9dc8c43a7",
+        "name": "Landing Zone Account Owner",
+        "description": "Microsoft.Sovereign Landing Zone Account Owner allowing to review and modify Landing Zone Account, Landing Zone Configurations, as well as reading and adding Landing Zone Registrations. Also enables read-access to policies and management groups for enabling the full user experience of the Sovereign Services RP in the Azure Portal (as otherwise some elements might not be accessible to end users).",
+        "link": "https://management.azure.com/bf2b6809-e9a5-4aea-a6e1-40a9dc8c43a7?api-version=2022-04-01"
+    },
+    {
+        "id": "2718b1f7-eb07-424e-8868-0137541392a1",
+        "name": "Landing Zone Account Reader",
+        "description": "Microsoft.Sovereign Landing Zone Account Reader allowing to read Landing Zone Account, Landing Zone Configurations and Landing Zone Registrations. Also enables read-access to policies and management groups for enabling the full user experience of the Sovereign Services RP in the Azure Portal (as otherwise some elements might not be accessible to end users).",
+        "link": "https://management.azure.com/2718b1f7-eb07-424e-8868-0137541392a1?api-version=2022-04-01"
+    },
+    {
         "id": "38863829-c2a4-4f8d-b1d2-2e325973ebc7",
         "name": "Landing Zone Management Owner",
         "description": "Microsoft.Sovereign Landing Zone Management Owner allowing to review and modify Landing Zone Configurations as well as reading and adding Landing Zone Registrations. Also enables read-access to policies and management groups for enabling the full user experience of the Sovereign Services RP in the Azure Portal (as otherwise some elements might not be accessible to end users).",
@@ -2770,6 +2782,12 @@
         "name": "Microsoft.Kubernetes connected cluster role",
         "description": "Microsoft.Kubernetes connected cluster role.",
         "link": "https://management.azure.com/5548b2cf-c94c-4228-90ba-30851930a12f?api-version=2022-04-01"
+    },
+    {
+        "id": "21bffb94-04c0-4ed0-b676-68bb926e832b",
+        "name": "Microsoft.Windows365.CloudPcDelegatedMsis Writer User",
+        "description": "Built in role to perform Write operations on CloudPcDelegatedMsis resources.",
+        "link": "https://management.azure.com/21bffb94-04c0-4ed0-b676-68bb926e832b?api-version=2022-04-01"
     },
     {
         "id": "56be40e2-4db1-4ccf-93c3-7e44c597135b",
