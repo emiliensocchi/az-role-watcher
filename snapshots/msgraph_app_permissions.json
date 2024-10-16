@@ -672,6 +672,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/12338004-21f4-4896-bf5e-b75dfaf1016d"
     },
     {
+        "id": "9fd1f8bf-a443-4df6-bc2a-5d00c5ec7828",
+        "name": "CustomSecAttributeProvisioning.Read.All",
+        "description": "Read the provisioning configuration of all active custom security attributes",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9fd1f8bf-a443-4df6-bc2a-5d00c5ec7828"
+    },
+    {
+        "id": "1db69e9c-8d0a-498d-a5df-11fd0b68ceab",
+        "name": "CustomSecAttributeProvisioning.ReadWrite.All",
+        "description": "Read and edit the provisioning configuration of all active custom security attributes",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1db69e9c-8d0a-498d-a5df-11fd0b68ceab"
+    },
+    {
         "id": "ab8a5872-7c88-47a6-8141-7becce939190",
         "name": "CustomTags.Read.All",
         "description": "Read all custom tags data",
