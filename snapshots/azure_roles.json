@@ -420,6 +420,30 @@
         "link": "https://management.azure.com/8d6517c1-e434-405c-9f3f-e0ae65085d76?api-version=2022-04-01"
     },
     {
+        "id": "29fe4964-1e60-436b-bd3a-77fd4c178b3c",
+        "name": "Azure Batch Account Contributor",
+        "description": "Grants full access to manage all Batch resources, including Batch accounts, pools and jobs.",
+        "link": "https://management.azure.com/29fe4964-1e60-436b-bd3a-77fd4c178b3c?api-version=2022-04-01"
+    },
+    {
+        "id": "11076f67-66f6-4be0-8f6b-f0609fd05cc9",
+        "name": "Azure Batch Account Reader",
+        "description": "Lets you view all resources including pools and jobs in the Batch account.",
+        "link": "https://management.azure.com/11076f67-66f6-4be0-8f6b-f0609fd05cc9?api-version=2022-04-01"
+    },
+    {
+        "id": "6aaa78f1-f7de-44ca-8722-c64a23943cae",
+        "name": "Azure Batch Data Contributor",
+        "description": "Grants permissions to manage Batch pools and jobs but not to modify accounts.",
+        "link": "https://management.azure.com/6aaa78f1-f7de-44ca-8722-c64a23943cae?api-version=2022-04-01"
+    },
+    {
+        "id": "48e5e92e-a480-4e71-aa9c-2778f4c13781",
+        "name": "Azure Batch Job Submitter",
+        "description": "Lets you submit and manage jobs in the Batch account.",
+        "link": "https://management.azure.com/48e5e92e-a480-4e71-aa9c-2778f4c13781?api-version=2022-04-01"
+    },
+    {
         "id": "a35466a1-cfd6-450a-b35e-683fcdf30363",
         "name": "Azure Batch Service Orchestration Role",
         "description": "Grants the required permissions to Azure Batch Resource Provider to manage compute and other backing resources in the subscription.",
@@ -754,6 +778,12 @@
         "name": "Azure Machine Learning Workspace Connection Secrets Reader",
         "description": "Can list workspace connection secrets",
         "link": "https://management.azure.com/ea01e6af-a1c1-4350-9563-ad00f8c72ec5?api-version=2022-04-01"
+    },
+    {
+        "id": "5c2d7e57-b7c2-4d8a-be4f-82afa42c6e95",
+        "name": "Azure Managed Grafana Workspace Contributor",
+        "description": "Can manage Azure Managed Grafana resources, without providing access to the workspaces themselves.",
+        "link": "https://management.azure.com/5c2d7e57-b7c2-4d8a-be4f-82afa42c6e95?api-version=2022-04-01"
     },
     {
         "id": "dba33070-676a-4fb0-87fa-064dc56ff7fb",
@@ -1756,6 +1786,12 @@
         "name": "DeID Realtime Data User",
         "description": "Execute requests against DeID realtime endpoint. This role is in preview and subject to change.",
         "link": "https://management.azure.com/bb6577c4-ea0a-40b2-8962-ea18cb8ecd4e?api-version=2022-04-01"
+    },
+    {
+        "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
+        "name": "Defender CSPM Storage Data Scanner",
+        "description": "Grants access to read blobs and files. This role is used by the data scanner of Dfender CSPM.",
+        "link": "https://management.azure.com/0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35?api-version=2022-04-01"
     },
     {
         "id": "8480c0f0-4509-4229-9339-7c10018cb8c4",
