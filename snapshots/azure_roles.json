@@ -1350,6 +1350,12 @@
         "link": "https://management.azure.com/0a5ae4ab-0d65-4eeb-be61-29fc9b54394b?api-version=2022-04-01"
     },
     {
+        "id": "19c28022-e58e-450d-a464-0b2a53034789",
+        "name": "Cognitive Services Data Contributor (Preview)",
+        "description": "Allows to call data plane APIs, but not any control plane APIs for Microsoft Cognitive Services. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/19c28022-e58e-450d-a464-0b2a53034789?api-version=2022-04-01"
+    },
+    {
         "id": "b59867f0-fa02-499b-be73-45a86b5b3e1c",
         "name": "Cognitive Services Data Reader",
         "description": "Lets you read Cognitive Services data.",
@@ -1540,6 +1546,12 @@
         "name": "Connector Reader",
         "description": "Read connectors and their associated resources, such as impacts and insights.",
         "link": "https://management.azure.com/6cdbb904-5ff3-429d-8169-7d7818b91bd8?api-version=2022-04-01"
+    },
+    {
+        "id": "d5adeb5b-107f-4aca-99ea-4e3f4fc008d5",
+        "name": "Container Apps ConnectedEnvironments Reader",
+        "description": "Read access to Container Apps ConnectedEnvironments.",
+        "link": "https://management.azure.com/d5adeb5b-107f-4aca-99ea-4e3f4fc008d5?api-version=2022-04-01"
     },
     {
         "id": "358470bc-b998-42bd-ab17-a7e34c199c0f",
@@ -3298,6 +3310,24 @@
         "name": "Service Fabric Managed Cluster Contributor",
         "description": "Deploy and manage your Service Fabric Managed Cluster resources. Includes managed clusters, node types, application types, application type versions, applications, and services.",
         "link": "https://management.azure.com/83f80186-3729-438c-ad2d-39e94d718838?api-version=2022-04-01"
+    },
+    {
+        "id": "4e50c84c-c78e-4e37-b47e-e60ffea0a775",
+        "name": "Service Group Administrator",
+        "description": "Role Definition for administrator of a Service Group",
+        "link": "https://management.azure.com/4e50c84c-c78e-4e37-b47e-e60ffea0a775?api-version=2022-04-01"
+    },
+    {
+        "id": "32e6a4ec-6095-4e37-b54b-12aa350ba81f",
+        "name": "Service Group Contributor",
+        "description": "Role Definition for contributor of a Service Group",
+        "link": "https://management.azure.com/32e6a4ec-6095-4e37-b54b-12aa350ba81f?api-version=2022-04-01"
+    },
+    {
+        "id": "de754d53-652d-4c75-a67f-1e48d8b49c97",
+        "name": "Service Group Reader",
+        "description": "Role Definition for reader of a Service Group",
+        "link": "https://management.azure.com/de754d53-652d-4c75-a67f-1e48d8b49c97?api-version=2022-04-01"
     },
     {
         "id": "82200a5b-e217-47a5-b665-6d8765ee745b",
