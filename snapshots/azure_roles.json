@@ -672,6 +672,18 @@
         "link": "https://management.azure.com/18ab4d3d-a1bf-4477-8ad9-8359bc988f69?api-version=2022-04-01"
     },
     {
+        "id": "bd80684d-2f5f-4130-892a-0955546282de",
+        "name": "Azure Kubernetes Fleet Manager RBAC Cluster Reader",
+        "description": "Grants read-only access to most Kubernetes cluster-scoped resources in the fleet-managed hub cluster.",
+        "link": "https://management.azure.com/bd80684d-2f5f-4130-892a-0955546282de?api-version=2022-04-01"
+    },
+    {
+        "id": "1dc4cd5a-de51-4ee4-bc8e-b40e9c17e320",
+        "name": "Azure Kubernetes Fleet Manager RBAC Cluster Writer",
+        "description": "Grants read/write access to most Kubernetes cluster-scoped resources in the fleet-managed hub cluster.",
+        "link": "https://management.azure.com/1dc4cd5a-de51-4ee4-bc8e-b40e9c17e320?api-version=2022-04-01"
+    },
+    {
         "id": "30b27cfc-9c84-438e-b0ce-70e35255df80",
         "name": "Azure Kubernetes Fleet Manager RBAC Reader",
         "description": "Grants read-only access to most Kubernetes resources within a namespace in the fleet-managed hub cluster. It does not allow viewing roles or role bindings. This role does not allow viewing Secrets, since reading the contents of Secrets enables access to ServiceAccount credentials in the namespace, which would allow API access as any ServiceAccount in the namespace (a form of privilege escalation).  Applying this role at cluster scope will give access across all namespaces.",
