@@ -402,6 +402,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fd7ccf6b-3d28-418b-9701-cd10f5cd2fd4"
     },
     {
+        "id": "418dae40-2b65-4819-900c-519a04e4d278",
+        "name": "ChangeManagement.Read.All",
+        "description": "Read Change Management items",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/418dae40-2b65-4819-900c-519a04e4d278"
+    },
+    {
         "id": "f3a65bd4-b703-46df-8f7e-0174fea562aa",
         "name": "Channel.Create",
         "description": "Create channels",
