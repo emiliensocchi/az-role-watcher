@@ -192,6 +192,12 @@
         "link": "https://management.azure.com/516239f1-63e1-4d78-a4de-a74fb236a071?api-version=2022-04-01"
     },
     {
+        "id": "7fd69092-c9bc-4b59-9e2e-bca63317e147",
+        "name": "App Configuration Data SAS User",
+        "description": "Allows the usage of SAS tokens for authentication.",
+        "link": "https://management.azure.com/7fd69092-c9bc-4b59-9e2e-bca63317e147?api-version=2022-04-01"
+    },
+    {
         "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
         "name": "App Configuration Reader",
         "description": "Grants permission for read operations for App Configuration resources.",
@@ -832,6 +838,12 @@
         "name": "Azure Messaging Catalog Data Owner",
         "description": "Allows for full access to Azure Messaging Catalog resources.",
         "link": "https://management.azure.com/f27b7598-bc64-41f7-8a44-855ff16326c2?api-version=2022-04-01"
+    },
+    {
+        "id": "ff478a4e-8633-416e-91bc-ec33ce7c9516",
+        "name": "Azure Messaging Connectors Owner",
+        "description": "Allows for full access to Azure Messaging Connectors resources.",
+        "link": "https://management.azure.com/ff478a4e-8633-416e-91bc-ec33ce7c9516?api-version=2022-04-01"
     },
     {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
@@ -1560,6 +1572,12 @@
         "link": "https://management.azure.com/6cdbb904-5ff3-429d-8169-7d7818b91bd8?api-version=2022-04-01"
     },
     {
+        "id": "6f4fe6fc-f04f-4d97-8528-8bc18c848dca",
+        "name": "Container Apps ConnectedEnvironments Contributor",
+        "description": "Full management of Container Apps ConnectedEnvironments, including creation, deletion, and updates.",
+        "link": "https://management.azure.com/6f4fe6fc-f04f-4d97-8528-8bc18c848dca?api-version=2022-04-01"
+    },
+    {
         "id": "d5adeb5b-107f-4aca-99ea-4e3f4fc008d5",
         "name": "Container Apps ConnectedEnvironments Reader",
         "description": "Read access to Container Apps ConnectedEnvironments.",
@@ -1618,6 +1636,12 @@
         "name": "Container Apps SessionPools Reader",
         "description": "Read access to ContainerApps sessionpools.",
         "link": "https://management.azure.com/af61e8fc-2633-4b95-bed3-421ad6826515?api-version=2022-04-01"
+    },
+    {
+        "id": "3bc748fc-213d-45c1-8d91-9da5725539b9",
+        "name": "Container Registry Contributor and Data Access Configuration Administrator",
+        "description": "Provides permissions to create, list, and update container registries and registry configuration properties. Provides permissions to configure data access such as admin user credentials, scope maps, and tokens, which can be used to read, write or delete repositories and images. Does not provide direct permissions to read, list, or write registry contents including repositories and images. Does not provide permissions to modify data plane content such as imports, Artifact Cache or Sync, and Transfer Pipelines. Does not provide permissions for managing Tasks.",
+        "link": "https://management.azure.com/3bc748fc-213d-45c1-8d91-9da5725539b9?api-version=2022-04-01"
     },
     {
         "id": "577a9874-89fd-4f24-9dbd-b5034d0ad23a",
@@ -2356,6 +2380,12 @@
         "name": "Health Bot Reader",
         "description": "Users with reader access can sign in, have read-only access to the bot resources, scenarios and configuration setting except for the bot instance keys & secrets (including Authentication, Data Connection and Channels keys) and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs).",
         "link": "https://management.azure.com/eb5a76d5-50e7-4c33-a449-070e7c9c4cf2?api-version=2022-04-01"
+    },
+    {
+        "id": "566f0da3-e2a5-4393-9089-763f8bab8fb6",
+        "name": "Health Safeguards Data User",
+        "description": "Allows processing of health data in all available Health Safeguards",
+        "link": "https://management.azure.com/566f0da3-e2a5-4393-9089-763f8bab8fb6?api-version=2022-04-01"
     },
     {
         "id": "350f8d15-c687-4448-8ae1-157740a3936d",
