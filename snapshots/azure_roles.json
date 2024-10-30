@@ -192,6 +192,12 @@
         "link": "https://management.azure.com/516239f1-63e1-4d78-a4de-a74fb236a071?api-version=2022-04-01"
     },
     {
+        "id": "7fd69092-c9bc-4b59-9e2e-bca63317e147",
+        "name": "App Configuration Data SAS User",
+        "description": "Allows the usage of SAS tokens for authentication.",
+        "link": "https://management.azure.com/7fd69092-c9bc-4b59-9e2e-bca63317e147?api-version=2022-04-01"
+    },
+    {
         "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
         "name": "App Configuration Reader",
         "description": "Grants permission for read operations for App Configuration resources.",
@@ -2374,6 +2380,12 @@
         "name": "Health Bot Reader",
         "description": "Users with reader access can sign in, have read-only access to the bot resources, scenarios and configuration setting except for the bot instance keys & secrets (including Authentication, Data Connection and Channels keys) and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs).",
         "link": "https://management.azure.com/eb5a76d5-50e7-4c33-a449-070e7c9c4cf2?api-version=2022-04-01"
+    },
+    {
+        "id": "566f0da3-e2a5-4393-9089-763f8bab8fb6",
+        "name": "Health Safeguards Data User",
+        "description": "Allows processing of health data in all available Health Safeguards",
+        "link": "https://management.azure.com/566f0da3-e2a5-4393-9089-763f8bab8fb6?api-version=2022-04-01"
     },
     {
         "id": "350f8d15-c687-4448-8ae1-157740a3936d",
