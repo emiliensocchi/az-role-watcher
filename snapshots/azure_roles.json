@@ -1638,12 +1638,6 @@
         "link": "https://management.azure.com/af61e8fc-2633-4b95-bed3-421ad6826515?api-version=2022-04-01"
     },
     {
-        "id": "69b07be0-09bf-439a-b9a6-e73de851bd59",
-        "name": "Container Registry Configuration Reader and Data Access Configuration Reader",
-        "description": "Provides permissions to list container registries and registry configuration properties. Provides permissions to list data access configuration such as admin user credentials, scope maps, and tokens, which can be used to read, write or delete repositories and images. Does not provide direct permissions to read, list, or write registry contents including repositories and images. Does not provide permissions to modify data plane content such as imports, Artifact Cache or Sync, and Transfer Pipelines. Does not provide permissions for managing Tasks.",
-        "link": "https://management.azure.com/69b07be0-09bf-439a-b9a6-e73de851bd59?api-version=2022-04-01"
-    },
-    {
         "id": "3bc748fc-213d-45c1-8d91-9da5725539b9",
         "name": "Container Registry Contributor and Data Access Configuration Administrator",
         "description": "Provides permissions to create, list, and update container registries and registry configuration properties. Provides permissions to configure data access such as admin user credentials, scope maps, and tokens, which can be used to read, write or delete repositories and images. Does not provide direct permissions to read, list, or write registry contents including repositories and images. Does not provide permissions to modify data plane content such as imports, Artifact Cache or Sync, and Transfer Pipelines. Does not provide permissions for managing Tasks.",
@@ -1678,12 +1672,6 @@
         "name": "Container Registry Repository Writer",
         "description": "Allows for read and write access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
         "link": "https://management.azure.com/2a1e307c-b015-4ebd-883e-5b7698a07328?api-version=2022-04-01"
-    },
-    {
-        "id": "bf94e731-3a51-4a7c-8c54-a1ab9971dfc1",
-        "name": "Container Registry Transfer Pipeline Contributor",
-        "description": "Provides the ability to transfer, import, and export artifacts through configuring registry transfer pipelines that involve intermediary storage accounts and key vaults. Does not provide permissions to push or pull images. Does not provide permissions to create, manage, or list storage accounts or key vaults. Does not provide permissions to perform role assignments.",
-        "link": "https://management.azure.com/bf94e731-3a51-4a7c-8c54-a1ab9971dfc1?api-version=2022-04-01"
     },
     {
         "id": "ad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b",
@@ -1952,7 +1940,7 @@
     {
         "id": "ea4bfff8-7fb4-485a-aadd-d4129a0ffaa6",
         "name": "Desktop Virtualization User Session Operator",
-        "description": "Operator of the Desktop Virtualization User Session.",
+        "description": "Operator of the Desktop Virtualization Uesr Session.",
         "link": "https://management.azure.com/ea4bfff8-7fb4-485a-aadd-d4129a0ffaa6?api-version=2022-04-01"
     },
     {
