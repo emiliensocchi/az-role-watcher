@@ -1890,6 +1890,12 @@
         "link": "https://management.azure.com/18e40d4e-8d2e-438d-97e1-9528336e149c?api-version=2022-04-01"
     },
     {
+        "id": "97dfb3ce-e936-462c-9425-9cdb67e66d45",
+        "name": "Desktop Virtualization App Attach Contributor",
+        "description": "Provide permission to manage app attach resources",
+        "link": "https://management.azure.com/97dfb3ce-e936-462c-9425-9cdb67e66d45?api-version=2022-04-01"
+    },
+    {
         "id": "86240b0e-9422-4c43-887b-b61143f32ba8",
         "name": "Desktop Virtualization Application Group Contributor",
         "description": "Contributor of the Desktop Virtualization Application Group.",
