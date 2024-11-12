@@ -204,6 +204,12 @@
         "link": "https://management.azure.com/175b81b9-6e0d-490a-85e4-0d422273c10c?api-version=2022-04-01"
     },
     {
+        "id": "8ea85a25-eb16-4e29-ab4d-6f2a26c711a2",
+        "name": "App Service Environment Contributor",
+        "description": "Manage App Service Environments but not the App Service Plans or Websites that it hosts.",
+        "link": "https://management.azure.com/8ea85a25-eb16-4e29-ab4d-6f2a26c711a2?api-version=2022-04-01"
+    },
+    {
         "id": "fbc52c3f-28ad-4303-a892-8a056630b8f1",
         "name": "AppGw for Containers Configuration Manager",
         "description": "Allows access and configuration updates to Application Gateway for Containers resource.",
