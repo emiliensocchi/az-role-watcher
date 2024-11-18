@@ -2580,12 +2580,6 @@
         "link": "https://management.azure.com/5e93ba01-8f92-4c7a-b12a-801e3df23824?api-version=2022-04-01"
     },
     {
-        "id": "ada52afe-776a-4b4d-a8f2-55670d3d8178",
-        "name": "Kubernetes Agent Subscription Level Operator",
-        "description": "Grants Microsoft Defender for Cloud subscription level permissions needed to activate Containers plan",
-        "link": "https://management.azure.com/ada52afe-776a-4b4d-a8f2-55670d3d8178?api-version=2022-04-01"
-    },
-    {
         "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
         "name": "Kubernetes Agentless Operator",
         "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
