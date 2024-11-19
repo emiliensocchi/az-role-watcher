@@ -1518,6 +1518,12 @@
         "link": "https://management.azure.com/7a6f0e70-c033-4fb1-828c-08514e5f4102?api-version=2022-04-01"
     },
     {
+        "id": "09976791-48a7-449e-bb21-39d1a415f350",
+        "name": "Communication and Email Service Owner",
+        "description": "Create, read, modify, and delete Communications and Email Service resources.",
+        "link": "https://management.azure.com/09976791-48a7-449e-bb21-39d1a415f350?api-version=2022-04-01"
+    },
+    {
         "id": "49435da6-99fe-48a5-a235-fc668b9dc04a",
         "name": "Community Contributor Role",
         "description": "Community Contributor Role to access the resources of Microsoft.Mission stored with RPSAAS.",
@@ -2580,6 +2586,12 @@
         "link": "https://management.azure.com/5e93ba01-8f92-4c7a-b12a-801e3df23824?api-version=2022-04-01"
     },
     {
+        "id": "ada52afe-776a-4b4d-a8f2-55670d3d8178",
+        "name": "Kubernetes Agent Subscription Level Operator",
+        "description": "Grants Microsoft Defender for Cloud subscription level permissions needed to activate Containers plan",
+        "link": "https://management.azure.com/ada52afe-776a-4b4d-a8f2-55670d3d8178?api-version=2022-04-01"
+    },
+    {
         "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
         "name": "Kubernetes Agentless Operator",
         "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
@@ -3136,6 +3148,12 @@
         "name": "Purview role 3 (Deprecated)",
         "description": "Deprecated role.",
         "link": "https://management.azure.com/ff100721-1b9d-43d8-af52-42b69c1272db?api-version=2022-04-01"
+    },
+    {
+        "id": "c1410b24-3e69-4857-8f86-4d0a2e603250",
+        "name": "Quantum Workspace Data Contributor",
+        "description": "Create, read, and modify jobs and other Workspace data. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/c1410b24-3e69-4857-8f86-4d0a2e603250?api-version=2022-04-01"
     },
     {
         "id": "0e5f05e5-9ab9-446b-b98d-1e2157c94125",
