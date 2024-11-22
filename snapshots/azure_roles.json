@@ -1518,6 +1518,12 @@
         "link": "https://management.azure.com/7a6f0e70-c033-4fb1-828c-08514e5f4102?api-version=2022-04-01"
     },
     {
+        "id": "09976791-48a7-449e-bb21-39d1a415f350",
+        "name": "Communication and Email Service Owner",
+        "description": "Create, read, modify, and delete Communications and Email Service resources.",
+        "link": "https://management.azure.com/09976791-48a7-449e-bb21-39d1a415f350?api-version=2022-04-01"
+    },
+    {
         "id": "49435da6-99fe-48a5-a235-fc668b9dc04a",
         "name": "Community Contributor Role",
         "description": "Community Contributor Role to access the resources of Microsoft.Mission stored with RPSAAS.",
