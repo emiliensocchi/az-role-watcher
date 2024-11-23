@@ -1026,6 +1026,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/761327c9-d819-4c08-9a5f-874cd2826608"
     },
     {
+        "id": "65891b00-2fd9-4e33-be27-04a53132e3df",
+        "name": "FileIngestion.Ingest",
+        "description": "Ingest SharePoint and OneDrive content to make it available in the search index",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/65891b00-2fd9-4e33-be27-04a53132e3df"
+    },
+    {
+        "id": "766c601b-c009-4438-8290-c8b05fa00c4b",
+        "name": "FileIngestionHybridOnboarding.Manage",
+        "description": "Manage onboarding for a Hybrid Cloud tenant",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/766c601b-c009-4438-8290-c8b05fa00c4b"
+    },
+    {
         "id": "40dc41bc-0f7e-42ff-89bd-d9516947e474",
         "name": "FileStorageContainer.Selected",
         "description": "Access selected file storage containers",
@@ -2136,6 +2148,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/031a549a-bb80-49b6-8032-2068448c6a3c"
     },
     {
+        "id": "4d6e30d1-e64e-4ae7-bf9d-c706cc928cef",
+        "name": "RoleManagement.Read.Defender",
+        "description": "Read M365 Defender RBAC configuration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4d6e30d1-e64e-4ae7-bf9d-c706cc928cef"
+    },
+    {
         "id": "483bed4a-2ad3-4361-a73b-c83ccdbdc53c",
         "name": "RoleManagement.Read.Directory",
         "description": "Read all directory RBAC settings",
@@ -2152,6 +2170,12 @@
         "name": "RoleManagement.ReadWrite.CloudPC",
         "description": "Read and write all Cloud PC RBAC settings",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/274d0592-d1b6-44bd-af1d-26d259bcb43a"
+    },
+    {
+        "id": "8b7e8c0a-7e9d-4049-97ec-04b5e1bcaf05",
+        "name": "RoleManagement.ReadWrite.Defender",
+        "description": "Read M365 Defender RBAC configuration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8b7e8c0a-7e9d-4049-97ec-04b5e1bcaf05"
     },
     {
         "id": "9e3f62cf-ca93-4989-b6ce-bf83c28f9fe8",
@@ -2914,6 +2938,18 @@
         "name": "User.RevokeSessions.All",
         "description": "Revoke all sign in sessions for a user",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/77f3a031-c388-4f99-b373-dc68676a979e"
+    },
+    {
+        "id": "72e00c1d-3e3d-43bb-a0b9-c435611bb1d2",
+        "name": "UserAuthMethod-Passkey.Read.All",
+        "description": "Read all users' passkey authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/72e00c1d-3e3d-43bb-a0b9-c435611bb1d2"
+    },
+    {
+        "id": "0400e371-7db1-4338-a269-96069eb65227",
+        "name": "UserAuthMethod-Passkey.ReadWrite.All",
+        "description": "Read and write all users' passkey authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0400e371-7db1-4338-a269-96069eb65227"
     },
     {
         "id": "38d9df27-64da-44fd-b7c5-a6fbac20248f",
