@@ -2718,6 +2718,12 @@
         "link": "https://management.azure.com/bfc3b73d-c6ff-45eb-9a5f-40298295bf20?api-version=2022-04-01"
     },
     {
+        "id": "28bf596f-4eb7-45ce-b5bc-6cf482fec137",
+        "name": "Locks Contributor",
+        "description": "Can Manage Locks Operations.",
+        "link": "https://management.azure.com/28bf596f-4eb7-45ce-b5bc-6cf482fec137?api-version=2022-04-01"
+    },
+    {
         "id": "92aaf0da-9dab-42b6-94a3-d43ce8d16293",
         "name": "Log Analytics Contributor",
         "description": "Log Analytics Contributor can read all monitoring data and edit monitoring settings. Editing monitoring settings includes adding the VM extension to VMs; reading storage account keys to be able to configure collection of logs from Azure Storage; adding solutions; and configuring Azure diagnostics on all Azure resources.",
@@ -3022,6 +3028,12 @@
         "name": "Oracle Subscriptions Manager Built-in Role",
         "description": "Grants full access to manage all Oracle Subscriptions resources",
         "link": "https://management.azure.com/4caf51ec-f9f5-413f-8a94-b9f5fddba66b?api-version=2022-04-01"
+    },
+    {
+        "id": "59c05558-2358-462d-ba19-afbd7118936d",
+        "name": "Oracle.Database Autonomous Database Administrator",
+        "description": "Grants full access to manage all Autonomous Database resources",
+        "link": "https://management.azure.com/59c05558-2358-462d-ba19-afbd7118936d?api-version=2022-04-01"
     },
     {
         "id": "4cfdd23b-aece-4fd1-b614-ad3a06c53453",
