@@ -2124,6 +2124,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/acfca4d5-f49f-40ed-9648-84068b474c73"
     },
     {
+        "id": "2a6baefd-edea-4ff6-b24e-bebcaa27a50d",
+        "name": "RiskPreventionProviders.Read.All",
+        "description": "Read all identity risk prevention providers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2a6baefd-edea-4ff6-b24e-bebcaa27a50d"
+    },
+    {
+        "id": "7fc7225d-eb37-4c39-90f3-a33a57cf1081",
+        "name": "RiskPreventionProviders.ReadWrite.All",
+        "description": "Read and write all identity risk prevention providers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7fc7225d-eb37-4c39-90f3-a33a57cf1081"
+    },
+    {
         "id": "d5fe8ce8-684c-4c83-a52c-46e882ce4be1",
         "name": "RoleAssignmentSchedule.Read.Directory",
         "description": "Read all active role assignments and role schedules for your company's directory",
@@ -2598,6 +2610,24 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a267235f-af13-44dc-8385-c1dc93023186"
     },
     {
+        "id": "22b74aab-d9e4-46f7-9424-f24b42307227",
+        "name": "TeamsAppInstallation.ManageSelectedForChat.All",
+        "description": "Manage installation and permission grants of selected Teams apps in all chats",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/22b74aab-d9e4-46f7-9424-f24b42307227"
+    },
+    {
+        "id": "b448d252-1f26-4227-b6ff-21ab510975a2",
+        "name": "TeamsAppInstallation.ManageSelectedForTeam.All",
+        "description": "Manage installation and permission grants of selected Teams apps in all teams",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b448d252-1f26-4227-b6ff-21ab510975a2"
+    },
+    {
+        "id": "e97a9235-5b3c-43c4-b37d-6786a173fae4",
+        "name": "TeamsAppInstallation.ManageSelectedForUser.All",
+        "description": "Manage installation and permission grants of selected Teams apps for all user accounts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e97a9235-5b3c-43c4-b37d-6786a173fae4"
+    },
+    {
         "id": "0fdf35a5-82f8-41ff-9ded-0b761cc73512",
         "name": "TeamsAppInstallation.Read.All",
         "description": "Read installed Teams apps for all installation scopes",
@@ -2620,6 +2650,24 @@
         "name": "TeamsAppInstallation.ReadForUser.All",
         "description": "Read installed Teams apps for all users",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9ce09611-f4f7-4abd-a629-a05450422a97"
+    },
+    {
+        "id": "53d40ddb-9b27-4c97-b800-985be6041990",
+        "name": "TeamsAppInstallation.ReadSelectedForChat.All",
+        "description": "Read selected installed Teams apps in all chats",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/53d40ddb-9b27-4c97-b800-985be6041990"
+    },
+    {
+        "id": "93c6a289-70fd-489e-a053-6cf8f7d772f6",
+        "name": "TeamsAppInstallation.ReadSelectedForTeam.All",
+        "description": "Read selected installed Teams apps in all teams",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/93c6a289-70fd-489e-a053-6cf8f7d772f6"
+    },
+    {
+        "id": "44fb0e7c-1f9a-47f1-bb9e-7f92d48ed288",
+        "name": "TeamsAppInstallation.ReadSelectedForUser.All",
+        "description": "Read selected installed Teams apps for all users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/44fb0e7c-1f9a-47f1-bb9e-7f92d48ed288"
     },
     {
         "id": "6e74eff9-4a21-45d6-bc03-3a20f61f8281",
@@ -2674,6 +2722,24 @@
         "name": "TeamsAppInstallation.ReadWriteForUser.All",
         "description": "Manage Teams apps for all users",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/74ef0291-ca83-4d02-8c7e-d2391e6a444f"
+    },
+    {
+        "id": "25bbeaad-04be-4207-83ed-a263aae76ddf",
+        "name": "TeamsAppInstallation.ReadWriteSelectedForChat.All",
+        "description": "Manage selected installed Teams apps in all chats",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/25bbeaad-04be-4207-83ed-a263aae76ddf"
+    },
+    {
+        "id": "7b5823ae-d0f2-424d-b90c-d843ffada7d9",
+        "name": "TeamsAppInstallation.ReadWriteSelectedForTeam.All",
+        "description": "Manage selected installed Teams apps in all teams",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7b5823ae-d0f2-424d-b90c-d843ffada7d9"
+    },
+    {
+        "id": "650a76ec-4118-4b25-9d3a-1f98048a5ee0",
+        "name": "TeamsAppInstallation.ReadWriteSelectedForUser.All",
+        "description": "Manage selected Teams apps installed for all users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/650a76ec-4118-4b25-9d3a-1f98048a5ee0"
     },
     {
         "id": "73a45059-f39c-4baf-9182-4954ac0e55cf",
