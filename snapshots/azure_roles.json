@@ -324,12 +324,6 @@
         "link": "https://management.azure.com/3afb7f49-54cb-416e-8c09-6dc049efa503?api-version=2022-04-01"
     },
     {
-        "id": "11102f94-c441-49e6-a78b-ef80e0188abc",
-        "name": "Azure AI Safety Evaluator",
-        "description": "This role can perform all actions under workspace evaluations and simulations.",
-        "link": "https://management.azure.com/11102f94-c441-49e6-a78b-ef80e0188abc?api-version=2022-04-01"
-    },
-    {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
         "name": "Azure API Center Compliance Manager",
         "description": "Allows managing API compliance in Azure API Center service.",
