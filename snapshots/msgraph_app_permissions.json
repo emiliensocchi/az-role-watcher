@@ -2760,6 +2760,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/908de74d-f8b2-4d6b-a9ed-2a17b3b78179"
     },
     {
+        "id": "1801e8f4-cf09-4c4e-a1b5-036dfcca6c90",
+        "name": "TeamsPolicyUserAssign.ReadWrite.All",
+        "description": "Read and Write Teams policy user assignment and unassigment for all policy types.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1801e8f4-cf09-4c4e-a1b5-036dfcca6c90"
+    },
+    {
         "id": "49981c42-fd7b-4530-be03-e77b21aed25e",
         "name": "TeamsTab.Create",
         "description": "Create tabs in Microsoft Teams.",

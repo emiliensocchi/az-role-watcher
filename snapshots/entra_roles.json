@@ -66,6 +66,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9c99539d-8186-4804-835f-fd51ef9e2dcd"
     },
     {
+        "id": "ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe",
+        "name": "Attribute Provisioning Administrator",
+        "description": "Read and edit the provisioning configuration of all active custom security attributes for an application.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ecb2c6bf-0ab6-418e-bd87-7986f8d63bbe"
+    },
+    {
+        "id": "422218e4-db15-4ef9-bbe0-8afb41546d79",
+        "name": "Attribute Provisioning Reader",
+        "description": "Read the provisioning configuration of all active custom security attributes for an application.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/422218e4-db15-4ef9-bbe0-8afb41546d79"
+    },
+    {
         "id": "c4e39bd9-1100-46d3-8c65-fb160da0071f",
         "name": "Authentication Administrator",
         "description": "Allowed to view, set and reset authentication method information for any non-admin user.",
