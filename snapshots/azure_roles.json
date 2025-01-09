@@ -1302,6 +1302,24 @@
         "link": "https://management.azure.com/4447db05-44ed-4da3-ae60-6cbece780e32?api-version=2022-04-01"
     },
     {
+        "id": "7c2e40b7-25eb-482a-82cb-78ba06cb46d5",
+        "name": "Chaos Studio Experiment Contributor",
+        "description": "Can create, run, and see details for experiments, onboard targets, and manage capabilities.",
+        "link": "https://management.azure.com/7c2e40b7-25eb-482a-82cb-78ba06cb46d5?api-version=2022-04-01"
+    },
+    {
+        "id": "1a40e87e-6645-48e0-b27a-0b115d849a20",
+        "name": "Chaos Studio Operator",
+        "description": "Can run and see details for experiments but cannot create experiments or manage targets and capabilities.",
+        "link": "https://management.azure.com/1a40e87e-6645-48e0-b27a-0b115d849a20?api-version=2022-04-01"
+    },
+    {
+        "id": "29e2da8a-229c-4157-8ae8-cc72fc506b74",
+        "name": "Chaos Studio Reader",
+        "description": "Can view targets, capabilities, experiments, and experiment details.",
+        "link": "https://management.azure.com/29e2da8a-229c-4157-8ae8-cc72fc506b74?api-version=2022-04-01"
+    },
+    {
         "id": "b34d265f-36f7-4a0d-a4d4-e158ca92e90f",
         "name": "Classic Network Contributor",
         "description": "Lets you manage classic networks, but not access to them.",
