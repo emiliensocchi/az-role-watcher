@@ -2766,6 +2766,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1801e8f4-cf09-4c4e-a1b5-036dfcca6c90"
     },
     {
+        "id": "b55aa226-33a1-4396-bcf4-edce5e7a31c1",
+        "name": "TeamsResourceAccount.Read.All",
+        "description": "Read Teams resource accounts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b55aa226-33a1-4396-bcf4-edce5e7a31c1"
+    },
+    {
         "id": "49981c42-fd7b-4530-be03-e77b21aed25e",
         "name": "TeamsTab.Create",
         "description": "Create tabs in Microsoft Teams.",

@@ -3120,6 +3120,12 @@
         "link": "https://management.azure.com/66bb4e9e-b016-4a94-8249-4c0511c2be84?api-version=2022-04-01"
     },
     {
+        "id": "78eacb5e-e318-4560-85a9-e6a724ca60c9",
+        "name": "Portal Dashboard Writer Service Role",
+        "description": "Can write an Azure Portal Dashboard",
+        "link": "https://management.azure.com/78eacb5e-e318-4560-85a9-e6a724ca60c9?api-version=2022-04-01"
+    },
+    {
         "id": "c088a766-074b-43ba-90d4-1fb21feae531",
         "name": "PostgreSQL Flexible Server Long Term Retention Backup Role",
         "description": "Role to allow backup vault to access PostgreSQL Flexible Server Resource APIs for Long Term Retention Backup.",
