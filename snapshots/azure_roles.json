@@ -1747,8 +1747,8 @@
     },
     {
         "id": "6cd4ddd5-44f4-45bf-853e-a23e79738ce8",
-        "name": "Copilot for Azure User",
-        "description": "Enables users access to Copilot for Azure.",
+        "name": "Copilot in Azure User",
+        "description": "Enables users access to Copilot in Azure.",
         "link": "https://management.azure.com/6cd4ddd5-44f4-45bf-853e-a23e79738ce8?api-version=2022-04-01"
     },
     {
