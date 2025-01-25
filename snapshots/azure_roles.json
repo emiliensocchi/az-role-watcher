@@ -2148,22 +2148,10 @@
         "link": "https://management.azure.com/0ad04412-c4d5-4796-b79c-f76d14c8d402?api-version=2022-04-01"
     },
     {
-        "id": "d6a5505f-6ebb-45a4-896e-ac8274cfc0ac",
-        "name": "Durable Task Data Reader",
-        "description": "Read all Durable Task Scheduler data.",
-        "link": "https://management.azure.com/d6a5505f-6ebb-45a4-896e-ac8274cfc0ac?api-version=2022-04-01"
-    },
-    {
         "id": "80d0d6b0-f522-40a4-8886-a5a11720c375",
         "name": "Durable Task Worker",
         "description": "Used by worker applications to interact with the Durable Task service",
         "link": "https://management.azure.com/80d0d6b0-f522-40a4-8886-a5a11720c375?api-version=2022-04-01"
-    },
-    {
-        "id": "53e48117-a530-4075-bcbe-d91913e3bdb8",
-        "name": "Edge Management Copilot User",
-        "description": "Enables users access to Edge Management Copilot.",
-        "link": "https://management.azure.com/53e48117-a530-4075-bcbe-d91913e3bdb8?api-version=2022-04-01"
     },
     {
         "id": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
