@@ -1104,6 +1104,12 @@
         "link": "https://management.azure.com/865ae368-6a45-4bd1-8fbf-0d5151f56fc1?api-version=2022-04-01"
     },
     {
+        "id": "1a6f9009-515c-4455-b170-143e4c9ce229",
+        "name": "Azure Stack HCI Edge Machine Contributor Role",
+        "description": "Microsoft.AzureStackHCI Edge Machine Contributor Role",
+        "link": "https://management.azure.com/1a6f9009-515c-4455-b170-143e4c9ce229?api-version=2022-04-01"
+    },
+    {
         "id": "874d1c73-6003-4e60-a13a-cb31ea190a85",
         "name": "Azure Stack HCI VM Contributor",
         "description": "Grants permissions to perform all VM actions",
@@ -3052,6 +3058,18 @@
         "name": "Object Understanding Account Reader",
         "description": "Lets you read ingestion jobs for an object understanding account.",
         "link": "https://management.azure.com/d18777c0-1514-4662-8490-608db7d334b6?api-version=2022-04-01"
+    },
+    {
+        "id": "53747cdd-e97c-477a-948c-b587d0e514b2",
+        "name": "Online Experimentation Data Owner",
+        "description": "Allows full access to Online Experimentation data.",
+        "link": "https://management.azure.com/53747cdd-e97c-477a-948c-b587d0e514b2?api-version=2022-04-01"
+    },
+    {
+        "id": "1363e94d-546f-4fe9-8434-b0eefb292d59",
+        "name": "Online Experimentation Data Reader",
+        "description": "Allows read access to Online Experimentation data.",
+        "link": "https://management.azure.com/1363e94d-546f-4fe9-8434-b0eefb292d59?api-version=2022-04-01"
     },
     {
         "id": "4aa368ec-fba9-4e93-81ed-396b3d461cc5",
