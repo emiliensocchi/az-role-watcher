@@ -594,6 +594,12 @@
         "link": "https://management.azure.com/adb29209-aa1d-457b-a786-c913953d2891?api-version=2022-04-01"
     },
     {
+        "id": "a227fb39-f479-404b-96fd-0176f5d88ab4",
+        "name": "Azure Device Onboarding Discovery Contributor",
+        "description": "Can read, write or delete the discovery and it's child resources.",
+        "link": "https://management.azure.com/a227fb39-f479-404b-96fd-0176f5d88ab4?api-version=2022-04-01"
+    },
+    {
         "id": "2a740172-0fc2-4039-972c-b31864cd47d6",
         "name": "Azure Device Update Agent",
         "description": "Provide full access to all Azure Device Update agent operations",
