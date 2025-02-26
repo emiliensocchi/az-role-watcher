@@ -3348,6 +3348,18 @@
         "link": "https://management.azure.com/6d8ee4ec-f05a-4a1d-8b00-a9b17e38b437?api-version=2022-04-01"
     },
     {
+        "id": "fc6e3395-6a8c-4527-bb4c-d0abd41e8e74",
+        "name": "SSH PublicKeys Contributor Role",
+        "description": "This is the role created for SSH PublicKeys Contributor",
+        "link": "https://management.azure.com/fc6e3395-6a8c-4527-bb4c-d0abd41e8e74?api-version=2022-04-01"
+    },
+    {
+        "id": "31ef6312-5b0c-4ce9-8c5d-587a91344fe7",
+        "name": "SSH PublicKeys Reader Role",
+        "description": "This is the role created for SSH PublicKeys Reader",
+        "link": "https://management.azure.com/31ef6312-5b0c-4ce9-8c5d-587a91344fe7?api-version=2022-04-01"
+    },
+    {
         "id": "e9b8712a-cbcf-4ea7-b0f7-e71b803401e6",
         "name": "SaaS Hub Contributor",
         "description": "SaaS Hub contributor can manage SaaS Hub resource",
