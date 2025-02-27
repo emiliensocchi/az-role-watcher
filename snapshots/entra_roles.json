@@ -300,6 +300,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ac434307-12b9-4fa1-a708-88bf58caabc1"
     },
     {
+        "id": "843318fb-79a6-4168-9e6f-aa9a07481cc4",
+        "name": "Global Secure Access Log Reader",
+        "description": "Provides designated security personnel with read-only access to network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for secure and detailed analysis.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/843318fb-79a6-4168-9e6f-aa9a07481cc4"
+    },
+    {
         "id": "fdd7a751-b60b-444a-984c-02652fe8fa1c",
         "name": "Groups Administrator",
         "description": "Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",
@@ -358,6 +364,12 @@
         "name": "Intune Administrator",
         "description": "Can manage all aspects of the Intune product.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3a2c62db-5318-420d-8d74-23affee5d9d5"
+    },
+    {
+        "id": "2ea5ce4c-b2d8-4668-bd81-3680bd2d227a",
+        "name": "IoT Device Administrator",
+        "description": "Provision new IoT devices, manage their lifecycle, configure certificates, and manage device templates.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2ea5ce4c-b2d8-4668-bd81-3680bd2d227a"
     },
     {
         "id": "74ef975b-6605-40af-a5d2-b9539d836353",
@@ -478,6 +490,12 @@
         "name": "Password Administrator",
         "description": "Can reset passwords for non-administrators and Password Administrators.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/966707d0-3269-4727-9be2-8c3a10f19b9d"
+    },
+    {
+        "id": "024906de-61e5-49c8-8572-40335f1e0e10",
+        "name": "People Administrator",
+        "description": "Manage profile photos of users and people settings for all users in the organization.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/024906de-61e5-49c8-8572-40335f1e0e10"
     },
     {
         "id": "af78dc32-cf4d-46f9-ba4e-4428526346b5",
