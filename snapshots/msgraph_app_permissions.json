@@ -2922,6 +2922,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3c42dec6-49e8-4a0a-b469-36cff0d9da93"
     },
     {
+        "id": "39b17d18-680c-41f4-b9c2-5f30629e7cb6",
+        "name": "TeamsTelephoneNumber.Read.All",
+        "description": "Read Tenant-Acquired Telephone Number Details",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/39b17d18-680c-41f4-b9c2-5f30629e7cb6"
+    },
+    {
+        "id": "0a42382f-155c-4eb1-9bdc-21548ccaa387",
+        "name": "TeamsTelephoneNumber.ReadWrite.All",
+        "description": "Read and Modify Tenant-Acquired Telephone Number Details",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0a42382f-155c-4eb1-9bdc-21548ccaa387"
+    },
+    {
         "id": "a91eadaf-2c3c-4362-908b-fb172d208fc6",
         "name": "TeamsUserConfiguration.Read.All",
         "description": "Read Teams user configurations",
