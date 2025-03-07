@@ -732,6 +732,12 @@
         "link": "https://management.azure.com/5af6afb3-c06c-4fa4-8848-71a8aee05683?api-version=2022-04-01"
     },
     {
+        "id": "1b7f3653-4324-473a-9165-bc55e4d04ba8",
+        "name": "Azure Kubernetes Service Agent Pool Manager Role",
+        "description": "Role for agentpool related actions",
+        "link": "https://management.azure.com/1b7f3653-4324-473a-9165-bc55e4d04ba8?api-version=2022-04-01"
+    },
+    {
         "id": "b29efa5f-7782-4dc3-9537-4d5bc70a5e9f",
         "name": "Azure Kubernetes Service Arc Cluster Admin Role",
         "description": "List cluster admin credential action.",
