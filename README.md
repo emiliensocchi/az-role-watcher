@@ -41,7 +41,7 @@ The project can be configured against a specific Entra tenant as follows:
 
 | Name | Value | 
 |---|---|
-| `AZURE_TENANT_ID` | \<value-from-step-2-1\> |
-| `AZURE_CLIENT_ID` | \<value-from-step-2-2\> | 
+| `AZURE_TENANT_ID` | \<value-from-step-2-i\> |
+| `AZURE_CLIENT_ID` | \<value-from-step-2-ii\> | 
 
 **Note**: in a tenant with a default configuration, service principals have permissions to read Azure role definitions by default. Therefore, the service principal should **not** require any additional Azure permissions.
