@@ -7,16 +7,17 @@
 
     Description:
         AzRoleWatcher verifies if the following assets have been updated with additions and/or removals based on local snapshots:
-            - MS Graph application permissions
-            - Entra roles
             - Azure roles
+            - Entra roles
+            - MS Graph application permissions
 
     Requirements:
         - A service principal with the following granted application permissions:
             1. 'RoleManagement.Read.Directory' (to read Entra role definitions)
             2. 'Application.Read.All' (to read the definitions of application permissions)
-        - The credentials are expected to be available to AzRoleWatcher via an environment variable with the following name and value:
-            SP_CREDENTIALS_ENTRA = {"tenant_id": "__ID__", "client_id": "__ID__", "client_secret": "__SECRET__"}
+        - Valid access tokens for MS Graph and ARM are expected to be available to AzRoleWatcher via the following environment variables:
+            - 'ARM_ACCESS_TOKEN'
+            - 'MSGRAPH_ACCESS_TOKEN'
 
     Note:
         The service principal does **not** require any explicit Azure role. 
@@ -263,66 +264,17 @@ def generate_rss(items):
     return rss
 
 
-def request_access_token(resource, tenant_id, client_id, client_secret):
-    """
-        Requests an access token for the passed resource on behalf of the service principal with the passed information.
-
-        Args:
-            resource (str): the resource to authenticate to (only valid values are: 'arm', 'graph')
-            tenant_id (str): the id of the service principal's home tenant
-            client_id (str): the application id of the service principal
-            client_secret (str): a valid secret for the service principal
-        
-        Returns:
-            str: a valid access token for the requested resource
-
-    """
-    valid_resources = ['arm', 'graph']
-
-    if resource not in valid_resources:
-        return
-
-    endpoint = f"https://login.microsoftonline.com/{tenant_id}"
-    body = {
-        'grant_type': 'client_credentials',
-        'client_id': client_id,
-        'client_secret': client_secret
-    }
-
-    if resource == 'arm':
-        endpoint += '/oauth2/token'
-        body['resource'] = 'https://management.azure.com/'
-    else:
-        endpoint += '/oauth2/v2.0/token'
-        body['scope'] = 'https://graph.microsoft.com/.default'
-
-    response = requests.post(endpoint, body)
-
-    if response.status_code != 200:
-        print(f"FATAL ERROR - A token for {resource} could not be retrieved.")
-        exit()
-
-    access_token = response.json()['access_token']
-    return access_token
-
-
 if __name__ == "__main__":
-    raw_sp_credentials = os.environ['SP_CREDENTIALS_ENTRA']
+    # Get ARM and MS Graph access token from environment variable
+    arm_access_token = os.environ['ARM_ACCESS_TOKEN']
+    graph_access_token = os.environ['MSGRAPH_ACCESS_TOKEN']
 
-    if not raw_sp_credentials:
-        print('FATAL ERROR - A service principal with valid access to ARM and MS Graph is required.')
+    if not graph_access_token:
+        print('FATAL ERROR - A valid access token for MS Graph is required.')
         exit()
 
-    sp_credentials = json.loads(raw_sp_credentials)
-    tenant_id = sp_credentials['tenant_id']
-    client_id = sp_credentials['client_id']
-    client_secret = sp_credentials['client_secret']
-
-    arm_access_token = request_access_token('arm', tenant_id, client_id, client_secret)
-    graph_access_token = request_access_token('graph', tenant_id, client_id, client_secret)
-
-    if not arm_access_token or not graph_access_token:
-        print('FATAL ERROR - A valid access token for ARM and GRAPH is required.')
+    if not arm_access_token:
+        print('FATAL ERROR - A valid access token for ARM is required.')
         exit()
 
     # Get current built-in roles/permissions from online documentation
