@@ -19,7 +19,7 @@ Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.c
 
 The file is updated every time a change is detected and stays unmodified otherwise. This means the date of the **latest commit** corresponds to the date of the **latest addition or removal** of an Azure role, Entra role or Microsoft Graph application permission.
 
-Note that AzRoleWatcher is **run daily** around 04:00 AM Central European Time (2:00 AM UTC) to detect changes.
+Note that AzRoleWatcher is **run daily** around 1:00 AM UTC to detect changes.
 
 ## ⚙️ Setting up this project against your own Entra tenant
 
@@ -29,19 +29,19 @@ The project can be configured against a specific Entra tenant as follows:
 
 1. Fork this project.
 
-2. In your tenant, create a service principal with a new client secret, and take note of the following:
+2. In your tenant, create a service principal with a new [Federated credential](https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation-create-trust?pivots=identity-wif-apps-methods-azp#github-actions), and take note of the following:
     1. The tenant ID associated with the service principal
     2. The service principal's application/client ID
-    3. The service principal's client secret
 
 3. Grant the following application permissions to the service principal:
     1. [`RoleManagement.Read.Directory`](https://learn.microsoft.com/en-us/graph/permissions-reference#rolemanagementreaddirectory) (required to read Entra role definitions)
     2. [`Application.Read.All`](https://learn.microsoft.com/en-us/graph/permissions-reference#applicationreadall) (required to read the definitions of application permissions)
 
-4. In the forked project, configure a GitHub secret with the following name and value, replacing `__PLACEHOLDER__` with the values collected in step 2:
+4. In the forked GitHub project, create the following repository variables:
 
-| GitHub secret name | Value (string) | 
+| Name | Value | 
 |---|---|
-| `SP_CREDENTIALS_ENTRA` | `{"tenant_id": "__PLACEHOLDER__", "client_id": "__PLACEHOLDER__", "client_secret": "__PLACEHOLDER__"}` |
+| `AZURE_TENANT_ID` | \<value-from-step-2-1\> |
+| `AZURE_CLIENT_ID` | \<value-from-step-2-2\> | 
 
 **Note**: in a tenant with a default configuration, service principals have permissions to read Azure role definitions by default. Therefore, the service principal should **not** require any additional Azure permissions.
