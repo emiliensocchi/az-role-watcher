@@ -914,7 +914,7 @@
     {
         "id": "ef318e2a-8334-4a05-9e4a-295a196c6a6e",
         "name": "Azure Red Hat OpenShift Federated Credential",
-        "description": "Update cluster managed identities with a federated credential to build a trust relationship between the managed identity, OpenID Connect (OIDC), and the service account.",
+        "description": "Create, update and delete federated credentials on user assigned managed identities in order to build a trust relationship between the managed identity, OpenID Connect (OIDC), and the service account.",
         "link": "https://management.azure.com/ef318e2a-8334-4a05-9e4a-295a196c6a6e?api-version=2022-04-01"
     },
     {
@@ -1924,6 +1924,12 @@
         "name": "DeID Realtime Data User",
         "description": "Execute requests against DeID realtime endpoint. This role is in preview and subject to change.",
         "link": "https://management.azure.com/bb6577c4-ea0a-40b2-8962-ea18cb8ecd4e?api-version=2022-04-01"
+    },
+    {
+        "id": "96ebd254-ecc7-4590-aff5-e9af3ff5f3b3",
+        "name": "Dedicated Host Contributor Role",
+        "description": "This is the role created for DedicatedHosts Contributor",
+        "link": "https://management.azure.com/96ebd254-ecc7-4590-aff5-e9af3ff5f3b3?api-version=2022-04-01"
     },
     {
         "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
