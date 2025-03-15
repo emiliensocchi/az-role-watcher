@@ -2520,6 +2520,12 @@
         "link": "https://management.azure.com/48b40c6e-82e0-4eb3-90d5-19e40f49b624?api-version=2022-04-01"
     },
     {
+        "id": "e9701b4d-e6e7-4657-91cd-360a0881d224",
+        "name": "HybridCompute Machine ListAccessDetails Action In-Built Role",
+        "description": "In-Built Role definition that grants permissions to execute the listAccessDetails action on HybridCompute Machines",
+        "link": "https://management.azure.com/e9701b4d-e6e7-4657-91cd-360a0881d224?api-version=2022-04-01"
+    },
+    {
         "id": "7b3e853f-ad5d-4fb5-a7b8-56a3581c7037",
         "name": "IPAM Pool User",
         "description": "Read IPAM Pools and child resources. Create and remove associations. This role is in preview and subject to change.",
