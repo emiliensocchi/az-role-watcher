@@ -1320,18 +1320,6 @@
         "link": "https://management.azure.com/fa0d39e6-28e5-40cf-8521-1eb320653a4c?api-version=2022-04-01"
     },
     {
-        "id": "4e9b8407-af2e-495b-ae54-bb60a55b1b5a",
-        "name": "Chamber Admin",
-        "description": "Lets you manage everything under your Modeling and Simulation Workbench chamber.",
-        "link": "https://management.azure.com/4e9b8407-af2e-495b-ae54-bb60a55b1b5a?api-version=2022-04-01"
-    },
-    {
-        "id": "4447db05-44ed-4da3-ae60-6cbece780e32",
-        "name": "Chamber User",
-        "description": "Lets you view everything under your Modeling and Simulation Workbench chamber, but not make any changes.",
-        "link": "https://management.azure.com/4447db05-44ed-4da3-ae60-6cbece780e32?api-version=2022-04-01"
-    },
-    {
         "id": "7c2e40b7-25eb-482a-82cb-78ba06cb46d5",
         "name": "Chaos Studio Experiment Contributor",
         "description": "Can create, run, and see details for experiments, onboard targets, and manage capabilities.",
@@ -2478,28 +2466,28 @@
         "link": "https://management.azure.com/7656b436-37d4-490a-a4ab-d39f838f0042?api-version=2022-04-01"
     },
     {
+        "id": "566f0da3-e2a5-4393-9089-763f8bab8fb6",
+        "name": "Health Safeguards Data User",
+        "description": "Allows processing of health data in all available Health Safeguards",
+        "link": "https://management.azure.com/566f0da3-e2a5-4393-9089-763f8bab8fb6?api-version=2022-04-01"
+    },
+    {
         "id": "f1082fec-a70f-419f-9230-885d2550fb38",
-        "name": "Health Bot Admin",
+        "name": "Healthcare Agent Admin",
         "description": "Users with admin access can sign in, view and edit all of the bot resources, scenarios and configuration setting including the bot instance keys & secrets.",
         "link": "https://management.azure.com/f1082fec-a70f-419f-9230-885d2550fb38?api-version=2022-04-01"
     },
     {
         "id": "af854a69-80ce-4ff7-8447-f1118a2e0ca8",
-        "name": "Health Bot Editor",
+        "name": "Healthcare Agent Editor",
         "description": "Users with editor access can sign in, view and edit all the bot resources, scenarios and configuration setting except for the bot instance keys & secrets and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs). A read-only access to the bot skills and channels.",
         "link": "https://management.azure.com/af854a69-80ce-4ff7-8447-f1118a2e0ca8?api-version=2022-04-01"
     },
     {
         "id": "eb5a76d5-50e7-4c33-a449-070e7c9c4cf2",
-        "name": "Health Bot Reader",
+        "name": "Healthcare Agent Reader",
         "description": "Users with reader access can sign in, have read-only access to the bot resources, scenarios and configuration setting except for the bot instance keys & secrets (including Authentication, Data Connection and Channels keys) and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs).",
         "link": "https://management.azure.com/eb5a76d5-50e7-4c33-a449-070e7c9c4cf2?api-version=2022-04-01"
-    },
-    {
-        "id": "566f0da3-e2a5-4393-9089-763f8bab8fb6",
-        "name": "Health Safeguards Data User",
-        "description": "Allows processing of health data in all available Health Safeguards",
-        "link": "https://management.azure.com/566f0da3-e2a5-4393-9089-763f8bab8fb6?api-version=2022-04-01"
     },
     {
         "id": "350f8d15-c687-4448-8ae1-157740a3936d",

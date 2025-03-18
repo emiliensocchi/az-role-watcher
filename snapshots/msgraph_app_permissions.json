@@ -996,6 +996,24 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d1808e82-ce13-47af-ae0d-f9b254e6d58a"
     },
     {
+        "id": "e1d2136d-eaaf-427a-a7db-f97dbe847c27",
+        "name": "EngagementConversation.Migration.All",
+        "description": "Read and write all Viva Engage conversations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e1d2136d-eaaf-427a-a7db-f97dbe847c27"
+    },
+    {
+        "id": "30614864-4114-45ef-bdd9-0dd7894a1cc4",
+        "name": "EngagementRole.Read.All",
+        "description": "Read all Viva Engage roles and role memberships",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/30614864-4114-45ef-bdd9-0dd7894a1cc4"
+    },
+    {
+        "id": "3ede5358-7366-4da8-a2f7-472bf9c7cc34",
+        "name": "EngagementRole.ReadWrite.All",
+        "description": "Modify Viva Engage role membership",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3ede5358-7366-4da8-a2f7-472bf9c7cc34"
+    },
+    {
         "id": "c74fd47d-ed3c-45c3-9a9e-b8676de685d2",
         "name": "EntitlementManagement.Read.All",
         "description": "Read all entitlement management resources",
