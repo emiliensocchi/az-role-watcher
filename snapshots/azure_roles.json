@@ -66,6 +66,12 @@
         "link": "https://management.azure.com/d715fb95-a0f0-4f1c-8be6-5ad2d2767f67?api-version=2022-04-01"
     },
     {
+        "id": "49fc33c1-886f-4b21-a00e-1d9993234734",
+        "name": "AVS on Fleet VIS Role",
+        "description": "Do not remove this role from your resource because it is critical to enable your AVS private cloud to operate. If the role is removed, it will cause your AVS private cloud control plane to no longer operate correctly. The role is used to enable the AVS private cloud control plane to inject address prefix changes of the private clouds attached virtual network to SDN and support peering sync feature. This role is not intended for use cases outside of assignment to the associated AVS identity in your entra-id tenant.",
+        "link": "https://management.azure.com/49fc33c1-886f-4b21-a00e-1d9993234734?api-version=2022-04-01"
+    },
+    {
         "id": "76cc9ee4-d5d3-4a45-a930-26add3d73475",
         "name": "Access Review Operator Service Role",
         "description": "Lets you grant Access Review System app permissions to discover and revoke access as needed by the access review process.",
@@ -1318,6 +1324,18 @@
         "name": "Carbon Optimization Reader",
         "description": "Allow read access to Azure Carbon Optimization data",
         "link": "https://management.azure.com/fa0d39e6-28e5-40cf-8521-1eb320653a4c?api-version=2022-04-01"
+    },
+    {
+        "id": "4e9b8407-af2e-495b-ae54-bb60a55b1b5a",
+        "name": "Chamber Admin",
+        "description": "Lets you manage everything under your Modeling and Simulation Workbench chamber.",
+        "link": "https://management.azure.com/4e9b8407-af2e-495b-ae54-bb60a55b1b5a?api-version=2022-04-01"
+    },
+    {
+        "id": "4447db05-44ed-4da3-ae60-6cbece780e32",
+        "name": "Chamber User",
+        "description": "Lets you view everything under your Modeling and Simulation Workbench chamber, but not make any changes.",
+        "link": "https://management.azure.com/4447db05-44ed-4da3-ae60-6cbece780e32?api-version=2022-04-01"
     },
     {
         "id": "7c2e40b7-25eb-482a-82cb-78ba06cb46d5",
