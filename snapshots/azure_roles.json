@@ -348,6 +348,12 @@
         "link": "https://management.azure.com/ede9aaa3-4627-494e-be13-4aa7c256148d?api-version=2022-04-01"
     },
     {
+        "id": "1df7cd83-1d3f-41df-95b0-53b30d963369",
+        "name": "Azure API Center Credential Access Reader",
+        "description": "Allows for access to Azure API Center data plane get credentials operations.",
+        "link": "https://management.azure.com/1df7cd83-1d3f-41df-95b0-53b30d963369?api-version=2022-04-01"
+    },
+    {
         "id": "c7244dfb-f447-457d-b2ba-3999044d1706",
         "name": "Azure API Center Data Reader",
         "description": "Allows for access to Azure API Center data plane read operations.",
@@ -1326,18 +1332,6 @@
         "link": "https://management.azure.com/fa0d39e6-28e5-40cf-8521-1eb320653a4c?api-version=2022-04-01"
     },
     {
-        "id": "4e9b8407-af2e-495b-ae54-bb60a55b1b5a",
-        "name": "Chamber Admin",
-        "description": "Lets you manage everything under your Modeling and Simulation Workbench chamber.",
-        "link": "https://management.azure.com/4e9b8407-af2e-495b-ae54-bb60a55b1b5a?api-version=2022-04-01"
-    },
-    {
-        "id": "4447db05-44ed-4da3-ae60-6cbece780e32",
-        "name": "Chamber User",
-        "description": "Lets you view everything under your Modeling and Simulation Workbench chamber, but not make any changes.",
-        "link": "https://management.azure.com/4447db05-44ed-4da3-ae60-6cbece780e32?api-version=2022-04-01"
-    },
-    {
         "id": "7c2e40b7-25eb-482a-82cb-78ba06cb46d5",
         "name": "Chaos Studio Experiment Contributor",
         "description": "Can create, run, and see details for experiments, onboard targets, and manage capabilities.",
@@ -1612,6 +1606,12 @@
         "name": "Compute Diagnostics Role",
         "description": "Grants permissions to execute diagnostics provided by Compute Diagnostic Service for Compute Resources.",
         "link": "https://management.azure.com/df2711a6-406d-41cf-b366-b0250bff9ad1?api-version=2022-04-01"
+    },
+    {
+        "id": "2bed379c-9fba-455b-99e4-6b911073bcf2",
+        "name": "Compute Fleet Contributor",
+        "description": "Allows users to manage Compute Fleet resources.",
+        "link": "https://management.azure.com/2bed379c-9fba-455b-99e4-6b911073bcf2?api-version=2022-04-01"
     },
     {
         "id": "85a2d0d9-2eba-4c9c-b355-11c2cc0788ab",

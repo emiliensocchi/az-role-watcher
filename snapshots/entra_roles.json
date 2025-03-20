@@ -672,6 +672,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e300d9e7-4a2b-4295-9eff-f1c78b36cc98"
     },
     {
+        "id": "0ec3f692-38d6-4d14-9e69-0377ca7797ad",
+        "name": "Viva Glint Tenant Administrator",
+        "description": "Manage and configure Microsoft Viva Glint settings in the Microsoft 365 admin center.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0ec3f692-38d6-4d14-9e69-0377ca7797ad"
+    },
+    {
         "id": "92b086b3-e367-4ef2-b869-1de128fb986e",
         "name": "Viva Goals Administrator",
         "description": "Manage and configure all aspects of Microsoft Viva Goals.",
