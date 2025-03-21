@@ -2898,6 +2898,12 @@
         "link": "https://management.azure.com/e40ec5ca-96e0-45a2-b4ff-59039f2c2b59?api-version=2022-04-01"
     },
     {
+        "id": "7e559ce2-48d7-4b27-9128-fa1b247f1308",
+        "name": "Managed Identity Federated Identity Credential Contributor",
+        "description": "Create, Read, Update, and Delete User Assigned Identity Federated Identity Credentials(FIC)",
+        "link": "https://management.azure.com/7e559ce2-48d7-4b27-9128-fa1b247f1308?api-version=2022-04-01"
+    },
+    {
         "id": "f1a07417-d97a-45cb-824c-7a7467783830",
         "name": "Managed Identity Operator",
         "description": "Read and Assign User Assigned Identity",
