@@ -348,6 +348,12 @@
         "link": "https://management.azure.com/ede9aaa3-4627-494e-be13-4aa7c256148d?api-version=2022-04-01"
     },
     {
+        "id": "1df7cd83-1d3f-41df-95b0-53b30d963369",
+        "name": "Azure API Center Credential Access Reader",
+        "description": "Allows for access to Azure API Center data plane get credentials operations.",
+        "link": "https://management.azure.com/1df7cd83-1d3f-41df-95b0-53b30d963369?api-version=2022-04-01"
+    },
+    {
         "id": "c7244dfb-f447-457d-b2ba-3999044d1706",
         "name": "Azure API Center Data Reader",
         "description": "Allows for access to Azure API Center data plane read operations.",
@@ -2890,6 +2896,12 @@
         "name": "Managed Identity Contributor",
         "description": "Create, Read, Update, and Delete User Assigned Identity",
         "link": "https://management.azure.com/e40ec5ca-96e0-45a2-b4ff-59039f2c2b59?api-version=2022-04-01"
+    },
+    {
+        "id": "7e559ce2-48d7-4b27-9128-fa1b247f1308",
+        "name": "Managed Identity Federated Identity Credential Contributor",
+        "description": "Create, Read, Update, and Delete User Assigned Identity Federated Identity Credentials(FIC)",
+        "link": "https://management.azure.com/7e559ce2-48d7-4b27-9128-fa1b247f1308?api-version=2022-04-01"
     },
     {
         "id": "f1a07417-d97a-45cb-824c-7a7467783830",
