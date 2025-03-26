@@ -588,6 +588,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/35d59e32-eab5-4553-9345-abb62b4c703c"
     },
     {
+        "id": "aca929ec-9830-44dc-bda1-85cf938aaa95",
+        "name": "ConfigurationMonitoring.Read.All",
+        "description": "Read all Configuration Monitoring entities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/aca929ec-9830-44dc-bda1-85cf938aaa95"
+    },
+    {
+        "id": "cfa85bfb-2ee8-4e13-8e7f-489e57a015a1",
+        "name": "ConfigurationMonitoring.ReadWrite.All",
+        "description": "Read and write all Configuration Monitoring entities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/cfa85bfb-2ee8-4e13-8e7f-489e57a015a1"
+    },
+    {
         "id": "1260ad83-98fb-4785-abbb-d6cc1806fd41",
         "name": "ConsentRequest.Read.All",
         "description": "Read all consent requests",
@@ -3160,6 +3172,12 @@
         "name": "User.ReadWrite.All",
         "description": "Read and write all users' full profiles",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/741f803b-c850-494e-b5df-cde7c675a1ca"
+    },
+    {
+        "id": "5652f862-b626-407b-a3e6-248aeb95763c",
+        "name": "User.ReadWrite.CrossCloud",
+        "description": "Read and write profiles of users that originate from an external cloud.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5652f862-b626-407b-a3e6-248aeb95763c"
     },
     {
         "id": "77f3a031-c388-4f99-b373-dc68676a979e",
