@@ -666,6 +666,18 @@
         "link": "https://management.azure.com/7392c568-9289-4bde-aaaa-b7131215889d?api-version=2022-04-01"
     },
     {
+        "id": "92b92042-07d9-4307-87f7-36a593fc5850",
+        "name": "Azure File Sync Administrator",
+        "description": "Provides full access to manage all Azure File Sync (Storage Sync Service) resources.",
+        "link": "https://management.azure.com/92b92042-07d9-4307-87f7-36a593fc5850?api-version=2022-04-01"
+    },
+    {
+        "id": "754c1a27-40dc-4708-8ad4-2bffdeee09e8",
+        "name": "Azure File Sync Reader",
+        "description": "Provides read access to Azure File Sync service (Storage Sync Service).",
+        "link": "https://management.azure.com/754c1a27-40dc-4708-8ad4-2bffdeee09e8?api-version=2022-04-01"
+    },
+    {
         "id": "0ab34830-df19-4f8c-b84e-aa85b8afa6e8",
         "name": "Azure Front Door Domain Contributor",
         "description": "For internal use within Azure. Can manage Azure Front Door domains, but can't grant access to other users.",
@@ -934,6 +946,12 @@
         "name": "Azure Red Hat OpenShift File Storage Operator",
         "description": "Install Container Storage Interface (CSI) drivers that enable your cluster to use Azure Files. Set OpenShift cluster-wide storage defaults to ensure a default storageclass exists for clusters.",
         "link": "https://management.azure.com/0d7aedc0-15fd-4a67-a412-efad370c947e?api-version=2022-04-01"
+    },
+    {
+        "id": "88366f10-ed47-4cc0-9fab-c8a06148393e",
+        "name": "Azure Red Hat OpenShift Hosted Control Planes Cluster API Provider",
+        "description": "Enables permissions to allow cluster API to manage nodes, networks and disks for OpenShift cluster.",
+        "link": "https://management.azure.com/88366f10-ed47-4cc0-9fab-c8a06148393e?api-version=2022-04-01"
     },
     {
         "id": "8b32b316-c2f5-4ddf-b05b-83dacd2d08b5",
