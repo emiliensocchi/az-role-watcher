@@ -948,12 +948,6 @@
         "link": "https://management.azure.com/0d7aedc0-15fd-4a67-a412-efad370c947e?api-version=2022-04-01"
     },
     {
-        "id": "88366f10-ed47-4cc0-9fab-c8a06148393e",
-        "name": "Azure Red Hat OpenShift Hosted Control Planes Cluster API Provider",
-        "description": "Enables permissions to allow cluster API to manage nodes, networks and disks for OpenShift cluster.",
-        "link": "https://management.azure.com/88366f10-ed47-4cc0-9fab-c8a06148393e?api-version=2022-04-01"
-    },
-    {
         "id": "8b32b316-c2f5-4ddf-b05b-83dacd2d08b5",
         "name": "Azure Red Hat OpenShift Image Registry Operator",
         "description": "Enables permissions for the operator to manage a singleton instance of the OpenShift image registry. It manages all configuration of the registry, including creating storage.",
