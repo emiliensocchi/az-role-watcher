@@ -3126,6 +3126,12 @@
         "link": "https://management.azure.com/d18777c0-1514-4662-8490-608db7d334b6?api-version=2022-04-01"
     },
     {
+        "id": "2c7a01fe-5518-4a42-93c2-658e45441691",
+        "name": "Online Experimentation Contributor",
+        "description": "Grants permissions for all management operations to Online Experimentation resources.",
+        "link": "https://management.azure.com/2c7a01fe-5518-4a42-93c2-658e45441691?api-version=2022-04-01"
+    },
+    {
         "id": "53747cdd-e97c-477a-948c-b587d0e514b2",
         "name": "Online Experimentation Data Owner",
         "description": "Allows full access to Online Experimentation data.",
@@ -3136,6 +3142,12 @@
         "name": "Online Experimentation Data Reader",
         "description": "Allows read access to Online Experimentation data.",
         "link": "https://management.azure.com/1363e94d-546f-4fe9-8434-b0eefb292d59?api-version=2022-04-01"
+    },
+    {
+        "id": "58b80de8-4b34-424c-9e47-23faf0f7cfe2",
+        "name": "Online Experimentation Reader",
+        "description": "Grants permission for read operations to Online Experimentation resources.",
+        "link": "https://management.azure.com/58b80de8-4b34-424c-9e47-23faf0f7cfe2?api-version=2022-04-01"
     },
     {
         "id": "4aa368ec-fba9-4e93-81ed-396b3d461cc5",
