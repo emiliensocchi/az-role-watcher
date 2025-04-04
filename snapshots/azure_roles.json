@@ -2406,6 +2406,12 @@
         "link": "https://management.azure.com/9c1607d1-791d-4c68-885d-c7b7aaff7c8a?api-version=2022-04-01"
     },
     {
+        "id": "61eb6405-5f4a-440b-ad03-fe06c5c85e44",
+        "name": "Flux Configurations Contributor",
+        "description": "Can create, update, get, list and delete Flux Configurations",
+        "link": "https://management.azure.com/61eb6405-5f4a-440b-ad03-fe06c5c85e44?api-version=2022-04-01"
+    },
+    {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
         "name": "GeoCatalog Administrator",
         "description": "Grants full access to manage GeoCatalogs, but does not allow you to assign roles in Azure RBAC.",
