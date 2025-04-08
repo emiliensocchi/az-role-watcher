@@ -158,7 +158,7 @@ def get_builtin_azure_role_objects_from_arm(token):
             list(str): list of built-in Azure-role objects
 
     """
-    endpoint = 'https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?api-version=2022-04-01'
+    endpoint = 'https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?api-version=2023-07-01-preview'
     headers = {'Authorization': f"Bearer {token}"}
     response = requests.get(endpoint, headers = headers)
 
