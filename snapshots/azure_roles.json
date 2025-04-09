@@ -1734,18 +1734,6 @@
         "link": "https://management.azure.com/af61e8fc-2633-4b95-bed3-421ad6826515?api-version=2022-04-01"
     },
     {
-        "id": "df87f177-bb12-4db1-9793-a413691eff94",
-        "name": "Container Registry Cache Rule Administrator",
-        "description": "Create, Read, Update, and Delete Cache Rules in Container Registry. This role doesn't grant permissions to manage Credential Sets.",
-        "link": "https://management.azure.com/df87f177-bb12-4db1-9793-a413691eff94?api-version=2022-04-01"
-    },
-    {
-        "id": "c357b964-0002-4b64-a50d-7a28f02edc52",
-        "name": "Container Registry Cache Rule Reader",
-        "description": "Read the configuration of Cache Rules in Container Registry. This permission doesn't grant permission to read Credential Sets.",
-        "link": "https://management.azure.com/c357b964-0002-4b64-a50d-7a28f02edc52?api-version=2022-04-01"
-    },
-    {
         "id": "69b07be0-09bf-439a-b9a6-e73de851bd59",
         "name": "Container Registry Configuration Reader and Data Access Configuration Reader",
         "description": "Provides permissions to list container registries and registry configuration properties. Provides permissions to list data access configuration such as admin user credentials, scope maps, and tokens, which can be used to read, write or delete repositories and images. Does not provide direct permissions to read, list, or write registry contents including repositories and images. Does not provide permissions to modify data plane content such as imports, Artifact Cache or Sync, and Transfer Pipelines. Does not provide permissions for managing Tasks.",
@@ -1756,18 +1744,6 @@
         "name": "Container Registry Contributor and Data Access Configuration Administrator",
         "description": "Provides permissions to create, list, and update container registries and registry configuration properties. Provides permissions to configure data access such as admin user credentials, scope maps, and tokens, which can be used to read, write or delete repositories and images. Does not provide direct permissions to read, list, or write registry contents including repositories and images. Does not provide permissions to modify data plane content such as imports, Artifact Cache or Sync, and Transfer Pipelines. Does not provide permissions for managing Tasks.",
         "link": "https://management.azure.com/3bc748fc-213d-45c1-8d91-9da5725539b9?api-version=2022-04-01"
-    },
-    {
-        "id": "f094fb07-0703-4400-ad6a-e16dd8000e14",
-        "name": "Container Registry Credential Set Administrator",
-        "description": "Create, Read, Update, and Delete Credential Sets in Container Registry. This role doesn't affect the needed permissions for storing content inside Azure Key Vault. This role also doesn't grant permissions to manage Cache Rules.",
-        "link": "https://management.azure.com/f094fb07-0703-4400-ad6a-e16dd8000e14?api-version=2022-04-01"
-    },
-    {
-        "id": "29093635-9924-4f2c-913b-650a12949526",
-        "name": "Container Registry Credential Set Reader",
-        "description": "Read the configuration of Credential Sets in Container Registry. This permission doesn't allow permission to see content inside Azure Key vault only the content inside Container Registry. This permission doesn't grant permission to read Cache Rules.",
-        "link": "https://management.azure.com/29093635-9924-4f2c-913b-650a12949526?api-version=2022-04-01"
     },
     {
         "id": "577a9874-89fd-4f24-9dbd-b5034d0ad23a",
@@ -2638,12 +2614,6 @@
         "name": "IoT Hub Twin Contributor",
         "description": "Allows for read and write access to all IoT Hub device and module twins.",
         "link": "https://management.azure.com/494bdba2-168f-4f31-a0a1-191d2f7c028c?api-version=2022-04-01"
-    },
-    {
-        "id": "8d7ecc5c-f27b-43cf-883f-46409d445502",
-        "name": "Issue Contributor",
-        "description": "Can read all issues data and update issues settings.",
-        "link": "https://management.azure.com/8d7ecc5c-f27b-43cf-883f-46409d445502?api-version=2022-04-01"
     },
     {
         "id": "00482a5a-887f-4fb3-b363-3b7fe8e74483",
