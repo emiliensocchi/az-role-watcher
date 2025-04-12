@@ -3228,6 +3228,12 @@
         "link": "https://management.azure.com/a00ed373-f085-4b75-a950-53eacdc52ac0?api-version=2022-04-01"
     },
     {
+        "id": "0869d06d-e3d1-4472-8764-1bb71b2bdaf7",
+        "name": "Oracle.Database Exascale VmCluster Administrator",
+        "description": "Grants full access to manage Exascale VmClusters",
+        "link": "https://management.azure.com/0869d06d-e3d1-4472-8764-1bb71b2bdaf7?api-version=2022-04-01"
+    },
+    {
         "id": "4562aac9-b209-4bd7-a144-6d7f3bb516f4",
         "name": "Oracle.Database Owner Built-in Role",
         "description": "Grants full access to manage all Oracle.Database resources",
@@ -3280,6 +3286,18 @@
         "name": "PostgreSQL Flexible Server Long Term Retention Backup Role",
         "description": "Role to allow backup vault to access PostgreSQL Flexible Server Resource APIs for Long Term Retention Backup.",
         "link": "https://management.azure.com/c088a766-074b-43ba-90d4-1fb21feae531?api-version=2022-04-01"
+    },
+    {
+        "id": "2593f4c7-8bf4-4fff-9804-2ee069b41902",
+        "name": "Power Platform Account Contributor",
+        "description": "Create, Read, Update, and Delete Power Platform Account resources",
+        "link": "https://management.azure.com/2593f4c7-8bf4-4fff-9804-2ee069b41902?api-version=2022-04-01"
+    },
+    {
+        "id": "babe7770-cdbc-4f46-9bd7-b90b34842946",
+        "name": "Power Platform Enterprise Policy Contributor",
+        "description": "Create, Read, Update, and Delete Power Platform Enterprise Policy resources",
+        "link": "https://management.azure.com/babe7770-cdbc-4f46-9bd7-b90b34842946?api-version=2022-04-01"
     },
     {
         "id": "53be45b2-ad40-43ab-bc1f-2c962ac99ded",
