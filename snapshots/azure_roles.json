@@ -3288,18 +3288,6 @@
         "link": "https://management.azure.com/c088a766-074b-43ba-90d4-1fb21feae531?api-version=2022-04-01"
     },
     {
-        "id": "2593f4c7-8bf4-4fff-9804-2ee069b41902",
-        "name": "Power Platform Account Contributor",
-        "description": "Create, Read, Update, and Delete Power Platform Account resources",
-        "link": "https://management.azure.com/2593f4c7-8bf4-4fff-9804-2ee069b41902?api-version=2022-04-01"
-    },
-    {
-        "id": "babe7770-cdbc-4f46-9bd7-b90b34842946",
-        "name": "Power Platform Enterprise Policy Contributor",
-        "description": "Create, Read, Update, and Delete Power Platform Enterprise Policy resources",
-        "link": "https://management.azure.com/babe7770-cdbc-4f46-9bd7-b90b34842946?api-version=2022-04-01"
-    },
-    {
         "id": "53be45b2-ad40-43ab-bc1f-2c962ac99ded",
         "name": "PowerApps Administrator",
         "description": "The user has access to perform administrative actions on all PowerApps resources within the tenant.",
