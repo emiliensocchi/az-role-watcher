@@ -170,13 +170,13 @@
     {
         "id": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
         "name": "App Compliance Automation Administrator",
-        "description": "Allows managing App Compliance Automation tool for Microsoft 365",
+        "description": "Create, read, download, modify and delete reports objects and related other resource objects.",
         "link": "https://management.azure.com/0f37683f-2463-46b6-9ce7-9b788b988ba2?api-version=2022-04-01"
     },
     {
         "id": "ffc6bbe0-e443-4c3b-bf54-26581bb2f78e",
         "name": "App Compliance Automation Reader",
-        "description": "Allows read-only access to App Compliance Automation tool for Microsoft 365",
+        "description": "Read, download the reports objects and related other resource objects.",
         "link": "https://management.azure.com/ffc6bbe0-e443-4c3b-bf54-26581bb2f78e?api-version=2022-04-01"
     },
     {
