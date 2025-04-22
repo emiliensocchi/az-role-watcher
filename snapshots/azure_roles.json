@@ -170,13 +170,13 @@
     {
         "id": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
         "name": "App Compliance Automation Administrator",
-        "description": "Allows managing App Compliance Automation tool for Microsoft 365",
+        "description": "Create, read, download, modify and delete reports objects and related other resource objects.",
         "link": "https://management.azure.com/0f37683f-2463-46b6-9ce7-9b788b988ba2?api-version=2022-04-01"
     },
     {
         "id": "ffc6bbe0-e443-4c3b-bf54-26581bb2f78e",
         "name": "App Compliance Automation Reader",
-        "description": "Allows read-only access to App Compliance Automation tool for Microsoft 365",
+        "description": "Read, download the reports objects and related other resource objects.",
         "link": "https://management.azure.com/ffc6bbe0-e443-4c3b-bf54-26581bb2f78e?api-version=2022-04-01"
     },
     {
@@ -3958,12 +3958,6 @@
         "name": "Trusted Signing Identity Verifier",
         "description": "Manage identity or business verification requests. This role is in preview and subject to change.",
         "link": "https://management.azure.com/4339b7cf-9826-4e41-b4ed-c7f4505dac08?api-version=2022-04-01"
-    },
-    {
-        "id": "33cdeeac-0940-4f85-9317-7e2432c17289",
-        "name": "Usage Billing Contributor",
-        "description": "Contributor access to Accounts",
-        "link": "https://management.azure.com/33cdeeac-0940-4f85-9317-7e2432c17289?api-version=2022-04-01"
     },
     {
         "id": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
