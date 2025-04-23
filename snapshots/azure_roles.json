@@ -170,13 +170,13 @@
     {
         "id": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
         "name": "App Compliance Automation Administrator",
-        "description": "Create, read, download, modify and delete reports objects and related other resource objects.",
+        "description": "Allows managing App Compliance Automation tool for Microsoft 365",
         "link": "https://management.azure.com/0f37683f-2463-46b6-9ce7-9b788b988ba2?api-version=2022-04-01"
     },
     {
         "id": "ffc6bbe0-e443-4c3b-bf54-26581bb2f78e",
         "name": "App Compliance Automation Reader",
-        "description": "Read, download the reports objects and related other resource objects.",
+        "description": "Allows read-only access to App Compliance Automation tool for Microsoft 365",
         "link": "https://management.azure.com/ffc6bbe0-e443-4c3b-bf54-26581bb2f78e?api-version=2022-04-01"
     },
     {
@@ -334,6 +334,12 @@
         "name": "Azure AI Inference Deployment Operator",
         "description": "Can perform all actions required to create a resource deployment within a resource group.",
         "link": "https://management.azure.com/3afb7f49-54cb-416e-8c09-6dc049efa503?api-version=2022-04-01"
+    },
+    {
+        "id": "eadc314b-1a2d-4efa-be10-5d325db5065e",
+        "name": "Azure AI Project Manager",
+        "description": "Lets you perform developer actions and management actions on Azure AI Foundry Projects. Allows for making role assignments, but limited to Cognitive Service User role.",
+        "link": "https://management.azure.com/eadc314b-1a2d-4efa-be10-5d325db5065e?api-version=2022-04-01"
     },
     {
         "id": "11102f94-c441-49e6-a78b-ef80e0188abc",
@@ -3960,6 +3966,12 @@
         "link": "https://management.azure.com/4339b7cf-9826-4e41-b4ed-c7f4505dac08?api-version=2022-04-01"
     },
     {
+        "id": "33cdeeac-0940-4f85-9317-7e2432c17289",
+        "name": "Usage Billing Contributor",
+        "description": "Contributor access to Accounts",
+        "link": "https://management.azure.com/33cdeeac-0940-4f85-9317-7e2432c17289?api-version=2022-04-01"
+    },
+    {
         "id": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
         "name": "User Access Administrator",
         "description": "Lets you manage user access to Azure resources.",
@@ -4072,6 +4084,12 @@
         "name": "Workbook Reader",
         "description": "Can read workbooks.",
         "link": "https://management.azure.com/b279062a-9be3-42a0-92ae-8b3cf002ec4d?api-version=2022-04-01"
+    },
+    {
+        "id": "db9875ba-bd2b-4e98-934d-0daa549a07f0",
+        "name": "Workload Orchestration Solution External Validator",
+        "description": "Grants you access to fetch targets, solution templates, solutions and update the external validation status",
+        "link": "https://management.azure.com/db9875ba-bd2b-4e98-934d-0daa549a07f0?api-version=2022-04-01"
     },
     {
         "id": "d17ce0a2-0697-43bc-aac5-9113337ab61c",
