@@ -336,12 +336,6 @@
         "link": "https://management.azure.com/3afb7f49-54cb-416e-8c09-6dc049efa503?api-version=2022-04-01"
     },
     {
-        "id": "eadc314b-1a2d-4efa-be10-5d325db5065e",
-        "name": "Azure AI Project Manager",
-        "description": "Lets you perform developer actions and management actions on Azure AI Foundry Projects. Allows for making role assignments, but limited to Cognitive Service User role.",
-        "link": "https://management.azure.com/eadc314b-1a2d-4efa-be10-5d325db5065e?api-version=2022-04-01"
-    },
-    {
         "id": "11102f94-c441-49e6-a78b-ef80e0188abc",
         "name": "Azure AI Safety Evaluator",
         "description": "This role can perform all actions under workspace evaluations and simulations.",
@@ -4084,12 +4078,6 @@
         "name": "Workbook Reader",
         "description": "Can read workbooks.",
         "link": "https://management.azure.com/b279062a-9be3-42a0-92ae-8b3cf002ec4d?api-version=2022-04-01"
-    },
-    {
-        "id": "db9875ba-bd2b-4e98-934d-0daa549a07f0",
-        "name": "Workload Orchestration Solution External Validator",
-        "description": "Grants you access to fetch targets, solution templates, solutions and update the external validation status",
-        "link": "https://management.azure.com/db9875ba-bd2b-4e98-934d-0daa549a07f0?api-version=2022-04-01"
     },
     {
         "id": "d17ce0a2-0697-43bc-aac5-9113337ab61c",
