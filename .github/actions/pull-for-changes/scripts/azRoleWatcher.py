@@ -135,7 +135,7 @@ def get_builtin_entra_role_objects_from_graph(token):
             list(str): list of built-in Entra-role objects
 
     """
-    endpoint = 'https://graph.microsoft.com/v1.0/directoryRoleTemplates'
+    endpoint = 'https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions?$filter=isBuiltIn eq true'
     headers = {'Authorization': f"Bearer {token}"}
     response = requests.get(endpoint, headers = headers)
 
@@ -158,7 +158,7 @@ def get_builtin_azure_role_objects_from_arm(token):
             list(str): list of built-in Azure-role objects
 
     """
-    endpoint = 'https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?api-version=2023-07-01-preview'
+    endpoint = "https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?$filter=type+eq+'BuiltInRole'&api-version=2022-04-01"
     headers = {'Authorization': f"Bearer {token}"}
     response = requests.get(endpoint, headers = headers)
 
@@ -166,22 +166,8 @@ def get_builtin_azure_role_objects_from_arm(token):
         print('FATAL ERROR - The Azure roles could not be retrieved from ARM.')
         exit()
 
-    paginated_response = response.json()['value']
-    complete_response = paginated_response
-    next_page = response.json()['nextLink'] if 'nextLink' in response.json() else ''
-
-    while next_page:
-        response = requests.get(next_page, headers = headers)
-
-        if response.status_code != 200:
-            print('FATAL ERROR - The Azure roles could not be retrieved from ARM.')
-            exit()
-        
-        paginated_response = response.json()['value']
-        next_page = response.json()['nextLink'] if 'nextLink' in response.json() else ''
-        complete_response += paginated_response
-
-    return complete_response
+    response_content = response.json()['value']
+    return response_content
 
 
 def read_json_file(json_file):
