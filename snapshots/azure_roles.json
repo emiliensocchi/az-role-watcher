@@ -2514,6 +2514,12 @@
         "link": "https://management.azure.com/088ab73d-1256-47ae-bea9-9de8e7131f31?api-version=2022-04-01"
     },
     {
+        "id": "ed2561a6-b260-4d25-9d88-54ee1b8e8b37",
+        "name": "Guest configuration deploy policy role",
+        "description": "Lets you deploy guest configuration policy on to machines under a subscription or resource group.",
+        "link": "https://management.azure.com/ed2561a6-b260-4d25-9d88-54ee1b8e8b37?api-version=2022-04-01"
+    },
+    {
         "id": "0847e196-2fd2-4c2f-a48c-fca6fd030f44",
         "name": "HDInsight Cluster Admin",
         "description": "Can read, create, modify and delete HDInsight clusters, configuration, extensions, etc.",

@@ -80,7 +80,7 @@
     {
         "id": "c4e39bd9-1100-46d3-8c65-fb160da0071f",
         "name": "Authentication Administrator",
-        "description": "Allowed to view, set and reset authentication method information for any non-admin user.",
+        "description": "Can access to view, set and reset authentication method information for any non-admin user.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c4e39bd9-1100-46d3-8c65-fb160da0071f"
     },
     {
@@ -182,7 +182,7 @@
     {
         "id": "9c094953-4995-41c8-84c8-3ebb9b32c93f",
         "name": "Device Join",
-        "description": "Device Join",
+        "description": "Deprecated - Do Not Use.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9c094953-4995-41c8-84c8-3ebb9b32c93f"
     },
     {
@@ -194,7 +194,7 @@
     {
         "id": "d405c6df-0af8-4e3b-95e4-4d06e542189e",
         "name": "Device Users",
-        "description": "Device Users",
+        "description": "Deprecated - Do Not Use.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d405c6df-0af8-4e3b-95e4-4d06e542189e"
     },
     {
@@ -302,7 +302,7 @@
     {
         "id": "843318fb-79a6-4168-9e6f-aa9a07481cc4",
         "name": "Global Secure Access Log Reader",
-        "description": "Provides designated security personnel with read-only access to network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for secure and detailed analysis.",
+        "description": "Provides designated security personnel with read-only access to network traffic logs in Microsoft Entra Internet Access and Microsoft Entra Private Access for detailed analysis.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/843318fb-79a6-4168-9e6f-aa9a07481cc4"
     },
     {
@@ -416,7 +416,7 @@
     {
         "id": "1707125e-0aa2-4d4d-8655-a7c786c76a25",
         "name": "Microsoft 365 Backup Administrator",
-        "description": "Back up and restore content across supported services (SharePoint, OneDrive, and Exchange Online) in Microsoft 365 Backup.",
+        "description": "Back up and restore content across supported services (SharePoint, OneDrive, and Exchange Online) in Microsoft 365 Backup",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1707125e-0aa2-4d4d-8655-a7c786c76a25"
     },
     {
@@ -464,7 +464,7 @@
     {
         "id": "e48398e2-f4bb-4074-8f31-4586725e205b",
         "name": "Organizational Messages Approver",
-        "description": "Can review and approve Organizational Messages before they are activated for delivery to end users.",
+        "description": "Review, approve, or reject new organizational messages for delivery in the Microsoft 365 admin center before they are sent to users.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e48398e2-f4bb-4074-8f31-4586725e205b"
     },
     {
@@ -518,13 +518,13 @@
     {
         "id": "e8cef6f1-e4bd-4ea8-bc07-4b8d950f4477",
         "name": "Printer Technician",
-        "description": "Can manage all aspects of printers and printer connectors.",
+        "description": "Can register and unregister printers and update printer status.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e8cef6f1-e4bd-4ea8-bc07-4b8d950f4477"
     },
     {
         "id": "7be44c8a-adaf-4e2a-84d6-ab2649e08a13",
         "name": "Privileged Authentication Administrator",
-        "description": "Allowed to view, set and reset authentication method information for any user (admin or non-admin).",
+        "description": "Can access to view, set and reset authentication method information for any user (admin or non-admin).",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7be44c8a-adaf-4e2a-84d6-ab2649e08a13"
     },
     {
@@ -542,7 +542,7 @@
     {
         "id": "2af84b1e-32c8-42b7-82bc-daa82404023b",
         "name": "Restricted Guest User",
-        "description": "Default role for guest users with restricted access. Can read a limited set of directory information.",
+        "description": "Restricted role for guest users. Can read a limited set of directory information.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2af84b1e-32c8-42b7-82bc-daa82404023b"
     },
     {
@@ -560,7 +560,7 @@
     {
         "id": "194ae4cb-b126-40b2-bd5b-6091b380977d",
         "name": "Security Administrator",
-        "description": "Security Administrator allows ability to read and manage security configuration and reports.",
+        "description": "Can read security information and reports, and manage configuration in Microsoft Entra ID and Office 365.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/194ae4cb-b126-40b2-bd5b-6091b380977d"
     },
     {
@@ -686,7 +686,7 @@
     {
         "id": "87761b17-1ed2-4af3-9acd-92a150038160",
         "name": "Viva Pulse Administrator",
-        "description": "Can manage all settings for Microsoft Viva Pulse app",
+        "description": "Can manage all settings for Microsoft Viva Pulse app.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/87761b17-1ed2-4af3-9acd-92a150038160"
     },
     {
@@ -704,13 +704,13 @@
     {
         "id": "c34f683f-4d5a-4403-affd-6615e00e3a7f",
         "name": "Workplace Device Join",
-        "description": "Workplace Device Join",
+        "description": "Deprecated - Do Not Use.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c34f683f-4d5a-4403-affd-6615e00e3a7f"
     },
     {
         "id": "810a2642-a034-447f-a5e8-41beaa378541",
         "name": "Yammer Administrator",
-        "description": "Manage all aspects of Yammer.",
+        "description": "Manage all aspects of the Yammer service.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/810a2642-a034-447f-a5e8-41beaa378541"
     }
 ]
