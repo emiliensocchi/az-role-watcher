@@ -918,6 +918,12 @@
         "link": "https://management.azure.com/ff478a4e-8633-416e-91bc-ec33ce7c9516?api-version=2022-04-01"
     },
     {
+        "id": "0618ae3d-2930-4bb7-aa00-718db34ee9f9",
+        "name": "Azure Monitor Dashboards with Grafana Contributor",
+        "description": "Can manage dashboards with Grafana.",
+        "link": "https://management.azure.com/0618ae3d-2930-4bb7-aa00-718db34ee9f9?api-version=2022-04-01"
+    },
+    {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
         "name": "Azure Programmable Connectivity Gateway Dataplane User",
         "description": "Allows access to all Gateway dataplane APIs.",
@@ -3454,12 +3460,6 @@
         "name": "Role Based Access Control Administrator",
         "description": "Manage access to Azure resources by assigning roles using Azure RBAC. This role does not allow you to manage access using other ways, such as Azure Policy.",
         "link": "https://management.azure.com/f58310d9-a9f6-439a-9e8d-f62e7b41a168?api-version=2022-04-01"
-    },
-    {
-        "id": "7f922060-b27d-44fd-991a-4861f41a5982",
-        "name": "Role assignment reader",
-        "description": "",
-        "link": "https://management.azure.com/7f922060-b27d-44fd-991a-4861f41a5982?api-version=2022-04-01"
     },
     {
         "id": "9b7fa17d-e63e-47b0-bb0a-15c516ac86ec",
