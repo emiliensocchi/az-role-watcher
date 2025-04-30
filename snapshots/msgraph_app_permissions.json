@@ -1962,6 +1962,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/338163d7-f101-4c92-94ba-ca46fe52447c"
     },
     {
+        "id": "a6325ae7-2b73-4dbd-abed-fbeacfbf8696",
+        "name": "Policy.ReadWrite.CrossTenantCapability",
+        "description": "Read and write your organization's M365 cross tenant access capabilities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a6325ae7-2b73-4dbd-abed-fbeacfbf8696"
+    },
+    {
         "id": "230fb2d5-aa21-49c1-bfa7-ae1be179d867",
         "name": "Policy.ReadWrite.DeviceConfiguration",
         "description": "Read and write your organization's device configuration policies",
