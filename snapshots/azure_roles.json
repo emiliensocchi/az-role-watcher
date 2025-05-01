@@ -318,12 +318,6 @@
         "link": "https://management.azure.com/c025889f-8102-4ebf-b32c-fc0c6f0c6bd9?api-version=2022-04-01"
     },
     {
-        "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
-        "name": "Azure AI Account Owner",
-        "description": "Grants full access to manage AI projects and accounts. Grants conditional assignment of the Azure AI User role to other user principles.",
-        "link": "https://management.azure.com/e47c6f54-e4a2-4754-9501-8e0985b135e1?api-version=2022-04-01"
-    },
-    {
         "id": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
         "name": "Azure AI Administrator",
         "description": "A Built-In Role that has all control plane permissions to work with Azure AI and its dependencies.",
@@ -922,12 +916,6 @@
         "name": "Azure Messaging Connectors Owner",
         "description": "Allows for full access to Azure Messaging Connectors resources.",
         "link": "https://management.azure.com/ff478a4e-8633-416e-91bc-ec33ce7c9516?api-version=2022-04-01"
-    },
-    {
-        "id": "0618ae3d-2930-4bb7-aa00-718db34ee9f9",
-        "name": "Azure Monitor Dashboards with Grafana Contributor",
-        "description": "Can manage dashboards with Grafana.",
-        "link": "https://management.azure.com/0618ae3d-2930-4bb7-aa00-718db34ee9f9?api-version=2022-04-01"
     },
     {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
@@ -2332,12 +2320,6 @@
         "name": "Enclave Reader Role",
         "description": "Enclave Reader Role to access the resources of Microsoft.Mission stored with RPSAAS.",
         "link": "https://management.azure.com/86fede04-b259-4277-8c3e-e26b9865abd8?api-version=2022-04-01"
-    },
-    {
-        "id": "93629c8c-5d36-4533-85cd-f5bb3338710e",
-        "name": "Entra Connect Health Service Admin",
-        "description": "Can set up and manage Microsoft Entra Connect Health. Includes agent set up and managing services on the Azure portal",
-        "link": "https://management.azure.com/93629c8c-5d36-4533-85cd-f5bb3338710e?api-version=2022-04-01"
     },
     {
         "id": "1e241071-0855-49ea-94dc-649edcd759de",
