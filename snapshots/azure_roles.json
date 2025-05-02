@@ -318,6 +318,12 @@
         "link": "https://management.azure.com/c025889f-8102-4ebf-b32c-fc0c6f0c6bd9?api-version=2022-04-01"
     },
     {
+        "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
+        "name": "Azure AI Account Owner",
+        "description": "Grants full access to manage AI projects and accounts. Grants conditional assignment of the Azure AI User role to other user principles.",
+        "link": "https://management.azure.com/e47c6f54-e4a2-4754-9501-8e0985b135e1?api-version=2022-04-01"
+    },
+    {
         "id": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
         "name": "Azure AI Administrator",
         "description": "A Built-In Role that has all control plane permissions to work with Azure AI and its dependencies.",
@@ -352,6 +358,12 @@
         "name": "Azure AI Safety Evaluator",
         "description": "This role can perform all actions under workspace evaluations and simulations.",
         "link": "https://management.azure.com/11102f94-c441-49e6-a78b-ef80e0188abc?api-version=2022-04-01"
+    },
+    {
+        "id": "53ca6127-db72-4b80-b1b0-d745d6d5456d",
+        "name": "Azure AI User",
+        "description": "Grants reader access to AI projects, reader access to AI accounts, and data actions for an AI project.",
+        "link": "https://management.azure.com/53ca6127-db72-4b80-b1b0-d745d6d5456d?api-version=2022-04-01"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -916,6 +928,12 @@
         "name": "Azure Messaging Connectors Owner",
         "description": "Allows for full access to Azure Messaging Connectors resources.",
         "link": "https://management.azure.com/ff478a4e-8633-416e-91bc-ec33ce7c9516?api-version=2022-04-01"
+    },
+    {
+        "id": "0618ae3d-2930-4bb7-aa00-718db34ee9f9",
+        "name": "Azure Monitor Dashboards with Grafana Contributor",
+        "description": "Can manage dashboards with Grafana.",
+        "link": "https://management.azure.com/0618ae3d-2930-4bb7-aa00-718db34ee9f9?api-version=2022-04-01"
     },
     {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
@@ -2322,6 +2340,12 @@
         "link": "https://management.azure.com/86fede04-b259-4277-8c3e-e26b9865abd8?api-version=2022-04-01"
     },
     {
+        "id": "93629c8c-5d36-4533-85cd-f5bb3338710e",
+        "name": "Entra Connect Health Service Admin",
+        "description": "Can set up and manage Microsoft Entra Connect Health. Includes agent set up and managing services on the Azure portal",
+        "link": "https://management.azure.com/93629c8c-5d36-4533-85cd-f5bb3338710e?api-version=2022-04-01"
+    },
+    {
         "id": "1e241071-0855-49ea-94dc-649edcd759de",
         "name": "EventGrid Contributor",
         "description": "Lets you manage EventGrid operations.",
@@ -2953,8 +2977,8 @@
     },
     {
         "id": "b9331d33-8a36-4f8c-b097-4f54124fdb44",
-        "name": "Managed Applications Reader",
-        "description": "Lets you read resources in a managed app and request JIT access.",
+        "name": "Managed Application Publisher Operator",
+        "description": "Allows the publisher to read resources in the managed resource group for Managed Application and request JIT access for additional operations. This role is only used by the Managed Application service to provide access to publishers.",
         "link": "https://management.azure.com/b9331d33-8a36-4f8c-b097-4f54124fdb44?api-version=2022-04-01"
     },
     {
@@ -3547,13 +3571,13 @@
     },
     {
         "id": "5dffeca3-4936-4216-b2bc-10343a5abb25",
-        "name": "Schema Registry Contributor (Preview)",
+        "name": "Schema Registry Contributor",
         "description": "Read, write, and delete Schema Registry groups and schemas.",
         "link": "https://management.azure.com/5dffeca3-4936-4216-b2bc-10343a5abb25?api-version=2022-04-01"
     },
     {
         "id": "2c56ea50-c6b3-40a6-83c0-9d98858bc7d2",
-        "name": "Schema Registry Reader (Preview)",
+        "name": "Schema Registry Reader",
         "description": "Read and list Schema Registry groups and schemas.",
         "link": "https://management.azure.com/2c56ea50-c6b3-40a6-83c0-9d98858bc7d2?api-version=2022-04-01"
     },
@@ -3580,6 +3604,12 @@
         "name": "Search Service Contributor",
         "description": "Lets you manage Search services, but not access to them.",
         "link": "https://management.azure.com/7ca78c08-252a-4471-8644-bb5ff32d4ba0?api-version=2022-04-01"
+    },
+    {
+        "id": "5c227a58-cff3-4b51-9fa3-51bdafb6ca55",
+        "name": "Secrets Store Extension Owner",
+        "description": "Read, create and modify secretsync and secretproviderclass objects. Register and deregister the provider from the subscription.",
+        "link": "https://management.azure.com/5c227a58-cff3-4b51-9fa3-51bdafb6ca55?api-version=2022-04-01"
     },
     {
         "id": "fb1c8493-542b-48eb-b624-b4c8fea62acd",
