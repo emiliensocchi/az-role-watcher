@@ -426,6 +426,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8c8b803f-96e1-4129-9349-20738d9f9652"
     },
     {
+        "id": "ee67aa9c-e510-4759-b906-227085a7fd4d",
+        "name": "Microsoft Graph Data Connect Administrator",
+        "description": "Manage aspects of Microsoft Graph Data Connect service in a tenant.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ee67aa9c-e510-4759-b906-227085a7fd4d"
+    },
+    {
         "id": "1501b917-7653-4ff9-a4b5-203eaf33784f",
         "name": "Microsoft Hardware Warranty Administrator",
         "description": "Create and manage all aspects warranty claims and entitlements for Microsoft manufactured hardware, like Surface and HoloLens.",

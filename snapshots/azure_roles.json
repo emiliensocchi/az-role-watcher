@@ -744,6 +744,12 @@
         "link": "https://management.azure.com/63bb64ad-9799-4770-b5c3-24ed299a07bf?api-version=2022-04-01"
     },
     {
+        "id": "de2b316d-7a2c-4143-b4cd-c148f6a355a1",
+        "name": "Azure Kubernetes Fleet Manager Hub Agent Role",
+        "description": "Grants read access to Azure network resources needed by Azure Kubernetes Fleet Manager.",
+        "link": "https://management.azure.com/de2b316d-7a2c-4143-b4cd-c148f6a355a1?api-version=2022-04-01"
+    },
+    {
         "id": "434fb43a-c01c-447e-9f67-c3ad923cfaba",
         "name": "Azure Kubernetes Fleet Manager RBAC Admin",
         "description": "Grants read/write access to Kubernetes resources within a namespace in the fleet-managed hub cluster - provides write permissions on most objects within a a namespace, with the exception of ResourceQuota object and the namespace object itself. Applying this role at cluster scope will give access across all namespaces.",
@@ -982,6 +988,18 @@
         "name": "Azure Red Hat OpenShift Hosted Control Planes Cluster API Provider",
         "description": "Enables permissions to allow cluster API to manage nodes, networks and disks for OpenShift cluster.",
         "link": "https://management.azure.com/88366f10-ed47-4cc0-9fab-c8a06148393e?api-version=2022-04-01"
+    },
+    {
+        "id": "fc0c873f-45e9-4d0d-a7d1-585aab30c6ed",
+        "name": "Azure Red Hat OpenShift Hosted Control Planes Control Plane Operator",
+        "description": "Enables the control plane operator to read resources necessary for OpenShift cluster.",
+        "link": "https://management.azure.com/fc0c873f-45e9-4d0d-a7d1-585aab30c6ed?api-version=2022-04-01"
+    },
+    {
+        "id": "c0ff367d-66d8-445e-917c-583feb0ef0d4",
+        "name": "Azure Red Hat OpenShift Hosted Control Planes Service Managed Identity",
+        "description": "Azure Red Hat OpenShift Hosted Control Planes Service Managed Identity",
+        "link": "https://management.azure.com/c0ff367d-66d8-445e-917c-583feb0ef0d4?api-version=2022-04-01"
     },
     {
         "id": "8b32b316-c2f5-4ddf-b05b-83dacd2d08b5",
