@@ -318,12 +318,6 @@
         "link": "https://management.azure.com/c025889f-8102-4ebf-b32c-fc0c6f0c6bd9?api-version=2022-04-01"
     },
     {
-        "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
-        "name": "Azure AI Account Owner",
-        "description": "Grants full access to manage AI projects and accounts. Grants conditional assignment of the Azure AI User role to other user principles.",
-        "link": "https://management.azure.com/e47c6f54-e4a2-4754-9501-8e0985b135e1?api-version=2022-04-01"
-    },
-    {
         "id": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
         "name": "Azure AI Administrator",
         "description": "A Built-In Role that has all control plane permissions to work with Azure AI and its dependencies.",
@@ -358,12 +352,6 @@
         "name": "Azure AI Safety Evaluator",
         "description": "This role can perform all actions under workspace evaluations and simulations.",
         "link": "https://management.azure.com/11102f94-c441-49e6-a78b-ef80e0188abc?api-version=2022-04-01"
-    },
-    {
-        "id": "53ca6127-db72-4b80-b1b0-d745d6d5456d",
-        "name": "Azure AI User",
-        "description": "Grants reader access to AI projects, reader access to AI accounts, and data actions for an AI project.",
-        "link": "https://management.azure.com/53ca6127-db72-4b80-b1b0-d745d6d5456d?api-version=2022-04-01"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -744,12 +732,6 @@
         "link": "https://management.azure.com/63bb64ad-9799-4770-b5c3-24ed299a07bf?api-version=2022-04-01"
     },
     {
-        "id": "de2b316d-7a2c-4143-b4cd-c148f6a355a1",
-        "name": "Azure Kubernetes Fleet Manager Hub Agent Role",
-        "description": "Grants read access to Azure network resources needed by Azure Kubernetes Fleet Manager.",
-        "link": "https://management.azure.com/de2b316d-7a2c-4143-b4cd-c148f6a355a1?api-version=2022-04-01"
-    },
-    {
         "id": "434fb43a-c01c-447e-9f67-c3ad923cfaba",
         "name": "Azure Kubernetes Fleet Manager RBAC Admin",
         "description": "Grants read/write access to Kubernetes resources within a namespace in the fleet-managed hub cluster - provides write permissions on most objects within a a namespace, with the exception of ResourceQuota object and the namespace object itself. Applying this role at cluster scope will give access across all namespaces.",
@@ -988,18 +970,6 @@
         "name": "Azure Red Hat OpenShift Hosted Control Planes Cluster API Provider",
         "description": "Enables permissions to allow cluster API to manage nodes, networks and disks for OpenShift cluster.",
         "link": "https://management.azure.com/88366f10-ed47-4cc0-9fab-c8a06148393e?api-version=2022-04-01"
-    },
-    {
-        "id": "fc0c873f-45e9-4d0d-a7d1-585aab30c6ed",
-        "name": "Azure Red Hat OpenShift Hosted Control Planes Control Plane Operator",
-        "description": "Enables the control plane operator to read resources necessary for OpenShift cluster.",
-        "link": "https://management.azure.com/fc0c873f-45e9-4d0d-a7d1-585aab30c6ed?api-version=2022-04-01"
-    },
-    {
-        "id": "c0ff367d-66d8-445e-917c-583feb0ef0d4",
-        "name": "Azure Red Hat OpenShift Hosted Control Planes Service Managed Identity",
-        "description": "Azure Red Hat OpenShift Hosted Control Planes Service Managed Identity",
-        "link": "https://management.azure.com/c0ff367d-66d8-445e-917c-583feb0ef0d4?api-version=2022-04-01"
     },
     {
         "id": "8b32b316-c2f5-4ddf-b05b-83dacd2d08b5",
@@ -2995,8 +2965,8 @@
     },
     {
         "id": "b9331d33-8a36-4f8c-b097-4f54124fdb44",
-        "name": "Managed Application Publisher Operator",
-        "description": "Allows the publisher to read resources in the managed resource group for Managed Application and request JIT access for additional operations. This role is only used by the Managed Application service to provide access to publishers.",
+        "name": "Managed Applications Reader",
+        "description": "Lets you read resources in a managed app and request JIT access.",
         "link": "https://management.azure.com/b9331d33-8a36-4f8c-b097-4f54124fdb44?api-version=2022-04-01"
     },
     {
@@ -3589,13 +3559,13 @@
     },
     {
         "id": "5dffeca3-4936-4216-b2bc-10343a5abb25",
-        "name": "Schema Registry Contributor",
+        "name": "Schema Registry Contributor (Preview)",
         "description": "Read, write, and delete Schema Registry groups and schemas.",
         "link": "https://management.azure.com/5dffeca3-4936-4216-b2bc-10343a5abb25?api-version=2022-04-01"
     },
     {
         "id": "2c56ea50-c6b3-40a6-83c0-9d98858bc7d2",
-        "name": "Schema Registry Reader",
+        "name": "Schema Registry Reader (Preview)",
         "description": "Read and list Schema Registry groups and schemas.",
         "link": "https://management.azure.com/2c56ea50-c6b3-40a6-83c0-9d98858bc7d2?api-version=2022-04-01"
     },
@@ -3622,12 +3592,6 @@
         "name": "Search Service Contributor",
         "description": "Lets you manage Search services, but not access to them.",
         "link": "https://management.azure.com/7ca78c08-252a-4471-8644-bb5ff32d4ba0?api-version=2022-04-01"
-    },
-    {
-        "id": "5c227a58-cff3-4b51-9fa3-51bdafb6ca55",
-        "name": "Secrets Store Extension Owner",
-        "description": "Read, create and modify secretsync and secretproviderclass objects. Register and deregister the provider from the subscription.",
-        "link": "https://management.azure.com/5c227a58-cff3-4b51-9fa3-51bdafb6ca55?api-version=2022-04-01"
     },
     {
         "id": "fb1c8493-542b-48eb-b624-b4c8fea62acd",
