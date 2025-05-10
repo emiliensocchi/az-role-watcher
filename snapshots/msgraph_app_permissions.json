@@ -2634,6 +2634,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/17b78cfd-eeff-447d-8bab-2795af00055a"
     },
     {
+        "id": "6eff534b-699e-44d9-af61-a4182f0ec37e",
+        "name": "Storyline.ReadWrite.All",
+        "description": "Read and write all Viva Engage storylines",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6eff534b-699e-44d9-af61-a4182f0ec37e"
+    },
+    {
         "id": "ee1460f0-368b-4153-870a-4e1ca7e72c42",
         "name": "SubjectRightsRequest.Read.All",
         "description": "Read\u00a0all subject\u00a0rights requests",
