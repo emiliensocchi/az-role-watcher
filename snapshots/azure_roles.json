@@ -246,12 +246,6 @@
         "link": "https://management.azure.com/08954f03-6346-4c2e-81c0-ec3a5cfae23b?api-version=2022-04-01"
     },
     {
-        "id": "f6e92014-8af2-414d-9948-9b1abf559285",
-        "name": "Arc Gateway Manager",
-        "description": "Manage Arc Gateway Resources",
-        "link": "https://management.azure.com/f6e92014-8af2-414d-9948-9b1abf559285?api-version=2022-04-01"
-    },
-    {
         "id": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
         "name": "Attestation Contributor",
         "description": "Can read write or delete the attestation provider instance",
