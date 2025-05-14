@@ -858,6 +858,12 @@
         "link": "https://management.azure.com/e7037d40-443a-4434-a3fb-8cd202011e1d?api-version=2022-04-01"
     },
     {
+        "id": "8e253927-1f29-4d89-baa2-c3a549eff423",
+        "name": "Azure Kubernetes Service Machine Manager Role",
+        "description": "Role for machine related actions",
+        "link": "https://management.azure.com/8e253927-1f29-4d89-baa2-c3a549eff423?api-version=2022-04-01"
+    },
+    {
         "id": "18ed5180-3e48-46fd-8541-4ea054d57064",
         "name": "Azure Kubernetes Service Policy Add-on Deployment",
         "description": "Deploy the Azure Policy add-on on Azure Kubernetes Service clusters",
