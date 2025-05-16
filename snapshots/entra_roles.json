@@ -636,6 +636,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3d762c5a-1b6c-493f-843e-55a3b42923d4"
     },
     {
+        "id": "1076ac91-f3d9-41a7-a339-dcdf5f480acc",
+        "name": "Teams Reader",
+        "description": "Read everything in the Teams admin center, but not update anything.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1076ac91-f3d9-41a7-a339-dcdf5f480acc"
+    },
+    {
         "id": "aa38014f-0993-46e9-9b45-30501a20909d",
         "name": "Teams Telephony Administrator",
         "description": "Manage voice and telephony features and troubleshoot communication issues within the Microsoft Teams service.",
