@@ -858,6 +858,12 @@
         "link": "https://management.azure.com/e7037d40-443a-4434-a3fb-8cd202011e1d?api-version=2022-04-01"
     },
     {
+        "id": "8e253927-1f29-4d89-baa2-c3a549eff423",
+        "name": "Azure Kubernetes Service Machine Manager Role",
+        "description": "Role for machine related actions",
+        "link": "https://management.azure.com/8e253927-1f29-4d89-baa2-c3a549eff423?api-version=2022-04-01"
+    },
+    {
         "id": "18ed5180-3e48-46fd-8541-4ea054d57064",
         "name": "Azure Kubernetes Service Policy Add-on Deployment",
         "description": "Deploy the Azure Policy add-on on Azure Kubernetes Service clusters",
@@ -3124,6 +3130,18 @@
         "name": "Microsoft Sentinel Responder",
         "description": "Microsoft Sentinel Responder",
         "link": "https://management.azure.com/3e150937-b8fe-4cfb-8069-0eaf05ecd056?api-version=2022-04-01"
+    },
+    {
+        "id": "adc3c795-c41e-4a89-a478-0b321783324c",
+        "name": "Microsoft.AzureStackHCI Device Pool Manager",
+        "description": "Microsoft.AzureStackHCI Device Pool Manager ",
+        "link": "https://management.azure.com/adc3c795-c41e-4a89-a478-0b321783324c?api-version=2022-04-01"
+    },
+    {
+        "id": "5f569efd-4da5-4123-99cd-d42fbb2a836e",
+        "name": "Microsoft.AzureStackHCI EdgeMachine Reader",
+        "description": "Microsoft.AzureStackHCI EdgeMachine Reader",
+        "link": "https://management.azure.com/5f569efd-4da5-4123-99cd-d42fbb2a836e?api-version=2022-04-01"
     },
     {
         "id": "83ee7727-862c-4213-8ed8-2ce6c5d69a40",

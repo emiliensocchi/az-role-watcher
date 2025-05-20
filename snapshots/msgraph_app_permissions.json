@@ -138,6 +138,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e125258e-8c8a-42a8-8f55-ab502afa52f3"
     },
     {
+        "id": "99bc85fb-e857-4220-9f8c-3a1c83148d2e",
+        "name": "AuditActivity.Read",
+        "description": "Read activity audit log from the audit store.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/99bc85fb-e857-4220-9f8c-3a1c83148d2e"
+    },
+    {
+        "id": "f6318678-2713-4bb6-b123-233e7336c1bd",
+        "name": "AuditActivity.Write",
+        "description": "Upload activity audit logs to the audit store.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f6318678-2713-4bb6-b123-233e7336c1bd"
+    },
+    {
         "id": "b0afded3-3588-46d8-8b3d-9842eff778da",
         "name": "AuditLog.Read.All",
         "description": "Read all audit log data",
@@ -622,6 +634,30 @@
         "name": "Contacts.ReadWrite",
         "description": "Read and write contacts in all mailboxes",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6918b873-d17a-4dc1-b314-35f528134491"
+    },
+    {
+        "id": "5ad511bf-571c-4ef6-8c3c-85b94b85df98",
+        "name": "Content.Process.All",
+        "description": "Process content for data security, governance and compliance",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5ad511bf-571c-4ef6-8c3c-85b94b85df98"
+    },
+    {
+        "id": "24ceb246-ad29-4680-90b4-3e91ffad15eb",
+        "name": "Content.Process.User",
+        "description": "Process content for data security, governance and compliance",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/24ceb246-ad29-4680-90b4-3e91ffad15eb"
+    },
+    {
+        "id": "368425e7-6954-4f5a-9d92-90b75bd580c9",
+        "name": "ContentActivity.Read",
+        "description": "Read contents activity audit log from the audit store.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/368425e7-6954-4f5a-9d92-90b75bd580c9"
+    },
+    {
+        "id": "2932e07a-3c29-44e4-bb36-6d0fc176387f",
+        "name": "ContentActivity.Write",
+        "description": "Upload content activity audit logs to the audit store.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2932e07a-3c29-44e4-bb36-6d0fc176387f"
     },
     {
         "id": "cac88765-0581-4025-9725-5ebc13f729ee",
@@ -2178,6 +2214,24 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/60a901ed-09f7-4aa5-a16e-7dd3d6f9de36"
     },
     {
+        "id": "e5a76501-dbb0-492c-ab55-5d09e8837263",
+        "name": "ProtectionScopes.Compute.All",
+        "description": "Compute Purview policies at tenant scope",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e5a76501-dbb0-492c-ab55-5d09e8837263"
+    },
+    {
+        "id": "fe696d63-5e1f-4515-8232-cccc316903c6",
+        "name": "ProtectionScopes.Compute.User",
+        "description": "Compute Purview policies for an individual user",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fe696d63-5e1f-4515-8232-cccc316903c6"
+    },
+    {
+        "id": "091937d3-3e38-47a1-8649-b2f99d3035f1",
+        "name": "ProvisioningLog.Read.All",
+        "description": "Read all provisioning log data",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/091937d3-3e38-47a1-8649-b2f99d3035f1"
+    },
+    {
         "id": "214fda0c-514a-4650-b037-b562b1a66124",
         "name": "PublicKeyInfrastructure.Read.All",
         "description": "Read all certificate based authentication configurations",
@@ -2512,6 +2566,24 @@
         "name": "SecurityIncident.ReadWrite.All",
         "description": "Read and write to all security incidents",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/34bf0e97-1971-4929-b999-9e2442d941d7"
+    },
+    {
+        "id": "57f0b71b-a759-45a0-9a0f-cc099fbd9a44",
+        "name": "SensitivityLabel.Evaluate",
+        "description": "Evaluate sensitivity labels",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/57f0b71b-a759-45a0-9a0f-cc099fbd9a44"
+    },
+    {
+        "id": "3b8e7aad-f6e3-4299-83f8-6fc6a5777f0b",
+        "name": "SensitivityLabel.Read",
+        "description": "Get labels application scope.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3b8e7aad-f6e3-4299-83f8-6fc6a5777f0b"
+    },
+    {
+        "id": "e46a01e9-b2cf-4d89-8424-bcdc6dd445ab",
+        "name": "SensitivityLabels.Read.All",
+        "description": "Get labels tenant scope.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e46a01e9-b2cf-4d89-8424-bcdc6dd445ab"
     },
     {
         "id": "2b655018-450a-4845-81e7-d603b1ebffdb",
