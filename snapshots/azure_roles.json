@@ -752,7 +752,7 @@
     {
         "id": "de2b316d-7a2c-4143-b4cd-c148f6a355a1",
         "name": "Azure Kubernetes Fleet Manager Hub Agent Role",
-        "description": "Grants access to Azure resources needed by Azure Kubernetes Fleet Manager hub agents.",
+        "description": "Grants read access to Azure network resources needed by Azure Kubernetes Fleet Manager.",
         "link": "https://management.azure.com/de2b316d-7a2c-4143-b4cd-c148f6a355a1?api-version=2022-04-01"
     },
     {
@@ -3594,12 +3594,6 @@
         "link": "https://management.azure.com/d534ad90-4ac5-4815-a178-b2e47397baab?api-version=2022-04-01"
     },
     {
-        "id": "6fbca9a8-3561-41fd-8b20-6576043c1076",
-        "name": "Scheduled Actions Contributor",
-        "description": "Allows users to use Scheduled Actions offered by Microsoft.ComputeSchedule",
-        "link": "https://management.azure.com/6fbca9a8-3561-41fd-8b20-6576043c1076?api-version=2022-04-01"
-    },
-    {
         "id": "b67fe603-310e-4889-b9ee-8257d09d353d",
         "name": "Scheduled Events Contributor",
         "description": "Provides access to scheduled event actions",
@@ -3930,12 +3924,6 @@
         "link": "https://management.azure.com/aba4ae5f-2193-4029-9191-0cb91df5e314?api-version=2022-04-01"
     },
     {
-        "id": "765a04e0-5de8-4bb2-9bf6-b2a30bc03e91",
-        "name": "Storage File Delegator",
-        "description": "Allows for generation of a user delegation key, which can then be used to create a shared access signature for a file or Azure file share that is signed with Entra ID credentials.",
-        "link": "https://management.azure.com/765a04e0-5de8-4bb2-9bf6-b2a30bc03e91?api-version=2022-04-01"
-    },
-    {
         "id": "974c5e8b-45b9-4653-ba55-5f855dd0fb88",
         "name": "Storage Queue Data Contributor",
         "description": "Allows for read, write, and delete access to Azure Storage queues and queue messages",
@@ -3960,12 +3948,6 @@
         "link": "https://management.azure.com/19e7f393-937e-4f77-808e-94535e297925?api-version=2022-04-01"
     },
     {
-        "id": "7ee386e9-84f0-448e-80a6-f185f6533131",
-        "name": "Storage Queue Delegator",
-        "description": "Allows for generation of a user delegation key, which can then be used to create a shared access signature for an Azure Storage queue that is signed with Entra ID credentials.",
-        "link": "https://management.azure.com/7ee386e9-84f0-448e-80a6-f185f6533131?api-version=2022-04-01"
-    },
-    {
         "id": "0a9a7e1f-b9d0-4cc4-a60d-0319b160aaa3",
         "name": "Storage Table Data Contributor",
         "description": "Allows for read, write and delete access to Azure Storage tables and entities",
@@ -3976,12 +3958,6 @@
         "name": "Storage Table Data Reader",
         "description": "Allows for read access to Azure Storage tables and entities",
         "link": "https://management.azure.com/76199698-9eea-4c19-bc75-cec21354c6b6?api-version=2022-04-01"
-    },
-    {
-        "id": "965033a5-c8eb-4f35-b82f-fef460a3606d",
-        "name": "Storage Table Delegator",
-        "description": "Allows for generation of a user delegation key, which can then be used to create a shared access signature for an Azure Storage table that is signed with Entra ID credentials.",
-        "link": "https://management.azure.com/965033a5-c8eb-4f35-b82f-fef460a3606d?api-version=2022-04-01"
     },
     {
         "id": "6e0c8711-85a0-4490-8365-8ec13c4560b4",
