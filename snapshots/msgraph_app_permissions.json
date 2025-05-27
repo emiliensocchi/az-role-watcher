@@ -2574,6 +2574,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/57f0b71b-a759-45a0-9a0f-cc099fbd9a44"
     },
     {
+        "id": "986fa56a-6680-4aac-af09-4d1765376739",
+        "name": "SensitivityLabel.Evaluate.All",
+        "description": "Evaluate labels tenant scope.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/986fa56a-6680-4aac-af09-4d1765376739"
+    },
+    {
         "id": "3b8e7aad-f6e3-4299-83f8-6fc6a5777f0b",
         "name": "SensitivityLabel.Read",
         "description": "Get labels application scope.",
