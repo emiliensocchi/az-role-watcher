@@ -468,6 +468,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/92ed04bf-c94a-4b82-9729-b799a7a4c178"
     },
     {
+        "id": "9d70768a-0cbc-4b4c-aea3-2e124b2477f4",
+        "name": "Organizational Data Source Administrator",
+        "description": "Set up and manage the ingestion of organizational data into Microsoft 365.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9d70768a-0cbc-4b4c-aea3-2e124b2477f4"
+    },
+    {
         "id": "e48398e2-f4bb-4074-8f31-4586725e205b",
         "name": "Organizational Messages Approver",
         "description": "Review, approve, or reject new organizational messages for delivery in the Microsoft 365 admin center before they are sent to users.",

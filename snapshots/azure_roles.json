@@ -3132,6 +3132,12 @@
         "link": "https://management.azure.com/3e150937-b8fe-4cfb-8069-0eaf05ecd056?api-version=2022-04-01"
     },
     {
+        "id": "b6d9c0f6-d69f-472b-91b4-7a6838c6d1cb",
+        "name": "Microsoft.AzureStackHCI Device Pool Machine Manager",
+        "description": "Microsoft.AzureStackHCI Device Pool Machine Manager ",
+        "link": "https://management.azure.com/b6d9c0f6-d69f-472b-91b4-7a6838c6d1cb?api-version=2022-04-01"
+    },
+    {
         "id": "adc3c795-c41e-4a89-a478-0b321783324c",
         "name": "Microsoft.AzureStackHCI Device Pool Manager",
         "description": "Microsoft.AzureStackHCI Device Pool Manager ",
