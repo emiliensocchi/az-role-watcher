@@ -1050,6 +1050,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e1d2136d-eaaf-427a-a7db-f97dbe847c27"
     },
     {
+        "id": "d746beae-b46e-446e-924a-5b805a5c4467",
+        "name": "EngagementMeetingConversation.Read.All",
+        "description": "Read all Viva Engage Teams QA conversations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d746beae-b46e-446e-924a-5b805a5c4467"
+    },
+    {
         "id": "30614864-4114-45ef-bdd9-0dd7894a1cc4",
         "name": "EngagementRole.Read.All",
         "description": "Read all Viva Engage roles and role memberships",
