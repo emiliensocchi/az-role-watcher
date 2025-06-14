@@ -870,18 +870,6 @@
         "link": "https://management.azure.com/8e253927-1f29-4d89-baa2-c3a549eff423?api-version=2022-04-01"
     },
     {
-        "id": "289d8817-ee69-43f1-a0af-43a45505b488",
-        "name": "Azure Kubernetes Service Namespace Contributor",
-        "description": "Allows users to create and manage Azure Kubernetes Service namespace resources.",
-        "link": "https://management.azure.com/289d8817-ee69-43f1-a0af-43a45505b488?api-version=2022-04-01"
-    },
-    {
-        "id": "c9f76ca8-b262-4b10-8ed2-09cf0948aa35",
-        "name": "Azure Kubernetes Service Namespace User",
-        "description": "Allows users to read Azure Kubernetes Service namespace resources. In-cluster namespace access further requires assignment of Azure Kubernetes Service RBAC roles to the namespace resource for an Entra ID enabled cluster.",
-        "link": "https://management.azure.com/c9f76ca8-b262-4b10-8ed2-09cf0948aa35?api-version=2022-04-01"
-    },
-    {
         "id": "18ed5180-3e48-46fd-8541-4ea054d57064",
         "name": "Azure Kubernetes Service Policy Add-on Deployment",
         "description": "Deploy the Azure Policy add-on on Azure Kubernetes Service clusters",
