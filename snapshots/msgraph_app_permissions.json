@@ -1932,6 +1932,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/246dd0d5-5bd0-4def-940b-0421030a5b68"
     },
     {
+        "id": "8e3bc81b-d2f3-4b7b-838c-32c88218d2f0",
+        "name": "Policy.Read.AuthenticationMethod",
+        "description": "Read authentication method policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8e3bc81b-d2f3-4b7b-838c-32c88218d2f0"
+    },
+    {
         "id": "37730810-e9ba-4e46-b07e-8ca78d182097",
         "name": "Policy.Read.ConditionalAccess",
         "description": "Read your organization's conditional access policies",
