@@ -2196,10 +2196,22 @@
         "link": "https://management.azure.com/45d50f46-0b78-4001-a660-4198cbe8cd05?api-version=2022-04-01"
     },
     {
+        "id": "4c6569b6-f23e-4295-9b90-bd4cc4ff3292",
+        "name": "DevCenter Owner",
+        "description": "Provides access to manage all Microsoft.DevCenter resources.",
+        "link": "https://management.azure.com/4c6569b6-f23e-4295-9b90-bd4cc4ff3292?api-version=2022-04-01"
+    },
+    {
         "id": "331c37c6-af14-46d9-b9f4-e1909e1b95a0",
         "name": "DevCenter Project Admin",
         "description": "Provides access to manage project resources.",
         "link": "https://management.azure.com/331c37c6-af14-46d9-b9f4-e1909e1b95a0?api-version=2022-04-01"
+    },
+    {
+        "id": "76153a9e-0edb-49bc-8e01-93c47e6b5180",
+        "name": "DevOps Infrastructure Contributor Role",
+        "description": "Read, write, delete and perform actions on Managed DevOps Pools",
+        "link": "https://management.azure.com/76153a9e-0edb-49bc-8e01-93c47e6b5180?api-version=2022-04-01"
     },
     {
         "id": "76283e04-6283-4c54-8f91-bcf1374a3c64",
@@ -3078,36 +3090,6 @@
         "link": "https://management.azure.com/dd920d6d-f481-47f1-b461-f338c46b2d9f?api-version=2022-04-01"
     },
     {
-        "id": "054126f8-9a2b-4f1c-a9ad-eca461f08466",
-        "name": "Media Services Account Administrator",
-        "description": "Create, read, modify, and delete Media Services accounts; read-only access to other Media Services resources.",
-        "link": "https://management.azure.com/054126f8-9a2b-4f1c-a9ad-eca461f08466?api-version=2022-04-01"
-    },
-    {
-        "id": "532bc159-b25e-42c0-969e-a1d439f60d77",
-        "name": "Media Services Live Events Administrator",
-        "description": "Create, read, modify, and delete Live Events, Assets, Asset Filters, and Streaming Locators; read-only access to other Media Services resources.",
-        "link": "https://management.azure.com/532bc159-b25e-42c0-969e-a1d439f60d77?api-version=2022-04-01"
-    },
-    {
-        "id": "e4395492-1534-4db2-bedf-88c14621589c",
-        "name": "Media Services Media Operator",
-        "description": "Create, read, modify, and delete Assets, Asset Filters, Streaming Locators, and Jobs; read-only access to other Media Services resources.",
-        "link": "https://management.azure.com/e4395492-1534-4db2-bedf-88c14621589c?api-version=2022-04-01"
-    },
-    {
-        "id": "c4bba371-dacd-4a26-b320-7250bca963ae",
-        "name": "Media Services Policy Administrator",
-        "description": "Create, read, modify, and delete Account Filters, Streaming Policies, Content Key Policies, and Transforms; read-only access to other Media Services resources. Cannot create Jobs, Assets or Streaming resources.",
-        "link": "https://management.azure.com/c4bba371-dacd-4a26-b320-7250bca963ae?api-version=2022-04-01"
-    },
-    {
-        "id": "99dba123-b5fe-44d5-874c-ced7199a5804",
-        "name": "Media Services Streaming Endpoints Administrator",
-        "description": "Create, read, modify, and delete Streaming Endpoints; read-only access to other Media Services resources.",
-        "link": "https://management.azure.com/99dba123-b5fe-44d5-874c-ced7199a5804?api-version=2022-04-01"
-    },
-    {
         "id": "8c87871d-6201-42da-abb1-1c0c985ff71c",
         "name": "Microsoft PowerBI Tenant Operations Role",
         "description": "Allows management of tenant operations",
@@ -3532,6 +3514,12 @@
         "name": "Reservations Administrator",
         "description": "Lets one read and manage all the reservations in a tenant",
         "link": "https://management.azure.com/a8889054-8d42-49c9-bc1c-52486c10e7cd?api-version=2022-04-01"
+    },
+    {
+        "id": "b4ebc951-a0c2-41f7-a3cd-a57fe27c8e3a",
+        "name": "Reservations Contributor",
+        "description": "Lets you read and manage reservations but cannot delegate reservation-related roles",
+        "link": "https://management.azure.com/b4ebc951-a0c2-41f7-a3cd-a57fe27c8e3a?api-version=2022-04-01"
     },
     {
         "id": "582fc458-8989-419f-a480-75249bc5db7e",
