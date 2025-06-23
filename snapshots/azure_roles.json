@@ -3756,18 +3756,6 @@
         "link": "https://management.azure.com/de754d53-652d-4c75-a67f-1e48d8b49c97?api-version=2022-04-01"
     },
     {
-        "id": "32c34659-0f83-4a4c-80f2-63a244f8ae0b",
-        "name": "Service Health Billing Reader",
-        "description": "Grants permissions to view billing information present in service health events",
-        "link": "https://management.azure.com/32c34659-0f83-4a4c-80f2-63a244f8ae0b?api-version=2022-04-01"
-    },
-    {
-        "id": "1a928ab0-1fee-43cf-9266-f9d8c22a8ddb",
-        "name": "Service Health Security Reader",
-        "description": "Grants permissions to view sensitive security information present in service health events",
-        "link": "https://management.azure.com/1a928ab0-1fee-43cf-9266-f9d8c22a8ddb?api-version=2022-04-01"
-    },
-    {
         "id": "82200a5b-e217-47a5-b665-6d8765ee745b",
         "name": "Services Hub Operator",
         "description": "Services Hub Operator allows you to perform all read, write, and deletion operations related to Services Hub Connectors.",
