@@ -1212,6 +1212,12 @@
         "link": "https://management.azure.com/cff1b556-2399-4e7e-856d-a8f754be7b65?api-version=2022-04-01"
     },
     {
+        "id": "12b8206a-0216-4469-908d-a3e2025fe085",
+        "name": "Azure Stack Edge Operations Role",
+        "description": "Built in role for managing operations in azure stack edge",
+        "link": "https://management.azure.com/12b8206a-0216-4469-908d-a3e2025fe085?api-version=2022-04-01"
+    },
+    {
         "id": "bda0d508-adf1-4af0-9c28-88919fc3ae06",
         "name": "Azure Stack HCI Administrator",
         "description": "Grants full access to the cluster and its resources, including the ability to register Azure Stack HCI and assign others as Azure Arc HCI VM Contributor and/or Azure Arc HCI VM Reader",
@@ -2478,6 +2484,12 @@
         "link": "https://management.azure.com/49632ef5-d9ac-41f4-b8e7-bbe587fa74a1?api-version=2022-04-01"
     },
     {
+        "id": "548d7e7c-65ee-412b-ae37-2dbb419d4207",
+        "name": "Experimentation Resource Admin",
+        "description": "Experimentation Resource Admin",
+        "link": "https://management.azure.com/548d7e7c-65ee-412b-ae37-2dbb419d4207?api-version=2022-04-01"
+    },
+    {
         "id": "5a1fc7df-4bf1-4951-a576-89034ee01acd",
         "name": "FHIR Data Contributor",
         "description": "Role allows user or principal full access to FHIR Data",
@@ -2572,6 +2584,12 @@
         "name": "Graph Owner",
         "description": "Create and manage all aspects of the Enterprise Graph - Ontology, Schema mapping, Conflation and Conversational AI and Ingestions",
         "link": "https://management.azure.com/b60367af-1334-4454-b71e-769d9a4f83d9?api-version=2022-04-01"
+    },
+    {
+        "id": "2016c9ed-c18d-4120-93d7-178e583efe92",
+        "name": "Grounding with Bing User",
+        "description": "Enable Approved Microsoft Applications to connect to Bing to retrieve and ground responses using real-time data",
+        "link": "https://management.azure.com/2016c9ed-c18d-4120-93d7-178e583efe92?api-version=2022-04-01"
     },
     {
         "id": "d0f495dc-44ef-4140-aeb0-b89110e6a7c1",
