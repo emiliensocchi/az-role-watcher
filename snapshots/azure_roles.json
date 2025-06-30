@@ -2490,12 +2490,6 @@
         "link": "https://management.azure.com/548d7e7c-65ee-412b-ae37-2dbb419d4207?api-version=2022-04-01"
     },
     {
-        "id": "804db8d3-32c7-4ad4-a975-3f6f90d5f5f5",
-        "name": "FHIR Data Bulk Operator",
-        "description": "Role allows user or principal to perform bulk operations",
-        "link": "https://management.azure.com/804db8d3-32c7-4ad4-a975-3f6f90d5f5f5?api-version=2022-04-01"
-    },
-    {
         "id": "5a1fc7df-4bf1-4951-a576-89034ee01acd",
         "name": "FHIR Data Contributor",
         "description": "Role allows user or principal full access to FHIR Data",
