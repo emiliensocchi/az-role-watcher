@@ -6,6 +6,18 @@
         "link": "https://management.azure.com/8b9beb50-e28c-4879-8472-24c9d328085f?api-version=2022-04-01"
     },
     {
+        "id": "5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16",
+        "name": "AIO Administrator",
+        "description": "View, create, edit and delete AIO resources. Manage all resources, including instance and its downstream resources.",
+        "link": "https://management.azure.com/5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16?api-version=2022-04-01"
+    },
+    {
+        "id": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
+        "name": "AIO Onboarding",
+        "description": "User can Azure arc connect and deploy Azure IoT Operations securely.",
+        "link": "https://management.azure.com/7b7c71ed-33fa-4ed2-a91a-e56d5da260b5?api-version=2022-04-01"
+    },
+    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -2204,7 +2216,7 @@
     {
         "id": "4c6569b6-f23e-4295-9b90-bd4cc4ff3292",
         "name": "DevCenter Owner",
-        "description": "Provides access to manage all Microsoft.DevCenter resources.",
+        "description": "Provides access to manage all Microsoft.DevCenter resources, and to manage access to Microsoft.DevCenter resources by adding or removing role assignments for the DevCenter Project Admin and DevCenter Dev Box roles.",
         "link": "https://management.azure.com/4c6569b6-f23e-4295-9b90-bd4cc4ff3292?api-version=2022-04-01"
     },
     {
