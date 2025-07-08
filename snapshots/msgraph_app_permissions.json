@@ -2688,6 +2688,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/842c284c-763d-4a97-838d-79787d129bab"
     },
     {
+        "id": "28e1fe78-598f-4df4-b55e-18bf34218925",
+        "name": "SignInIdentifier.Read.All",
+        "description": "Read all sign-in identifiers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/28e1fe78-598f-4df4-b55e-18bf34218925"
+    },
+    {
+        "id": "7fc588a2-ea2d-4d1f-bcf7-33c324b149b8",
+        "name": "SignInIdentifier.ReadWrite.All",
+        "description": "Read and write all sign-in identifiers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7fc588a2-ea2d-4d1f-bcf7-33c324b149b8"
+    },
+    {
         "id": "e3530185-4080-478c-a4ab-39322704df58",
         "name": "Sites.Archive.All",
         "description": "Archive/reactivate Site Collections without a signed in user.",
