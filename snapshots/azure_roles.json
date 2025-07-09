@@ -1764,6 +1764,12 @@
         "link": "https://management.azure.com/6cdbb904-5ff3-429d-8169-7d7818b91bd8?api-version=2022-04-01"
     },
     {
+        "id": "c459b115-f629-486b-b359-35feb5568b83",
+        "name": "Connector Writer",
+        "description": "Write connectors and have basic customer permissions like reading authorizations, alert rules and resourceGroups",
+        "link": "https://management.azure.com/c459b115-f629-486b-b359-35feb5568b83?api-version=2022-04-01"
+    },
+    {
         "id": "6f4fe6fc-f04f-4d97-8528-8bc18c848dca",
         "name": "Container Apps ConnectedEnvironments Contributor",
         "description": "Full management of Container Apps ConnectedEnvironments, including creation, deletion, and updates.",
@@ -4174,6 +4180,12 @@
         "name": "Video Indexer Restricted Viewer",
         "description": "Has access to view and search through all video's insights and transcription in the Video Indexer portal. No access to model customization, embedding of widget, downloading videos, or sharing the account.",
         "link": "https://management.azure.com/a2c4a527-7dc0-4ee3-897b-403ade70fafb?api-version=2022-04-01"
+    },
+    {
+        "id": "1abf4029-2200-4343-800c-e4c4c01eddbd",
+        "name": "Virtual Enclave Owner Role",
+        "description": "Virtual Enclave Owner Role to access the resources of Microsoft.Mission stored with RPSAAS.",
+        "link": "https://management.azure.com/1abf4029-2200-4343-800c-e4c4c01eddbd?api-version=2022-04-01"
     },
     {
         "id": "1c0163c0-47e6-4577-8991-ea5c82e286e4",
