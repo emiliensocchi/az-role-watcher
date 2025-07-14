@@ -1950,6 +1950,12 @@
         "link": "https://management.azure.com/db7b14f2-5adf-42da-9f96-f2ee17bab5cb?api-version=2022-04-01"
     },
     {
+        "id": "35ffec73-9cb8-4593-8718-40d5bc4b7f6f",
+        "name": "CosmosDB Fleet Operator Role",
+        "description": "Lets you manage Azure CosmosDB Fleets and related child resources",
+        "link": "https://management.azure.com/35ffec73-9cb8-4593-8718-40d5bc4b7f6f?api-version=2022-04-01"
+    },
+    {
         "id": "5432c526-bc82-444a-b7ba-57c5b0b5b34f",
         "name": "CosmosRestoreOperator",
         "description": "Can perform restore action for Cosmos DB database account with continuous backup mode",
