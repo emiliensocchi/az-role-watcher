@@ -6,18 +6,6 @@
         "link": "https://management.azure.com/8b9beb50-e28c-4879-8472-24c9d328085f?api-version=2022-04-01"
     },
     {
-        "id": "5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16",
-        "name": "AIO Administrator",
-        "description": "View, create, edit and delete AIO resources. Manage all resources, including instance and its downstream resources.",
-        "link": "https://management.azure.com/5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16?api-version=2022-04-01"
-    },
-    {
-        "id": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
-        "name": "AIO Onboarding",
-        "description": "User can Azure arc connect and deploy Azure IoT Operations securely.",
-        "link": "https://management.azure.com/7b7c71ed-33fa-4ed2-a91a-e56d5da260b5?api-version=2022-04-01"
-    },
-    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -760,6 +748,18 @@
         "name": "Azure Hybrid Database Administrator - Read Only Service Role",
         "description": "Read only access to Azure hybrid database services resources.",
         "link": "https://management.azure.com/5d9c6a55-fc0e-4e21-ae6f-f7b095497342?api-version=2022-04-01"
+    },
+    {
+        "id": "5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16",
+        "name": "Azure IoT Operations Administrator",
+        "description": "View, create, edit and delete AIO resources. Manage all resources, including instance and its downstream resources.",
+        "link": "https://management.azure.com/5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16?api-version=2022-04-01"
+    },
+    {
+        "id": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
+        "name": "Azure IoT Operations Onboarding",
+        "description": "User can Azure arc connect and deploy Azure IoT Operations securely.",
+        "link": "https://management.azure.com/7b7c71ed-33fa-4ed2-a91a-e56d5da260b5?api-version=2022-04-01"
     },
     {
         "id": "63bb64ad-9799-4770-b5c3-24ed299a07bf",
@@ -2704,6 +2704,12 @@
         "name": "Healthcare Agent Reader",
         "description": "Users with reader access can sign in, have read-only access to the bot resources, scenarios and configuration setting except for the bot instance keys & secrets (including Authentication, Data Connection and Channels keys) and the end-user inputs (including Feedback, Unrecognized utterances and Conversation logs).",
         "link": "https://management.azure.com/eb5a76d5-50e7-4c33-a449-070e7c9c4cf2?api-version=2022-04-01"
+    },
+    {
+        "id": "29f61507-bdfb-4987-b629-20033be2d6c3",
+        "name": "Healthcare Apis contributor",
+        "description": "Allows all actions on healthcareapis provider resources",
+        "link": "https://management.azure.com/29f61507-bdfb-4987-b629-20033be2d6c3?api-version=2022-04-01"
     },
     {
         "id": "350f8d15-c687-4448-8ae1-157740a3936d",
