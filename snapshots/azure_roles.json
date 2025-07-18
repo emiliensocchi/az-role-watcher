@@ -2239,7 +2239,7 @@
     },
     {
         "id": "76153a9e-0edb-49bc-8e01-93c47e6b5180",
-        "name": "DevOps Infrastructure Contributor Role",
+        "name": "DevOps Infrastructure Contributor",
         "description": "Read, write, delete and perform actions on Managed DevOps Pools",
         "link": "https://management.azure.com/76153a9e-0edb-49bc-8e01-93c47e6b5180?api-version=2022-04-01"
     },
@@ -2994,6 +2994,12 @@
         "link": "https://management.azure.com/8fe6e843-6d9e-417b-9073-106b048f50bb?api-version=2022-04-01"
     },
     {
+        "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
+        "name": "Liftr Elastic Owner",
+        "description": "Grants full access to manage Elastic resources",
+        "link": "https://management.azure.com/225efd4d-4ca0-42a1-ae53-5f233ba23c73?api-version=2022-04-01"
+    },
+    {
         "id": "749a398d-560b-491b-bb21-08924219302e",
         "name": "Load Test Contributor",
         "description": "View, create, update, delete and execute load tests. View and list load test resources but can not make any changes.",
@@ -3264,6 +3270,12 @@
         "link": "https://management.azure.com/3913510d-42f4-4e42-8a64-420c390055eb?api-version=2022-04-01"
     },
     {
+        "id": "47be4a87-7950-4631-9daf-b664a405f074",
+        "name": "Monitoring Policy Contributor",
+        "description": "Allows read access to all monitoring data, update permissions for monitoring settings and permissions to deploy and remediate Azure Monitor alert policies.",
+        "link": "https://management.azure.com/47be4a87-7950-4631-9daf-b664a405f074?api-version=2022-04-01"
+    },
+    {
         "id": "43d0d8ad-25c7-4714-9337-8ba259a9fe05",
         "name": "Monitoring Reader",
         "description": "Can read all monitoring data.",
@@ -3430,6 +3442,12 @@
         "name": "PlayFab Reader",
         "description": "Provides read access to PlayFab resources",
         "link": "https://management.azure.com/a9a19cc5-31f4-447c-901f-56c0bb18fcaf?api-version=2022-04-01"
+    },
+    {
+        "id": "285ce6d6-fa11-43bd-94ef-42a9b3740bfd",
+        "name": "Policy Enrollments Contributor",
+        "description": "Allows the creation and modification of policy enrollments",
+        "link": "https://management.azure.com/285ce6d6-fa11-43bd-94ef-42a9b3740bfd?api-version=2022-04-01"
     },
     {
         "id": "66bb4e9e-b016-4a94-8249-4c0511c2be84",
