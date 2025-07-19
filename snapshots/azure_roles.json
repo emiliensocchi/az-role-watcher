@@ -3240,6 +3240,12 @@
         "link": "https://management.azure.com/5548b2cf-c94c-4228-90ba-30851930a12f?api-version=2022-04-01"
     },
     {
+        "id": "79732128-7761-4733-aebf-35590da9f29b",
+        "name": "Microsoft.OffAzureSpringBoot Service Owner",
+        "description": "Full access to Azure Microsoft.OffAzureSpringBoot Service REST APIs",
+        "link": "https://management.azure.com/79732128-7761-4733-aebf-35590da9f29b?api-version=2022-04-01"
+    },
+    {
         "id": "21bffb94-04c0-4ed0-b676-68bb926e832b",
         "name": "Microsoft.Windows365.CloudPcDelegatedMsis Writer User",
         "description": "Built in role to perform Write operations on CloudPcDelegatedMsis resources.",
