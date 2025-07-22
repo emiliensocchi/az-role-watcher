@@ -408,6 +408,12 @@
         "link": "https://management.azure.com/6cba8790-29c5-48e5-bab1-c7541b01cb04?api-version=2022-04-01"
     },
     {
+        "id": "69a41f41-6dce-4ea7-8a34-8e095ddba55c",
+        "name": "Azure Advisor Service Role",
+        "description": "Grants permission to delete and write access for suppressions, configurations and assmessments",
+        "link": "https://management.azure.com/69a41f41-6dce-4ea7-8a34-8e095ddba55c?api-version=2022-04-01"
+    },
+    {
         "id": "00493d72-78f6-4148-b6c5-d3ce8e4799dd",
         "name": "Azure Arc Enabled Kubernetes Cluster User Role",
         "description": "List cluster user credentials action.",
@@ -3304,6 +3310,18 @@
         "name": "New Relic APM Account Contributor",
         "description": "Lets you manage New Relic Application Performance Management accounts and applications, but not access to them.",
         "link": "https://management.azure.com/5d28c62d-5b37-4476-8438-e587778df237?api-version=2022-04-01"
+    },
+    {
+        "id": "374a1cc6-96cb-4946-8d8b-a41054c8ae97",
+        "name": "Nexus Identity Owner",
+        "description": "Provides owner access to nexusidentity resources",
+        "link": "https://management.azure.com/374a1cc6-96cb-4946-8d8b-a41054c8ae97?api-version=2022-04-01"
+    },
+    {
+        "id": "46c70067-0f50-457f-8137-2449c90de518",
+        "name": "Nexus Network Fabric Owner",
+        "description": "Provides owner access to nexus network fabric resources",
+        "link": "https://management.azure.com/46c70067-0f50-457f-8137-2449c90de518?api-version=2022-04-01"
     },
     {
         "id": "05fdd44c-adc6-4aff-981c-61041f0c929a",
