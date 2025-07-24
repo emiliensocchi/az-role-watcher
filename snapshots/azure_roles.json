@@ -1,5 +1,11 @@
 [
     {
+        "id": "8b9beb50-e28c-4879-8472-24c9d328085f",
+        "name": "AI Model Scanner Operator",
+        "description": "Grants Microsoft Defender for AI access to AI services and resources.",
+        "link": "https://management.azure.com/8b9beb50-e28c-4879-8472-24c9d328085f?api-version=2022-04-01"
+    },
+    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -1926,12 +1932,6 @@
         "link": "https://management.azure.com/b24988ac-6180-42a0-ab88-20f7382dd24c?api-version=2022-04-01"
     },
     {
-        "id": "b3eb788f-5426-48bd-821d-561701ede368",
-        "name": "Conversation Session User",
-        "description": "Allows sending a message to the agent and receive a response, using the conversation session API",
-        "link": "https://management.azure.com/b3eb788f-5426-48bd-821d-561701ede368?api-version=2022-04-01"
-    },
-    {
         "id": "6cd4ddd5-44f4-45bf-853e-a23e79738ce8",
         "name": "Copilot in Azure User",
         "description": "Enables users access to Copilot in Azure.",
@@ -3481,7 +3481,7 @@
     },
     {
         "id": "78eacb5e-e318-4560-85a9-e6a724ca60c9",
-        "name": "Portal Dashboard Writer Role",
+        "name": "Portal Dashboard Writer Service Role",
         "description": "Can write an Azure Portal Dashboard",
         "link": "https://management.azure.com/78eacb5e-e318-4560-85a9-e6a724ca60c9?api-version=2022-04-01"
     },
