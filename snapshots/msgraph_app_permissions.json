@@ -954,6 +954,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0e9eea12-4f01-45f6-9b8d-3ea4c8144158"
     },
     {
+        "id": "c0e5a7b0-e8b7-40a7-b8e0-8249e6ea81d5",
+        "name": "Domain-InternalFederation.Read.All",
+        "description": "Read internal federation configuration for a domain.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c0e5a7b0-e8b7-40a7-b8e0-8249e6ea81d5"
+    },
+    {
+        "id": "64d40371-8d58-4270-bc8a-b4a66de36b9a",
+        "name": "Domain-InternalFederation.ReadWrite.All",
+        "description": "Create, read, update and delete internal federation configuration for a domain.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/64d40371-8d58-4270-bc8a-b4a66de36b9a"
+    },
+    {
         "id": "dbb9058a-0e50-45d7-ae91-66909b5d4664",
         "name": "Domain.Read.All",
         "description": "Read domains",
