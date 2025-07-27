@@ -516,6 +516,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/af78dc32-cf4d-46f9-ba4e-4428526346b5"
     },
     {
+        "id": "78b0ccd1-afc2-4f92-9116-b41aedd09592",
+        "name": "Places Administrator",
+        "description": "Manage all aspects of the Microsoft Places service.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/78b0ccd1-afc2-4f92-9116-b41aedd09592"
+    },
+    {
         "id": "11648597-926c-4cf3-9c36-bcebb0ba8dcc",
         "name": "Power Platform Administrator",
         "description": "Can create and manage all aspects of Microsoft Dynamics 365, PowerApps and Microsoft Flow.",

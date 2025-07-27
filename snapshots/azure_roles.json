@@ -630,12 +630,6 @@
         "link": "https://management.azure.com/4dae6930-7baf-46f5-909e-0383bc931c46?api-version=2022-04-01"
     },
     {
-        "id": "eded264d-1796-4e25-8500-a78427f8a316",
-        "name": "Azure Data Transfer Owner",
-        "description": "Create, read, modify, and delete pipelines, connections, and flows in Azure Data Transfer. Also perform any appropriate control plane operations for managing Azure Data Transfer resources.",
-        "link": "https://management.azure.com/eded264d-1796-4e25-8500-a78427f8a316?api-version=2022-04-01"
-    },
-    {
         "id": "bf7f8882-3383-422a-806a-6526c631a88a",
         "name": "Azure Deployment Stack Contributor",
         "description": "Allows a user to manage deployment stacks, but cannot create or delete deny assignments within the deployment stack.",
@@ -1320,12 +1314,6 @@
         "link": "https://management.azure.com/1823dd4f-9b8c-4ab6-ab4e-7397a3684615?api-version=2022-04-01"
     },
     {
-        "id": "f4eb044f-76b9-47af-92f9-1d95c4c14ab5",
-        "name": "Azure\u00a0Business\u00a0Continuity DUPI Reader",
-        "description": "Lets you view Deleted Unified Protected items in Azure Business Continuity Center.",
-        "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
-    },
-    {
         "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
         "name": "Backup Contributor",
         "description": "Lets you manage backups, but can't delete vaults and give access to others",
@@ -1966,12 +1954,6 @@
         "name": "CosmosBackupOperator",
         "description": "Can submit restore request for a Cosmos DB database or a container for an account",
         "link": "https://management.azure.com/db7b14f2-5adf-42da-9f96-f2ee17bab5cb?api-version=2022-04-01"
-    },
-    {
-        "id": "bf41e52e-617f-4981-8b7a-47431bd4e011",
-        "name": "CosmosDB Fleet Analytics Storage Data Writer service role",
-        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts or Fabric Lakehouses.",
-        "link": "https://management.azure.com/bf41e52e-617f-4981-8b7a-47431bd4e011?api-version=2022-04-01"
     },
     {
         "id": "35ffec73-9cb8-4593-8718-40d5bc4b7f6f",
@@ -3499,7 +3481,7 @@
     },
     {
         "id": "78eacb5e-e318-4560-85a9-e6a724ca60c9",
-        "name": "Portal Dashboard Writer Role",
+        "name": "Portal Dashboard Writer Service Role",
         "description": "Can write an Azure Portal Dashboard",
         "link": "https://management.azure.com/78eacb5e-e318-4560-85a9-e6a724ca60c9?api-version=2022-04-01"
     },
@@ -4246,12 +4228,6 @@
         "name": "VM Scanner Operator",
         "description": "Role that provides access to disk snapshot for security analysis.",
         "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
-    },
-    {
-        "id": "3f99eaab-6f59-4877-adf5-1cacd22e20b0",
-        "name": "Video Indexer Account Contributor",
-        "description": "Can manage Video Indexer Account resources and generate access tokens for data plane operations.",
-        "link": "https://management.azure.com/3f99eaab-6f59-4877-adf5-1cacd22e20b0?api-version=2022-04-01"
     },
     {
         "id": "a2c4a527-7dc0-4ee3-897b-403ade70fafb",
