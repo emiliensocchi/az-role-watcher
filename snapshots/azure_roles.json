@@ -630,6 +630,12 @@
         "link": "https://management.azure.com/4dae6930-7baf-46f5-909e-0383bc931c46?api-version=2022-04-01"
     },
     {
+        "id": "eded264d-1796-4e25-8500-a78427f8a316",
+        "name": "Azure Data Transfer Owner",
+        "description": "Create, read, modify, and delete pipelines, connections, and flows in Azure Data Transfer. Also perform any appropriate control plane operations for managing Azure Data Transfer resources.",
+        "link": "https://management.azure.com/eded264d-1796-4e25-8500-a78427f8a316?api-version=2022-04-01"
+    },
+    {
         "id": "bf7f8882-3383-422a-806a-6526c631a88a",
         "name": "Azure Deployment Stack Contributor",
         "description": "Allows a user to manage deployment stacks, but cannot create or delete deny assignments within the deployment stack.",
@@ -1314,6 +1320,12 @@
         "link": "https://management.azure.com/1823dd4f-9b8c-4ab6-ab4e-7397a3684615?api-version=2022-04-01"
     },
     {
+        "id": "f4eb044f-76b9-47af-92f9-1d95c4c14ab5",
+        "name": "Azure\u00a0Business\u00a0Continuity DUPI Reader",
+        "description": "Lets you view Deleted Unified Protected items in Azure Business Continuity Center.",
+        "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
+    },
+    {
         "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
         "name": "Backup Contributor",
         "description": "Lets you manage backups, but can't delete vaults and give access to others",
@@ -1954,6 +1966,12 @@
         "name": "CosmosBackupOperator",
         "description": "Can submit restore request for a Cosmos DB database or a container for an account",
         "link": "https://management.azure.com/db7b14f2-5adf-42da-9f96-f2ee17bab5cb?api-version=2022-04-01"
+    },
+    {
+        "id": "bf41e52e-617f-4981-8b7a-47431bd4e011",
+        "name": "CosmosDB Fleet Analytics Storage Data Writer service role",
+        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts or Fabric Lakehouses.",
+        "link": "https://management.azure.com/bf41e52e-617f-4981-8b7a-47431bd4e011?api-version=2022-04-01"
     },
     {
         "id": "35ffec73-9cb8-4593-8718-40d5bc4b7f6f",
@@ -3000,10 +3018,22 @@
         "link": "https://management.azure.com/8fe6e843-6d9e-417b-9073-106b048f50bb?api-version=2022-04-01"
     },
     {
+        "id": "d683b71b-2b91-4fc1-a43e-b53b3d85bed9",
+        "name": "Liftr Dell Owner role",
+        "description": "Provides access to all Dell related operations",
+        "link": "https://management.azure.com/d683b71b-2b91-4fc1-a43e-b53b3d85bed9?api-version=2022-04-01"
+    },
+    {
         "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
         "name": "Liftr Elastic Owner",
         "description": "Grants full access to manage Elastic resources",
         "link": "https://management.azure.com/225efd4d-4ca0-42a1-ae53-5f233ba23c73?api-version=2022-04-01"
+    },
+    {
+        "id": "85546f1f-f28b-4cb3-b852-73e422a96897",
+        "name": "Liftr PureStorage Owner role",
+        "description": "Provides access to all PureStorage related operations",
+        "link": "https://management.azure.com/85546f1f-f28b-4cb3-b852-73e422a96897?api-version=2022-04-01"
     },
     {
         "id": "749a398d-560b-491b-bb21-08924219302e",
@@ -3942,6 +3972,18 @@
         "link": "https://management.azure.com/dbaa88c4-0c30-4179-9fb3-46319faa6149?api-version=2022-04-01"
     },
     {
+        "id": "1cd7e4da-2789-457f-adbe-3e9e84037a93",
+        "name": "Sites Owner",
+        "description": "Microsoft Edge Sites Owner role - Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.",
+        "link": "https://management.azure.com/1cd7e4da-2789-457f-adbe-3e9e84037a93?api-version=2022-04-01"
+    },
+    {
+        "id": "59f98be6-0817-488b-831e-36a353c8000b",
+        "name": "Sites Reader",
+        "description": "View all Sites related resources but does not allow you to make any changes.",
+        "link": "https://management.azure.com/59f98be6-0817-488b-831e-36a353c8000b?api-version=2022-04-01"
+    },
+    {
         "id": "8bbe83f1-e2a6-4df7-8cb4-4e04d4e5c827",
         "name": "Spatial Anchors Account Contributor",
         "description": "Lets you manage spatial anchors in your account, but not delete them",
@@ -4146,6 +4188,12 @@
         "link": "https://management.azure.com/cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e?api-version=2022-04-01"
     },
     {
+        "id": "6d6f52ba-a7de-4c56-a58f-522154514fba",
+        "name": "SupportPlan Contributor",
+        "description": "Contributor role for Enterprise Support Resource Provider",
+        "link": "https://management.azure.com/6d6f52ba-a7de-4c56-a58f-522154514fba?api-version=2022-04-01"
+    },
+    {
         "id": "4a9ae827-6dc8-4573-8ac7-8239d42aa03f",
         "name": "Tag Contributor",
         "description": "Lets you manage tags on entities, without providing access to the entities themselves.",
@@ -4228,6 +4276,12 @@
         "name": "VM Scanner Operator",
         "description": "Role that provides access to disk snapshot for security analysis.",
         "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
+    },
+    {
+        "id": "3f99eaab-6f59-4877-adf5-1cacd22e20b0",
+        "name": "Video Indexer Account Contributor",
+        "description": "Can manage Video Indexer Account resources and generate access tokens for data plane operations.",
+        "link": "https://management.azure.com/3f99eaab-6f59-4877-adf5-1cacd22e20b0?api-version=2022-04-01"
     },
     {
         "id": "a2c4a527-7dc0-4ee3-897b-403ade70fafb",
