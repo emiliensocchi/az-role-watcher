@@ -3018,22 +3018,10 @@
         "link": "https://management.azure.com/8fe6e843-6d9e-417b-9073-106b048f50bb?api-version=2022-04-01"
     },
     {
-        "id": "d683b71b-2b91-4fc1-a43e-b53b3d85bed9",
-        "name": "Liftr Dell Owner role",
-        "description": "Provides access to all Dell related operations",
-        "link": "https://management.azure.com/d683b71b-2b91-4fc1-a43e-b53b3d85bed9?api-version=2022-04-01"
-    },
-    {
         "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
         "name": "Liftr Elastic Owner",
         "description": "Grants full access to manage Elastic resources",
         "link": "https://management.azure.com/225efd4d-4ca0-42a1-ae53-5f233ba23c73?api-version=2022-04-01"
-    },
-    {
-        "id": "85546f1f-f28b-4cb3-b852-73e422a96897",
-        "name": "Liftr PureStorage Owner role",
-        "description": "Provides access to all PureStorage related operations",
-        "link": "https://management.azure.com/85546f1f-f28b-4cb3-b852-73e422a96897?api-version=2022-04-01"
     },
     {
         "id": "749a398d-560b-491b-bb21-08924219302e",
@@ -4186,12 +4174,6 @@
         "name": "Support Request Contributor",
         "description": "Lets you create and manage Support requests",
         "link": "https://management.azure.com/cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e?api-version=2022-04-01"
-    },
-    {
-        "id": "6d6f52ba-a7de-4c56-a58f-522154514fba",
-        "name": "SupportPlan Contributor",
-        "description": "Contributor role for Enterprise Support Resource Provider",
-        "link": "https://management.azure.com/6d6f52ba-a7de-4c56-a58f-522154514fba?api-version=2022-04-01"
     },
     {
         "id": "4a9ae827-6dc8-4573-8ac7-8239d42aa03f",
