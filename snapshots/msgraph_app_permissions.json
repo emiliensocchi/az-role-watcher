@@ -372,6 +372,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ef54d2bf-783f-4e0f-bca1-3210c0444d99"
     },
     {
+        "id": "792b782b-7822-4b92-8103-77e44f2f706c",
+        "name": "CallAiInsights.Read.All",
+        "description": "Read all AI Insights for calls.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/792b782b-7822-4b92-8103-77e44f2f706c"
+    },
+    {
         "id": "5aa33e77-b893-495e-bdc5-4bf6f27d42a0",
         "name": "CallDelegation.Read.All",
         "description": "Read delegation settings",
@@ -1004,13 +1010,13 @@
     {
         "id": "0d22204b-6cad-4dd0-8362-3e3f2ae699d9",
         "name": "EduAssignments.ReadWrite.All",
-        "description": "Create, read, update and delete all\u00a0class assignments with grades",
+        "description": "Create, read, update and delete all class assignments with grades",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0d22204b-6cad-4dd0-8362-3e3f2ae699d9"
     },
     {
         "id": "f431cc63-a2de-48c4-8054-a34bc093af84",
         "name": "EduAssignments.ReadWriteBasic.All",
-        "description": "Create, read, update and delete all\u00a0class assignments without grades",
+        "description": "Create, read, update and delete all class assignments without grades",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f431cc63-a2de-48c4-8054-a34bc093af84"
     },
     {
@@ -1490,7 +1496,7 @@
     {
         "id": "444d6fcb-b738-41e5-b103-ac4f2a2628a3",
         "name": "LearningContent.ReadWrite.All",
-        "description": "Manage all\u00a0learning\u00a0content",
+        "description": "Manage all learning content",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/444d6fcb-b738-41e5-b103-ac4f2a2628a3"
     },
     {
@@ -2018,7 +2024,7 @@
     {
         "id": "29c18626-4985-4dcd-85c0-193eef327366",
         "name": "Policy.ReadWrite.AuthenticationMethod",
-        "description": "Read and write all authentication method policies\u00a0",
+        "description": "Read and write all authentication method policies ",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/29c18626-4985-4dcd-85c0-193eef327366"
     },
     {
@@ -2300,7 +2306,7 @@
     {
         "id": "ac3a2b8e-03a3-4da9-9ce0-cbe28bf1accd",
         "name": "RecordsManagement.Read.All",
-        "description": "Read Records Management configuration,\u00a0labels and policies",
+        "description": "Read Records Management configuration, labels and policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ac3a2b8e-03a3-4da9-9ce0-cbe28bf1accd"
     },
     {
@@ -2792,13 +2798,13 @@
     {
         "id": "ee1460f0-368b-4153-870a-4e1ca7e72c42",
         "name": "SubjectRightsRequest.Read.All",
-        "description": "Read\u00a0all subject\u00a0rights requests",
+        "description": "Read all subject rights requests",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ee1460f0-368b-4153-870a-4e1ca7e72c42"
     },
     {
         "id": "8387eaa4-1a3c-41f5-b261-f888138e6041",
         "name": "SubjectRightsRequest.ReadWrite.All",
-        "description": "Read\u00a0and\u00a0write\u00a0all subject\u00a0rights requests",
+        "description": "Read and write all subject rights requests",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8387eaa4-1a3c-41f5-b261-f888138e6041"
     },
     {
@@ -3394,6 +3400,12 @@
         "name": "UserTeamwork.Read.All",
         "description": "Read all user teamwork settings",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fbcd7ef1-df0d-4e05-bb28-93424a89c6df"
+    },
+    {
+        "id": "e227c591-dd64-4a8a-a033-816167f7c938",
+        "name": "VerifiedId-Profile.Read.All",
+        "description": "Read Verified Id profiles",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e227c591-dd64-4a8a-a033-816167f7c938"
     },
     {
         "id": "d4f67ec2-59b5-4bdc-b4af-d78f6f9c1954",
