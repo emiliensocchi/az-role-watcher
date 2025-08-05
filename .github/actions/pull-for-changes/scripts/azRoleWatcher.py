@@ -273,16 +273,16 @@ if __name__ == "__main__":
     arm_role_template_base_uri = 'https://management.azure.com/'
     arm_role_template_api_version = '2022-04-01'
 
-    # Get current built-in MS Graph application permissions
-    current_builtin_msgraph_app_permissions = []
-    current_builtin_msgraph_app_permission_objects = get_builtin_msgraph_app_permission_objects_from_graph(graph_access_token)
+    # Get current built-in Azure roles
+    current_builtin_azure_roles = []
+    current_builtin_azure_role_objects = get_builtin_azure_role_objects_from_arm(arm_access_token)
 
-    for current_builtin_msgraph_app_permission_object in current_builtin_msgraph_app_permission_objects:
-        current_builtin_msgraph_app_permissions.append({
-            'id': current_builtin_msgraph_app_permission_object['id'],
-            'name': current_builtin_msgraph_app_permission_object['value'],
-            'description': current_builtin_msgraph_app_permission_object['displayName'],
-            'link': f"{graph_role_template_base_uri}{current_builtin_msgraph_app_permission_object['id']}"
+    for current_builtin_azure_role_object in current_builtin_azure_role_objects:
+        current_builtin_azure_roles.append({
+            'id': current_builtin_azure_role_object['name'],
+            'name': current_builtin_azure_role_object['properties']['roleName'],
+            'description': current_builtin_azure_role_object['properties']['description'],
+            'link': f"{arm_role_template_base_uri}{current_builtin_azure_role_object['name']}?api-version={arm_role_template_api_version}"
         })
 
     # Get current built-in Entra roles
@@ -297,18 +297,19 @@ if __name__ == "__main__":
             'link': f"{graph_role_template_base_uri}{current_builtin_entra_role_object['id']}"
         })
 
-    # Get current built-in Azure roles
-    current_builtin_azure_roles = []
-    current_builtin_azure_role_objects = get_builtin_azure_role_objects_from_arm(arm_access_token)
+    # Get current built-in MS Graph application permissions
+    current_builtin_msgraph_app_permissions = []
+    current_builtin_msgraph_app_permission_objects = get_builtin_msgraph_app_permission_objects_from_graph(graph_access_token)
 
-    for current_builtin_azure_role_object in current_builtin_azure_role_objects:
-        current_builtin_azure_roles.append({
-            'id': current_builtin_azure_role_object['name'],
-            'name': current_builtin_azure_role_object['properties']['roleName'],
-            'description': current_builtin_azure_role_object['properties']['description'],
-            'link': f"{arm_role_template_base_uri}{current_builtin_azure_role_object['name']}?api-version={arm_role_template_api_version}"
+    for current_builtin_msgraph_app_permission_object in current_builtin_msgraph_app_permission_objects:
+        current_builtin_msgraph_app_permissions.append({
+            'id': current_builtin_msgraph_app_permission_object['id'],
+            'name': current_builtin_msgraph_app_permission_object['value'],
+            'description': current_builtin_msgraph_app_permission_object['displayName'],
+            'link': f"{graph_role_template_base_uri}{current_builtin_msgraph_app_permission_object['id']}"
         })
   
+
     # Set local rss file
     github_action_dir_name = '.github'
     absolute_path_to_script = os.path.abspath(sys.argv[0])
@@ -321,90 +322,27 @@ if __name__ == "__main__":
     azure_roles_snapshot_file = f"{snapshot_dir}/azure_roles.json"
     msgraph_app_permissions_snapshot_file = f"{snapshot_dir}/msgraph_app_permissions.json"
 
+    # Set local history files
+    history_dir = root_dir + 'history'
+    entra_roles_history_file = f"{history_dir}/entra_roles_history.json"
+    azure_roles_history_file = f"{history_dir}/azure_roles_history.json"
+    msgraph_app_permissions_history_file = f"{history_dir}/msgraph_app_permissions_history.json"
+
     # Get snapshoted built-in roles/permissions from local files
     snapshoted_builtin_msgraph_app_permissions = read_json_file(msgraph_app_permissions_snapshot_file)
     snapshoted_builtin_entra_roles = read_json_file(entra_roles_snapshot_file)
     snapshoted_builtin_azure_roles = read_json_file(azure_roles_snapshot_file)
-    
+
+    # Get historic built-in roles/permissions from local files
+    history_builtin_entra_roles = read_json_file(entra_roles_history_file)
+    history_builtin_azure_roles = read_json_file(azure_roles_history_file)
+    history_builtin_msgraph_app_permissions = read_json_file(msgraph_app_permissions_history_file)
+
+
     # Compare snapshoted built-in roles/permissions with those from MS Graph 
     rss_items = []
 
-    # Compare MS Graph application permissions
-    current_permission_ids = [permission['id'] for permission in current_builtin_msgraph_app_permissions]
-    snapshoted_permission_ids = [permission['id'] for permission in snapshoted_builtin_msgraph_app_permissions]
-    added_permission_ids = [permission_id for permission_id in current_permission_ids if permission_id not in snapshoted_permission_ids]
-    removed_permission_ids = [permission_id for permission_id in snapshoted_permission_ids if permission_id not in current_permission_ids]
-
-    if added_permission_ids or removed_permission_ids:
-        print('MS Graph app permissions: changes have been detected!')
-
-        for added_permission_id in added_permission_ids:
-            msgraph_app_permissions_list = [permission for permission in current_builtin_msgraph_app_permissions if permission['id'] == added_permission_id]
-
-            if not len(msgraph_app_permissions_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the addition of MS Graph app permissions.')
-                exit() 
-
-            msgraph_app_permission = msgraph_app_permissions_list[0]
-            title = '🆕 ADDED Graph app permission'
-            rss_item = { 'title': title }
-            rss_item.update(msgraph_app_permission)
-            rss_items.append(rss_item)
-  
-        for removed_permission_id in removed_permission_ids:
-            msgraph_app_permissions_list = [permission for permission in snapshoted_builtin_msgraph_app_permissions if permission['id'] == removed_permission_id]
-
-            if not len(msgraph_app_permissions_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the removal of MS Graph app permissions.')
-                exit() 
-
-            msgraph_app_permission = msgraph_app_permissions_list[0]
-            title = '❌ REMOVED Graph app permission'
-            rss_item = { 'title': title }
-            rss_item.update(msgraph_app_permission)         
-            rss_items.append(rss_item)
-    else:
-        print ('MS Graph app permissions: no changes')
-
-    # Compare Entra roles 
-    current_role_ids = [role['id'] for role in current_builtin_entra_roles]
-    snapshoted_role_ids = [role['id'] for role in snapshoted_builtin_entra_roles]
-    added_role_ids = [role_id for role_id in current_role_ids if role_id not in snapshoted_role_ids]
-    removed_role_ids = [role_id for role_id in snapshoted_role_ids if role_id not in current_role_ids]
-
-    if added_role_ids or removed_role_ids:
-        print('Entra roles: changes have been detected!')
-
-        for added_role_id in added_role_ids:
-            entra_role_list = [role for role in current_builtin_entra_roles if role['id'] == added_role_id]
-
-            if not len(entra_role_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the addition of Entra roles.')
-                exit() 
-
-            entra_role = entra_role_list[0]
-            title = '🆕 ADDED Entra role'
-            rss_item = { 'title': title }
-            rss_item.update(entra_role)         
-            rss_items.append(rss_item)
-  
-        for removed_role_id in removed_role_ids:
-            entra_role_list = [role for role in snapshoted_builtin_entra_roles if role['id'] == added_role_id]
-
-            if not len(entra_role_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the removal of Entra roles.')
-                exit() 
-
-            entra_role = entra_role_list[0]
-            title = '❌ REMOVED Entra role'
-            rss_item = { 'title': title }
-            rss_item.update(entra_role)         
-            rss_items.append(rss_item)
-    else:
-        print ('Entra roles: no changes')
-
-
-    # Compare Azure roles (sort by 'id' to ensure stable comparison)
+    # Compare Azure roles
     current_builtin_azure_roles_sorted = sorted(current_builtin_azure_roles, key=lambda x: x['id'])
     snapshoted_builtin_azure_roles_sorted = sorted(snapshoted_builtin_azure_roles, key=lambda x: x['id'])
 
@@ -418,33 +356,170 @@ if __name__ == "__main__":
 
         for added_role_id in added_role_ids:
             azure_role_list = [role for role in current_builtin_azure_roles_sorted if role['id'] == added_role_id]
-            if not len(azure_role_list) == 1:
+            history_role_list = [role for role in history_builtin_azure_roles if role['id'] == added_role_id]
+        
+            if not len(azure_role_list) == 1 or not len(history_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the addition of Azure roles.')
                 exit()
+
+            # Add to RSS feed
             azure_role = azure_role_list[0]
             title = '🆕 ADDED Azure role'
             rss_item = { 'title': title }
             rss_item.update(azure_role)
             rss_items.append(rss_item)
 
+            # Add to history
+            history_role = history_role_list[0]
+            history_builtin_azure_roles.remove(history_role)
+            history_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            history_role['deleted'] = 'false'
+            history_builtin_azure_roles.append(history_role)
+
         for removed_role_id in removed_role_ids:
             azure_role_list = [role for role in snapshoted_builtin_azure_roles_sorted if role['id'] == removed_role_id]
-            if not len(azure_role_list) == 1:
+            history_role_list = [role for role in history_builtin_azure_roles if role['id'] == removed_role_id]
+
+            if not len(azure_role_list) == 1 or not len(history_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the removal of Azure roles.')
                 exit()
+
+            # Add to RSS feed
             azure_role = azure_role_list[0]
             title = '❌ REMOVED Azure role'
             rss_item = { 'title': title }
             rss_item.update(azure_role)
             rss_items.append(rss_item)
+
+            # Add to history
+            history_role = history_role_list[0]
+            history_builtin_azure_roles.remove(history_role)
+            history_role['deleted'] = 'true'
+            history_builtin_azure_roles.append(history_role)
     else:
         print ('Azure roles: no changes')
+
+
+    # Compare Entra roles 
+    current_role_ids = [role['id'] for role in current_builtin_entra_roles]
+    snapshoted_role_ids = [role['id'] for role in snapshoted_builtin_entra_roles]
+    added_role_ids = [role_id for role_id in current_role_ids if role_id not in snapshoted_role_ids]
+    removed_role_ids = [role_id for role_id in snapshoted_role_ids if role_id not in current_role_ids]
+
+    if added_role_ids or removed_role_ids:
+        print('Entra roles: changes have been detected!')
+
+        for added_role_id in added_role_ids:
+            entra_role_list = [role for role in current_builtin_entra_roles if role['id'] == added_role_id]
+            history_role_list = [role for role in history_builtin_entra_roles if role['id'] == added_role_id]
+
+            if not len(entra_role_list) == 1 or not len(history_role_list) == 1:
+                print ('FATAL ERROR - Something is wrong with the addition of Entra roles.')
+                exit() 
+
+            # Add to RSS feed
+            entra_role = entra_role_list[0]
+            title = '🆕 ADDED Entra role'
+            rss_item = { 'title': title }
+            rss_item.update(entra_role)         
+            rss_items.append(rss_item)
+
+            # Add to history
+            history_role = history_role_list[0]
+            history_builtin_entra_roles.remove(history_role)
+            history_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            history_role['deleted'] = 'false'
+            history_builtin_entra_roles.append(history_role)
+  
+        for removed_role_id in removed_role_ids:
+            entra_role_list = [role for role in snapshoted_builtin_entra_roles if role['id'] == added_role_id]
+            history_role_list = [role for role in history_builtin_entra_roles if role['id'] == added_role_id]
+
+            if not len(entra_role_list) == 1 or not len(history_role) == 1:
+                print ('FATAL ERROR - Something is wrong with the addition of Entra roles.')
+                exit() 
+
+            # Add to RSS feed
+            entra_role = entra_role_list[0]
+            title = '❌ REMOVED Entra role'
+            rss_item = { 'title': title }
+            rss_item.update(entra_role)         
+            rss_items.append(rss_item)
+
+            # Add to history
+            history_role = history_role_list[0]
+            history_builtin_entra_roles.remove(history_role)
+            history_role['deleted'] = 'true'
+            history_builtin_entra_roles.append(history_role)
+    else:
+        print ('Entra roles: no changes')
+
+
+    # Compare MS Graph application permissions
+    current_permission_ids = [permission['id'] for permission in current_builtin_msgraph_app_permissions]
+    snapshoted_permission_ids = [permission['id'] for permission in snapshoted_builtin_msgraph_app_permissions]
+    added_permission_ids = [permission_id for permission_id in current_permission_ids if permission_id not in snapshoted_permission_ids]
+    removed_permission_ids = [permission_id for permission_id in snapshoted_permission_ids if permission_id not in current_permission_ids]
+
+    if added_permission_ids or removed_permission_ids:
+        print('MS Graph app permissions: changes have been detected!')
+
+        for added_permission_id in added_permission_ids:
+            msgraph_app_permissions_list = [permission for permission in current_builtin_msgraph_app_permissions if permission['id'] == added_permission_id]
+            history_permission_list = [permission for permission in history_builtin_msgraph_app_permissions if permission['id'] == added_permission_id]
+
+            if not len(msgraph_app_permissions_list) == 1 or not len(history_permission_list) == 1:
+                print ('FATAL ERROR - Something is wrong with the addition of MS Graph app permissions.')
+                exit() 
+
+            # Add to RSS feed
+            msgraph_app_permission = msgraph_app_permissions_list[0]
+            title = '🆕 ADDED Graph app permission'
+            rss_item = { 'title': title }
+            rss_item.update(msgraph_app_permission)
+            rss_items.append(rss_item)
+
+            # Add to history
+            history_permission = history_permission_list[0]
+            history_builtin_msgraph_app_permissions.remove(history_permission)
+            history_permission['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            history_role['deleted'] = 'false'
+            history_builtin_msgraph_app_permissions.append(history_permission)
+
+        for removed_permission_id in removed_permission_ids:
+            msgraph_app_permissions_list = [permission for permission in snapshoted_builtin_msgraph_app_permissions if permission['id'] == removed_permission_id]
+            history_permission_list = [permission for permission in history_builtin_msgraph_app_permissions if permission['id'] == removed_permission_id]
+
+            if not len(msgraph_app_permissions_list) == 1 or not len(history_permission_list) == 1:
+                print ('FATAL ERROR - Something is wrong with the removal of MS Graph app permissions.')
+                exit() 
+
+            # Add to RSS feed
+            msgraph_app_permission = msgraph_app_permissions_list[0]
+            title = '❌ REMOVED Graph app permission'
+            rss_item = { 'title': title }
+            rss_item.update(msgraph_app_permission)         
+            rss_items.append(rss_item)
+
+            # Add to history
+            history_permission = history_permission_list[0]
+            history_builtin_msgraph_app_permissions.remove(history_permission)
+            history_permission['deleted'] = 'true'
+            history_builtin_msgraph_app_permissions.append(history_permission)
+    else:
+        print ('MS Graph app permissions: no changes')
+
 
     # Generate RSS feed and update local rss file
     rss_feed = generate_rss(rss_items)
     update_file(rss_file, rss_feed)
 
     # Update local snapshots with latest content from APIs
-    update_file(msgraph_app_permissions_snapshot_file, json.dumps(sorted(current_builtin_msgraph_app_permissions, key = lambda x: x['name']), indent = 4))
-    update_file(entra_roles_snapshot_file, json.dumps(sorted(current_builtin_entra_roles, key = lambda x: x['name']), indent = 4))
     update_file(azure_roles_snapshot_file, json.dumps(sorted(current_builtin_azure_roles, key = lambda x: x['name']), indent = 4))
+    update_file(entra_roles_snapshot_file, json.dumps(sorted(current_builtin_entra_roles, key = lambda x: x['name']), indent = 4))
+    update_file(msgraph_app_permissions_snapshot_file, json.dumps(sorted(current_builtin_msgraph_app_permissions, key = lambda x: x['name']), indent = 4))
+
+    # Update local history with latest content from APIs
+    update_file(azure_roles_history_file, json.dumps(sorted(history_builtin_azure_roles, key = lambda x: x['name']), indent = 4))
+    update_file(entra_roles_history_file, json.dumps(sorted(history_builtin_entra_roles, key = lambda x: x['name']), indent = 4))
+    update_file(msgraph_app_permissions_history_file, json.dumps(sorted(history_builtin_msgraph_app_permissions, key = lambda x: x['name']), indent = 4))
