@@ -2784,6 +2784,12 @@
         "link": "https://management.azure.com/36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
     },
     {
+        "id": "523d2d58-9c67-49a6-8151-4ba8dfeb9272",
+        "name": "Informatica.DataManagement service role",
+        "description": "Informatica.DataManagement service role to access the resources of Informatica.DataManagement stored with RPSAAS.",
+        "link": "https://management.azure.com/523d2d58-9c67-49a6-8151-4ba8dfeb9272?api-version=2022-04-01"
+    },
+    {
         "id": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
         "name": "Integration Service Environment Contributor",
         "description": "Lets you manage integration service environments, but not access to them.",
@@ -3024,16 +3030,34 @@
         "link": "https://management.azure.com/8fe6e843-6d9e-417b-9073-106b048f50bb?api-version=2022-04-01"
     },
     {
+        "id": "81b67e46-ef5b-4404-bddd-090985bb4a28",
+        "name": "Liftr Datadog Contributor",
+        "description": "Provides access to Datadog Control Plane Operations",
+        "link": "https://management.azure.com/81b67e46-ef5b-4404-bddd-090985bb4a28?api-version=2022-04-01"
+    },
+    {
         "id": "d683b71b-2b91-4fc1-a43e-b53b3d85bed9",
         "name": "Liftr Dell Owner role",
         "description": "Provides access to all Dell related operations",
         "link": "https://management.azure.com/d683b71b-2b91-4fc1-a43e-b53b3d85bed9?api-version=2022-04-01"
     },
     {
+        "id": "fa96a588-3fac-4adb-bfb2-f8404ece07e0",
+        "name": "Liftr Dynatrace Contributor",
+        "description": "Provides access to Dynatrace Control Plane Operations",
+        "link": "https://management.azure.com/fa96a588-3fac-4adb-bfb2-f8404ece07e0?api-version=2022-04-01"
+    },
+    {
         "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
         "name": "Liftr Elastic Owner",
         "description": "Grants full access to manage Elastic resources",
         "link": "https://management.azure.com/225efd4d-4ca0-42a1-ae53-5f233ba23c73?api-version=2022-04-01"
+    },
+    {
+        "id": "a60da355-bdec-443f-8d42-a03f0422f04d",
+        "name": "Liftr Newrelic Contributor",
+        "description": "Provides access to Newrelic Control Plane Operations",
+        "link": "https://management.azure.com/a60da355-bdec-443f-8d42-a03f0422f04d?api-version=2022-04-01"
     },
     {
         "id": "85546f1f-f28b-4cb3-b852-73e422a96897",
@@ -3270,6 +3294,12 @@
         "link": "https://management.azure.com/5f569efd-4da5-4123-99cd-d42fbb2a836e?api-version=2022-04-01"
     },
     {
+        "id": "4db34280-b0be-4827-aa5b-418391409cee",
+        "name": "Microsoft.Confluent service role",
+        "description": "Microsoft.Confluent service role to access the resources of Microsoft.Confluent stored with RPSAAS.",
+        "link": "https://management.azure.com/4db34280-b0be-4827-aa5b-418391409cee?api-version=2022-04-01"
+    },
+    {
         "id": "83ee7727-862c-4213-8ed8-2ce6c5d69a40",
         "name": "Microsoft.Edge Winfields federated subscription read access role",
         "description": "Microsoft.Edge Winfields role for read access on federated subscriptions",
@@ -3334,6 +3364,12 @@
         "name": "MySQL Backup And Export Operator",
         "description": "Grants full access to manage backup and export resources",
         "link": "https://management.azure.com/d18ad5f3-1baf-4119-b49b-d944edb1f9d0?api-version=2022-04-01"
+    },
+    {
+        "id": "d0b9a150-ee65-4998-a12c-e2568749a95d",
+        "name": "Neon Postgres Service Role for Production",
+        "description": "Neon Postgres Service Role for Production",
+        "link": "https://management.azure.com/d0b9a150-ee65-4998-a12c-e2568749a95d?api-version=2022-04-01"
     },
     {
         "id": "4d97b98b-1d4f-4787-a291-c67834d212e7",
