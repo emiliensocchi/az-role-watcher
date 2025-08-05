@@ -3066,6 +3066,12 @@
         "link": "https://management.azure.com/fa96a588-3fac-4adb-bfb2-f8404ece07e0?api-version=2022-04-01"
     },
     {
+        "id": "d68eeb8d-afae-4932-a331-203b7957e509",
+        "name": "Liftr Elastic Contributor",
+        "description": "Provides access to Elastic Control Plane Operations",
+        "link": "https://management.azure.com/d68eeb8d-afae-4932-a331-203b7957e509?api-version=2022-04-01"
+    },
+    {
         "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
         "name": "Liftr Elastic Owner",
         "description": "Grants full access to manage Elastic resources",
@@ -3424,6 +3430,12 @@
         "name": "Nexus Network Fabric Service Writer",
         "description": "Read-write access to Nexus Network Fabric Service",
         "link": "https://management.azure.com/a5eb8433-97a5-4a06-80b2-a877e1622c31?api-version=2022-04-01"
+    },
+    {
+        "id": "61aed14c-6c9a-4ed5-aa44-49fc5e96a167",
+        "name": "NginxPlus Contributor service role",
+        "description": "Provides access to all Nginx.NginxPlus Control Plane operations",
+        "link": "https://management.azure.com/61aed14c-6c9a-4ed5-aa44-49fc5e96a167?api-version=2022-04-01"
     },
     {
         "id": "ca0835dd-bacc-42dd-8ed2-ed5e7230d15b",
