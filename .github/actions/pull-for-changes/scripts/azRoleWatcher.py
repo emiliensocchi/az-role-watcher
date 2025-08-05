@@ -403,39 +403,39 @@ if __name__ == "__main__":
     else:
         print ('Entra roles: no changes')
 
-    # Compare Azure roles
-    current_role_ids = [role['id'] for role in current_builtin_azure_roles]
-    snapshoted_role_ids = [role['id'] for role in snapshoted_builtin_azure_roles]
-    added_role_ids = [role for role in current_role_ids if role not in snapshoted_role_ids]
-    removed_role_ids = [role for role in snapshoted_role_ids if role not in current_role_ids]
+
+    # Compare Azure roles (sort by 'id' to ensure stable comparison)
+    current_builtin_azure_roles_sorted = sorted(current_builtin_azure_roles, key=lambda x: x['id'])
+    snapshoted_builtin_azure_roles_sorted = sorted(snapshoted_builtin_azure_roles, key=lambda x: x['id'])
+
+    current_role_ids = [role['id'] for role in current_builtin_azure_roles_sorted]
+    snapshoted_role_ids = [role['id'] for role in snapshoted_builtin_azure_roles_sorted]
+    added_role_ids = [role_id for role_id in current_role_ids if role_id not in snapshoted_role_ids]
+    removed_role_ids = [role_id for role_id in snapshoted_role_ids if role_id not in current_role_ids]
 
     if added_role_ids or removed_role_ids:
         print('Azure roles: changes have been detected!')
 
         for added_role_id in added_role_ids:
-            azure_role_list = [role for role in current_builtin_azure_roles if role['id'] == added_role_id]
-
+            azure_role_list = [role for role in current_builtin_azure_roles_sorted if role['id'] == added_role_id]
             if not len(azure_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the addition of Azure roles.')
                 exit()
-
             azure_role = azure_role_list[0]
             title = '🆕 ADDED Azure role'
             rss_item = { 'title': title }
-            rss_item.update(azure_role)         
+            rss_item.update(azure_role)
             rss_items.append(rss_item)
-  
+
         for removed_role_id in removed_role_ids:
-            azure_role_list = [role for role in snapshoted_builtin_azure_roles if role['id'] == removed_role_id]
-
+            azure_role_list = [role for role in snapshoted_builtin_azure_roles_sorted if role['id'] == removed_role_id]
             if not len(azure_role_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the addition of Azure roles.')
+                print ('FATAL ERROR - Something is wrong with the removal of Azure roles.')
                 exit()
-
             azure_role = azure_role_list[0]
             title = '❌ REMOVED Azure role'
             rss_item = { 'title': title }
-            rss_item.update(azure_role)         
+            rss_item.update(azure_role)
             rss_items.append(rss_item)
     else:
         print ('Azure roles: no changes')
