@@ -1,11 +1,5 @@
 [
     {
-        "id": "8b9beb50-e28c-4879-8472-24c9d328085f",
-        "name": "AI Model Scanner Operator",
-        "description": "Grants Microsoft Defender for AI access to AI services and resources.",
-        "link": "https://management.azure.com/8b9beb50-e28c-4879-8472-24c9d328085f?api-version=2022-04-01"
-    },
-    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -352,12 +346,6 @@
         "name": "Azure AI Enterprise Network Connection Approver",
         "description": "Can approve private endpoint connections to Azure AI common dependency resources",
         "link": "https://management.azure.com/b556d68e-0be0-4f35-a333-ad7ee1ce17ea?api-version=2022-04-01"
-    },
-    {
-        "id": "25cabde7-1a6c-4350-8877-cb6fe59f1399",
-        "name": "Azure AI Enterprise Networking Outbound Rules Operator",
-        "description": "A Built-in role that can authorize users to access and update the managed network settings of a machine learning workspace.",
-        "link": "https://management.azure.com/25cabde7-1a6c-4350-8877-cb6fe59f1399?api-version=2022-04-01"
     },
     {
         "id": "3afb7f49-54cb-416e-8c09-6dc049efa503",
@@ -1342,12 +1330,6 @@
         "name": "Azure\u00a0Business\u00a0Continuity DUPI Reader",
         "description": "Lets you view Deleted Unified Protected items in Azure Business Continuity Center.",
         "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
-    },
-    {
-        "id": "3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9",
-        "name": "Azure\u00a0Business\u00a0Continuity UPI Reader",
-        "description": "Lets you view Unified Protected items in Azure Business Continuity Center.",
-        "link": "https://management.azure.com/3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9?api-version=2022-04-01"
     },
     {
         "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
