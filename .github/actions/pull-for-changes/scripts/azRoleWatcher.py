@@ -356,9 +356,8 @@ if __name__ == "__main__":
 
         for added_role_id in added_role_ids:
             azure_role_list = [role for role in current_builtin_azure_roles_sorted if role['id'] == added_role_id]
-            history_role_list = [role for role in history_builtin_azure_roles if role['id'] == added_role_id]
         
-            if not len(azure_role_list) == 1 or not len(history_role_list) == 1:
+            if not len(azure_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the addition of Azure roles.')
                 exit()
 
@@ -370,19 +369,26 @@ if __name__ == "__main__":
             rss_items.append(rss_item)
 
             # Add to history
-            history_role = history_role_list[0]
-            history_builtin_azure_roles.remove(history_role)
-            history_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            history_role['deleted'] = 'false'
-            history_builtin_azure_roles.append(history_role)
+            azure_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            azure_role['deleted'] = 'false'               
+            history_builtin_azure_roles.append(azure_role)
 
         for removed_role_id in removed_role_ids:
             azure_role_list = [role for role in snapshoted_builtin_azure_roles_sorted if role['id'] == removed_role_id]
             history_role_list = [role for role in history_builtin_azure_roles if role['id'] == removed_role_id]
 
-            if not len(azure_role_list) == 1 or not len(history_role_list) == 1:
+            if not len(azure_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the removal of Azure roles.')
                 exit()
+
+            if len(history_role_list) == 1:
+                # The ARM API is subject to regional replication, caching, and backend updates that can cause temporary inconsistencies
+                # Check if the role was added recently
+                history_role = history_role_list[0]
+                threshold_days = 7
+                if (datetime.datetime.now() - datetime.datetime.strptime(history_role['detected'], "%Y-%m-%dT%H:%M:%SZ")).days < threshold_days:
+                    # The role was added for less than a week ago, skip its removal for now
+                    continue
 
             # Add to RSS feed
             azure_role = azure_role_list[0]
@@ -411,9 +417,8 @@ if __name__ == "__main__":
 
         for added_role_id in added_role_ids:
             entra_role_list = [role for role in current_builtin_entra_roles if role['id'] == added_role_id]
-            history_role_list = [role for role in history_builtin_entra_roles if role['id'] == added_role_id]
 
-            if not len(entra_role_list) == 1 or not len(history_role_list) == 1:
+            if not len(entra_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the addition of Entra roles.')
                 exit() 
 
@@ -425,12 +430,10 @@ if __name__ == "__main__":
             rss_items.append(rss_item)
 
             # Add to history
-            history_role = history_role_list[0]
-            history_builtin_entra_roles.remove(history_role)
-            history_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            history_role['deleted'] = 'false'
-            history_builtin_entra_roles.append(history_role)
-  
+            entra_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            entra_role['deleted'] = 'false'               
+            history_builtin_azure_roles.append(entra_role)
+
         for removed_role_id in removed_role_ids:
             entra_role_list = [role for role in snapshoted_builtin_entra_roles if role['id'] == added_role_id]
             history_role_list = [role for role in history_builtin_entra_roles if role['id'] == added_role_id]
@@ -466,9 +469,8 @@ if __name__ == "__main__":
 
         for added_permission_id in added_permission_ids:
             msgraph_app_permissions_list = [permission for permission in current_builtin_msgraph_app_permissions if permission['id'] == added_permission_id]
-            history_permission_list = [permission for permission in history_builtin_msgraph_app_permissions if permission['id'] == added_permission_id]
 
-            if not len(msgraph_app_permissions_list) == 1 or not len(history_permission_list) == 1:
+            if not len(msgraph_app_permissions_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the addition of MS Graph app permissions.')
                 exit() 
 
@@ -480,11 +482,9 @@ if __name__ == "__main__":
             rss_items.append(rss_item)
 
             # Add to history
-            history_permission = history_permission_list[0]
-            history_builtin_msgraph_app_permissions.remove(history_permission)
-            history_permission['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            history_role['deleted'] = 'false'
-            history_builtin_msgraph_app_permissions.append(history_permission)
+            msgraph_app_permission['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            msgraph_app_permission['deleted'] = 'false'               
+            history_builtin_azure_roles.append(msgraph_app_permission)
 
         for removed_permission_id in removed_permission_ids:
             msgraph_app_permissions_list = [permission for permission in snapshoted_builtin_msgraph_app_permissions if permission['id'] == removed_permission_id]

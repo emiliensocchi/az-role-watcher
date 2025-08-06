@@ -1,5 +1,11 @@
 [
     {
+        "id": "8b9beb50-e28c-4879-8472-24c9d328085f",
+        "name": "AI Model Scanner Operator",
+        "description": "Grants Microsoft Defender for AI access to AI services and resources.",
+        "link": "https://management.azure.com/8b9beb50-e28c-4879-8472-24c9d328085f?api-version=2022-04-01"
+    },
+    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -346,6 +352,12 @@
         "name": "Azure AI Enterprise Network Connection Approver",
         "description": "Can approve private endpoint connections to Azure AI common dependency resources",
         "link": "https://management.azure.com/b556d68e-0be0-4f35-a333-ad7ee1ce17ea?api-version=2022-04-01"
+    },
+    {
+        "id": "25cabde7-1a6c-4350-8877-cb6fe59f1399",
+        "name": "Azure AI Enterprise Networking Outbound Rules Operator",
+        "description": "A Built-in role that can authorize users to access and update the managed network settings of a machine learning workspace.",
+        "link": "https://management.azure.com/25cabde7-1a6c-4350-8877-cb6fe59f1399?api-version=2022-04-01"
     },
     {
         "id": "3afb7f49-54cb-416e-8c09-6dc049efa503",
@@ -1330,6 +1342,12 @@
         "name": "Azure\u00a0Business\u00a0Continuity DUPI Reader",
         "description": "Lets you view Deleted Unified Protected items in Azure Business Continuity Center.",
         "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
+    },
+    {
+        "id": "3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9",
+        "name": "Azure\u00a0Business\u00a0Continuity UPI Reader",
+        "description": "Lets you view Unified Protected items in Azure Business Continuity Center.",
+        "link": "https://management.azure.com/3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9?api-version=2022-04-01"
     },
     {
         "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
@@ -3048,6 +3066,12 @@
         "link": "https://management.azure.com/fa96a588-3fac-4adb-bfb2-f8404ece07e0?api-version=2022-04-01"
     },
     {
+        "id": "d68eeb8d-afae-4932-a331-203b7957e509",
+        "name": "Liftr Elastic Contributor",
+        "description": "Provides access to Elastic Control Plane Operations",
+        "link": "https://management.azure.com/d68eeb8d-afae-4932-a331-203b7957e509?api-version=2022-04-01"
+    },
+    {
         "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
         "name": "Liftr Elastic Owner",
         "description": "Grants full access to manage Elastic resources",
@@ -3406,6 +3430,12 @@
         "name": "Nexus Network Fabric Service Writer",
         "description": "Read-write access to Nexus Network Fabric Service",
         "link": "https://management.azure.com/a5eb8433-97a5-4a06-80b2-a877e1622c31?api-version=2022-04-01"
+    },
+    {
+        "id": "61aed14c-6c9a-4ed5-aa44-49fc5e96a167",
+        "name": "NginxPlus Contributor service role",
+        "description": "Provides access to all Nginx.NginxPlus Control Plane operations",
+        "link": "https://management.azure.com/61aed14c-6c9a-4ed5-aa44-49fc5e96a167?api-version=2022-04-01"
     },
     {
         "id": "ca0835dd-bacc-42dd-8ed2-ed5e7230d15b",
