@@ -356,7 +356,8 @@ if __name__ == "__main__":
 
         for added_role_id in added_role_ids:
             azure_role_list = [role for role in current_builtin_azure_roles_sorted if role['id'] == added_role_id]
-        
+            history_role_list = [role for role in history_builtin_azure_roles if role['id'] == added_role_id]
+
             if not len(azure_role_list) == 1:
                 print ('FATAL ERROR - Something is wrong with the addition of Azure roles.')
                 exit()
@@ -369,9 +370,11 @@ if __name__ == "__main__":
             rss_items.append(rss_item)
 
             # Add to history
-            azure_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            azure_role['deleted'] = 'false'               
-            history_builtin_azure_roles.append(azure_role)
+            history_role_list = [role for role in history_builtin_azure_roles if role['id'] == added_role_id]
+            if not history_role_list:
+                azure_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+                azure_role['deleted'] = 'false'               
+                history_builtin_azure_roles.append(azure_role)
 
         for removed_role_id in removed_role_ids:
             azure_role_list = [role for role in snapshoted_builtin_azure_roles_sorted if role['id'] == removed_role_id]
@@ -388,6 +391,9 @@ if __name__ == "__main__":
                 threshold_days = 7
                 if (datetime.datetime.now() - datetime.datetime.strptime(history_role['detected'], "%Y-%m-%dT%H:%M:%SZ")).days < threshold_days:
                     # The role was added for less than a week ago, skip its removal for now
+                    history_role.pop('detected', None)
+                    history_role.pop('deleted', None) 
+                    current_builtin_azure_roles.append(history_role)
                     continue
 
             # Add to RSS feed

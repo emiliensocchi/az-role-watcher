@@ -4600,14 +4600,6 @@
         "deleted": "false"
     },
     {
-        "id": "61aed14c-6c9a-4ed5-aa44-49fc5e96a167",
-        "name": "NginxPlus Contributor service role",
-        "description": "Provides access to all Nginx.NginxPlus Control Plane operations",
-        "link": "https://management.azure.com/61aed14c-6c9a-4ed5-aa44-49fc5e96a167?api-version=2022-04-01",
-        "detected": "2025-08-06T13:09:44Z",
-        "deleted": "true"
-    },
-    {
         "id": "ca0835dd-bacc-42dd-8ed2-ed5e7230d15b",
         "name": "Object Anchors Account Owner",
         "description": "Provides user with ingestion capabilities for an object anchors account.",
