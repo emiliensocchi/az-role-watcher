@@ -1,11 +1,5 @@
 [
     {
-        "id": "8b9beb50-e28c-4879-8472-24c9d328085f",
-        "name": "AI Model Scanner Operator",
-        "description": "Grants Microsoft Defender for AI access to AI services and resources.",
-        "link": "https://management.azure.com/8b9beb50-e28c-4879-8472-24c9d328085f?api-version=2022-04-01"
-    },
-    {
         "id": "c031e6a8-4391-4de0-8d69-4706a7ed3729",
         "name": "API Management Developer Portal Content Editor",
         "description": "Can customize the developer portal, edit its content, and publish it.",
@@ -258,14 +252,6 @@
         "link": "https://management.azure.com/f6e92014-8af2-414d-9948-9b1abf559285?api-version=2022-04-01"
     },
     {
-        "id": "dca88c6f-5090-44cd-a0ff-a88f337b12a5",
-        "name": "ArizeAi.ObservabilityEval Contributor Role",
-        "description": "Provides access to all ArizeAi.ObservabilityEval related operations",
-        "link": "https://management.azure.com/dca88c6f-5090-44cd-a0ff-a88f337b12a5?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
-    },
-    {
         "id": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
         "name": "Attestation Contributor",
         "description": "Can read write or delete the attestation provider instance",
@@ -360,12 +346,6 @@
         "name": "Azure AI Enterprise Network Connection Approver",
         "description": "Can approve private endpoint connections to Azure AI common dependency resources",
         "link": "https://management.azure.com/b556d68e-0be0-4f35-a333-ad7ee1ce17ea?api-version=2022-04-01"
-    },
-    {
-        "id": "25cabde7-1a6c-4350-8877-cb6fe59f1399",
-        "name": "Azure AI Enterprise Networking Outbound Rules Operator",
-        "description": "A Built-in role that can authorize users to access and update the managed network settings of a machine learning workspace.",
-        "link": "https://management.azure.com/25cabde7-1a6c-4350-8877-cb6fe59f1399?api-version=2022-04-01"
     },
     {
         "id": "3afb7f49-54cb-416e-8c09-6dc049efa503",
@@ -1352,12 +1332,6 @@
         "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
     },
     {
-        "id": "3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9",
-        "name": "Azure\u00a0Business\u00a0Continuity UPI Reader",
-        "description": "Lets you view Unified Protected items in Azure Business Continuity Center.",
-        "link": "https://management.azure.com/3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9?api-version=2022-04-01"
-    },
-    {
         "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
         "name": "Backup Contributor",
         "description": "Lets you manage backups, but can't delete vaults and give access to others",
@@ -2001,8 +1975,8 @@
     },
     {
         "id": "bf41e52e-617f-4981-8b7a-47431bd4e011",
-        "name": "CosmosDB Fleet Analytics Storage Data",
-        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts",
+        "name": "CosmosDB Fleet Analytics Storage Data Writer service role",
+        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts or Fabric Lakehouses.",
         "link": "https://management.azure.com/bf41e52e-617f-4981-8b7a-47431bd4e011?api-version=2022-04-01"
     },
     {
@@ -3032,14 +3006,6 @@
         "link": "https://management.azure.com/2a5c394f-5eb7-4d4f-9c8e-e8eae39faebc?api-version=2022-04-01"
     },
     {
-        "id": "44a00263-b2a0-45d5-a618-5d8d11709349",
-        "name": "LambdaTest.HyperExecute Contributor Role",
-        "description": "Provides access to all LambdaTest.HyperExecute related operations",
-        "link": "https://management.azure.com/44a00263-b2a0-45d5-a618-5d8d11709349?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
-    },
-    {
         "id": "bf2b6809-e9a5-4aea-a6e1-40a9dc8c43a7",
         "name": "Landing Zone Account Owner",
         "description": "Microsoft.Sovereign Landing Zone Account Owner allowing to review and modify Landing Zone Account, Landing Zone Configurations, as well as reading and adding Landing Zone Registrations. Also enables read-access to policies and management groups for enabling the full user experience of the Sovereign Services RP in the Azure Portal (as otherwise some elements might not be accessible to end users).",
@@ -3080,12 +3046,6 @@
         "name": "Liftr Dynatrace Contributor",
         "description": "Provides access to Dynatrace Control Plane Operations",
         "link": "https://management.azure.com/fa96a588-3fac-4adb-bfb2-f8404ece07e0?api-version=2022-04-01"
-    },
-    {
-        "id": "d68eeb8d-afae-4932-a331-203b7957e509",
-        "name": "Liftr Elastic Contributor",
-        "description": "Provides access to Elastic Control Plane Operations",
-        "link": "https://management.azure.com/d68eeb8d-afae-4932-a331-203b7957e509?api-version=2022-04-01"
     },
     {
         "id": "225efd4d-4ca0-42a1-ae53-5f233ba23c73",
@@ -3358,14 +3318,6 @@
         "link": "https://management.azure.com/79732128-7761-4733-aebf-35590da9f29b?api-version=2022-04-01"
     },
     {
-        "id": "246fffca-69ee-4945-bbf1-2a867dce4fda",
-        "name": "Microsoft.WeightsAndBiases Contributor Role",
-        "description": "Provides access to all Microsoft.WeightsAndBiases related operations",
-        "link": "https://management.azure.com/246fffca-69ee-4945-bbf1-2a867dce4fda?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
-    },
-    {
         "id": "21bffb94-04c0-4ed0-b676-68bb926e832b",
         "name": "Microsoft.Windows365.CloudPcDelegatedMsis Writer User",
         "description": "Built in role to perform Write operations on CloudPcDelegatedMsis resources.",
@@ -3454,12 +3406,6 @@
         "name": "Nexus Network Fabric Service Writer",
         "description": "Read-write access to Nexus Network Fabric Service",
         "link": "https://management.azure.com/a5eb8433-97a5-4a06-80b2-a877e1622c31?api-version=2022-04-01"
-    },
-    {
-        "id": "61aed14c-6c9a-4ed5-aa44-49fc5e96a167",
-        "name": "NginxPlus Contributor service role",
-        "description": "Provides access to all Nginx.NginxPlus Control Plane operations",
-        "link": "https://management.azure.com/61aed14c-6c9a-4ed5-aa44-49fc5e96a167?api-version=2022-04-01"
     },
     {
         "id": "ca0835dd-bacc-42dd-8ed2-ed5e7230d15b",
@@ -3580,14 +3526,6 @@
         "name": "Owner",
         "description": "Grants full access to manage all resources, including the ability to assign roles in Azure RBAC.",
         "link": "https://management.azure.com/8e3af657-a8ff-443c-a75c-2fe8c4bcb635?api-version=2022-04-01"
-    },
-    {
-        "id": "dd799a69-ffc8-4aa8-9701-b51f686857d9",
-        "name": "Pinecone.VectorDb Contributor Role",
-        "description": "Provides access to all Pinecone.VectorDb related operations",
-        "link": "https://management.azure.com/dd799a69-ffc8-4aa8-9701-b51f686857d9?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
     },
     {
         "id": "0c8b84dc-067c-4039-9615-fa1a4b77c726",
@@ -3732,14 +3670,6 @@
         "name": "Reader and Data Access",
         "description": "Lets you view everything but will not let you delete or create a storage account or contained resource. It will also allow read/write access to all data contained in a storage account via access to storage account keys.",
         "link": "https://management.azure.com/c12c1c16-33a1-487b-954d-41c89c60f349?api-version=2022-04-01"
-    },
-    {
-        "id": "376d0802-aca8-4c2d-83a5-c88630f396fe",
-        "name": "Recurring Scheduled Actions Contributor",
-        "description": "Allows users to use Recurring Scheduled Actions offered by Microsoft.ComputeSchedule",
-        "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
     },
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
