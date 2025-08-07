@@ -1,6 +1,15 @@
 # 🔎 AzRoleWatcher
 
-🔔 Get notified on the **addition** or **removal** of roles and permissions in Microsoft Entra ID and Azure 🔔
+Get notified on the **addition** or **removal** of roles and permissions in Microsoft Entra ID and Azure.
+
+### 🔔 Detected changes this year (2025)
+
+| 🏷️ Category | ➕ Added | ❌ Removed |
+|----------|-------|---------|
+| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">10</span> | 0 |
+| 👤 Entra roles | <span style="color:#009E73;font-weight:bold">8</span> | 0 |
+| 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">61</span> | 0 |
+
 
 ## 📃 Description 
 
