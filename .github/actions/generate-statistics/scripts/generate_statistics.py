@@ -117,7 +117,7 @@ def stats_to_markdown_table_current_year(stats_dict):
         ("Entra Roles", "👤 Entra roles"),
         ("MS Graph App Permissions", "🤖 MS Graph app permissions"),
     ]
-    header = f"### 🔔 Detected changes this year ({current_year})\n\n| 🏷️ Category | ➕ Added | ❌ Removed |\n|----------|-------|---------|"
+    header = f"### 🔔 Detected changes this year ({current_year}) 🔔\n\n| 🏷️ Category | ➕ Added | ❌ Removed |\n|----------|-------|---------|"
     rows = []
 
     for key, label in categories:
