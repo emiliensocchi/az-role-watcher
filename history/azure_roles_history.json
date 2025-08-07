@@ -5995,6 +5995,8 @@
         "id": "d17ce0a2-0697-43bc-aac5-9113337ab61c",
         "name": "WorkloadBuilder Migration Agent Role",
         "description": "WorkloadBuilder Migration Agent Role.",
-        "link": "https://management.azure.com/d17ce0a2-0697-43bc-aac5-9113337ab61c?api-version=2022-04-01"
+        "link": "https://management.azure.com/d17ce0a2-0697-43bc-aac5-9113337ab61c?api-version=2022-04-01",
+        "detected": "",
+        "deleted": "false"
     }
 ]

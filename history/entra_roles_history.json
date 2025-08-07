@@ -979,6 +979,8 @@
         "id": "810a2642-a034-447f-a5e8-41beaa378541",
         "name": "Yammer Administrator",
         "description": "Manage all aspects of the Yammer service.",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/810a2642-a034-447f-a5e8-41beaa378541"
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/810a2642-a034-447f-a5e8-41beaa378541",
+        "detected": "",
+        "deleted": "false"
     }
 ]

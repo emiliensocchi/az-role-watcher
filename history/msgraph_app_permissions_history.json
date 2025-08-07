@@ -4108,7 +4108,7 @@
         "name": "TeamsResourceAccount.Read.All",
         "description": "Read Teams resource accounts",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b55aa226-33a1-4396-bcf4-edce5e7a31c1",
-        "detected": "2025-01-21",
+        "detected": "2025-01-21T00:00:00Z",
         "deleted": "false"
     },
     {
@@ -4643,6 +4643,8 @@
         "id": "b2620db1-3bf7-4c5b-9cb9-576d29eac736",
         "name": "eDiscovery.ReadWrite.All",
         "description": "Read and write all eDiscovery objects",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b2620db1-3bf7-4c5b-9cb9-576d29eac736"
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b2620db1-3bf7-4c5b-9cb9-576d29eac736",
+        "detected": "",
+        "deleted": "false"
     }
 ]
