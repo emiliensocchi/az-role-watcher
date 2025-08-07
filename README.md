@@ -2,7 +2,7 @@
 
 Get notified on the **addition** or **removal** of roles and permissions in Microsoft Entra ID and Azure.
 
-### 🔔 Detected changes this year (2025)
+### 🔔 Detected changes this year (2025) 🔔
 
 | 🏷️ Category | ➕ Added | ❌ Removed |
 |----------|-------|---------|
