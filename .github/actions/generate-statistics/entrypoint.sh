@@ -5,11 +5,11 @@
 set -e
 set -x
 
-echo "Verifying if roles and permissions have changed"
+echo "Generating statistics for built-in roles and permissions"
 
 script_dir='./.github/actions/generate-statistics/scripts'
 #pip3 install -r "${script_dir}/requirements.txt" --break-system-packages
-python3 "${script_dir}/generate-statistics.py"
+python3 "${script_dir}/generate_statistics.py"
 
 ## Stage 1 ##############################################################
 
