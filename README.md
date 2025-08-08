@@ -6,7 +6,7 @@ Get notified on the **addition** or **removal** of roles and permissions in Micr
 
 | 🏷️ Category | ➕ Added | ❌ Removed |
 |----------|-------|---------|
-| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">10</span> | 0 |
+| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">5</span> | 0 |
 | 👤 Entra roles | <span style="color:#009E73;font-weight:bold">8</span> | 0 |
 | 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">61</span> | 0 |
 
