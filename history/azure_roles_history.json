@@ -347,9 +347,7 @@
         "id": "dca88c6f-5090-44cd-a0ff-a88f337b12a5",
         "name": "ArizeAi.ObservabilityEval Contributor Role",
         "description": "Provides access to all ArizeAi.ObservabilityEval related operations",
-        "link": "https://management.azure.com/dca88c6f-5090-44cd-a0ff-a88f337b12a5?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/dca88c6f-5090-44cd-a0ff-a88f337b12a5?api-version=2022-04-01"
     },
     {
         "id": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
@@ -4035,9 +4033,7 @@
         "id": "44a00263-b2a0-45d5-a618-5d8d11709349",
         "name": "LambdaTest.HyperExecute Contributor Role",
         "description": "Provides access to all LambdaTest.HyperExecute related operations",
-        "link": "https://management.azure.com/44a00263-b2a0-45d5-a618-5d8d11709349?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/44a00263-b2a0-45d5-a618-5d8d11709349?api-version=2022-04-01"
     },
     {
         "id": "bf2b6809-e9a5-4aea-a6e1-40a9dc8c43a7",
@@ -4467,9 +4463,7 @@
         "id": "246fffca-69ee-4945-bbf1-2a867dce4fda",
         "name": "Microsoft.WeightsAndBiases Contributor Role",
         "description": "Provides access to all Microsoft.WeightsAndBiases related operations",
-        "link": "https://management.azure.com/246fffca-69ee-4945-bbf1-2a867dce4fda?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/246fffca-69ee-4945-bbf1-2a867dce4fda?api-version=2022-04-01"
     },
     {
         "id": "21bffb94-04c0-4ed0-b676-68bb926e832b",
@@ -4763,9 +4757,7 @@
         "id": "dd799a69-ffc8-4aa8-9701-b51f686857d9",
         "name": "Pinecone.VectorDb Contributor Role",
         "description": "Provides access to all Pinecone.VectorDb related operations",
-        "link": "https://management.azure.com/dd799a69-ffc8-4aa8-9701-b51f686857d9?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/dd799a69-ffc8-4aa8-9701-b51f686857d9?api-version=2022-04-01"
     },
     {
         "id": "0c8b84dc-067c-4039-9615-fa1a4b77c726",
@@ -4963,9 +4955,7 @@
         "id": "376d0802-aca8-4c2d-83a5-c88630f396fe",
         "name": "Recurring Scheduled Actions Contributor",
         "description": "Allows users to use Recurring Scheduled Actions offered by Microsoft.ComputeSchedule",
-        "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01",
-        "detected": "2025-08-06T11:57:47Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01"
     },
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
