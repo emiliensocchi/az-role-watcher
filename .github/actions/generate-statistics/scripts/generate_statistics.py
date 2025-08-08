@@ -112,12 +112,13 @@ def stats_to_markdown_table_current_year(stats_dict):
 
     """
     current_year = datetime.datetime.now().year
+    current_time = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
     categories = [
         ("Azure Roles", "☁️ Azure roles"),
         ("Entra Roles", "👤 Entra roles"),
         ("MS Graph App Permissions", "🤖 MS Graph app permissions"),
     ]
-    header = f"### 🔔 Detected changes this year ({current_year}) \n\n| 🏷️ Category | ➕ Added | ❌ Removed |\n|----------|-------|---------|"
+    header = f"### 🔔 Detected changes this year ({current_year}) \n\n> last updated: {current_time} \n\n| 🏷️ Category | ➕ Added | ❌ Removed |\n|----------|-------|---------|"
     rows = []
 
     for key, label in categories:
