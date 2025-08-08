@@ -1999,8 +1999,8 @@
     },
     {
         "id": "bf41e52e-617f-4981-8b7a-47431bd4e011",
-        "name": "CosmosDB Fleet Analytics Storage Data Writer service role",
-        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts or Fabric Lakehouses.",
+        "name": "CosmosDB Fleet Analytics Storage Data",
+        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts",
         "link": "https://management.azure.com/bf41e52e-617f-4981-8b7a-47431bd4e011?api-version=2022-04-01"
     },
     {
