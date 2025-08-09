@@ -544,11 +544,27 @@
         "deleted": "false"
     },
     {
+        "id": "ce8fb1f1-5e1f-44a0-b102-4ec28454d0dc",
+        "name": "CallRecordings.Read.All",
+        "description": "Read all call recordings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ce8fb1f1-5e1f-44a0-b102-4ec28454d0dc",
+        "detected": "2025-08-09T02:49:33Z",
+        "deleted": "false"
+    },
+    {
         "id": "45bbb07e-7321-4fd7-a8f6-3ff27e6a81c8",
         "name": "CallRecords.Read.All",
         "description": "Read all call records",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/45bbb07e-7321-4fd7-a8f6-3ff27e6a81c8",
         "detected": "",
+        "deleted": "false"
+    },
+    {
+        "id": "4cd61b6d-8692-40bf-9d90-7f38db5e5fce",
+        "name": "CallTranscripts.Read.All",
+        "description": "Read all call transcripts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4cd61b6d-8692-40bf-9d90-7f38db5e5fce",
+        "detected": "2025-08-09T02:49:33Z",
         "deleted": "false"
     },
     {
@@ -1597,6 +1613,14 @@
         "description": "Access selected file storage containers",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/40dc41bc-0f7e-42ff-89bd-d9516947e474",
         "detected": "",
+        "deleted": "false"
+    },
+    {
+        "id": "2dcc6599-bd30-442b-8f11-90f88ad441dc",
+        "name": "FileStorageContainerTypeReg.Selected",
+        "description": "Access selected file storage container type registrations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2dcc6599-bd30-442b-8f11-90f88ad441dc",
+        "detected": "2025-08-09T02:49:33Z",
         "deleted": "false"
     },
     {
