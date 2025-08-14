@@ -1113,33 +1113,25 @@
         "id": "c914561b-1575-4601-af9c-a1356bf59818",
         "name": "Azure Resilience Management Drills Administrator",
         "description": "Administrator Role of Azure Resilience Management Drills Service",
-        "link": "https://management.azure.com/c914561b-1575-4601-af9c-a1356bf59818?api-version=2022-04-01",
-        "detected": "2025-08-13T02:50:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c914561b-1575-4601-af9c-a1356bf59818?api-version=2022-04-01"
     },
     {
         "id": "e131102b-11a5-4ff4-8508-ed922132b74c",
         "name": "Azure Resilience Management Drills Contributor",
         "description": "Contributor Role of Azure Resilience Management Drills Service",
-        "link": "https://management.azure.com/e131102b-11a5-4ff4-8508-ed922132b74c?api-version=2022-04-01",
-        "detected": "2025-08-13T02:50:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/e131102b-11a5-4ff4-8508-ed922132b74c?api-version=2022-04-01"
     },
     {
         "id": "ff09793b-be48-49f6-ad96-70d32039c0b9",
         "name": "Azure Resilience Management Drills Operator",
         "description": "Operator Role of Azure Resilience Management Drills Service",
-        "link": "https://management.azure.com/ff09793b-be48-49f6-ad96-70d32039c0b9?api-version=2022-04-01",
-        "detected": "2025-08-13T02:50:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/ff09793b-be48-49f6-ad96-70d32039c0b9?api-version=2022-04-01"
     },
     {
         "id": "d2e8fe82-9212-490f-af3e-34bb52d87d3d",
         "name": "Azure Resilience Management Drills Reader",
         "description": "Reader Role of Azure Resilience Management Drills Service",
-        "link": "https://management.azure.com/d2e8fe82-9212-490f-af3e-34bb52d87d3d?api-version=2022-04-01",
-        "detected": "2025-08-13T02:50:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/d2e8fe82-9212-490f-af3e-34bb52d87d3d?api-version=2022-04-01"
     },
     {
         "id": "7b1f81f9-4196-4058-8aae-762e593270df",
@@ -1523,9 +1515,7 @@
         "id": "fdb3df26-8dd6-49ff-9a74-e95dbfadcad3",
         "name": "Change Safety Contributor",
         "description": "Grants access to manage all Microsoft.ChangeSafety resources.",
-        "link": "https://management.azure.com/fdb3df26-8dd6-49ff-9a74-e95dbfadcad3?api-version=2022-04-01",
-        "detected": "2025-08-13T02:50:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/fdb3df26-8dd6-49ff-9a74-e95dbfadcad3?api-version=2022-04-01"
     },
     {
         "id": "7c2e40b7-25eb-482a-82cb-78ba06cb46d5",
@@ -2197,9 +2187,7 @@
         "id": "c5c82243-e78e-43f9-8428-793bba85b28e",
         "name": "Defender For Container Registries Operator",
         "description": "Grants Microsoft Defender for Cloud access to Azure Container Registries",
-        "link": "https://management.azure.com/c5c82243-e78e-43f9-8428-793bba85b28e?api-version=2022-04-01",
-        "detected": "2025-08-13T02:50:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c5c82243-e78e-43f9-8428-793bba85b28e?api-version=2022-04-01"
     },
     {
         "id": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
