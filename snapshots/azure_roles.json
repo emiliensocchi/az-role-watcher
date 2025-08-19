@@ -783,9 +783,7 @@
         "id": "479333aa-46b6-4a12-b41a-40f6ca1c1eec",
         "name": "Azure IoT Operations Diagnostic Platform 1p App Roles",
         "description": "Microsoft.KubernetesConfiguration read only roles for AIO's Diagnostic Platform 1p app",
-        "link": "https://management.azure.com/479333aa-46b6-4a12-b41a-40f6ca1c1eec?api-version=2022-04-01",
-        "detected": "2025-08-18T02:59:32Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/479333aa-46b6-4a12-b41a-40f6ca1c1eec?api-version=2022-04-01"
     },
     {
         "id": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
