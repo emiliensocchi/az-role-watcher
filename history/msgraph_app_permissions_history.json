@@ -2176,6 +2176,14 @@
         "deleted": "false"
     },
     {
+        "id": "e118f1da-5c1c-46cf-bff6-8858d786f46f",
+        "name": "Mail-Advanced.ReadWrite.All",
+        "description": "Read and write mail in all mailboxes, including modifying existing non-draft mails",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e118f1da-5c1c-46cf-bff6-8858d786f46f",
+        "detected": "2025-08-26T07:05:35Z",
+        "deleted": "false"
+    },
+    {
         "id": "810c84a8-4a9e-49e6-bf7d-12d183f40d01",
         "name": "Mail.Read",
         "description": "Read mail in all mailboxes",

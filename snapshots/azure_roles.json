@@ -168,12 +168,6 @@
         "link": "https://management.azure.com/7ec7ccdc-f61e-41fe-9aaf-980df0a44eba?api-version=2022-04-01"
     },
     {
-        "id": "68ac31b4-936a-4046-a6d2-ba6f8a757bf6",
-        "name": "Agentless scanning for Serverless Scanner Service Role",
-        "description": "Grants access to Serverless resources and thier connections",
-        "link": "https://management.azure.com/68ac31b4-936a-4046-a6d2-ba6f8a757bf6?api-version=2022-04-01"
-    },
-    {
         "id": "a2138dac-4907-4679-a376-736901ed8ad8",
         "name": "AnyBuild Builder",
         "description": "Basic user role for AnyBuild. This role allows listing of agent information and execution of remote build capabilities.",
@@ -552,6 +546,18 @@
         "link": "https://management.azure.com/9fc6112f-f48e-4e27-8b09-72a5c94e4ae9?api-version=2022-04-01"
     },
     {
+        "id": "f4eb044f-76b9-47af-92f9-1d95c4c14ab5",
+        "name": "Azure Business Continuity DUPI Reader",
+        "description": "Lets you view Deleted Unified Protected items in Azure Business Continuity Center.",
+        "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
+    },
+    {
+        "id": "3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9",
+        "name": "Azure Business Continuity UPI Reader",
+        "description": "Lets you view Unified Protected items in Azure Business Continuity Center.",
+        "link": "https://management.azure.com/3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9?api-version=2022-04-01"
+    },
+    {
         "id": "6d949e1d-41e2-46e3-8920-c6e4f31a8310",
         "name": "Azure Center for SAP solutions Management role",
         "description": "This role has permissions which allow users to register existing systems, view and manage systems.",
@@ -780,12 +786,6 @@
         "link": "https://management.azure.com/5bc02df6-6cd5-43fe-ad3d-4c93cf56cc16?api-version=2022-04-01"
     },
     {
-        "id": "479333aa-46b6-4a12-b41a-40f6ca1c1eec",
-        "name": "Azure IoT Operations Diagnostic Platform 1p App Roles",
-        "description": "Microsoft.KubernetesConfiguration read only roles for AIO's Diagnostic Platform 1p app",
-        "link": "https://management.azure.com/479333aa-46b6-4a12-b41a-40f6ca1c1eec?api-version=2022-04-01"
-    },
-    {
         "id": "7b7c71ed-33fa-4ed2-a91a-e56d5da260b5",
         "name": "Azure IoT Operations Onboarding",
         "description": "User can Azure arc connect and deploy Azure IoT Operations securely.",
@@ -952,6 +952,12 @@
         "name": "Azure Kubernetes Service RBAC Writer",
         "description": "Allows read/write access to most objects in a namespace.This role does not allow viewing or modifying roles or role bindings. However, this role allows accessing Secrets and running Pods as any ServiceAccount in the namespace, so it can be used to gain the API access levels of any ServiceAccount in the namespace. Applying this role at cluster scope will give access across all namespaces.",
         "link": "https://management.azure.com/a7ffa36f-339b-4b5c-8bdf-e2c188b2c0eb?api-version=2022-04-01"
+    },
+    {
+        "id": "478d20ba-a53e-4946-b33c-8078a92f2d0a",
+        "name": "Azure Local Disconnected Operations Role",
+        "description": "Azure Local Disconnected Operations Role",
+        "link": "https://management.azure.com/478d20ba-a53e-4946-b33c-8078a92f2d0a?api-version=2022-04-01"
     },
     {
         "id": "ea01e6af-a1c1-4350-9563-ad00f8c72ec5",
@@ -1374,18 +1380,6 @@
         "link": "https://management.azure.com/1823dd4f-9b8c-4ab6-ab4e-7397a3684615?api-version=2022-04-01"
     },
     {
-        "id": "f4eb044f-76b9-47af-92f9-1d95c4c14ab5",
-        "name": "Azure\u00a0Business\u00a0Continuity DUPI Reader",
-        "description": "Lets you view Deleted Unified Protected items in Azure Business Continuity Center.",
-        "link": "https://management.azure.com/f4eb044f-76b9-47af-92f9-1d95c4c14ab5?api-version=2022-04-01"
-    },
-    {
-        "id": "3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9",
-        "name": "Azure\u00a0Business\u00a0Continuity UPI Reader",
-        "description": "Lets you view Unified Protected items in Azure Business Continuity Center.",
-        "link": "https://management.azure.com/3b5a0aa9-eccd-48dc-9011-f2fd03b5e5f9?api-version=2022-04-01"
-    },
-    {
         "id": "5e467623-bb1f-42f4-a55d-6e525e11384b",
         "name": "Backup Contributor",
         "description": "Lets you manage backups, but can't delete vaults and give access to others",
@@ -1576,6 +1570,12 @@
         "name": "ClearDB MySQL DB Contributor",
         "description": "Lets you manage ClearDB MySQL databases, but not access to them.",
         "link": "https://management.azure.com/9106cda0-8a86-4e81-b686-29a22c54effe?api-version=2022-04-01"
+    },
+    {
+        "id": "d0a94e7a-d791-4571-b2e0-8bdd8f867544",
+        "name": "Clinical Coder Data User",
+        "description": "Allows processing of health data in Clinical Coder",
+        "link": "https://management.azure.com/d0a94e7a-d791-4571-b2e0-8bdd8f867544?api-version=2022-04-01"
     },
     {
         "id": "4e9d0bd4-5aab-4f91-92df-9def33fe287c",
@@ -2200,6 +2200,18 @@
         "name": "Defender Kubernetes Agent Operator",
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
         "link": "https://management.azure.com/8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01"
+    },
+    {
+        "id": "68ac31b4-936a-4046-a6d2-ba6f8a757bf6",
+        "name": "Defender Serverless Scanner",
+        "description": "Grants access to Serverless resources and thier connections",
+        "link": "https://management.azure.com/68ac31b4-936a-4046-a6d2-ba6f8a757bf6?api-version=2022-04-01"
+    },
+    {
+        "id": "40ead2a5-466e-4039-8a80-325542d9d2dd",
+        "name": "Defender Unified RBAC Data Manager",
+        "description": "Defender Unified RBAC Data Manager. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
+        "link": "https://management.azure.com/40ead2a5-466e-4039-8a80-325542d9d2dd?api-version=2022-04-01"
     },
     {
         "id": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
@@ -2850,12 +2862,6 @@
         "link": "https://management.azure.com/36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
     },
     {
-        "id": "523d2d58-9c67-49a6-8151-4ba8dfeb9272",
-        "name": "Informatica.DataManagement service role",
-        "description": "Informatica.DataManagement service role to access the resources of Informatica.DataManagement stored with RPSAAS.",
-        "link": "https://management.azure.com/523d2d58-9c67-49a6-8151-4ba8dfeb9272?api-version=2022-04-01"
-    },
-    {
         "id": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
         "name": "Integration Service Environment Contributor",
         "description": "Lets you manage integration service environments, but not access to them.",
@@ -3372,12 +3378,6 @@
         "link": "https://management.azure.com/5f569efd-4da5-4123-99cd-d42fbb2a836e?api-version=2022-04-01"
     },
     {
-        "id": "4db34280-b0be-4827-aa5b-418391409cee",
-        "name": "Microsoft.Confluent service role",
-        "description": "Microsoft.Confluent service role to access the resources of Microsoft.Confluent stored with RPSAAS.",
-        "link": "https://management.azure.com/4db34280-b0be-4827-aa5b-418391409cee?api-version=2022-04-01"
-    },
-    {
         "id": "83ee7727-862c-4213-8ed8-2ce6c5d69a40",
         "name": "Microsoft.Edge Winfields federated subscription read access role",
         "description": "Microsoft.Edge Winfields role for read access on federated subscriptions",
@@ -3448,12 +3448,6 @@
         "name": "MySQL Backup And Export Operator",
         "description": "Grants full access to manage backup and export resources",
         "link": "https://management.azure.com/d18ad5f3-1baf-4119-b49b-d944edb1f9d0?api-version=2022-04-01"
-    },
-    {
-        "id": "d0b9a150-ee65-4998-a12c-e2568749a95d",
-        "name": "Neon Postgres Service Role for Production",
-        "description": "Neon Postgres Service Role for Production",
-        "link": "https://management.azure.com/d0b9a150-ee65-4998-a12c-e2568749a95d?api-version=2022-04-01"
     },
     {
         "id": "4d97b98b-1d4f-4787-a291-c67834d212e7",
@@ -4528,6 +4522,12 @@
         "name": "Workbook Reader",
         "description": "Can read workbooks.",
         "link": "https://management.azure.com/b279062a-9be3-42a0-92ae-8b3cf002ec4d?api-version=2022-04-01"
+    },
+    {
+        "id": "cbb820e9-e561-45bb-84c2-ef45d0a13f7d",
+        "name": "Workload Orchestration Administrator",
+        "description": "Workload Orchestration Administrator Role",
+        "link": "https://management.azure.com/cbb820e9-e561-45bb-84c2-ef45d0a13f7d?api-version=2022-04-01"
     },
     {
         "id": "63304235-eaf4-4c15-8e93-46c483611231",
