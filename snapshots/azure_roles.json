@@ -2035,8 +2035,8 @@
     },
     {
         "id": "bf41e52e-617f-4981-8b7a-47431bd4e011",
-        "name": "CosmosDB Fleet Analytics Storage Data",
-        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts",
+        "name": "CosmosDB Fleet Analytics Storage Data Writer",
+        "description": "Write telemetry data from the Fleet Analytics Synapse workspace to customer-provided storage accounts or Fabric Lakehouses.",
         "link": "https://management.azure.com/bf41e52e-617f-4981-8b7a-47431bd4e011?api-version=2022-04-01"
     },
     {
@@ -2676,10 +2676,50 @@
         "link": "https://management.azure.com/9c1607d1-791d-4c68-885d-c7b7aaff7c8a?api-version=2022-04-01"
     },
     {
+        "id": "2a94a2fd-3c4f-45d1-847d-6585ba88af94",
+        "name": "Firmware Analysis Reader",
+        "description": "View firmware images but not upload them or perform any workspace configuration",
+        "link": "https://management.azure.com/2a94a2fd-3c4f-45d1-847d-6585ba88af94?api-version=2022-04-01",
+        "detected": "2025-08-27T02:26:41Z",
+        "deleted": "false"
+    },
+    {
         "id": "61eb6405-5f4a-440b-ad03-fe06c5c85e44",
         "name": "Flux Configurations Contributor",
         "description": "Can create, update, get, list and delete Flux Configurations",
         "link": "https://management.azure.com/61eb6405-5f4a-440b-ad03-fe06c5c85e44?api-version=2022-04-01"
+    },
+    {
+        "id": "1694e55a-2496-4d07-b005-7259aa3fcbe8",
+        "name": "Garnet Data Contributor",
+        "description": "Allows read and write access to all keys within the Garnet resource",
+        "link": "https://management.azure.com/1694e55a-2496-4d07-b005-7259aa3fcbe8?api-version=2022-04-01",
+        "detected": "2025-08-27T02:26:41Z",
+        "deleted": "false"
+    },
+    {
+        "id": "04f6c337-ffae-414c-b00f-3e80c9ab8a2c",
+        "name": "Garnet Data Owner",
+        "description": "Allows read, write, destructive and scripting actions on the Garnet resource",
+        "link": "https://management.azure.com/04f6c337-ffae-414c-b00f-3e80c9ab8a2c?api-version=2022-04-01",
+        "detected": "2025-08-27T02:26:41Z",
+        "deleted": "false"
+    },
+    {
+        "id": "d9cd91b9-dada-4fa9-9406-454c4659c137",
+        "name": "Garnet Data Reader",
+        "description": "Allows read access to all keys within the Garnet resource",
+        "link": "https://management.azure.com/d9cd91b9-dada-4fa9-9406-454c4659c137?api-version=2022-04-01",
+        "detected": "2025-08-27T02:26:41Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7021ea36-e168-4bc0-af53-88de51d20665",
+        "name": "Garnet Script Data Contributor",
+        "description": "Allows execution and management of scripts on the Garnet resource",
+        "link": "https://management.azure.com/7021ea36-e168-4bc0-af53-88de51d20665?api-version=2022-04-01",
+        "detected": "2025-08-27T02:26:41Z",
+        "deleted": "false"
     },
     {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
