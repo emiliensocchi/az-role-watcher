@@ -2944,11 +2944,51 @@
         "deleted": "false"
     },
     {
+        "id": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
+        "name": "Defender Unified RBAC Authorization Manager",
+        "description": "Defender Unified RBAC Authorization Manager. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
+        "link": "https://management.azure.com/1fd5d8bf-9037-4ede-89bf-680f798e2765?api-version=2022-04-01",
+        "detected": "2025-08-30T02:20:52Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ca62263b-07d5-4b48-b437-088803f5c2ff",
+        "name": "Defender Unified RBAC Authorization Reader",
+        "description": "Defender Unified RBAC Authorization Reader. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
+        "link": "https://management.azure.com/ca62263b-07d5-4b48-b437-088803f5c2ff?api-version=2022-04-01",
+        "detected": "2025-08-30T02:20:52Z",
+        "deleted": "false"
+    },
+    {
+        "id": "625a1cea-653b-4a19-bd3a-df1d66ab6637",
+        "name": "Defender Unified RBAC Contributor and Responder",
+        "description": "Defender Unified RBAC Contributor and Responder. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
+        "link": "https://management.azure.com/625a1cea-653b-4a19-bd3a-df1d66ab6637?api-version=2022-04-01",
+        "detected": "2025-08-30T02:20:52Z",
+        "deleted": "false"
+    },
+    {
         "id": "40ead2a5-466e-4039-8a80-325542d9d2dd",
         "name": "Defender Unified RBAC Data Manager",
         "description": "Defender Unified RBAC Data Manager. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
         "link": "https://management.azure.com/40ead2a5-466e-4039-8a80-325542d9d2dd?api-version=2022-04-01",
         "detected": "2025-08-26T08:57:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "78b7345a-1e1b-483a-ac62-62228c6ea89d",
+        "name": "Defender Unified RBAC Reader",
+        "description": "Defender Unified RBAC Reader. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
+        "link": "https://management.azure.com/78b7345a-1e1b-483a-ac62-62228c6ea89d?api-version=2022-04-01",
+        "detected": "2025-08-30T02:20:52Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1bacae94-6c0f-4d2d-8dfa-408d5a28e6ec",
+        "name": "Defender Unified RBAC Responder",
+        "description": "Defender Unified RBAC Responder. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
+        "link": "https://management.azure.com/1bacae94-6c0f-4d2d-8dfa-408d5a28e6ec?api-version=2022-04-01",
+        "detected": "2025-08-30T02:20:52Z",
         "deleted": "false"
     },
     {
