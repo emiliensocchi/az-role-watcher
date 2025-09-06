@@ -1360,6 +1360,22 @@
         "deleted": "false"
     },
     {
+        "id": "679dc20a-52e8-4ac0-a23c-3b557dfb1e24",
+        "name": "Azure Monitor Pipeline Contributor",
+        "description": "Manage Azure Monitor Pipeline resources, providing full read and write access to pipeline configurations and monitoring features.",
+        "link": "https://management.azure.com/679dc20a-52e8-4ac0-a23c-3b557dfb1e24?api-version=2022-04-01",
+        "detected": "2025-09-06T02:19:32Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2d50f159-7b96-4f1e-8fc7-fee6957ab7cc",
+        "name": "Azure Monitor Pipeline Reader",
+        "description": "Read Azure Monitor Pipeline resources, including pipeline configurations and monitoring features.",
+        "link": "https://management.azure.com/2d50f159-7b96-4f1e-8fc7-fee6957ab7cc?api-version=2022-04-01",
+        "detected": "2025-09-06T02:19:32Z",
+        "deleted": "false"
+    },
+    {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
         "name": "Azure Programmable Connectivity Gateway Dataplane User",
         "description": "Allows access to all Gateway dataplane APIs.",

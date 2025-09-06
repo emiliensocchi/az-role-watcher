@@ -1464,6 +1464,14 @@
         "deleted": "false"
     },
     {
+        "id": "2c495153-cd0e-41b4-9980-3bcecf1ca22f",
+        "name": "EngagementConversation.Read.All",
+        "description": "Read all Viva Engage conversations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2c495153-cd0e-41b4-9980-3bcecf1ca22f",
+        "detected": "2025-09-06T02:19:32Z",
+        "deleted": "false"
+    },
+    {
         "id": "bfbd4840-fba0-43a7-93a9-465b687e47d0",
         "name": "EngagementConversation.ReadWrite.All",
         "description": "Read and write all Viva Engage conversations",

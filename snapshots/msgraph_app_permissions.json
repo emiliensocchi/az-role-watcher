@@ -1098,6 +1098,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e1d2136d-eaaf-427a-a7db-f97dbe847c27"
     },
     {
+        "id": "2c495153-cd0e-41b4-9980-3bcecf1ca22f",
+        "name": "EngagementConversation.Read.All",
+        "description": "Read all Viva Engage conversations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2c495153-cd0e-41b4-9980-3bcecf1ca22f"
+    },
+    {
         "id": "bfbd4840-fba0-43a7-93a9-465b687e47d0",
         "name": "EngagementConversation.ReadWrite.All",
         "description": "Read and write all Viva Engage conversations",
