@@ -222,6 +222,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8329153b-31d0-4727-b945-745eb3bc5f31"
     },
     {
+        "id": "e93e3737-fa85-474a-aee4-7d3fb86510f3",
+        "name": "Dragon Administrator",
+        "description": "Manage all aspects of the Microsoft Dragon admin center.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e93e3737-fa85-474a-aee4-7d3fb86510f3"
+    },
+    {
         "id": "44367163-eba1-44c3-98af-f5787879f96a",
         "name": "Dynamics 365 Administrator",
         "description": "Can manage all aspects of the Dynamics 365 product.",

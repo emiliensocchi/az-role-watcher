@@ -3328,6 +3328,14 @@
         "deleted": "false"
     },
     {
+        "id": "e93e3737-fa85-474a-aee4-7d3fb86510f3",
+        "name": "Dragon Administrator",
+        "description": "Manage all aspects of the Microsoft Dragon admin center.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e93e3737-fa85-474a-aee4-7d3fb86510f3",
+        "detected": "2025-09-09T02:25:48Z",
+        "deleted": "false"
+    },
+    {
         "id": "0ad04412-c4d5-4796-b79c-f76d14c8d402",
         "name": "Durable Task Data Contributor",
         "description": "Durable Task role for all data access operations.",
