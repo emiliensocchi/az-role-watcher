@@ -448,6 +448,14 @@
         "deleted": "false"
     },
     {
+        "id": "98c206fe-ea1b-4578-93f8-83a99a5628fc",
+        "name": "Aws Connector contributor role",
+        "description": "Microsoft.AwsConnector contributor role",
+        "link": "https://management.azure.com/98c206fe-ea1b-4578-93f8-83a99a5628fc?api-version=2022-04-01",
+        "detected": "2025-09-10T02:20:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
         "name": "Azure AI Account Owner",
         "description": "Grants full access to manage AI projects and accounts. Grants conditional assignment of the Azure AI User role to other user principles.",
@@ -3368,6 +3376,14 @@
         "deleted": "false"
     },
     {
+        "id": "f24a559b-c2fc-4409-b96e-9af4b0c28ad6",
+        "name": "Edge Order Partner Inventory Manager Service Role",
+        "description": "Manage inventory metadata and inventory links associated with Edge Order Partner scenarios. Enables configuration and control of inventory resources for tracking and fulfillment purposes",
+        "link": "https://management.azure.com/f24a559b-c2fc-4409-b96e-9af4b0c28ad6?api-version=2022-04-01",
+        "detected": "2025-09-10T02:20:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
         "name": "Elastic SAN Network Admin",
         "description": "Allows access to create Private Endpoints on SAN resources, and to read SAN resources",
@@ -3869,6 +3885,14 @@
         "description": "Allows users to edit and delete Hierarchy Settings",
         "link": "https://management.azure.com/350f8d15-c687-4448-8ae1-157740a3936d?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f0f57965-de58-41bc-ba76-2aaab4d09f30",
+        "name": "Hybrid Connectivity contributor role",
+        "description": "Microsoft.HybridConnectivity contributor role",
+        "link": "https://management.azure.com/f0f57965-de58-41bc-ba76-2aaab4d09f30?api-version=2022-04-01",
+        "detected": "2025-09-10T02:20:31Z",
         "deleted": "false"
     },
     {
@@ -5256,6 +5280,14 @@
         "deleted": "false"
     },
     {
+        "id": "a4b156ac-253f-4a1a-9851-96d62b71b047",
+        "name": "SRE Agent Reader",
+        "description": "View all SRE Agent resources, but does not allow you to make any changes.",
+        "link": "https://management.azure.com/a4b156ac-253f-4a1a-9851-96d62b71b047?api-version=2022-04-01",
+        "detected": "2025-09-10T02:20:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "fc6e3395-6a8c-4527-bb4c-d0abd41e8e74",
         "name": "SSH PublicKeys Contributor Role",
         "description": "This is the role created for SSH PublicKeys Contributor",
@@ -5765,6 +5797,14 @@
         "description": "Customer has read access on Azure Storage file shares.",
         "link": "https://management.azure.com/b8eda974-7b85-4f76-af95-65846b26df6d?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "a235d3ee-5935-4cfb-8cc5-a3303ad5995e",
+        "name": "Storage File Data SMB MI Admin",
+        "description": "Allows for admin-level access for managed identities on files/directories in Azure file shares.",
+        "link": "https://management.azure.com/a235d3ee-5935-4cfb-8cc5-a3303ad5995e?api-version=2022-04-01",
+        "detected": "2025-09-10T02:20:31Z",
         "deleted": "false"
     },
     {
