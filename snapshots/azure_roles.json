@@ -333,9 +333,7 @@
         "id": "98c206fe-ea1b-4578-93f8-83a99a5628fc",
         "name": "Aws Connector contributor role",
         "description": "Microsoft.AwsConnector contributor role",
-        "link": "https://management.azure.com/98c206fe-ea1b-4578-93f8-83a99a5628fc?api-version=2022-04-01",
-        "detected": "2025-09-10T02:20:31Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/98c206fe-ea1b-4578-93f8-83a99a5628fc?api-version=2022-04-01"
     },
     {
         "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
@@ -2531,9 +2529,7 @@
         "id": "f24a559b-c2fc-4409-b96e-9af4b0c28ad6",
         "name": "Edge Order Partner Inventory Manager Service Role",
         "description": "Manage inventory metadata and inventory links associated with Edge Order Partner scenarios. Enables configuration and control of inventory resources for tracking and fulfillment purposes",
-        "link": "https://management.azure.com/f24a559b-c2fc-4409-b96e-9af4b0c28ad6?api-version=2022-04-01",
-        "detected": "2025-09-10T02:20:31Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/f24a559b-c2fc-4409-b96e-9af4b0c28ad6?api-version=2022-04-01"
     },
     {
         "id": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
@@ -2917,9 +2913,7 @@
         "id": "f0f57965-de58-41bc-ba76-2aaab4d09f30",
         "name": "Hybrid Connectivity contributor role",
         "description": "Microsoft.HybridConnectivity contributor role",
-        "link": "https://management.azure.com/f0f57965-de58-41bc-ba76-2aaab4d09f30?api-version=2022-04-01",
-        "detected": "2025-09-10T02:20:31Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/f0f57965-de58-41bc-ba76-2aaab4d09f30?api-version=2022-04-01"
     },
     {
         "id": "5d1e5ee4-7c68-4a71-ac8b-0739630a3dfb",
@@ -3945,9 +3939,7 @@
         "id": "a4b156ac-253f-4a1a-9851-96d62b71b047",
         "name": "SRE Agent Reader",
         "description": "View all SRE Agent resources, but does not allow you to make any changes.",
-        "link": "https://management.azure.com/a4b156ac-253f-4a1a-9851-96d62b71b047?api-version=2022-04-01",
-        "detected": "2025-09-10T02:20:31Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/a4b156ac-253f-4a1a-9851-96d62b71b047?api-version=2022-04-01"
     },
     {
         "id": "fc6e3395-6a8c-4527-bb4c-d0abd41e8e74",
@@ -4337,9 +4329,7 @@
         "id": "a235d3ee-5935-4cfb-8cc5-a3303ad5995e",
         "name": "Storage File Data SMB MI Admin",
         "description": "Allows for admin-level access for managed identities on files/directories in Azure file shares.",
-        "link": "https://management.azure.com/a235d3ee-5935-4cfb-8cc5-a3303ad5995e?api-version=2022-04-01",
-        "detected": "2025-09-10T02:20:31Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/a235d3ee-5935-4cfb-8cc5-a3303ad5995e?api-version=2022-04-01"
     },
     {
         "id": "0c867c2a-1d8c-454a-a3db-ab2ea1bdc8bb",
