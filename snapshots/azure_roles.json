@@ -813,9 +813,7 @@
         "id": "850c5848-fc51-4a9a-8823-f220370626e3",
         "name": "Azure Kubernetes Fleet Manager Hub Cluster User Role",
         "description": "Grants read access to Azure Kubernetes Fleet Manager as well as the Kubernetes config file to connect to the fleet-managed hub cluster.",
-        "link": "https://management.azure.com/850c5848-fc51-4a9a-8823-f220370626e3?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/850c5848-fc51-4a9a-8823-f220370626e3?api-version=2022-04-01"
     },
     {
         "id": "434fb43a-c01c-447e-9f67-c3ad923cfaba",
@@ -1799,9 +1797,7 @@
         "id": "b256d512-9a3a-4a96-9366-9f54f900e58b",
         "name": "Common Edge Admin",
         "description": "Common Edge Admin Role",
-        "link": "https://management.azure.com/b256d512-9a3a-4a96-9366-9f54f900e58b?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/b256d512-9a3a-4a96-9366-9f54f900e58b?api-version=2022-04-01"
     },
     {
         "id": "09976791-48a7-449e-bb21-39d1a415f350",
@@ -2539,9 +2535,7 @@
         "id": "89f7a3ec-e9d0-40eb-9b96-c016a5c2a53f",
         "name": "Dynamics 365 Customer Insights Service Role",
         "description": "Enables Diagnostic Logging setup for Customer Insights instances.",
-        "link": "https://management.azure.com/89f7a3ec-e9d0-40eb-9b96-c016a5c2a53f?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/89f7a3ec-e9d0-40eb-9b96-c016a5c2a53f?api-version=2022-04-01"
     },
     {
         "id": "53e48117-a530-4075-bcbe-d91913e3bdb8",
@@ -2763,9 +2757,7 @@
         "id": "53b2724d-1e51-44fa-b586-bcace0c82609",
         "name": "Firmware Analysis User",
         "description": "Upload and analyze firmware images but not perform any workspace configuration",
-        "link": "https://management.azure.com/53b2724d-1e51-44fa-b586-bcace0c82609?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/53b2724d-1e51-44fa-b586-bcace0c82609?api-version=2022-04-01"
     },
     {
         "id": "61eb6405-5f4a-440b-ad03-fe06c5c85e44",
@@ -3317,9 +3309,7 @@
         "id": "3b03c2da-16b3-4a49-8834-0f8130efdd3b",
         "name": "Log Analytics Data Reader",
         "description": "Log Analytics Data Reader can query and search the logs it is allowed to view over Log Analytics workspaces and tables",
-        "link": "https://management.azure.com/3b03c2da-16b3-4a49-8834-0f8130efdd3b?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/3b03c2da-16b3-4a49-8834-0f8130efdd3b?api-version=2022-04-01"
     },
     {
         "id": "73c42c96-874c-492b-b04d-ab87d138a893",
@@ -3979,9 +3969,7 @@
         "id": "e79298df-d852-4c6d-84f9-5d13249d1e55",
         "name": "SRE Agent Administrator",
         "description": "Full management of SRE Agent, including updating agent, chatting and execution of commands.",
-        "link": "https://management.azure.com/e79298df-d852-4c6d-84f9-5d13249d1e55?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/e79298df-d852-4c6d-84f9-5d13249d1e55?api-version=2022-04-01"
     },
     {
         "id": "a4b156ac-253f-4a1a-9851-96d62b71b047",
@@ -3993,9 +3981,7 @@
         "id": "2d84a65a-63b2-4343-bbb6-31105d857bc1",
         "name": "SRE Agent User",
         "description": "User of SRE Agent including chatting with agent.",
-        "link": "https://management.azure.com/2d84a65a-63b2-4343-bbb6-31105d857bc1?api-version=2022-04-01",
-        "detected": "2025-09-12T02:19:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/2d84a65a-63b2-4343-bbb6-31105d857bc1?api-version=2022-04-01"
     },
     {
         "id": "fc6e3395-6a8c-4527-bb4c-d0abd41e8e74",
