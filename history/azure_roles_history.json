@@ -5808,6 +5808,22 @@
         "deleted": "false"
     },
     {
+        "id": "4bad4d9e-2a13-4888-94bb-c8432f6f3040",
+        "name": "Storage Actions Blob Data Operator",
+        "description": "Used by the Storage Actions - Storage Task to list & perform operations on the Storage Account blobs",
+        "link": "https://management.azure.com/4bad4d9e-2a13-4888-94bb-c8432f6f3040?api-version=2022-04-01",
+        "detected": "2025-09-14T02:26:53Z",
+        "deleted": "false"
+    },
+    {
+        "id": "77789c21-1643-48a2-8f27-47f858540b51",
+        "name": "Storage Actions Task Assignment Contributor",
+        "description": "Used by the Storage Actions assigner to create a Task Assignment on their target Storage Account, with RBAC privileges for Managed Identity",
+        "link": "https://management.azure.com/77789c21-1643-48a2-8f27-47f858540b51?api-version=2022-04-01",
+        "detected": "2025-09-14T02:26:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "ba92f5b4-2d11-453d-a403-e96b0029c9fe",
         "name": "Storage Blob Data Contributor",
         "description": "Allows for read, write and delete access to Azure Storage blob containers and data",

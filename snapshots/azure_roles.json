@@ -2226,6 +2226,12 @@
         "link": "https://management.azure.com/c5c82243-e78e-43f9-8428-793bba85b28e?api-version=2022-04-01"
     },
     {
+        "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
+        "name": "Defender Kubernetes API Access",
+        "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
+        "link": "https://management.azure.com/d5a2ae44-610b-4500-93be-660a0c5f5ca6?api-version=2022-04-01"
+    },
+    {
         "id": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
         "name": "Defender Kubernetes Agent Operator",
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
@@ -3118,12 +3124,6 @@
         "name": "Kubernetes Agent Subscription Level Operator",
         "description": "Grants Microsoft Defender for Cloud subscription level permissions needed to activate Containers plan",
         "link": "https://management.azure.com/ada52afe-776a-4b4d-a8f2-55670d3d8178?api-version=2022-04-01"
-    },
-    {
-        "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
-        "name": "Kubernetes Agentless Operator",
-        "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
-        "link": "https://management.azure.com/d5a2ae44-610b-4500-93be-660a0c5f5ca6?api-version=2022-04-01"
     },
     {
         "id": "34e09817-6cbe-4d01-b1a2-e0eac5743d41",
@@ -4330,6 +4330,22 @@
         "name": "Storage Account Key Operator Service Role",
         "description": "Storage Account Key Operators are allowed to list and regenerate keys on Storage Accounts",
         "link": "https://management.azure.com/81a9662b-bebf-436f-a333-f67b29880f12?api-version=2022-04-01"
+    },
+    {
+        "id": "4bad4d9e-2a13-4888-94bb-c8432f6f3040",
+        "name": "Storage Actions Blob Data Operator",
+        "description": "Used by the Storage Actions - Storage Task to list & perform operations on the Storage Account blobs",
+        "link": "https://management.azure.com/4bad4d9e-2a13-4888-94bb-c8432f6f3040?api-version=2022-04-01",
+        "detected": "2025-09-14T02:26:53Z",
+        "deleted": "false"
+    },
+    {
+        "id": "77789c21-1643-48a2-8f27-47f858540b51",
+        "name": "Storage Actions Task Assignment Contributor",
+        "description": "Used by the Storage Actions assigner to create a Task Assignment on their target Storage Account, with RBAC privileges for Managed Identity",
+        "link": "https://management.azure.com/77789c21-1643-48a2-8f27-47f858540b51?api-version=2022-04-01",
+        "detected": "2025-09-14T02:26:53Z",
+        "deleted": "false"
     },
     {
         "id": "ba92f5b4-2d11-453d-a403-e96b0029c9fe",
