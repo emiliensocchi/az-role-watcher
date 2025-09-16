@@ -1392,6 +1392,14 @@
         "deleted": "false"
     },
     {
+        "id": "55077723-1b30-4603-a70b-68de134cfa20",
+        "name": "Azure Native Dynatrace Agent Management Role",
+        "description": "Grants access to manage Dynatrace Agent on compute resources",
+        "link": "https://management.azure.com/55077723-1b30-4603-a70b-68de134cfa20?api-version=2022-04-01",
+        "detected": "2025-09-16T02:21:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
         "name": "Azure Programmable Connectivity Gateway Dataplane User",
         "description": "Allows access to all Gateway dataplane APIs.",
@@ -5813,6 +5821,14 @@
         "description": "Used by the Storage Actions - Storage Task to list & perform operations on the Storage Account blobs",
         "link": "https://management.azure.com/4bad4d9e-2a13-4888-94bb-c8432f6f3040?api-version=2022-04-01",
         "detected": "2025-09-14T02:26:53Z",
+        "deleted": "false"
+    },
+    {
+        "id": "bd8acdb0-202c-4493-a7fe-ef98eefbfbc4",
+        "name": "Storage Actions Contributor",
+        "description": "Used by the Storage Actions author to create, read, update, and delete Storage Actions",
+        "link": "https://management.azure.com/bd8acdb0-202c-4493-a7fe-ef98eefbfbc4?api-version=2022-04-01",
+        "detected": "2025-09-16T02:21:31Z",
         "deleted": "false"
     },
     {

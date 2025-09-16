@@ -1044,6 +1044,14 @@
         "link": "https://management.azure.com/2d50f159-7b96-4f1e-8fc7-fee6957ab7cc?api-version=2022-04-01"
     },
     {
+        "id": "55077723-1b30-4603-a70b-68de134cfa20",
+        "name": "Azure Native Dynatrace Agent Management Role",
+        "description": "Grants access to manage Dynatrace Agent on compute resources",
+        "link": "https://management.azure.com/55077723-1b30-4603-a70b-68de134cfa20?api-version=2022-04-01",
+        "detected": "2025-09-16T02:21:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
         "name": "Azure Programmable Connectivity Gateway Dataplane User",
         "description": "Allows access to all Gateway dataplane APIs.",
@@ -3968,19 +3976,19 @@
     {
         "id": "e79298df-d852-4c6d-84f9-5d13249d1e55",
         "name": "SRE Agent Administrator",
-        "description": "Full management of SRE Agent, including updating agent, chatting and execution of commands.",
+        "description": "Full control of the agent\u2014manage chats, incident response plans, and agent run modes; approve and execute commands.",
         "link": "https://management.azure.com/e79298df-d852-4c6d-84f9-5d13249d1e55?api-version=2022-04-01"
     },
     {
         "id": "a4b156ac-253f-4a1a-9851-96d62b71b047",
         "name": "SRE Agent Reader",
-        "description": "View all SRE Agent resources, but does not allow you to make any changes.",
+        "description": "Grants read-only access to all SRE Agent data, including chats, incidents, logs, and configurations. Does not permit interaction with the agent.",
         "link": "https://management.azure.com/a4b156ac-253f-4a1a-9851-96d62b71b047?api-version=2022-04-01"
     },
     {
         "id": "2d84a65a-63b2-4343-bbb6-31105d857bc1",
-        "name": "SRE Agent User",
-        "description": "User of SRE Agent including chatting with agent.",
+        "name": "SRE Agent Standard User",
+        "description": "Grants access to interact with the SRE Agent to triage incidents and run diagnostics.",
         "link": "https://management.azure.com/2d84a65a-63b2-4343-bbb6-31105d857bc1?api-version=2022-04-01"
     },
     {
@@ -4336,6 +4344,14 @@
         "name": "Storage Actions Blob Data Operator",
         "description": "Used by the Storage Actions - Storage Task to list & perform operations on the Storage Account blobs",
         "link": "https://management.azure.com/4bad4d9e-2a13-4888-94bb-c8432f6f3040?api-version=2022-04-01"
+    },
+    {
+        "id": "bd8acdb0-202c-4493-a7fe-ef98eefbfbc4",
+        "name": "Storage Actions Contributor",
+        "description": "Used by the Storage Actions author to create, read, update, and delete Storage Actions",
+        "link": "https://management.azure.com/bd8acdb0-202c-4493-a7fe-ef98eefbfbc4?api-version=2022-04-01",
+        "detected": "2025-09-16T02:21:31Z",
+        "deleted": "false"
     },
     {
         "id": "77789c21-1643-48a2-8f27-47f858540b51",
