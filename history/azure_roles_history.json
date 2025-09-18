@@ -285,7 +285,7 @@
         "description": "Allows the usage of SAS tokens for authentication.",
         "link": "https://management.azure.com/7fd69092-c9bc-4b59-9e2e-bca63317e147?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
-        "deleted": "false"
+        "deleted": "true"
     },
     {
         "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
