@@ -114,6 +114,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9a5d68dd-52b0-4cc2-bd40-abcf44ac3a30"
     },
     {
+        "id": "fc023787-fd04-4e44-9bc7-d454f00c0f0a",
+        "name": "Application.ReadUpdate.All",
+        "description": "Read and update all apps",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fc023787-fd04-4e44-9bc7-d454f00c0f0a"
+    },
+    {
         "id": "1bfefb4e-e0b5-418b-a88f-73c46d2cc8e9",
         "name": "Application.ReadWrite.All",
         "description": "Read and write all applications",
@@ -2350,6 +2356,12 @@
         "name": "QnA.Read.All",
         "description": "Read all Question and Answers ",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ee49e170-1dd1-4030-b44c-61ad6e98f743"
+    },
+    {
+        "id": "abafe00f-ea87-4c63-b8a8-0e7bb0a88144",
+        "name": "RealTimeActivityFeed.Read.All",
+        "description": "Access real-time enriched data in a meeting as an app",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/abafe00f-ea87-4c63-b8a8-0e7bb0a88144"
     },
     {
         "id": "ac3a2b8e-03a3-4da9-9ce0-cbe28bf1accd",
