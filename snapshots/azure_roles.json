@@ -204,12 +204,6 @@
         "link": "https://management.azure.com/516239f1-63e1-4d78-a4de-a74fb236a071?api-version=2022-04-01"
     },
     {
-        "id": "7fd69092-c9bc-4b59-9e2e-bca63317e147",
-        "name": "App Configuration Data SAS User",
-        "description": "Allows the usage of SAS tokens for authentication.",
-        "link": "https://management.azure.com/7fd69092-c9bc-4b59-9e2e-bca63317e147?api-version=2022-04-01"
-    },
-    {
         "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
         "name": "App Configuration Reader",
         "description": "Grants permission for read operations for App Configuration resources.",
@@ -2626,6 +2620,14 @@
         "name": "Entra Connect Health Service Admin",
         "description": "Can set up and manage Microsoft Entra Connect Health. Includes agent set up and managing services on the Azure portal",
         "link": "https://management.azure.com/93629c8c-5d36-4533-85cd-f5bb3338710e?api-version=2022-04-01"
+    },
+    {
+        "id": "34013b0a-565b-43aa-8755-1b7c286f6cf7",
+        "name": "Essential Machine Management Administrator",
+        "description": "Can managed Essential Machine Management resources for subscriptions",
+        "link": "https://management.azure.com/34013b0a-565b-43aa-8755-1b7c286f6cf7?api-version=2022-04-01",
+        "detected": "2025-09-22T02:40:17Z",
+        "deleted": "false"
     },
     {
         "id": "1e241071-0855-49ea-94dc-649edcd759de",
