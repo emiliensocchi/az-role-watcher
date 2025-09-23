@@ -2625,9 +2625,7 @@
         "id": "34013b0a-565b-43aa-8755-1b7c286f6cf7",
         "name": "Essential Machine Management Administrator",
         "description": "Can managed Essential Machine Management resources for subscriptions",
-        "link": "https://management.azure.com/34013b0a-565b-43aa-8755-1b7c286f6cf7?api-version=2022-04-01",
-        "detected": "2025-09-22T02:40:17Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/34013b0a-565b-43aa-8755-1b7c286f6cf7?api-version=2022-04-01"
     },
     {
         "id": "1e241071-0855-49ea-94dc-649edcd759de",
