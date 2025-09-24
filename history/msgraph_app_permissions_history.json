@@ -3696,6 +3696,22 @@
         "deleted": "false"
     },
     {
+        "id": "a0521574-fcd8-4742-b29c-f796df57ea70",
+        "name": "SharePointCrossTenantMigration.Manage.All",
+        "description": "Read, write and manage SharePoint Cross-Tenant migration settings and tasks",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a0521574-fcd8-4742-b29c-f796df57ea70",
+        "detected": "2025-09-24T02:22:59Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f5fa52a5-b9ab-4dc3-885e-9e5b4a67068e",
+        "name": "SharePointCrossTenantMigration.Read.All",
+        "description": "Read SharePoint Cross-Tenant migration settings and tasks",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f5fa52a5-b9ab-4dc3-885e-9e5b4a67068e",
+        "detected": "2025-09-24T02:22:59Z",
+        "deleted": "false"
+    },
+    {
         "id": "83d4163d-a2d8-4d3b-9695-4ae3ca98f888",
         "name": "SharePointTenantSettings.Read.All",
         "description": "Read SharePoint and OneDrive tenant settings",
