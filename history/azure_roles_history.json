@@ -3736,6 +3736,22 @@
         "deleted": "false"
     },
     {
+        "id": "56e95fdc-3337-468d-b964-30d07f2a2018",
+        "name": "Garnet PubSub Data Contributor",
+        "description": "Allows read and write access to all channels within the Garnet resource",
+        "link": "https://management.azure.com/56e95fdc-3337-468d-b964-30d07f2a2018?api-version=2022-04-01",
+        "detected": "2025-09-29T02:26:50Z",
+        "deleted": "false"
+    },
+    {
+        "id": "da9adf61-39cd-41d5-87a0-30b21f7270d8",
+        "name": "Garnet PubSub Data Reader",
+        "description": "Allows read access to all channels within the Garnet resource",
+        "link": "https://management.azure.com/da9adf61-39cd-41d5-87a0-30b21f7270d8?api-version=2022-04-01",
+        "detected": "2025-09-29T02:26:50Z",
+        "deleted": "false"
+    },
+    {
         "id": "7021ea36-e168-4bc0-af53-88de51d20665",
         "name": "Garnet Script Data Contributor",
         "description": "Allows execution and management of scripts on the Garnet resource",
@@ -6061,6 +6077,14 @@
         "description": "Allows read access to Template Specs at the assigned scope.",
         "link": "https://management.azure.com/392ae280-861d-42bd-9ea5-08ee6d83b80e?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "0a7c2fa1-6f28-41a4-86b8-e74937c63222",
+        "name": "Tenant Contributor",
+        "description": "Allows users to create and manage Entra ID Tenants.",
+        "link": "https://management.azure.com/0a7c2fa1-6f28-41a4-86b8-e74937c63222?api-version=2022-04-01",
+        "detected": "2025-09-29T02:26:50Z",
         "deleted": "false"
     },
     {
