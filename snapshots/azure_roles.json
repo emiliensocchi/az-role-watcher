@@ -1374,12 +1374,6 @@
         "link": "https://management.azure.com/6ae96244-5829-4925-a7d3-5975537d91dd?api-version=2022-04-01"
     },
     {
-        "id": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
-        "name": "Azure impact Reporter role",
-        "description": "built-in role for azure impact write access",
-        "link": "https://management.azure.com/36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
-    },
-    {
         "id": "dfb2f09d-25f8-4558-8986-497084006d7a",
         "name": "Azure impact-insight reader",
         "description": "built-in role for azure impact-insight read access",
@@ -2805,17 +2799,13 @@
         "id": "56e95fdc-3337-468d-b964-30d07f2a2018",
         "name": "Garnet PubSub Data Contributor",
         "description": "Allows read and write access to all channels within the Garnet resource",
-        "link": "https://management.azure.com/56e95fdc-3337-468d-b964-30d07f2a2018?api-version=2022-04-01",
-        "detected": "2025-09-29T02:26:50Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/56e95fdc-3337-468d-b964-30d07f2a2018?api-version=2022-04-01"
     },
     {
         "id": "da9adf61-39cd-41d5-87a0-30b21f7270d8",
         "name": "Garnet PubSub Data Reader",
         "description": "Allows read access to all channels within the Garnet resource",
-        "link": "https://management.azure.com/da9adf61-39cd-41d5-87a0-30b21f7270d8?api-version=2022-04-01",
-        "detected": "2025-09-29T02:26:50Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/da9adf61-39cd-41d5-87a0-30b21f7270d8?api-version=2022-04-01"
     },
     {
         "id": "7021ea36-e168-4bc0-af53-88de51d20665",
@@ -3002,6 +2992,12 @@
         "name": "Impact Reader",
         "description": "Allows read-only access to reported impacts and impact categories",
         "link": "https://management.azure.com/68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e?api-version=2022-04-01"
+    },
+    {
+        "id": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
+        "name": "Impact Reporter",
+        "description": "Allows access to create/report, read and delete impacts",
+        "link": "https://management.azure.com/36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
     },
     {
         "id": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
@@ -4537,9 +4533,7 @@
         "id": "0a7c2fa1-6f28-41a4-86b8-e74937c63222",
         "name": "Tenant Contributor",
         "description": "Allows users to create and manage Entra ID Tenants.",
-        "link": "https://management.azure.com/0a7c2fa1-6f28-41a4-86b8-e74937c63222?api-version=2022-04-01",
-        "detected": "2025-09-29T02:26:50Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/0a7c2fa1-6f28-41a4-86b8-e74937c63222?api-version=2022-04-01"
     },
     {
         "id": "15e0f5a1-3450-4248-8e25-e2afe88a9e85",
