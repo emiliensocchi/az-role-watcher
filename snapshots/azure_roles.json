@@ -1374,6 +1374,12 @@
         "link": "https://management.azure.com/6ae96244-5829-4925-a7d3-5975537d91dd?api-version=2022-04-01"
     },
     {
+        "id": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
+        "name": "Azure impact Reporter role",
+        "description": "built-in role for azure impact write access",
+        "link": "https://management.azure.com/36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
+    },
+    {
         "id": "dfb2f09d-25f8-4558-8986-497084006d7a",
         "name": "Azure impact-insight reader",
         "description": "built-in role for azure impact-insight read access",
@@ -2994,12 +3000,6 @@
         "link": "https://management.azure.com/68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e?api-version=2022-04-01"
     },
     {
-        "id": "36e80216-a7e8-4f42-a7e1-f12c98cbaf8a",
-        "name": "Impact Reporter",
-        "description": "Allows access to create/report, read and delete impacts",
-        "link": "https://management.azure.com/36e80216-a7e8-4f42-a7e1-f12c98cbaf8a?api-version=2022-04-01"
-    },
-    {
         "id": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
         "name": "Integration Service Environment Contributor",
         "description": "Lets you manage integration service environments, but not access to them.",
@@ -4402,6 +4402,14 @@
         "name": "Storage File Data Privileged Reader",
         "description": "Customer has read access on Azure Storage file shares.",
         "link": "https://management.azure.com/b8eda974-7b85-4f76-af95-65846b26df6d?api-version=2022-04-01"
+    },
+    {
+        "id": "bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b",
+        "name": "Storage File Data SMB Admin",
+        "description": "Allows for admin access equivalent to storage account key for end users over SMB.",
+        "link": "https://management.azure.com/bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b?api-version=2022-04-01",
+        "detected": "2025-10-01T02:43:15Z",
+        "deleted": "false"
     },
     {
         "id": "a235d3ee-5935-4cfb-8cc5-a3303ad5995e",
