@@ -4407,9 +4407,7 @@
         "id": "bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b",
         "name": "Storage File Data SMB Admin",
         "description": "Allows for admin access equivalent to storage account key for end users over SMB.",
-        "link": "https://management.azure.com/bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b?api-version=2022-04-01",
-        "detected": "2025-10-01T02:43:15Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/bbf004e3-0e4b-4f86-ae4f-1f8fb47b357b?api-version=2022-04-01"
     },
     {
         "id": "a235d3ee-5935-4cfb-8cc5-a3303ad5995e",
