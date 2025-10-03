@@ -2646,6 +2646,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/af2bf46f-7bf1-4be3-8bad-e17e279e8462"
     },
     {
+        "id": "58971758-9844-4fe4-9fba-7e4ce7a659bf",
+        "name": "SecurityIdentitiesAutoConfig.Read.All",
+        "description": "Read sensors window auditing configuration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/58971758-9844-4fe4-9fba-7e4ce7a659bf"
+    },
+    {
+        "id": "4f1f0deb-08d1-4ffb-8cca-21dfc362b7c0",
+        "name": "SecurityIdentitiesAutoConfig.ReadWrite.All",
+        "description": "Read and write sensors window auditing configuration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4f1f0deb-08d1-4ffb-8cca-21dfc362b7c0"
+    },
+    {
         "id": "f8dcd971-5d83-4e1e-aa95-ef44611ad351",
         "name": "SecurityIdentitiesHealth.Read.All",
         "description": "Read all identity security health issues",
@@ -3352,6 +3364,12 @@
         "name": "User-Mail.ReadWrite.All",
         "description": "Read and write all secondary mail addresses for users",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/280d0935-0796-47d1-8d26-273470a3f17a"
+    },
+    {
+        "id": "a94a502d-0281-4d15-8cd2-682ac9362c4c",
+        "name": "User-OnPremisesSyncBehavior.ReadWrite.All",
+        "description": "Read and update the on-premises sync behavior of users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a94a502d-0281-4d15-8cd2-682ac9362c4c"
     },
     {
         "id": "cc117bb9-00cf-4eb8-b580-ea2a878fe8f7",

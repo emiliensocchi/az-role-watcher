@@ -6048,6 +6048,14 @@
         "deleted": "false"
     },
     {
+        "id": "68899692-f960-4247-af28-82f55b357997",
+        "name": "Supercomputer Infrastructure Contributor",
+        "description": "Lets you manage Supercomputer Infrastructure resources, but not access to them.",
+        "link": "https://management.azure.com/68899692-f960-4247-af28-82f55b357997?api-version=2022-04-01",
+        "detected": "2025-10-03T02:20:29Z",
+        "deleted": "false"
+    },
+    {
         "id": "cfd33db0-3dd1-45e3-aa9d-cdbdf3b6f24e",
         "name": "Support Request Contributor",
         "description": "Lets you create and manage Support requests",
