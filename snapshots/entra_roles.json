@@ -252,6 +252,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/29232cdf-9323-42fd-ade2-1d097af3e4de"
     },
     {
+        "id": "49eb8f75-97e9-4e37-9b2b-6c3ebfcffa31",
+        "name": "Exchange Backup Administrator",
+        "description": "Back up and restore content (including granular restore) for Exchange in Microsoft 365 Backup",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/49eb8f75-97e9-4e37-9b2b-6c3ebfcffa31"
+    },
+    {
         "id": "31392ffb-586c-42d1-9346-e59415a2cc4e",
         "name": "Exchange Recipient Administrator",
         "description": "Can create or update Exchange Online recipients within the Exchange Online organization.",
@@ -610,6 +616,12 @@
         "name": "SharePoint Administrator",
         "description": "Can manage all aspects of the SharePoint service.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f28a1f50-f6e7-4571-818b-6a12f2af6b6c"
+    },
+    {
+        "id": "9d3e04ba-3ee4-4d1b-a3a7-9aef423a09be",
+        "name": "SharePoint Backup Administrator",
+        "description": "Back up and restore content (including granular restore) for SharePoint and OneDrive in Microsoft 365 Backup",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9d3e04ba-3ee4-4d1b-a3a7-9aef423a09be"
     },
     {
         "id": "1a7d78b6-429f-476b-b8eb-35fb715fffd4",

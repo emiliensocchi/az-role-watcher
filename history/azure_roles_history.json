@@ -3576,6 +3576,14 @@
         "deleted": "false"
     },
     {
+        "id": "49eb8f75-97e9-4e37-9b2b-6c3ebfcffa31",
+        "name": "Exchange Backup Administrator",
+        "description": "Back up and restore content (including granular restore) for Exchange in Microsoft 365 Backup",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/49eb8f75-97e9-4e37-9b2b-6c3ebfcffa31",
+        "detected": "2025-10-04T02:16:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "7f646f1b-fa08-80eb-a33b-edd6ce5c915c",
         "name": "Experimentation Administrator",
         "description": "Experimentation Administrator",
@@ -5653,6 +5661,14 @@
         "description": "Services Hub Operator allows you to perform all read, write, and deletion operations related to Services Hub Connectors.",
         "link": "https://management.azure.com/82200a5b-e217-47a5-b665-6d8765ee745b?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9d3e04ba-3ee4-4d1b-a3a7-9aef423a09be",
+        "name": "SharePoint Backup Administrator",
+        "description": "Back up and restore content (including granular restore) for SharePoint and OneDrive in Microsoft 365 Backup",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9d3e04ba-3ee4-4d1b-a3a7-9aef423a09be",
+        "detected": "2025-10-04T02:16:31Z",
         "deleted": "false"
     },
     {
