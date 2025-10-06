@@ -92,7 +92,7 @@
     {
         "id": "6cef56e8-d556-48e5-a04f-b8e64114680f",
         "name": "AcrImageSigner",
-        "description": "acr image signer",
+        "description": "Planned DEPRECATION on March 31, 2028. Grant the signing permission for content trust. As content trust is being deprecated and will be completely removed on March 31, 2028, this role will also be removed. Refer to https://aka.ms/acr/dctdeprecation for details and transition guidance.",
         "link": "https://management.azure.com/6cef56e8-d556-48e5-a04f-b8e64114680f?api-version=2022-04-01"
     },
     {
@@ -1994,25 +1994,25 @@
     {
         "id": "bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7",
         "name": "Container Registry Repository Catalog Lister",
-        "description": "Allows for listing all repositories in an Azure Container Registry. This role is in preview and subject to change.",
+        "description": "Allows for listing all repositories in an Azure Container Registry.",
         "link": "https://management.azure.com/bfdb9389-c9a5-478a-bb2f-ba9ca092c3c7?api-version=2022-04-01"
     },
     {
         "id": "2efddaa5-3f1f-4df3-97df-af3f13818f4c",
         "name": "Container Registry Repository Contributor",
-        "description": "Allows for read, write, and delete access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
+        "description": "Allows for read, write, and delete access to Azure Container Registry repositories, but excluding catalog listing.",
         "link": "https://management.azure.com/2efddaa5-3f1f-4df3-97df-af3f13818f4c?api-version=2022-04-01"
     },
     {
         "id": "b93aa761-3e63-49ed-ac28-beffa264f7ac",
         "name": "Container Registry Repository Reader",
-        "description": "Allows for read access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
+        "description": "Allows for read access to Azure Container Registry repositories, but excluding catalog listing.",
         "link": "https://management.azure.com/b93aa761-3e63-49ed-ac28-beffa264f7ac?api-version=2022-04-01"
     },
     {
         "id": "2a1e307c-b015-4ebd-883e-5b7698a07328",
         "name": "Container Registry Repository Writer",
-        "description": "Allows for read and write access to Azure Container Registry repositories, but excluding catalog listing. This role is in preview and subject to change.",
+        "description": "Allows for read and write access to Azure Container Registry repositories, but excluding catalog listing.",
         "link": "https://management.azure.com/2a1e307c-b015-4ebd-883e-5b7698a07328?api-version=2022-04-01"
     },
     {
