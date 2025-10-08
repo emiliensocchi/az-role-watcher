@@ -678,6 +678,22 @@
         "link": "https://management.azure.com/a227fb39-f479-404b-96fd-0176f5d88ab4?api-version=2022-04-01"
     },
     {
+        "id": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
+        "name": "Azure Device Registry Contributor Role",
+        "description": "Can create resources in a namespace.",
+        "link": "https://management.azure.com/a5c3590a-3a1a-4cd4-9648-ea0a32b15137?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "09267e11-2e06-40b5-8fe4-68cea20794c9",
+        "name": "Azure Device Registry Credentials Contributor Role",
+        "description": "Lets you manage Credentials and Policies in a namespace.",
+        "link": "https://management.azure.com/09267e11-2e06-40b5-8fe4-68cea20794c9?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "2a740172-0fc2-4039-972c-b31864cd47d6",
         "name": "Azure Device Update Agent",
         "description": "Provide full access to all Azure Device Update agent operations",
@@ -1168,6 +1184,38 @@
         "name": "Azure Resilience Management Drills Reader",
         "description": "Reader Role of Azure Resilience Management Drills Service",
         "link": "https://management.azure.com/d2e8fe82-9212-490f-af3e-34bb52d87d3d?api-version=2022-04-01"
+    },
+    {
+        "id": "481d9636-d9f0-468b-b93d-6056318e6f36",
+        "name": "Azure Resilience Management Recovery Administrator",
+        "description": "Administrator Role of Azure Resilience Management Recovery Service",
+        "link": "https://management.azure.com/481d9636-d9f0-468b-b93d-6056318e6f36?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "4c7fd853-7345-4453-babd-e9481e9b460b",
+        "name": "Azure Resilience Management Recovery Contributor",
+        "description": "Contributor Role of Azure Resilience Management Recovery Service",
+        "link": "https://management.azure.com/4c7fd853-7345-4453-babd-e9481e9b460b?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "517781b0-5ad4-4418-94d5-f2421834b586",
+        "name": "Azure Resilience Management Recovery Operator",
+        "description": "Operator Role of Azure Resilience Management Recovery Service",
+        "link": "https://management.azure.com/517781b0-5ad4-4418-94d5-f2421834b586?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "8210e6a3-4e4c-4e1a-bd83-ef8bac788a45",
+        "name": "Azure Resilience Management Recovery Reader",
+        "description": "Reader Role of Azure Resilience Management Recovery Service",
+        "link": "https://management.azure.com/8210e6a3-4e4c-4e1a-bd83-ef8bac788a45?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
     },
     {
         "id": "7b1f81f9-4196-4058-8aae-762e593270df",
@@ -2938,6 +2986,14 @@
         "name": "Healthcare Agent Admin",
         "description": "Users with admin access can sign in, view and edit all of the bot resources, scenarios and configuration setting including the bot instance keys & secrets.",
         "link": "https://management.azure.com/f1082fec-a70f-419f-9230-885d2550fb38?api-version=2022-04-01"
+    },
+    {
+        "id": "13d06eae-ec82-4345-bcd6-c38625ddffbc",
+        "name": "Healthcare Agent Contributer",
+        "description": "Manage Helathcare Agent resources - list, view details, edit and delete resources.",
+        "link": "https://management.azure.com/13d06eae-ec82-4345-bcd6-c38625ddffbc?api-version=2022-04-01",
+        "detected": "2025-10-08T02:21:58Z",
+        "deleted": "false"
     },
     {
         "id": "af854a69-80ce-4ff7-8447-f1118a2e0ca8",
