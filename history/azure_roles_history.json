@@ -920,6 +920,14 @@
         "deleted": "false"
     },
     {
+        "id": "547f7f0a-69c0-4807-bd9e-0321dfb66a84",
+        "name": "Azure Device Registry Onboarding Role",
+        "description": "Onboard to Azure Device Registry.",
+        "link": "https://management.azure.com/547f7f0a-69c0-4807-bd9e-0321dfb66a84?api-version=2022-04-01",
+        "detected": "2025-10-10T02:23:49Z",
+        "deleted": "false"
+    },
+    {
         "id": "2a740172-0fc2-4039-972c-b31864cd47d6",
         "name": "Azure Device Update Agent",
         "description": "Provide full access to all Azure Device Update agent operations",
@@ -4821,6 +4829,14 @@
         "description": "Built in role to perform Write operations on CloudPcDelegatedMsis resources.",
         "link": "https://management.azure.com/21bffb94-04c0-4ed0-b676-68bb926e832b?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5d5dddae-e124-4753-972d-aae60b37deb4",
+        "name": "Migrate Arc Discovery Reader - Preview",
+        "description": "Read metadata of Azure Arc enabled server resources and metadata, performance and migration suitability of Arc enabled SQL server resources. Users creating Azure Migrate project that uses Arc resource discovery require this role on Arc scope of the project. To enable periodic sync, Azure Migrate project managed identity must be assigned this role. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/5d5dddae-e124-4753-972d-aae60b37deb4?api-version=2022-04-01",
+        "detected": "2025-10-10T02:23:49Z",
         "deleted": "false"
     },
     {
