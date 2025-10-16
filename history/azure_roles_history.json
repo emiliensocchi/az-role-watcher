@@ -4032,6 +4032,14 @@
         "deleted": "false"
     },
     {
+        "id": "9d3ef640-3c86-4e0a-8907-8d361559c012",
+        "name": "Hybrid Network Owner",
+        "description": "Provides owner access to Hybrid Network Resources",
+        "link": "https://management.azure.com/9d3ef640-3c86-4e0a-8907-8d361559c012?api-version=2022-04-01",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "5d1e5ee4-7c68-4a71-ac8b-0739630a3dfb",
         "name": "Hybrid Server Onboarding",
         "description": "Can onboard new Hybrid servers to the Hybrid Resource Provider.",

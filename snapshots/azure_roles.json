@@ -679,14 +679,14 @@
     },
     {
         "id": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
-        "name": "Azure Device Registry Contributor Role",
-        "description": "Can create resources in a namespace.",
+        "name": "Azure Device Registry Contributor",
+        "description": "Allows for full access to IoT devices within Azure Device Registry Namespace.",
         "link": "https://management.azure.com/a5c3590a-3a1a-4cd4-9648-ea0a32b15137?api-version=2022-04-01"
     },
     {
         "id": "09267e11-2e06-40b5-8fe4-68cea20794c9",
-        "name": "Azure Device Registry Credentials Contributor Role",
-        "description": "Lets you manage Credentials and Policies in a namespace.",
+        "name": "Azure Device Registry Credentials Contributor",
+        "description": "Allows for full access to manage credentials and policies within Azure Device Registry Namespace.",
         "link": "https://management.azure.com/09267e11-2e06-40b5-8fe4-68cea20794c9?api-version=2022-04-01"
     },
     {
@@ -3016,6 +3016,14 @@
         "name": "Hybrid Connectivity contributor role",
         "description": "Microsoft.HybridConnectivity contributor role",
         "link": "https://management.azure.com/f0f57965-de58-41bc-ba76-2aaab4d09f30?api-version=2022-04-01"
+    },
+    {
+        "id": "9d3ef640-3c86-4e0a-8907-8d361559c012",
+        "name": "Hybrid Network Owner",
+        "description": "Provides owner access to Hybrid Network Resources",
+        "link": "https://management.azure.com/9d3ef640-3c86-4e0a-8907-8d361559c012?api-version=2022-04-01",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
     },
     {
         "id": "5d1e5ee4-7c68-4a71-ac8b-0739630a3dfb",

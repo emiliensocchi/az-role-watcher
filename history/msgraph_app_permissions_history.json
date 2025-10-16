@@ -4600,6 +4600,70 @@
         "deleted": "false"
     },
     {
+        "id": "a1e58be0-1095-422b-b067-73434bd7d40f",
+        "name": "UserAuthMethod-Email.Read.All",
+        "description": "Read all users' email methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a1e58be0-1095-422b-b067-73434bd7d40f",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e8ecb853-1435-4a49-95ba-ec5b31b11672",
+        "name": "UserAuthMethod-Email.ReadWrite.All",
+        "description": "Read and write all users' email methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e8ecb853-1435-4a49-95ba-ec5b31b11672",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "d2c4289f-9f95-40da-ad43-eeb1506f0db7",
+        "name": "UserAuthMethod-External.Read.All",
+        "description": "Read all users' external authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d2c4289f-9f95-40da-ad43-eeb1506f0db7",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "c7a22c2e-5b01-4129-8159-6c8be2c78f16",
+        "name": "UserAuthMethod-External.ReadWrite.All",
+        "description": "Read and write all users' external authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c7a22c2e-5b01-4129-8159-6c8be2c78f16",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7b544555-7811-49ff-8223-a56be870e33a",
+        "name": "UserAuthMethod-HardwareOATH.Read.All",
+        "description": "Read all users' HardwareOATH authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7b544555-7811-49ff-8223-a56be870e33a",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7e9ebcc1-90aa-4471-8051-e68d6b4e9c89",
+        "name": "UserAuthMethod-HardwareOATH.ReadWrite.All",
+        "description": "Read and write all users' HardwareOATH authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7e9ebcc1-90aa-4471-8051-e68d6b4e9c89",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "a9c5f16e-e5ca-4e33-89ad-903fcfc01c23",
+        "name": "UserAuthMethod-MicrosoftAuthApp.Read.All",
+        "description": "Read all users' Microsoft authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a9c5f16e-e5ca-4e33-89ad-903fcfc01c23",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "c833c349-a1ab-4b6d-94a2-fa9a8674420c",
+        "name": "UserAuthMethod-MicrosoftAuthApp.ReadWrite.All",
+        "description": "Read and write all users' Microsoft Authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c833c349-a1ab-4b6d-94a2-fa9a8674420c",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "72e00c1d-3e3d-43bb-a0b9-c435611bb1d2",
         "name": "UserAuthMethod-Passkey.Read.All",
         "description": "Read all users' passkey authentication methods",
@@ -4613,6 +4677,118 @@
         "description": "Read and write all users' passkey authentication methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0400e371-7db1-4338-a269-96069eb65227",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "8d2c17ff-b93d-40d5-9def-d843680509cb",
+        "name": "UserAuthMethod-Password.Read.All",
+        "description": "Read all users' password authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8d2c17ff-b93d-40d5-9def-d843680509cb",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f6d38dfd-ec08-4995-8f07-23e929df0936",
+        "name": "UserAuthMethod-Password.ReadWrite.All",
+        "description": "Read and write all users' password authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f6d38dfd-ec08-4995-8f07-23e929df0936",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f529a223-ea70-43ec-b268-5012de2fbaa2",
+        "name": "UserAuthMethod-Phone.Read.All",
+        "description": "Read all users' phone authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f529a223-ea70-43ec-b268-5012de2fbaa2",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "6e85d483-7092-4375-babe-0a94a8213a58",
+        "name": "UserAuthMethod-Phone.ReadWrite.All",
+        "description": "Read and write all users' phone methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e85d483-7092-4375-babe-0a94a8213a58",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "07c0b1e4-15bd-442f-834b-30f8291388d1",
+        "name": "UserAuthMethod-PlatformCred.Read.All",
+        "description": "Read all users' platform credentials methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/07c0b1e4-15bd-442f-834b-30f8291388d1",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1a87acf4-a9ca-4576-a974-452ea265d5f6",
+        "name": "UserAuthMethod-PlatformCred.ReadWrite.All",
+        "description": "Read and write all users' platform credentials methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1a87acf4-a9ca-4576-a974-452ea265d5f6",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9a45bc50-cddd-4ebe-bd9c-4f2eacf646ae",
+        "name": "UserAuthMethod-QR.Read.All",
+        "description": "Read all users' QR methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9a45bc50-cddd-4ebe-bd9c-4f2eacf646ae",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "4869299f-18c3-40c8-98f2-222657e67db1",
+        "name": "UserAuthMethod-QR.ReadWrite.All",
+        "description": "Read and write all users' QR methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4869299f-18c3-40c8-98f2-222657e67db1",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "a6b423df-a0c8-411d-a809-a4a5985d2939",
+        "name": "UserAuthMethod-SoftwareOATH.Read.All",
+        "description": "Read all users' SoftwareOATH methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a6b423df-a0c8-411d-a809-a4a5985d2939",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "787442d4-3c6e-4e99-aa95-8ccca20a48ff",
+        "name": "UserAuthMethod-SoftwareOATH.ReadWrite.All",
+        "description": "Read and write all users' SoftwareOATH methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/787442d4-3c6e-4e99-aa95-8ccca20a48ff",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "bf82209c-b22b-4747-ac88-a68be99032cf",
+        "name": "UserAuthMethod-TAP.Read.All",
+        "description": "Read all users' Temporary Access Pass methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bf82209c-b22b-4747-ac88-a68be99032cf",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "627169a8-8c15-451c-861a-5b80e383de5c",
+        "name": "UserAuthMethod-TAP.ReadWrite.All",
+        "description": "Read and write all users' Temporary Access Pass methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/627169a8-8c15-451c-861a-5b80e383de5c",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9b8dd4c7-8cca-4ef5-a34a-9c2c75fcc934",
+        "name": "UserAuthMethod-WindowsHello.Read.All",
+        "description": "Read all users' Windows Hello methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9b8dd4c7-8cca-4ef5-a34a-9c2c75fcc934",
+        "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f14eee8a-713e-45aa-8223-2ab74632db1a",
+        "name": "UserAuthMethod-WindowsHello.ReadWrite.All",
+        "description": "Read and write all users' Windows Hello authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f14eee8a-713e-45aa-8223-2ab74632db1a",
+        "detected": "2025-10-16T02:25:58Z",
         "deleted": "false"
     },
     {
