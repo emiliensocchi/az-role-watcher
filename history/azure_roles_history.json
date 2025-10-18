@@ -1592,6 +1592,30 @@
         "deleted": "false"
     },
     {
+        "id": "a2b7cc47-30ec-462f-a2f4-9ac6e1c266af",
+        "name": "Azure Resilience Management Goals Administrator",
+        "description": "This role allows users to view, assign and delete resiliency goals for the service group, as well as modify the list of service group members that get evaluated against the goal. This role also allows a user to assign goal related permissions to other users.",
+        "link": "https://management.azure.com/a2b7cc47-30ec-462f-a2f4-9ac6e1c266af?api-version=2022-04-01",
+        "detected": "2025-10-18T02:19:56Z",
+        "deleted": "false"
+    },
+    {
+        "id": "3910633d-19d0-4d31-b5e6-4f3101b137b9",
+        "name": "Azure Resilience Management Goals Contributor",
+        "description": "This role allows users to view, assign and delete resiliency goals for the service group, as well as modify the list of service group members that get evaluated against the goal.",
+        "link": "https://management.azure.com/3910633d-19d0-4d31-b5e6-4f3101b137b9?api-version=2022-04-01",
+        "detected": "2025-10-18T02:19:56Z",
+        "deleted": "false"
+    },
+    {
+        "id": "39ea2c4e-798a-4469-b81d-65dc7c54cbdb",
+        "name": "Azure Resilience Management Goals Reader",
+        "description": "This role allows users to view the resiliency goals for the service group, as well as view the list of service group members that are being evaluated against the goal.",
+        "link": "https://management.azure.com/39ea2c4e-798a-4469-b81d-65dc7c54cbdb?api-version=2022-04-01",
+        "detected": "2025-10-18T02:19:56Z",
+        "deleted": "false"
+    },
+    {
         "id": "481d9636-d9f0-468b-b93d-6056318e6f36",
         "name": "Azure Resilience Management Recovery Administrator",
         "description": "Administrator Role of Azure Resilience Management Recovery Service",
