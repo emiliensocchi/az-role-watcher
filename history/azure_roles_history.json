@@ -4680,6 +4680,14 @@
         "deleted": "false"
     },
     {
+        "id": "852e55ca-96ce-48b0-abca-2cd74d9042ca",
+        "name": "Managed Mesh for AKS Contributor Role",
+        "description": "Grant read, write and delete access to Managed Mesh for AKS",
+        "link": "https://management.azure.com/852e55ca-96ce-48b0-abca-2cd74d9042ca?api-version=2022-04-01",
+        "detected": "2025-10-22T02:42:04Z",
+        "deleted": "false"
+    },
+    {
         "id": "91c1777a-f3dc-4fae-b103-61d183457e46",
         "name": "Managed Services Registration assignment Delete Role",
         "description": "Managed Services Registration Assignment Delete Role allows the managing tenant users to delete the registration assignment assigned to their tenant.",
