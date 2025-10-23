@@ -1120,11 +1120,27 @@
         "deleted": "false"
     },
     {
+        "id": "d1f699ed-700a-4c77-a22f-29890ac7b115",
+        "name": "Azure Kubernetes Fleet Manager RBAC Admin for Member Clusters",
+        "description": "This\u00a0role\u00a0grants\u00a0admin\u00a0access\u00a0-\u00a0provides\u00a0write\u00a0permissions\u00a0on\u00a0most\u00a0objects\u00a0within\u00a0a\u00a0namespace,\u00a0with\u00a0the\u00a0exception\u00a0of\u00a0ResourceQuota\u00a0object\u00a0and\u00a0the\u00a0namespace\u00a0object\u00a0itself.\u00a0Applying\u00a0this\u00a0role\u00a0at\u00a0cluster\u00a0scope\u00a0will\u00a0give\u00a0access\u00a0across\u00a0all\u00a0namespaces.",
+        "link": "https://management.azure.com/d1f699ed-700a-4c77-a22f-29890ac7b115?api-version=2022-04-01",
+        "detected": "2025-10-23T02:27:04Z",
+        "deleted": "false"
+    },
+    {
         "id": "18ab4d3d-a1bf-4477-8ad9-8359bc988f69",
         "name": "Azure Kubernetes Fleet Manager RBAC Cluster Admin",
         "description": "Grants read/write access to all Kubernetes resources in the fleet-managed hub cluster.",
         "link": "https://management.azure.com/18ab4d3d-a1bf-4477-8ad9-8359bc988f69?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "79a36d98-eb96-4a76-ae1d-481dc98d2c23",
+        "name": "Azure Kubernetes Fleet Manager RBAC Cluster Admin for Member Clusters",
+        "description": "Lets\u00a0you\u00a0manage\u00a0all\u00a0resources\u00a0in\u00a0the\u00a0member\u00a0clusters\u00a0in\u00a0the\u00a0fleet.",
+        "link": "https://management.azure.com/79a36d98-eb96-4a76-ae1d-481dc98d2c23?api-version=2022-04-01",
+        "detected": "2025-10-23T02:27:04Z",
         "deleted": "false"
     },
     {
@@ -1152,11 +1168,27 @@
         "deleted": "false"
     },
     {
+        "id": "463ad26c-fcce-4469-9c7f-5653d8acbab5",
+        "name": "Azure Kubernetes Fleet Manager RBAC Reader for Member Clusters",
+        "description": "Allows\u00a0read-only\u00a0access\u00a0to\u00a0see\u00a0most\u00a0objects\u00a0in\u00a0a\u00a0namespace.\u00a0It\u00a0does\u00a0not\u00a0allow\u00a0viewing\u00a0roles\u00a0or\u00a0role\u00a0bindings.\u00a0This\u00a0role\u00a0does\u00a0not\u00a0allow\u00a0viewing\u00a0Secrets,\u00a0since\u00a0reading\u00a0the\u00a0contents\u00a0of\u00a0Secrets\u00a0enables\u00a0access\u00a0to\u00a0ServiceAccount\u00a0credentials\u00a0in\u00a0the\u00a0namespace,\u00a0which\u00a0would\u00a0allow\u00a0API\u00a0access\u00a0as\u00a0any\u00a0ServiceAccount\u00a0in\u00a0the\u00a0namespace\u00a0(a\u00a0form\u00a0of\u00a0privilege\u00a0escalation).\u00a0\u00a0Applying\u00a0this\u00a0role\u00a0at\u00a0cluster\u00a0scope\u00a0will\u00a0give\u00a0access\u00a0across\u00a0all\u00a0namespaces.",
+        "link": "https://management.azure.com/463ad26c-fcce-4469-9c7f-5653d8acbab5?api-version=2022-04-01",
+        "detected": "2025-10-23T02:27:04Z",
+        "deleted": "false"
+    },
+    {
         "id": "5af6afb3-c06c-4fa4-8848-71a8aee05683",
         "name": "Azure Kubernetes Fleet Manager RBAC Writer",
         "description": "Grants read/write access to most Kubernetes resources within a namespace in the fleet-managed hub cluster. This role does not allow viewing or modifying roles or role bindings. However, this role allows accessing Secrets as any ServiceAccount in the namespace, so it can be used to gain the API access levels of any ServiceAccount in the namespace.\u00a0 Applying this role at cluster scope will give access across all namespaces.",
         "link": "https://management.azure.com/5af6afb3-c06c-4fa4-8848-71a8aee05683?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "50346970-0998-40f2-b47d-f3b8809840f8",
+        "name": "Azure Kubernetes Fleet Manager RBAC Writer for Member Clusters",
+        "description": "Allows\u00a0read/write\u00a0access\u00a0to\u00a0most\u00a0objects\u00a0in\u00a0a\u00a0namespace.\u00a0This\u00a0role\u00a0does\u00a0not\u00a0allow\u00a0viewing\u00a0or\u00a0modifying\u00a0roles\u00a0or\u00a0role\u00a0bindings.\u00a0However,\u00a0this\u00a0role\u00a0allows\u00a0accessing\u00a0Secrets\u00a0and\u00a0running\u00a0Pods\u00a0as\u00a0any\u00a0ServiceAccount\u00a0in\u00a0the\u00a0namespace,\u00a0so\u00a0it\u00a0can\u00a0be\u00a0used\u00a0to\u00a0gain\u00a0the\u00a0API\u00a0access\u00a0levels\u00a0of\u00a0any\u00a0ServiceAccount\u00a0in\u00a0the\u00a0namespace.\u00a0\u00a0Applying\u00a0this\u00a0role\u00a0at\u00a0cluster\u00a0scope\u00a0will\u00a0give\u00a0access\u00a0across\u00a0all\u00a0namespaces.",
+        "link": "https://management.azure.com/50346970-0998-40f2-b47d-f3b8809840f8?api-version=2022-04-01",
+        "detected": "2025-10-23T02:27:04Z",
         "deleted": "false"
     },
     {
