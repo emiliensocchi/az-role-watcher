@@ -1424,6 +1424,38 @@
         "deleted": "false"
     },
     {
+        "id": "7859c0b0-0bb9-4994-bd12-cd529af7d646",
+        "name": "Azure Migrate Decide and Plan Expert",
+        "description": "Grants restricted access on Azure Migrate project to only perform planning operations including appliance-based discovery, managing inventory, identifying server dependencies, creation of business case & assessment reports.",
+        "link": "https://management.azure.com/7859c0b0-0bb9-4994-bd12-cd529af7d646?api-version=2022-04-01",
+        "detected": "2025-10-24T02:23:30Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1cfa4eac-9a23-481c-a793-bfb6958e836b",
+        "name": "Azure Migrate Execute Expert",
+        "description": "Grants restricted access on an Azure Migrate project to only perform migration related operations, including replication, execution of test migrations, tracking and monitoring of migration progress, and initiation of agentless and agent-based migrations.",
+        "link": "https://management.azure.com/1cfa4eac-9a23-481c-a793-bfb6958e836b?api-version=2022-04-01",
+        "detected": "2025-10-24T02:23:30Z",
+        "deleted": "false"
+    },
+    {
+        "id": "fd8ea4d5-6509-4db0-bada-356ab233b4fa",
+        "name": "Azure Migrate Owner",
+        "description": "Grants full access to create and manage Azure Migrate projects including appliance-based discovery, creation of business case & assessment report and execution of migrations; Also grants ability to assign Azure Migrate specific roles in Azure RBAC.",
+        "link": "https://management.azure.com/fd8ea4d5-6509-4db0-bada-356ab233b4fa?api-version=2022-04-01",
+        "detected": "2025-10-24T02:23:30Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ba480ccd-6499-4709-b581-8f38bb215c63",
+        "name": "Azure Migrate Service Reader",
+        "description": "Grants required access to the system assigned managed identity of Azure Migrate project resource.",
+        "link": "https://management.azure.com/ba480ccd-6499-4709-b581-8f38bb215c63?api-version=2022-04-01",
+        "detected": "2025-10-24T02:23:30Z",
+        "deleted": "false"
+    },
+    {
         "id": "0618ae3d-2930-4bb7-aa00-718db34ee9f9",
         "name": "Azure Monitor Dashboards with Grafana Contributor",
         "description": "Can manage dashboards with Grafana.",
