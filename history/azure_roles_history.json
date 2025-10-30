@@ -5440,6 +5440,22 @@
         "deleted": "false"
     },
     {
+        "id": "b54df9c1-53dc-45cc-a86d-7a83cced2ed0",
+        "name": "Relationship Administrator",
+        "description": "Role definition allowing read, write and delete access to all relationship types",
+        "link": "https://management.azure.com/b54df9c1-53dc-45cc-a86d-7a83cced2ed0?api-version=2022-04-01",
+        "detected": "2025-10-30T02:43:09Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5eaf7b81-a48f-45ed-b6b4-c64bfe86d523",
+        "name": "Relationship Reader",
+        "description": "Role definition allowing read access to all relationship types",
+        "link": "https://management.azure.com/5eaf7b81-a48f-45ed-b6b4-c64bfe86d523?api-version=2022-04-01",
+        "detected": "2025-10-30T02:43:09Z",
+        "deleted": "false"
+    },
+    {
         "id": "3df8b902-2a6f-47c7-8cc5-360e9b272a7e",
         "name": "Remote Rendering Administrator",
         "description": "Provides user with conversion, manage session, rendering and diagnostics capabilities for Azure Remote Rendering",
@@ -5805,6 +5821,14 @@
         "description": "Role Definition for contributor of a Service Group",
         "link": "https://management.azure.com/32e6a4ec-6095-4e37-b54b-12aa350ba81f?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "05b1aaf9-00c9-477b-b0e8-2da660b78c51",
+        "name": "Service Group Member Relationship Contributor",
+        "description": "Role definition allowing read, write and delete access to Service Group Member relationship types",
+        "link": "https://management.azure.com/05b1aaf9-00c9-477b-b0e8-2da660b78c51?api-version=2022-04-01",
+        "detected": "2025-10-30T02:43:09Z",
         "deleted": "false"
     },
     {
