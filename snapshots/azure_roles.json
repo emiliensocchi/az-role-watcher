@@ -1224,6 +1224,22 @@
         "link": "https://management.azure.com/c914561b-1575-4601-af9c-a1356bf59818?api-version=2022-04-01"
     },
     {
+        "id": "5a2ec2f1-2375-4950-9906-59ec1d979249",
+        "name": "Azure Resilience Management Drills Assets Administrator",
+        "description": "This Role grants permissions on the Chaos Subscription to create, read, and delete Resource Groups, Automation Accounts, and Chaos Experiments, and assigns necessary roles to Drill and Chaos MSIs for executing post actions required by Azure Resilience Management Drills.",
+        "link": "https://management.azure.com/5a2ec2f1-2375-4950-9906-59ec1d979249?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
+    },
+    {
+        "id": "344b740c-5e7c-4d32-89b2-ee3b51cb89bc",
+        "name": "Azure Resilience Management Drills Assets Contributor",
+        "description": "This Role grants permissions on the Chaos Subscription to create, read, and delete Resource Groups, Automation Accounts, and Chaos Experiments for managing chaos engineering workflows required by Azure Resilience Management Drills",
+        "link": "https://management.azure.com/344b740c-5e7c-4d32-89b2-ee3b51cb89bc?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
+    },
+    {
         "id": "e131102b-11a5-4ff4-8508-ed922132b74c",
         "name": "Azure Resilience Management Drills Contributor",
         "description": "Contributor Role of Azure Resilience Management Drills Service",
@@ -1240,6 +1256,22 @@
         "name": "Azure Resilience Management Drills Reader",
         "description": "Reader Role of Azure Resilience Management Drills Service",
         "link": "https://management.azure.com/d2e8fe82-9212-490f-af3e-34bb52d87d3d?api-version=2022-04-01"
+    },
+    {
+        "id": "e4c7f620-39b8-4688-bba2-70dd82ef367b",
+        "name": "Azure Resilience Management Drills Target Resource Administrator",
+        "description": "This role should be assigned at the Service Group Members scope to enable resource read access, manage role assignments, and configure chaos targets and capabilities for fault injection, failover, and other post-fault actions",
+        "link": "https://management.azure.com/e4c7f620-39b8-4688-bba2-70dd82ef367b?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
+    },
+    {
+        "id": "82c6a823-ae9c-4b90-b5c5-bff581c45896",
+        "name": "Azure Resilience Management Drills Target Resource Contributor",
+        "description": "This role should be assigned at the Service Group Members scope to enable resource read access and configure chaos targets and capabilities for fault injection, failover, and other post-fault actions",
+        "link": "https://management.azure.com/82c6a823-ae9c-4b90-b5c5-bff581c45896?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
     },
     {
         "id": "a2b7cc47-30ec-462f-a2f4-9ac6e1c266af",
@@ -2334,6 +2366,14 @@
         "link": "https://management.azure.com/8480c0f0-4509-4229-9339-7c10018cb8c4?api-version=2022-04-01"
     },
     {
+        "id": "512ef07a-840c-48d2-9be4-9a30a75a5c70",
+        "name": "Defender Cloud Secrets Posture",
+        "description": "Service role that provides permissions for Microsoft Defender Cloud Secrets Posture",
+        "link": "https://management.azure.com/512ef07a-840c-48d2-9be4-9a30a75a5c70?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
+    },
+    {
         "id": "c5c82243-e78e-43f9-8428-793bba85b28e",
         "name": "Defender For Container Registries Operator",
         "description": "Grants Microsoft Defender for Cloud access to Azure Container Registries",
@@ -3120,6 +3160,14 @@
         "link": "https://management.azure.com/68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e?api-version=2022-04-01"
     },
     {
+        "id": "2e481b5d-5af3-463b-8b01-f9c948aaf0c5",
+        "name": "Informatica DataManagement Contributor role",
+        "description": "Informatica DataManagement Provider role to manage organizations and child resource.",
+        "link": "https://management.azure.com/2e481b5d-5af3-463b-8b01-f9c948aaf0c5?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
+    },
+    {
         "id": "a41e2c5b-bd99-4a07-88f4-9bf657a760b8",
         "name": "Integration Service Environment Contributor",
         "description": "Lets you manage integration service environments, but not access to them.",
@@ -3562,6 +3610,14 @@
         "name": "Marketplace Admin",
         "description": "Marketplace Admin grants full access to manage Private Azure Marketplace, including read and take action for private marketplace notifications, but does not allow to assign Marketplace Admin role to others",
         "link": "https://management.azure.com/dd920d6d-f481-47f1-b461-f338c46b2d9f?api-version=2022-04-01"
+    },
+    {
+        "id": "5052f0f9-7e27-4570-bc13-9ee1cf442526",
+        "name": "Microsoft Confluent Contributor role",
+        "description": "Microsoft Confluent Provider role to manage organizations and child resource.",
+        "link": "https://management.azure.com/5052f0f9-7e27-4570-bc13-9ee1cf442526?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
     },
     {
         "id": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
@@ -4047,17 +4103,13 @@
         "id": "b54df9c1-53dc-45cc-a86d-7a83cced2ed0",
         "name": "Relationship Administrator",
         "description": "Role definition allowing read, write and delete access to all relationship types",
-        "link": "https://management.azure.com/b54df9c1-53dc-45cc-a86d-7a83cced2ed0?api-version=2022-04-01",
-        "detected": "2025-10-30T02:43:09Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/b54df9c1-53dc-45cc-a86d-7a83cced2ed0?api-version=2022-04-01"
     },
     {
         "id": "5eaf7b81-a48f-45ed-b6b4-c64bfe86d523",
         "name": "Relationship Reader",
         "description": "Role definition allowing read access to all relationship types",
-        "link": "https://management.azure.com/5eaf7b81-a48f-45ed-b6b4-c64bfe86d523?api-version=2022-04-01",
-        "detected": "2025-10-30T02:43:09Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/5eaf7b81-a48f-45ed-b6b4-c64bfe86d523?api-version=2022-04-01"
     },
     {
         "id": "3df8b902-2a6f-47c7-8cc5-360e9b272a7e",
@@ -4136,6 +4188,14 @@
         "name": "SRE Agent Administrator",
         "description": "Full control of the agent\u2014manage chats, incident response plans, and agent run modes; approve and execute commands.",
         "link": "https://management.azure.com/e79298df-d852-4c6d-84f9-5d13249d1e55?api-version=2022-04-01"
+    },
+    {
+        "id": "eb64ab4c-23eb-4f63-a9c2-27da365f04e7",
+        "name": "SRE Agent Author",
+        "description": "Allows users to add custom features to the SRE Agent using incident handlers and extended agents.",
+        "link": "https://management.azure.com/eb64ab4c-23eb-4f63-a9c2-27da365f04e7?api-version=2022-04-01",
+        "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
     },
     {
         "id": "a4b156ac-253f-4a1a-9851-96d62b71b047",
@@ -4339,9 +4399,7 @@
         "id": "05b1aaf9-00c9-477b-b0e8-2da660b78c51",
         "name": "Service Group Member Relationship Contributor",
         "description": "Role definition allowing read, write and delete access to Service Group Member relationship types",
-        "link": "https://management.azure.com/05b1aaf9-00c9-477b-b0e8-2da660b78c51?api-version=2022-04-01",
-        "detected": "2025-10-30T02:43:09Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/05b1aaf9-00c9-477b-b0e8-2da660b78c51?api-version=2022-04-01"
     },
     {
         "id": "de754d53-652d-4c75-a67f-1e48d8b49c97",
