@@ -1816,6 +1816,22 @@
         "deleted": "false"
     },
     {
+        "id": "4aadfb66-d49a-414a-a883-d8c240b6fa33",
+        "name": "IdentityRiskyAgent.Read.All",
+        "description": "Read all risky agents information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4aadfb66-d49a-414a-a883-d8c240b6fa33",
+        "detected": "2025-11-04T02:42:22Z",
+        "deleted": "false"
+    },
+    {
+        "id": "dca4e4fd-a7cf-4e6f-86d1-d1ec094d766e",
+        "name": "IdentityRiskyAgent.ReadWrite.All",
+        "description": "Read and write risky agents information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dca4e4fd-a7cf-4e6f-86d1-d1ec094d766e",
+        "detected": "2025-11-04T02:42:22Z",
+        "deleted": "false"
+    },
+    {
         "id": "607c7344-0eed-41e5-823a-9695ebe1b7b0",
         "name": "IdentityRiskyServicePrincipal.Read.All",
         "description": "Read all identity risky service principal information",
