@@ -69,9 +69,7 @@
         "id": "dc0882cc-bc27-4d21-9ea2-f821aaa10fb1",
         "name": "ARN Service Event Grid Subscriber Role",
         "description": "Allows ARN to subscribe to partner event grid topics",
-        "link": "https://management.azure.com/dc0882cc-bc27-4d21-9ea2-f821aaa10fb1?api-version=2022-04-01",
-        "detected": "2025-11-06T02:44:42Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/dc0882cc-bc27-4d21-9ea2-f821aaa10fb1?api-version=2022-04-01"
     },
     {
         "id": "d715fb95-a0f0-4f1c-8be6-5ad2d2767f67",
@@ -2969,9 +2967,7 @@
         "id": "a51d5f27-deba-47d1-9ccd-8589014b2e28",
         "name": "Gcp Connector contributor role",
         "description": "Microsoft.GcpConnector contributor role",
-        "link": "https://management.azure.com/a51d5f27-deba-47d1-9ccd-8589014b2e28?api-version=2022-04-01",
-        "detected": "2025-11-06T02:44:42Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/a51d5f27-deba-47d1-9ccd-8589014b2e28?api-version=2022-04-01"
     },
     {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
