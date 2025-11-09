@@ -3144,6 +3144,14 @@
         "deleted": "false"
     },
     {
+        "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
+        "name": "Defender CSPM",
+        "description": "Grants permissions for Microsoft Defender for Cloud CSPM base plan features",
+        "link": "https://management.azure.com/46023a6a-0702-4cbf-956c-d8c3ac27bc2b?api-version=2022-04-01",
+        "detected": "2025-11-09T02:44:41Z",
+        "deleted": "false"
+    },
+    {
         "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
         "name": "Defender CSPM Storage Data Scanner",
         "description": "Grants access to read blobs and files. This role is used by the data scanner of Dfender CSPM.",
@@ -6192,6 +6200,22 @@
         "deleted": "false"
     },
     {
+        "id": "9d819e60-1b9f-4871-b492-4e6cdee0b50a",
+        "name": "Storage Connector Contributor",
+        "description": "Allows creating and managing storage connectors to access remote data sources in-place in a storage account. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/9d819e60-1b9f-4871-b492-4e6cdee0b50a?api-version=2022-04-01",
+        "detected": "2025-11-09T02:44:41Z",
+        "deleted": "false"
+    },
+    {
+        "id": "35c49d44-ccc1-4b18-8267-cfb3bacdd396",
+        "name": "Storage DataShare Contributor",
+        "description": "Allows creating and managing storage dataShares to share data from storage accounts in-place. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/35c49d44-ccc1-4b18-8267-cfb3bacdd396?api-version=2022-04-01",
+        "detected": "2025-11-09T02:44:41Z",
+        "deleted": "false"
+    },
+    {
         "id": "69566ab7-960f-475b-8e7c-b3118f30c6bd",
         "name": "Storage File Data Privileged Contributor",
         "description": "Customer has read, write, delete and modify NTFS permission access on Azure Storage file shares.",
@@ -6245,6 +6269,14 @@
         "description": "Allows for read access to Azure File Share over SMB",
         "link": "https://management.azure.com/aba4ae5f-2193-4029-9191-0cb91df5e314?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5d9bac3f-34b2-432f-bde5-78aa8e73ce6b",
+        "name": "Storage File Data SMB Take Ownership",
+        "description": "Allows end user to assume ownership of a file/directory",
+        "link": "https://management.azure.com/5d9bac3f-34b2-432f-bde5-78aa8e73ce6b?api-version=2022-04-01",
+        "detected": "2025-11-09T02:44:41Z",
         "deleted": "false"
     },
     {
