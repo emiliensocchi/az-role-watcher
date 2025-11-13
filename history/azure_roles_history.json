@@ -2544,6 +2544,14 @@
         "deleted": "false"
     },
     {
+        "id": "14f26b53-9d80-4924-8141-f664426a48f6",
+        "name": "Cognitive Services Security Integration Admin",
+        "description": "Lets you manage safety providers for Cognitive Services.",
+        "link": "https://management.azure.com/14f26b53-9d80-4924-8141-f664426a48f6?api-version=2022-04-01",
+        "detected": "2025-11-13T02:45:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "0e75ca1e-0464-4b4d-8b93-68208a576181",
         "name": "Cognitive Services Speech Contributor",
         "description": "Full access to Speech projects, including read, write and delete all entities, for real-time speech recognition and batch transcription tasks, real-time speech synthesis and long audio tasks, custom speech and custom voice.",
