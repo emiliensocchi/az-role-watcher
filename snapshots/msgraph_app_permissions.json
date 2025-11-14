@@ -54,6 +54,24 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2f479c7e-27df-4053-826b-57d8ce55be3e"
     },
     {
+        "id": "3ee18438-e6e5-4858-8f1c-d7b723b45213",
+        "name": "AgentCardManifest.Read.All",
+        "description": "Read all agent card manifests in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3ee18438-e6e5-4858-8f1c-d7b723b45213"
+    },
+    {
+        "id": "228b1a03-f7ca-4348-b50d-e8a547ab61af",
+        "name": "AgentCardManifest.ReadWrite.All",
+        "description": "Read and write all agent card manifests in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/228b1a03-f7ca-4348-b50d-e8a547ab61af"
+    },
+    {
+        "id": "77f6034c-52f5-4526-9fa1-d55a67e72cc4",
+        "name": "AgentCardManifest.ReadWrite.ManagedBy",
+        "description": "Read and write managed-by agent card manifests in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/77f6034c-52f5-4526-9fa1-d55a67e72cc4"
+    },
+    {
         "id": "2c4c43c7-1903-4658-a911-b8f2bb31e32e",
         "name": "AgentIdentity.Create",
         "description": "Create agent identities linked to itself.",
@@ -1686,6 +1704,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b633e1c5-b582-4048-a93e-9f11b44c7e96"
     },
     {
+        "id": "27d9d776-f4d2-426d-80ad-5f22f2b01b0a",
+        "name": "MailboxConfigItem.Read",
+        "description": "Read all users' UserConfiguration objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/27d9d776-f4d2-426d-80ad-5f22f2b01b0a"
+    },
+    {
+        "id": "aa6d92d4-b25a-4640-aefe-3e3231e5e736",
+        "name": "MailboxConfigItem.ReadWrite",
+        "description": "Read and write all users' UserConfiguration objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/aa6d92d4-b25a-4640-aefe-3e3231e5e736"
+    },
+    {
         "id": "99280d24-a782-4793-93cc-0888549957f6",
         "name": "MailboxFolder.Read.All",
         "description": "Read all the users' mailbox folders",
@@ -2842,6 +2872,12 @@
         "name": "Sites.Archive.All",
         "description": "Archive/reactivate Site Collections without a signed in user.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e3530185-4080-478c-a4ab-39322704df58"
+    },
+    {
+        "id": "80819dd8-2b3b-4551-a1ad-2700fc44f533",
+        "name": "Sites.Create.All",
+        "description": "Create Site Collections without a signed in user.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/80819dd8-2b3b-4551-a1ad-2700fc44f533"
     },
     {
         "id": "a82116e5-55eb-4c41-a434-62fe8a61c773",

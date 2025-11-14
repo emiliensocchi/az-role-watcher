@@ -3152,6 +3152,14 @@
         "deleted": "false"
     },
     {
+        "id": "6f91a4f9-10ee-4b95-b8cd-96ee73c5968d",
+        "name": "Defender API Security",
+        "description": "Grants Microsoft Defender for Cloud access to computes to provide API security",
+        "link": "https://management.azure.com/6f91a4f9-10ee-4b95-b8cd-96ee73c5968d?api-version=2022-04-01",
+        "detected": "2025-11-14T02:43:51Z",
+        "deleted": "false"
+    },
+    {
         "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
         "name": "Defender CSPM",
         "description": "Grants permissions for Microsoft Defender for Cloud CSPM base plan features",
@@ -3197,6 +3205,14 @@
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
         "link": "https://management.azure.com/8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7d0c0268-1199-449b-a52e-75c20879f46b",
+        "name": "Defender Settings Contributor",
+        "description": "Grants Microsoft Defender for Cloud access to Defender Settings",
+        "link": "https://management.azure.com/7d0c0268-1199-449b-a52e-75c20879f46b?api-version=2022-04-01",
+        "detected": "2025-11-14T02:43:51Z",
         "deleted": "false"
     },
     {
@@ -5333,6 +5349,30 @@
         "description": "Provides read access to PlayFab resources",
         "link": "https://management.azure.com/a9a19cc5-31f4-447c-901f-56c0bb18fcaf?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "78cf819f-0969-4ebe-8759-015c6efcd5bf",
+        "name": "Playwright Workspace Contributor",
+        "description": "View and list Playwright Workspace resources but can not make any changes. Can manage service access tokens and execute Playwright tests.",
+        "link": "https://management.azure.com/78cf819f-0969-4ebe-8759-015c6efcd5bf?api-version=2022-04-01",
+        "detected": "2025-11-14T02:43:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "45265627-32f7-4da4-9ab0-b1cb0e9ec70b",
+        "name": "Playwright Workspace Owner",
+        "description": "Perform all operations on Playwright Workspace resources. Can manage service access tokens and execute Playwright tests.",
+        "link": "https://management.azure.com/45265627-32f7-4da4-9ab0-b1cb0e9ec70b?api-version=2022-04-01",
+        "detected": "2025-11-14T02:43:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "19d36063-d00b-4ea5-a1ac-a7c4926a0b78",
+        "name": "Playwright Workspace Reader",
+        "description": "View and list all Playwright Workspace resources and tests but can not make any changes.",
+        "link": "https://management.azure.com/19d36063-d00b-4ea5-a1ac-a7c4926a0b78?api-version=2022-04-01",
+        "detected": "2025-11-14T02:43:51Z",
         "deleted": "false"
     },
     {
