@@ -2361,15 +2361,7 @@
         "id": "6f91a4f9-10ee-4b95-b8cd-96ee73c5968d",
         "name": "Defender API Security",
         "description": "Grants Microsoft Defender for Cloud access to computes to provide API security",
-        "link": "https://management.azure.com/6f91a4f9-10ee-4b95-b8cd-96ee73c5968d?api-version=2022-04-01",
-        "detected": "2025-11-14T02:43:51Z",
-        "deleted": "false"
-    },
-    {
-        "id": "d24ecba3-c1f4-40fa-a7bb-4588a071e8fd",
-        "name": "Defender Agentless VM Scan",
-        "description": "Role that provides access to disk snapshot for security analysis.",
-        "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
+        "link": "https://management.azure.com/6f91a4f9-10ee-4b95-b8cd-96ee73c5968d?api-version=2022-04-01"
     },
     {
         "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
@@ -2423,9 +2415,7 @@
         "id": "7d0c0268-1199-449b-a52e-75c20879f46b",
         "name": "Defender Settings Contributor",
         "description": "Grants Microsoft Defender for Cloud access to Defender Settings",
-        "link": "https://management.azure.com/7d0c0268-1199-449b-a52e-75c20879f46b?api-version=2022-04-01",
-        "detected": "2025-11-14T02:43:51Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/7d0c0268-1199-449b-a52e-75c20879f46b?api-version=2022-04-01"
     },
     {
         "id": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
@@ -3991,25 +3981,19 @@
         "id": "78cf819f-0969-4ebe-8759-015c6efcd5bf",
         "name": "Playwright Workspace Contributor",
         "description": "View and list Playwright Workspace resources but can not make any changes. Can manage service access tokens and execute Playwright tests.",
-        "link": "https://management.azure.com/78cf819f-0969-4ebe-8759-015c6efcd5bf?api-version=2022-04-01",
-        "detected": "2025-11-14T02:43:51Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/78cf819f-0969-4ebe-8759-015c6efcd5bf?api-version=2022-04-01"
     },
     {
         "id": "45265627-32f7-4da4-9ab0-b1cb0e9ec70b",
         "name": "Playwright Workspace Owner",
         "description": "Perform all operations on Playwright Workspace resources. Can manage service access tokens and execute Playwright tests.",
-        "link": "https://management.azure.com/45265627-32f7-4da4-9ab0-b1cb0e9ec70b?api-version=2022-04-01",
-        "detected": "2025-11-14T02:43:51Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/45265627-32f7-4da4-9ab0-b1cb0e9ec70b?api-version=2022-04-01"
     },
     {
         "id": "19d36063-d00b-4ea5-a1ac-a7c4926a0b78",
         "name": "Playwright Workspace Reader",
         "description": "View and list all Playwright Workspace resources and tests but can not make any changes.",
-        "link": "https://management.azure.com/19d36063-d00b-4ea5-a1ac-a7c4926a0b78?api-version=2022-04-01",
-        "detected": "2025-11-14T02:43:51Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/19d36063-d00b-4ea5-a1ac-a7c4926a0b78?api-version=2022-04-01"
     },
     {
         "id": "285ce6d6-fa11-43bd-94ef-42a9b3740bfd",
@@ -4892,6 +4876,12 @@
         "name": "VM Restore Operator",
         "description": "Create and Delete resources during VM Restore. This role is in preview and subject to change.",
         "link": "https://management.azure.com/dfce8971-25e3-42e3-ba33-6055438e3080?api-version=2022-04-01"
+    },
+    {
+        "id": "d24ecba3-c1f4-40fa-a7bb-4588a071e8fd",
+        "name": "VM Scanner Operator",
+        "description": "Role that provides access to disk snapshot for security analysis.",
+        "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
     },
     {
         "id": "3f99eaab-6f59-4877-adf5-1cacd22e20b0",

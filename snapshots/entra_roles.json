@@ -6,6 +6,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d2562ede-74db-457e-a7b6-544e236ebb61"
     },
     {
+        "id": "db506228-d27e-4b7d-95e5-295956d6615f",
+        "name": "Agent ID Administrator",
+        "description": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent blueprints, agent service principals, agent identities, and agentic users.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/db506228-d27e-4b7d-95e5-295956d6615f"
+    },
+    {
+        "id": "6b942400-691f-4bf0-9d12-d8a254a2baf5",
+        "name": "Agent Registry Administrator",
+        "description": "Manage all aspects of the Agent Registry service in Microsoft Entra ID",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6b942400-691f-4bf0-9d12-d8a254a2baf5"
+    },
+    {
         "id": "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3",
         "name": "Application Administrator",
         "description": "Can create and manage all aspects of app registrations and enterprise apps.",
@@ -616,6 +628,12 @@
         "name": "SharePoint Administrator",
         "description": "Can manage all aspects of the SharePoint service.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f28a1f50-f6e7-4571-818b-6a12f2af6b6c"
+    },
+    {
+        "id": "99009c4a-3b3f-4957-82a9-9d35e12db77e",
+        "name": "SharePoint Advanced Management Administrator",
+        "description": "Manage all aspects of SharePoint Advanced Management.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/99009c4a-3b3f-4957-82a9-9d35e12db77e"
     },
     {
         "id": "9d3e04ba-3ee4-4d1b-a3a7-9aef423a09be",
