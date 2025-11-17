@@ -2364,16 +2364,16 @@
         "link": "https://management.azure.com/6f91a4f9-10ee-4b95-b8cd-96ee73c5968d?api-version=2022-04-01"
     },
     {
-        "id": "d24ecba3-c1f4-40fa-a7bb-4588a071e8fd",
-        "name": "Defender Agentless VM Scan",
-        "description": "Role that provides access to disk snapshot for security analysis.",
-        "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
-    },
-    {
         "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
         "name": "Defender CSPM",
         "description": "Grants permissions for Microsoft Defender for Cloud CSPM base plan features",
         "link": "https://management.azure.com/46023a6a-0702-4cbf-956c-d8c3ac27bc2b?api-version=2022-04-01"
+    },
+    {
+        "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
+        "name": "Defender CSPM Storage Data Scanner",
+        "description": "Grants access to read blobs and files. This role is used by the data scanner of Dfender CSPM.",
+        "link": "https://management.azure.com/0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35?api-version=2022-04-01"
     },
     {
         "id": "8480c0f0-4509-4229-9339-7c10018cb8c4",
@@ -2404,12 +2404,6 @@
         "name": "Defender Kubernetes Agent Operator",
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
         "link": "https://management.azure.com/8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01"
-    },
-    {
-        "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
-        "name": "Defender Sensitive Data Discovery",
-        "description": "Grants permissions for Microsoft Defender for Cloud Sensitive Data Discovery plan features",
-        "link": "https://management.azure.com/0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35?api-version=2022-04-01"
     },
     {
         "id": "68ac31b4-936a-4046-a6d2-ba6f8a757bf6",
@@ -4882,6 +4876,12 @@
         "name": "VM Restore Operator",
         "description": "Create and Delete resources during VM Restore. This role is in preview and subject to change.",
         "link": "https://management.azure.com/dfce8971-25e3-42e3-ba33-6055438e3080?api-version=2022-04-01"
+    },
+    {
+        "id": "d24ecba3-c1f4-40fa-a7bb-4588a071e8fd",
+        "name": "VM Scanner Operator",
+        "description": "Role that provides access to disk snapshot for security analysis.",
+        "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
     },
     {
         "id": "3f99eaab-6f59-4877-adf5-1cacd22e20b0",
