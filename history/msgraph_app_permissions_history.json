@@ -69,6 +69,30 @@
         "description": "Create agent applications.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2f479c7e-27df-4053-826b-57d8ce55be3e",
         "detected": "2025-07-17T00:00:00Z",
+        "deleted": "true"
+    },
+    {
+        "id": "aec9e0a0-6f46-4150-a9f7-05e9e3e87399",
+        "name": "AgentCard.Read.All",
+        "description": "Read all agent cards in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/aec9e0a0-6f46-4150-a9f7-05e9e3e87399",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ef566853-42d6-45a5-bed9-5ccb82c98b4f",
+        "name": "AgentCard.ReadWrite.All",
+        "description": "Read and write all agent cards in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ef566853-42d6-45a5-bed9-5ccb82c98b4f",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9c4a07db-e0c1-4fb0-8e85-dfd8ae3b8201",
+        "name": "AgentCard.ReadWrite.ManagedBy",
+        "description": "Read and write managed-by agent cards in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9c4a07db-e0c1-4fb0-8e85-dfd8ae3b8201",
+        "detected": "2025-11-18T02:43:08Z",
         "deleted": "false"
     },
     {
@@ -96,11 +120,59 @@
         "deleted": "false"
     },
     {
+        "id": "e65ee1da-d1d5-467b-bdd0-3e9bb94e6e0c",
+        "name": "AgentCollection.Read.All",
+        "description": "Read all collections in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e65ee1da-d1d5-467b-bdd0-3e9bb94e6e0c",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
+        "id": "feb31d7d-a227-4487-898c-e014840d07b3",
+        "name": "AgentCollection.ReadWrite.All",
+        "description": "Read and write all collections in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/feb31d7d-a227-4487-898c-e014840d07b3",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2e0fb698-9996-479f-926b-ce63f4397829",
+        "name": "AgentCollection.ReadWrite.ManagedBy",
+        "description": "Read and write managed-by collections in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2e0fb698-9996-479f-926b-ce63f4397829",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
         "id": "2c4c43c7-1903-4658-a911-b8f2bb31e32e",
         "name": "AgentIdentity.Create",
         "description": "Create agent identities linked to itself.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2c4c43c7-1903-4658-a911-b8f2bb31e32e",
         "detected": "2025-07-17T00:00:00Z",
+        "deleted": "true"
+    },
+    {
+        "id": "799a4732-85b8-4c67-b048-75f0e88a232b",
+        "name": "AgentInstance.Read.All",
+        "description": "Read all agent instances in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/799a4732-85b8-4c67-b048-75f0e88a232b",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
+        "id": "07abdd95-78dc-4353-bd32-09f880ea43d0",
+        "name": "AgentInstance.ReadWrite.All",
+        "description": "Read and write all agent instances in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/07abdd95-78dc-4353-bd32-09f880ea43d0",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
+        "id": "782ab1bf-24f1-4c27-8bbc-2006d42792a6",
+        "name": "AgentInstance.ReadWrite.ManagedBy",
+        "description": "Read and write managed-by agent instances in Agent Registry",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/782ab1bf-24f1-4c27-8bbc-2006d42792a6",
+        "detected": "2025-11-18T02:43:08Z",
         "deleted": "false"
     },
     {

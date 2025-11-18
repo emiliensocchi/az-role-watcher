@@ -240,6 +240,14 @@
         "deleted": "false"
     },
     {
+        "id": "adb2368d-a9be-41b5-8667-d96778e081b0",
+        "name": "Agent ID Developer",
+        "description": "Create an agent blueprint and its service principal in a tenant. User will be added as an owner of the agent blueprint and its service principal.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/adb2368d-a9be-41b5-8667-d96778e081b0",
+        "detected": "2025-11-18T02:43:08Z",
+        "deleted": "false"
+    },
+    {
         "id": "6b942400-691f-4bf0-9d12-d8a254a2baf5",
         "name": "Agent Registry Administrator",
         "description": "Manage all aspects of the Agent Registry service in Microsoft Entra ID",
