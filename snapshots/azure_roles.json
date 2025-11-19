@@ -2376,12 +2376,6 @@
         "link": "https://management.azure.com/46023a6a-0702-4cbf-956c-d8c3ac27bc2b?api-version=2022-04-01"
     },
     {
-        "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
-        "name": "Defender CSPM Storage Data Scanner",
-        "description": "Grants access to read blobs and files. This role is used by the data scanner of Dfender CSPM.",
-        "link": "https://management.azure.com/0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35?api-version=2022-04-01"
-    },
-    {
         "id": "8480c0f0-4509-4229-9339-7c10018cb8c4",
         "name": "Defender CSPM Storage Scanner Operator",
         "description": "Lets you enable and configure Microsoft Defender CSPM's sensitive data discovery feature on your storage accounts. Includes an ABAC condition to limit role assignments.",
@@ -2410,6 +2404,12 @@
         "name": "Defender Kubernetes Agent Operator",
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
         "link": "https://management.azure.com/8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01"
+    },
+    {
+        "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
+        "name": "Defender Sensitive Data Discovery",
+        "description": "Grants permissions for Microsoft Defender for Cloud Sensitive Data Discovery plan features",
+        "link": "https://management.azure.com/0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35?api-version=2022-04-01"
     },
     {
         "id": "68ac31b4-936a-4046-a6d2-ba6f8a757bf6",
