@@ -2463,9 +2463,7 @@
         "id": "d56b031f-8d90-4376-9231-b5c94fce88ef",
         "name": "Defender Unified RBAC Scoped Reader",
         "description": "Defender Unified RBAC Scoped Reader. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
-        "link": "https://management.azure.com/d56b031f-8d90-4376-9231-b5c94fce88ef?api-version=2022-04-01",
-        "detected": "2025-11-24T02:53:36Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/d56b031f-8d90-4376-9231-b5c94fce88ef?api-version=2022-04-01"
     },
     {
         "id": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
