@@ -1032,6 +1032,22 @@
         "deleted": "false"
     },
     {
+        "id": "72f0655d-6228-4ddc-8e1b-164973b9213b",
+        "name": "CopilotPackages.Read.All",
+        "description": "Read all packages information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/72f0655d-6228-4ddc-8e1b-164973b9213b",
+        "detected": "2025-12-06T02:40:40Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ed31732f-9495-47ed-ba3b-4ed0948c1c64",
+        "name": "CopilotPackages.ReadWrite.All",
+        "description": "Read and update all packages information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ed31732f-9495-47ed-ba3b-4ed0948c1c64",
+        "detected": "2025-12-06T02:40:40Z",
+        "deleted": "false"
+    },
+    {
         "id": "cac88765-0581-4025-9725-5ebc13f729ee",
         "name": "CrossTenantInformation.ReadBasic.All",
         "description": "Read cross-tenant basic information",
@@ -1637,6 +1653,14 @@
         "description": "Read and write all authentication event listeners",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0edf5e9e-4ce8-468a-8432-d08631d18c43",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "89b20d8a-76e2-4057-867b-9961f800b9a4",
+        "name": "ExchangeMessageTrace.Read.All",
+        "description": "Search the email message trace",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/89b20d8a-76e2-4057-867b-9961f800b9a4",
+        "detected": "2025-12-06T02:40:40Z",
         "deleted": "false"
     },
     {
@@ -2381,6 +2405,14 @@
         "description": "Read and write all the users' mailbox folders",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fef87b92-8391-4589-9da7-eb93dab7dc8a",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "937550e9-33a3-494b-88ae-d9cd394b1fbb",
+        "name": "MailboxItem.Export.All",
+        "description": "Export all the users' mailbox items",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/937550e9-33a3-494b-88ae-d9cd394b1fbb",
+        "detected": "2025-12-06T02:40:40Z",
         "deleted": "false"
     },
     {

@@ -762,6 +762,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2932e07a-3c29-44e4-bb36-6d0fc176387f"
     },
     {
+        "id": "72f0655d-6228-4ddc-8e1b-164973b9213b",
+        "name": "CopilotPackages.Read.All",
+        "description": "Read all packages information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/72f0655d-6228-4ddc-8e1b-164973b9213b"
+    },
+    {
+        "id": "ed31732f-9495-47ed-ba3b-4ed0948c1c64",
+        "name": "CopilotPackages.ReadWrite.All",
+        "description": "Read and update all packages information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ed31732f-9495-47ed-ba3b-4ed0948c1c64"
+    },
+    {
         "id": "cac88765-0581-4025-9725-5ebc13f729ee",
         "name": "CrossTenantInformation.ReadBasic.All",
         "description": "Read cross-tenant basic information",
@@ -1216,6 +1228,12 @@
         "name": "EventListener.ReadWrite.All",
         "description": "Read and write all authentication event listeners",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0edf5e9e-4ce8-468a-8432-d08631d18c43"
+    },
+    {
+        "id": "89b20d8a-76e2-4057-867b-9961f800b9a4",
+        "name": "ExchangeMessageTrace.Read.All",
+        "description": "Search the email message trace",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/89b20d8a-76e2-4057-867b-9961f800b9a4"
     },
     {
         "id": "1914711b-a1cb-4793-b019-c2ce0ed21b8c",
@@ -1768,6 +1786,12 @@
         "name": "MailboxFolder.ReadWrite.All",
         "description": "Read and write all the users' mailbox folders",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fef87b92-8391-4589-9da7-eb93dab7dc8a"
+    },
+    {
+        "id": "937550e9-33a3-494b-88ae-d9cd394b1fbb",
+        "name": "MailboxItem.Export.All",
+        "description": "Export all the users' mailbox items",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/937550e9-33a3-494b-88ae-d9cd394b1fbb"
     },
     {
         "id": "76577085-e73d-4f1d-b26a-85fb33892327",
