@@ -687,9 +687,7 @@
         "id": "a954a0e0-f57f-4606-8421-fd7bd4e54b0f",
         "name": "Azure Device Onboarding Contributor",
         "description": "Can read, write, or delete resources for onboarding services, policies, and device states.",
-        "link": "https://management.azure.com/a954a0e0-f57f-4606-8421-fd7bd4e54b0f?api-version=2022-04-01",
-        "detected": "2025-12-08T02:51:13Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/a954a0e0-f57f-4606-8421-fd7bd4e54b0f?api-version=2022-04-01"
     },
     {
         "id": "a227fb39-f479-404b-96fd-0176f5d88ab4",
@@ -2477,9 +2475,7 @@
         "id": "cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9",
         "name": "Defender for AI Threat Protection Purview Operator",
         "description": "Service role that provides permissions for Microsoft Defender for AI Threat Protection to work with Purview service",
-        "link": "https://management.azure.com/cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9?api-version=2022-04-01",
-        "detected": "2025-12-08T02:51:13Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9?api-version=2022-04-01"
     },
     {
         "id": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
