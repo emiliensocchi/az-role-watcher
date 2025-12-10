@@ -2712,6 +2712,14 @@
         "deleted": "false"
     },
     {
+        "id": "980cf6f7-edec-4fd1-8e9e-28f70b1d5258",
+        "name": "Compute Limit Operator",
+        "description": "Read and manage compute limits using compute limit operations.",
+        "link": "https://management.azure.com/980cf6f7-edec-4fd1-8e9e-28f70b1d5258?api-version=2022-04-01",
+        "detected": "2025-12-10T02:52:29Z",
+        "deleted": "false"
+    },
+    {
         "id": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
         "name": "Compute Recommendations Role",
         "description": "Grants permissions to call Compute Recommendations APIs provided by Compute Diagnostic Resource Provider service.",

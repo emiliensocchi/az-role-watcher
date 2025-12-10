@@ -1490,7 +1490,7 @@
     {
         "id": "1a6f9009-515c-4455-b170-143e4c9ce229",
         "name": "Azure Stack HCI Edge Machine Contributor Role",
-        "description": "Microsoft.AzureStackHCI Edge Machine Contributor Role",
+        "description": "Microsoft.AzureStackHCI\u202fEdge\u202fMachine\u202fContributor\u202fRole",
         "link": "https://management.azure.com/1a6f9009-515c-4455-b170-143e4c9ce229?api-version=2022-04-01"
     },
     {
@@ -2014,6 +2014,14 @@
         "name": "Compute Gallery Sharing Admin",
         "description": "This role allows user to share gallery to another subscription/tenant or share it to the public.",
         "link": "https://management.azure.com/1ef6a3be-d0ac-425d-8c01-acb62866290b?api-version=2022-04-01"
+    },
+    {
+        "id": "980cf6f7-edec-4fd1-8e9e-28f70b1d5258",
+        "name": "Compute Limit Operator",
+        "description": "Read and manage compute limits using compute limit operations.",
+        "link": "https://management.azure.com/980cf6f7-edec-4fd1-8e9e-28f70b1d5258?api-version=2022-04-01",
+        "detected": "2025-12-10T02:52:29Z",
+        "deleted": "false"
     },
     {
         "id": "e82342c9-ac7f-422b-af64-e426d2e12b2d",
