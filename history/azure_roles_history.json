@@ -5104,6 +5104,14 @@
         "deleted": "false"
     },
     {
+        "id": "045b6ee5-0c68-42c4-9be0-7389794309f5",
+        "name": "MongoDB Atlas Contributor",
+        "description": "Provides access to MongoDB.Atlas Control Plane Operations",
+        "link": "https://management.azure.com/045b6ee5-0c68-42c4-9be0-7389794309f5?api-version=2022-04-01",
+        "detected": "2025-12-12T02:52:55Z",
+        "deleted": "false"
+    },
+    {
         "id": "56be40e2-4db1-4ccf-93c3-7e44c597135b",
         "name": "Monitored Objects Contributor",
         "description": "Can read and update Monitored Objects and associated Data Collection Rules.",
