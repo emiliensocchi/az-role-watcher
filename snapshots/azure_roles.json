@@ -246,6 +246,14 @@
         "link": "https://management.azure.com/08954f03-6346-4c2e-81c0-ec3a5cfae23b?api-version=2022-04-01"
     },
     {
+        "id": "ee99642a-225b-4fe8-a771-9d9036053e87",
+        "name": "Arc Container Storage Contributor",
+        "description": "Create, read, modify, and delete Arc Container Storage resources on connected clusters. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/ee99642a-225b-4fe8-a771-9d9036053e87?api-version=2022-04-01",
+        "detected": "2025-12-13T02:45:17Z",
+        "deleted": "false"
+    },
+    {
         "id": "f6e92014-8af2-414d-9948-9b1abf559285",
         "name": "Arc Gateway Manager",
         "description": "Manage Arc Gateway Resources",
@@ -3789,9 +3797,7 @@
         "id": "045b6ee5-0c68-42c4-9be0-7389794309f5",
         "name": "MongoDB Atlas Contributor",
         "description": "Provides access to MongoDB.Atlas Control Plane Operations",
-        "link": "https://management.azure.com/045b6ee5-0c68-42c4-9be0-7389794309f5?api-version=2022-04-01",
-        "detected": "2025-12-12T02:52:55Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/045b6ee5-0c68-42c4-9be0-7389794309f5?api-version=2022-04-01"
     },
     {
         "id": "56be40e2-4db1-4ccf-93c3-7e44c597135b",

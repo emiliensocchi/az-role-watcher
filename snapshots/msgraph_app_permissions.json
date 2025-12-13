@@ -102,6 +102,126 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2e0fb698-9996-479f-926b-ce63f4397829"
     },
     {
+        "id": "b782c9ad-6f2b-4894-a21b-72bf22417f0a",
+        "name": "AgentIdUser.ReadWrite.All",
+        "description": "Read and write all agent ID users' full profiles",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b782c9ad-6f2b-4894-a21b-72bf22417f0a"
+    },
+    {
+        "id": "4aa6e624-eee0-40ab-bdd8-f9639038a614",
+        "name": "AgentIdUser.ReadWrite.IdentityParentedBy",
+        "description": "Read and write all agent ID users' full profiles",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4aa6e624-eee0-40ab-bdd8-f9639038a614"
+    },
+    {
+        "id": "ad25cc1d-84d8-47df-a08e-b34c2e800819",
+        "name": "AgentIdentity.Create.All",
+        "description": "Create agent identities without an agent blueprint parent",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ad25cc1d-84d8-47df-a08e-b34c2e800819"
+    },
+    {
+        "id": "4c390976-b2b7-42e0-9187-c6be3bead001",
+        "name": "AgentIdentity.CreateAsManager",
+        "description": "Create agent identities linked to itself.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4c390976-b2b7-42e0-9187-c6be3bead001"
+    },
+    {
+        "id": "5b016f9b-18eb-41d4-869a-66931914d1c8",
+        "name": "AgentIdentity.DeleteRestore.All",
+        "description": "Delete and restore agent identities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5b016f9b-18eb-41d4-869a-66931914d1c8"
+    },
+    {
+        "id": "69ee0943-4fa4-4ec8-8e52-d12e4ea661a3",
+        "name": "AgentIdentity.EnableDisable.All",
+        "description": "Enable or disable agent identities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/69ee0943-4fa4-4ec8-8e52-d12e4ea661a3"
+    },
+    {
+        "id": "b2b8f011-2898-4234-9092-5059f6c1ebfa",
+        "name": "AgentIdentity.Read.All",
+        "description": "Read all agent identities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b2b8f011-2898-4234-9092-5059f6c1ebfa"
+    },
+    {
+        "id": "dcf7150a-88d4-4fe6-9be1-c2744c455397",
+        "name": "AgentIdentity.ReadWrite.All",
+        "description": "Read and write all agent identities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dcf7150a-88d4-4fe6-9be1-c2744c455397"
+    },
+    {
+        "id": "0510736e-bdfb-4b37-9a1f-89b4a074763a",
+        "name": "AgentIdentityBlueprint.AddRemoveCreds.All",
+        "description": "Update agent identity blueprint credentials",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0510736e-bdfb-4b37-9a1f-89b4a074763a"
+    },
+    {
+        "id": "ea4b2453-ad2d-4d94-9155-10d5d9493ce9",
+        "name": "AgentIdentityBlueprint.Create",
+        "description": "Create agent identity blueprints.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ea4b2453-ad2d-4d94-9155-10d5d9493ce9"
+    },
+    {
+        "id": "3f80b699-6405-4e36-a4df-4f19950ff91e",
+        "name": "AgentIdentityBlueprint.DeleteRestore.All",
+        "description": "Delete and restore agent identity blueprints.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3f80b699-6405-4e36-a4df-4f19950ff91e"
+    },
+    {
+        "id": "7547a7d1-36fa-4479-9c31-559a600eaa4f",
+        "name": "AgentIdentityBlueprint.Read.All",
+        "description": "Read all agent identity blueprints",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7547a7d1-36fa-4479-9c31-559a600eaa4f"
+    },
+    {
+        "id": "7fddd33b-d884-4ec0-8696-72cff90ff825",
+        "name": "AgentIdentityBlueprint.ReadWrite.All",
+        "description": "Read and write all agent identity blueprints.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7fddd33b-d884-4ec0-8696-72cff90ff825"
+    },
+    {
+        "id": "19202363-278e-49c2-bf00-391e2ba00881",
+        "name": "AgentIdentityBlueprint.UpdateAuthProperties.All",
+        "description": "Update agent identity blueprint authorization and authentication properties",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/19202363-278e-49c2-bf00-391e2ba00881"
+    },
+    {
+        "id": "76232daa-a1e4-4544-b664-495a006513bf",
+        "name": "AgentIdentityBlueprint.UpdateBranding.All",
+        "description": "Update agent identity blueprint branding",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/76232daa-a1e4-4544-b664-495a006513bf"
+    },
+    {
+        "id": "8959696d-d07e-4916-9b1e-3ba9ce459161",
+        "name": "AgentIdentityBlueprintPrincipal.Create",
+        "description": "Create agent identity blueprint service principals.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8959696d-d07e-4916-9b1e-3ba9ce459161"
+    },
+    {
+        "id": "f86a2dd8-9298-4675-bd78-f5a3572da2d7",
+        "name": "AgentIdentityBlueprintPrincipal.DeleteRestore.All",
+        "description": "Delete and restore agent identity blueprints.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f86a2dd8-9298-4675-bd78-f5a3572da2d7"
+    },
+    {
+        "id": "a0bdd23d-8b19-4682-b428-574d96527c6f",
+        "name": "AgentIdentityBlueprintPrincipal.EnableDisable.All",
+        "description": "Enable or disable agent identity blueprint principals.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a0bdd23d-8b19-4682-b428-574d96527c6f"
+    },
+    {
+        "id": "9361dea9-4524-493d-941d-f1b65aaf6c7c",
+        "name": "AgentIdentityBlueprintPrincipal.Read.All",
+        "description": "Read agent identity blueprint principals.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9361dea9-4524-493d-941d-f1b65aaf6c7c"
+    },
+    {
+        "id": "3bc933bc-8b4d-4cb6-ac49-b73774299250",
+        "name": "AgentIdentityBlueprintPrincipal.ReadWrite.All",
+        "description": "Read and write all agent identity blueprint principals.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3bc933bc-8b4d-4cb6-ac49-b73774299250"
+    },
+    {
         "id": "799a4732-85b8-4c67-b048-75f0e88a232b",
         "name": "AgentInstance.Read.All",
         "description": "Read all agent instances in Agent Registry",
