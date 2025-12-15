@@ -2484,12 +2484,6 @@
         "link": "https://management.azure.com/d56b031f-8d90-4376-9231-b5c94fce88ef?api-version=2022-04-01"
     },
     {
-        "id": "cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9",
-        "name": "Defender for AI Threat Protection Purview Operator",
-        "description": "Service role that provides permissions for Microsoft Defender for AI Threat Protection to work with Purview service",
-        "link": "https://management.azure.com/cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9?api-version=2022-04-01"
-    },
-    {
         "id": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
         "name": "Defender for Storage Data Scanner",
         "description": "Grants access to read blobs and update index tags. This role is used by the data scanner of Defender for Storage.",
