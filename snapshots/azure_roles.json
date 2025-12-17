@@ -378,6 +378,14 @@
         "link": "https://management.azure.com/3afb7f49-54cb-416e-8c09-6dc049efa503?api-version=2022-04-01"
     },
     {
+        "id": "c883944f-8b7b-4483-af10-35834be79c4a",
+        "name": "Azure AI Owner",
+        "description": "Grants full to manage AI project and accounts. Grants reader access to AI projects, reader access to AI accounts, and data actions for an AI project.",
+        "link": "https://management.azure.com/c883944f-8b7b-4483-af10-35834be79c4a?api-version=2022-04-01",
+        "detected": "2025-12-17T02:50:00Z",
+        "deleted": "false"
+    },
+    {
         "id": "eadc314b-1a2d-4efa-be10-5d325db5065e",
         "name": "Azure AI Project Manager",
         "description": "Lets you perform developer actions and management actions on Azure AI Foundry Projects. Allows for making role assignments, but limited to Cognitive Service User role.",
@@ -1174,6 +1182,14 @@
         "name": "Azure Red Hat OpenShift File Storage Operator",
         "description": "Install Container Storage Interface (CSI) drivers that enable your cluster to use Azure Files. Set OpenShift cluster-wide storage defaults to ensure a default storageclass exists for clusters.",
         "link": "https://management.azure.com/0d7aedc0-15fd-4a67-a412-efad370c947e?api-version=2022-04-01"
+    },
+    {
+        "id": "42f3c60f-e7b1-46d7-ba56-6de681664342",
+        "name": "Azure Red Hat OpenShift First Party Network",
+        "description": "Grant ARO Classic First Party Service Principal or managed identity required network permissions.",
+        "link": "https://management.azure.com/42f3c60f-e7b1-46d7-ba56-6de681664342?api-version=2022-04-01",
+        "detected": "2025-12-17T02:50:00Z",
+        "deleted": "false"
     },
     {
         "id": "88366f10-ed47-4cc0-9fab-c8a06148393e",
@@ -2482,12 +2498,6 @@
         "name": "Defender Unified RBAC Scoped Reader",
         "description": "Defender Unified RBAC Scoped Reader. This role is managed and assigned automatically by the Defender Unified RBAC system. Manual assignment of this role is not recommended, as the Defender Unified RBAC system may modify or remove it at any time based on system requirements.",
         "link": "https://management.azure.com/d56b031f-8d90-4376-9231-b5c94fce88ef?api-version=2022-04-01"
-    },
-    {
-        "id": "cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9",
-        "name": "Defender for AI Threat Protection Purview Operator",
-        "description": "Service role that provides permissions for Microsoft Defender for AI Threat Protection to work with Purview service",
-        "link": "https://management.azure.com/cc27d9db-08f8-4bdf-81a8-d03bb8db2dd9?api-version=2022-04-01"
     },
     {
         "id": "1e7ca9b1-60d1-4db8-a914-f2ca1ff27c40",
