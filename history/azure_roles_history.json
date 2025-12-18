@@ -5584,6 +5584,30 @@
         "deleted": "false"
     },
     {
+        "id": "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
+        "name": "Purview Workload Content Administrator",
+        "description": "Manage or purge data from Microsoft 365 when accessing from the Microsoft Purview portal.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
+        "detected": "2025-12-18T02:50:22Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e07494ad-1654-4dd2-922e-6f81a71bf00f",
+        "name": "Purview Workload Content Reader",
+        "description": "Read data from Microsoft 365 when accessing from the Microsoft Purview portal.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e07494ad-1654-4dd2-922e-6f81a71bf00f",
+        "detected": "2025-12-18T02:50:22Z",
+        "deleted": "false"
+    },
+    {
+        "id": "02d5655b-c1cf-4e5f-98da-5fb919085bf6",
+        "name": "Purview Workload Content Writer",
+        "description": "Read and edit data from Microsoft 365 when accessing from the Microsoft Purview portal.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/02d5655b-c1cf-4e5f-98da-5fb919085bf6",
+        "detected": "2025-12-18T02:50:22Z",
+        "deleted": "false"
+    },
+    {
         "id": "8a3c2885-9b38-4fd2-9d99-91af537c1347",
         "name": "Purview role 1 (Deprecated)",
         "description": "Deprecated role.",
