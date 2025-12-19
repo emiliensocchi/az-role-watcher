@@ -3752,6 +3752,14 @@
         "deleted": "false"
     },
     {
+        "id": "8da79822-b118-42bc-83c9-789fdbdcd77b",
+        "name": "Elastic SAN Volume Data Contributor",
+        "description": "Allows for read and write access to a volume data on Azure Elastic SAN",
+        "link": "https://management.azure.com/8da79822-b118-42bc-83c9-789fdbdcd77b?api-version=2022-04-01",
+        "detected": "2025-12-19T02:53:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "a8281131-f312-4f34-8d98-ae12be9f0d23",
         "name": "Elastic SAN Volume Group Owner",
         "description": "Allows for full access to a volume group in Azure Elastic SAN including changing network security policies to unblock data path access",

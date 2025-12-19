@@ -3968,6 +3968,14 @@
         "deleted": "false"
     },
     {
+        "id": "84fa35c1-f997-4c1c-894c-bb52108cfbbf",
+        "name": "SentimentSurvey.Export.All",
+        "description": "Export all Sentiment Survey",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/84fa35c1-f997-4c1c-894c-bb52108cfbbf",
+        "detected": "2025-12-19T02:53:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "2b655018-450a-4845-81e7-d603b1ebffdb",
         "name": "ServiceActivity-Exchange.Read.All",
         "description": "Read all Exchange service activity",
