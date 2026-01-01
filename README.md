@@ -2,15 +2,15 @@
 
 Get notified on the **addition** or **removal** of roles and permissions in Microsoft Entra ID and Azure.
 
-### 🔔 Detected changes this year (2025) 
+### 🔔 Detected changes this year (2026) 
 
-> last updated: 2025-12-31T03:20:55Z 
+> last updated: 2026-01-01T03:43:58Z 
 
 | 🏷️ Category | ➕ Added | ❌ Removed |
 |----------|-------|---------|
-| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">117</span> | <span style="color:#D55E00;font-weight:bold">2</span> |
-| 👤 Entra roles | <span style="color:#009E73;font-weight:bold">8</span> | 0 |
-| 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">136</span> | <span style="color:#D55E00;font-weight:bold">2</span> |
+| ☁️ Azure roles | 0 | 0 |
+| 👤 Entra roles | 0 | 0 |
+| 🤖 MS Graph app permissions | 0 | 0 |
 
 
 ## 📃 Description 
