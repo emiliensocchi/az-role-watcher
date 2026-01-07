@@ -2,6 +2,14 @@
 
 Full record of **additions** and **removals** of roles and permissions in Microsoft Entra ID and Azure **since September 2025**.
 
+### 2026
+
+| 🏷️ Category | ➕ Added | ❌ Removed |
+|----------|-------|---------|
+| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">3</span> | 0 |
+| 👤 Entra roles | 0 | 0 |
+| 🤖 MS Graph app permissions | 0 | 0 |
+
 ### 2025
 
 | 🏷️ Category | ➕ Added | ❌ Removed |
