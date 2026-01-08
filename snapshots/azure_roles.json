@@ -3687,25 +3687,19 @@
         "id": "0343f3e8-01ac-4bb8-8f93-78b1d31ba64b",
         "name": "Microsoft Approvals Request User",
         "description": "Requests approval workflow execution for resource changes.",
-        "link": "https://management.azure.com/0343f3e8-01ac-4bb8-8f93-78b1d31ba64b?api-version=2022-04-01",
-        "detected": "2026-01-07T02:58:27Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/0343f3e8-01ac-4bb8-8f93-78b1d31ba64b?api-version=2022-04-01"
     },
     {
         "id": "98d40527-c073-4096-943a-dd593105ca9c",
         "name": "Microsoft Approvals Service Operator",
         "description": "Performs Approvals service-level management operations including service onboarding and configuration.",
-        "link": "https://management.azure.com/98d40527-c073-4096-943a-dd593105ca9c?api-version=2022-04-01",
-        "detected": "2026-01-07T02:58:27Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/98d40527-c073-4096-943a-dd593105ca9c?api-version=2022-04-01"
     },
     {
         "id": "92318126-08be-45d0-a1b2-532e6c7d52ce",
         "name": "Microsoft Approvals Workflow Contributor",
         "description": "Performs approval workflow management operations including workflow creation, execution and deletion.",
-        "link": "https://management.azure.com/92318126-08be-45d0-a1b2-532e6c7d52ce?api-version=2022-04-01",
-        "detected": "2026-01-07T02:58:27Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/92318126-08be-45d0-a1b2-532e6c7d52ce?api-version=2022-04-01"
     },
     {
         "id": "5052f0f9-7e27-4570-bc13-9ee1cf442526",
