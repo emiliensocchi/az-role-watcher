@@ -264,6 +264,26 @@
         "link": "https://management.azure.com/dca88c6f-5090-44cd-a0ff-a88f337b12a5?api-version=2022-04-01"
     },
     {
+        "id": "2837e146-70d7-4cfd-ad55-7efa6464f958",
+        "name": "Artifact Signing Certificate Profile Signer",
+        "description": "Sign files with a certificate profile.",
+        "link": "https://management.azure.com/2837e146-70d7-4cfd-ad55-7efa6464f958?api-version=2022-04-01"
+    },
+    {
+        "id": "4339b7cf-9826-4e41-b4ed-c7f4505dac08",
+        "name": "Artifact Signing Identity Verifier",
+        "description": "Manage identity or business verification requests.",
+        "link": "https://management.azure.com/4339b7cf-9826-4e41-b4ed-c7f4505dac08?api-version=2022-04-01"
+    },
+    {
+        "id": "a6a9a135-9048-45df-b559-a90bb025e92f",
+        "name": "Astronomer Astro Contributor",
+        "description": "Provides access to Astronomer.Astro Control Plane Operations",
+        "link": "https://management.azure.com/a6a9a135-9048-45df-b559-a90bb025e92f?api-version=2022-04-01",
+        "detected": "2026-01-10T02:52:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
         "name": "Attestation Contributor",
         "description": "Can read write or delete the attestation provider instance",
@@ -634,12 +654,6 @@
         "name": "Azure Container Instances Contributor Role",
         "description": "Grants read/write access to container groups provided by Azure Container Instances",
         "link": "https://management.azure.com/5d977122-f97e-4b4d-a52f-6b43003ddb4d?api-version=2022-04-01"
-    },
-    {
-        "id": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
-        "name": "Azure Container Registry secure supply chain operator service role",
-        "description": "Grants Microsoft Defender for Cloud access to Azure Container Registry for security assessment of container images",
-        "link": "https://management.azure.com/96062cf7-95ca-4f89-9b9d-2a2aa47356af?api-version=2022-04-01"
     },
     {
         "id": "95dd08a6-00bd-4661-84bf-f6726f83a4d0",
@@ -2418,6 +2432,20 @@
         "link": "https://management.azure.com/512ef07a-840c-48d2-9be4-9a30a75a5c70?api-version=2022-04-01"
     },
     {
+        "id": "5e93ba01-8f92-4c7a-b12a-801e3df23824",
+        "name": "Defender Containers Sensor",
+        "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
+        "link": "https://management.azure.com/5e93ba01-8f92-4c7a-b12a-801e3df23824?api-version=2022-04-01"
+    },
+    {
+        "id": "0e2ecf2a-0574-4b08-89e2-be133aa6303f",
+        "name": "Defender Databricks Operator",
+        "description": "Grants permissions for Microsoft Defender for Cloud feature on Databricks.",
+        "link": "https://management.azure.com/0e2ecf2a-0574-4b08-89e2-be133aa6303f?api-version=2022-04-01",
+        "detected": "2026-01-10T02:52:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "c5c82243-e78e-43f9-8428-793bba85b28e",
         "name": "Defender For Container Registries Operator",
         "description": "Grants Microsoft Defender for Cloud access to Azure Container Registries",
@@ -2434,6 +2462,12 @@
         "name": "Defender Kubernetes Agent Operator",
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
         "link": "https://management.azure.com/8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01"
+    },
+    {
+        "id": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
+        "name": "Defender Registry Access",
+        "description": "Grants Microsoft Defender for Cloud access to Azure Container Registry for security assessment of container images",
+        "link": "https://management.azure.com/96062cf7-95ca-4f89-9b9d-2a2aa47356af?api-version=2022-04-01"
     },
     {
         "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
@@ -3370,12 +3404,6 @@
         "name": "Knowledge Consumer",
         "description": "Knowledge Read permission to consume Enterprise Graph Knowledge using entity search and graph query",
         "link": "https://management.azure.com/ee361c5d-f7b5-4119-b4b6-892157c8f64c?api-version=2022-04-01"
-    },
-    {
-        "id": "5e93ba01-8f92-4c7a-b12a-801e3df23824",
-        "name": "Kubernetes Agent Operator",
-        "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
-        "link": "https://management.azure.com/5e93ba01-8f92-4c7a-b12a-801e3df23824?api-version=2022-04-01"
     },
     {
         "id": "ada52afe-776a-4b4d-a8f2-55670d3d8178",
@@ -4918,18 +4946,6 @@
         "name": "Transparency Logs Owner",
         "description": "Grants full access to manage Transparency Log resources.",
         "link": "https://management.azure.com/8ad4d0ee-9bfb-49e8-93fc-01abb8db6240?api-version=2022-04-01"
-    },
-    {
-        "id": "2837e146-70d7-4cfd-ad55-7efa6464f958",
-        "name": "Trusted Signing Certificate Profile Signer",
-        "description": "Sign files with a certificate profile. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/2837e146-70d7-4cfd-ad55-7efa6464f958?api-version=2022-04-01"
-    },
-    {
-        "id": "4339b7cf-9826-4e41-b4ed-c7f4505dac08",
-        "name": "Trusted Signing Identity Verifier",
-        "description": "Manage identity or business verification requests. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/4339b7cf-9826-4e41-b4ed-c7f4505dac08?api-version=2022-04-01"
     },
     {
         "id": "33cdeeac-0940-4f85-9317-7e2432c17289",

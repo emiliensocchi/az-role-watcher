@@ -392,6 +392,14 @@
         "deleted": "false"
     },
     {
+        "id": "a6a9a135-9048-45df-b559-a90bb025e92f",
+        "name": "Astronomer Astro Contributor",
+        "description": "Provides access to Astronomer.Astro Control Plane Operations",
+        "link": "https://management.azure.com/a6a9a135-9048-45df-b559-a90bb025e92f?api-version=2022-04-01",
+        "detected": "2026-01-10T02:52:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "bbf86eb8-f7b4-4cce-96e4-18cddf81d86e",
         "name": "Attestation Contributor",
         "description": "Can read write or delete the attestation provider instance",
@@ -3253,6 +3261,14 @@
         "description": "Service role that provides permissions for Microsoft Defender Cloud Secrets Posture",
         "link": "https://management.azure.com/512ef07a-840c-48d2-9be4-9a30a75a5c70?api-version=2022-04-01",
         "detected": "2025-10-31T02:42:20Z",
+        "deleted": "false"
+    },
+    {
+        "id": "0e2ecf2a-0574-4b08-89e2-be133aa6303f",
+        "name": "Defender Databricks Operator",
+        "description": "Grants permissions for Microsoft Defender for Cloud feature on Databricks.",
+        "link": "https://management.azure.com/0e2ecf2a-0574-4b08-89e2-be133aa6303f?api-version=2022-04-01",
+        "detected": "2026-01-10T02:52:53Z",
         "deleted": "false"
     },
     {
