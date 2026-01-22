@@ -1539,17 +1539,13 @@
         "id": "17e4de9d-139f-4531-b521-20804c310cf8",
         "name": "Azure Stack Hub Linked Subscriptions role",
         "description": "Microsoft.AzureStack Linked Subscriptions role.",
-        "link": "https://management.azure.com/17e4de9d-139f-4531-b521-20804c310cf8?api-version=2022-04-01",
-        "detected": "2026-01-21T03:01:00Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/17e4de9d-139f-4531-b521-20804c310cf8?api-version=2022-04-01"
     },
     {
         "id": "9a0e5da3-6c70-4a35-b13a-715cd5a7919a",
         "name": "Azure Stack Hub registration role",
         "description": "Microsoft.AzureStack registration role.",
-        "link": "https://management.azure.com/9a0e5da3-6c70-4a35-b13a-715cd5a7919a?api-version=2022-04-01",
-        "detected": "2026-01-21T03:01:00Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/9a0e5da3-6c70-4a35-b13a-715cd5a7919a?api-version=2022-04-01"
     },
     {
         "id": "6f12a6df-dd06-4f3e-bcb1-ce8be600526a",
@@ -2821,9 +2817,7 @@
         "id": "4b2b8358-764b-4884-85c6-f4b7946d95ad",
         "name": "EdgeMarketPlace role",
         "description": "Microsoft.EdgeMarketPlace role.",
-        "link": "https://management.azure.com/4b2b8358-764b-4884-85c6-f4b7946d95ad?api-version=2022-04-01",
-        "detected": "2026-01-21T03:01:00Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/4b2b8358-764b-4884-85c6-f4b7946d95ad?api-version=2022-04-01"
     },
     {
         "id": "fa6cecf6-5db3-4c43-8470-c540bcb4eafa",
