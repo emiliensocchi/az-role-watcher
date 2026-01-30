@@ -194,7 +194,7 @@
     {
         "id": "fe86443c-f201-4fc4-9d2a-ac61149fbda0",
         "name": "App Configuration Contributor",
-        "description": "Grants permission for all management operations, except purge, for App Configuration resources.",
+        "description": "Grants permission for all management operations, except purge, for App Configuration resources. This role does not grant access to data plane resources such as key-values, snapshots, and feature flags.",
         "link": "https://management.azure.com/fe86443c-f201-4fc4-9d2a-ac61149fbda0?api-version=2022-04-01"
     },
     {
@@ -212,7 +212,7 @@
     {
         "id": "175b81b9-6e0d-490a-85e4-0d422273c10c",
         "name": "App Configuration Reader",
-        "description": "Grants permission for read operations for App Configuration resources.",
+        "description": "Grants permission for read operations for App Configuration resources. This role does not grant access to data plane resources such as key-values, snapshots, and feature flags.",
         "link": "https://management.azure.com/175b81b9-6e0d-490a-85e4-0d422273c10c?api-version=2022-04-01"
     },
     {
@@ -2424,6 +2424,14 @@
         "link": "https://management.azure.com/d24ecba3-c1f4-40fa-a7bb-4588a071e8fd?api-version=2022-04-01"
     },
     {
+        "id": "d2acaa63-2a62-4c01-998a-cdbe7a00d709",
+        "name": "Defender Azure Cosmos DB",
+        "description": "Microsoft Defender for Azure Cosmos DB role. Grant permissions for enablement.",
+        "link": "https://management.azure.com/d2acaa63-2a62-4c01-998a-cdbe7a00d709?api-version=2022-04-01",
+        "detected": "2026-01-30T03:28:17Z",
+        "deleted": "false"
+    },
+    {
         "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
         "name": "Defender CSPM",
         "description": "Grants permissions for Microsoft Defender for Cloud CSPM base plan features",
@@ -2472,10 +2480,26 @@
         "link": "https://management.azure.com/8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5?api-version=2022-04-01"
     },
     {
+        "id": "99626c15-0799-47ad-96ab-f298031f69d6",
+        "name": "Defender Open Source Relational Databases",
+        "description": "Microsoft Defender for Open Source Relational Databases role. Grant permissions for enablement.",
+        "link": "https://management.azure.com/99626c15-0799-47ad-96ab-f298031f69d6?api-version=2022-04-01",
+        "detected": "2026-01-30T03:28:17Z",
+        "deleted": "false"
+    },
+    {
         "id": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
         "name": "Defender Registry Access",
         "description": "Grants Microsoft Defender for Cloud access to Azure Container Registry for security assessment of container images",
         "link": "https://management.azure.com/96062cf7-95ca-4f89-9b9d-2a2aa47356af?api-version=2022-04-01"
+    },
+    {
+        "id": "d9468a2b-1820-47e1-a40e-d2b7fba1879a",
+        "name": "Defender SQL Servers On Machines",
+        "description": "Microsoft Defender for SQL Servers On Machines role. Grant permissions for enablement.",
+        "link": "https://management.azure.com/d9468a2b-1820-47e1-a40e-d2b7fba1879a?api-version=2022-04-01",
+        "detected": "2026-01-30T03:28:17Z",
+        "deleted": "false"
     },
     {
         "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
