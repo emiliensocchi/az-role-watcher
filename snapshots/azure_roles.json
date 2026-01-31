@@ -2427,9 +2427,7 @@
         "id": "d2acaa63-2a62-4c01-998a-cdbe7a00d709",
         "name": "Defender Azure Cosmos DB",
         "description": "Microsoft Defender for Azure Cosmos DB role. Grant permissions for enablement.",
-        "link": "https://management.azure.com/d2acaa63-2a62-4c01-998a-cdbe7a00d709?api-version=2022-04-01",
-        "detected": "2026-01-30T03:28:17Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/d2acaa63-2a62-4c01-998a-cdbe7a00d709?api-version=2022-04-01"
     },
     {
         "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
@@ -2483,9 +2481,7 @@
         "id": "99626c15-0799-47ad-96ab-f298031f69d6",
         "name": "Defender Open Source Relational Databases",
         "description": "Microsoft Defender for Open Source Relational Databases role. Grant permissions for enablement.",
-        "link": "https://management.azure.com/99626c15-0799-47ad-96ab-f298031f69d6?api-version=2022-04-01",
-        "detected": "2026-01-30T03:28:17Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/99626c15-0799-47ad-96ab-f298031f69d6?api-version=2022-04-01"
     },
     {
         "id": "96062cf7-95ca-4f89-9b9d-2a2aa47356af",
@@ -2497,9 +2493,7 @@
         "id": "d9468a2b-1820-47e1-a40e-d2b7fba1879a",
         "name": "Defender SQL Servers On Machines",
         "description": "Microsoft Defender for SQL Servers On Machines role. Grant permissions for enablement.",
-        "link": "https://management.azure.com/d9468a2b-1820-47e1-a40e-d2b7fba1879a?api-version=2022-04-01",
-        "detected": "2026-01-30T03:28:17Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/d9468a2b-1820-47e1-a40e-d2b7fba1879a?api-version=2022-04-01"
     },
     {
         "id": "0b6ca2e8-2cdc-4bd6-b896-aa3d8c21fc35",
