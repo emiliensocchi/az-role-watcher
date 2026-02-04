@@ -6672,6 +6672,14 @@
         "deleted": "false"
     },
     {
+        "id": "2fe872fb-daa8-4afc-8f6c-53c4565cfef4",
+        "name": "Teams External Collaboration Administrator",
+        "description": "Manage external collaboration policies and settings for Teams, including configuring external domains and controlling which groups and users can interact with the organization.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2fe872fb-daa8-4afc-8f6c-53c4565cfef4",
+        "detected": "2026-02-04T03:32:38Z",
+        "deleted": "false"
+    },
+    {
         "id": "1c9b6475-caf0-4164-b5a1-2142a7116f4b",
         "name": "Template Spec Contributor",
         "description": "Allows full access to Template Spec operations at the assigned scope.",
