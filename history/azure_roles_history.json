@@ -416,6 +416,14 @@
         "deleted": "false"
     },
     {
+        "id": "0b00bede-4072-4d22-b441-e7df02a1ef63",
+        "name": "Authentication Extensibility Password Administrator",
+        "description": "Trigger a password submit event for custom authentication.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0b00bede-4072-4d22-b441-e7df02a1ef63",
+        "detected": "2026-02-13T03:41:38Z",
+        "deleted": "false"
+    },
+    {
         "id": "a8d01690-9418-4783-8ca2-9f0f1791783d",
         "name": "Auto Actions Contributor",
         "description": "Allows users to manage Auto Actions resources.",

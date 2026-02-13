@@ -108,6 +108,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/25a516ed-2fa0-40ea-a2d0-12923a21473a"
     },
     {
+        "id": "0b00bede-4072-4d22-b441-e7df02a1ef63",
+        "name": "Authentication Extensibility Password Administrator",
+        "description": "Trigger a password submit event for custom authentication.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0b00bede-4072-4d22-b441-e7df02a1ef63"
+    },
+    {
         "id": "0526716b-113d-4c15-b2c8-68e3c22b9f80",
         "name": "Authentication Policy Administrator",
         "description": "Can create and manage the authentication methods policy, tenant-wide MFA settings, password protection policy, and verifiable credentials.",

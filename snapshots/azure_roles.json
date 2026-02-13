@@ -3770,7 +3770,7 @@
     {
         "id": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
         "name": "Microsoft Discovery Platform Administrator (Preview)",
-        "description": "Grants full access to manage Microsoft.Discovery resources. This role in preview and subjet to change.",
+        "description": "Grants full access to manage Microsoft.Discovery resources. This role is in preview and subject to change.",
         "link": "https://management.azure.com/7a2b6e6c-472e-4b39-8878-a26eb63d75c6?api-version=2022-04-01"
     },
     {
