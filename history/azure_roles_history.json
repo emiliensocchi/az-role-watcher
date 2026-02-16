@@ -1160,6 +1160,38 @@
         "deleted": "false"
     },
     {
+        "id": "20cf746c-c765-402a-885e-c389c64478ce",
+        "name": "Azure Kubernetes Fleet Manager ABAC Custom Resources Reader",
+        "description": "Allows read-only access to view Kubernetes custom resources on Azure Kubernetes Fleet Manager fleets. This role enables viewing custom resources without the ability to create, modify, or delete them. Applying this role at cluster scope will give read access to custom resources across all namespaces. More information on supported attributes for Attribute-Based Access Control (ABAC) conditions can be found under documentation at aka.ms/aks/abac/custom-resources/docs",
+        "link": "https://management.azure.com/20cf746c-c765-402a-885e-c389c64478ce?api-version=2022-04-01",
+        "detected": "2026-02-16T03:42:33Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e1663658-d5f7-4383-9afb-af9fdc9c5eae",
+        "name": "Azure Kubernetes Fleet Manager ABAC Custom Resources Reader for Member Clusters",
+        "description": "Allows read-only access to view Kubernetes custom resources on Azure Kubernetes Fleet Manager member clusters. This role enables viewing custom resources without the ability to create, modify, or delete them. Applying this role at cluster scope will give read access to custom resources across all namespaces. More information on supported attributes for Attribute-Based Access Control (ABAC) conditions can be found under documentation at aka.ms/aks/abac/custom-resources/docs",
+        "link": "https://management.azure.com/e1663658-d5f7-4383-9afb-af9fdc9c5eae?api-version=2022-04-01",
+        "detected": "2026-02-16T03:42:33Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ff8eb232-5069-437e-94e5-31112ef30539",
+        "name": "Azure Kubernetes Fleet Manager ABAC Custom Resources Writer",
+        "description": "Allows write and delete access to manage Kubernetes custom resources on Azure Kubernetes Fleet Manager fleets. This role enables creating, modifying, and deleting custom resources. Applying this role at cluster scope will give access to custom resources across all namespaces. More information on supported attributes for Attribute-Based Access Control (ABAC) conditions can be found under documentation at aka.ms/aks/abac/custom-resources/docs",
+        "link": "https://management.azure.com/ff8eb232-5069-437e-94e5-31112ef30539?api-version=2022-04-01",
+        "detected": "2026-02-16T03:42:33Z",
+        "deleted": "false"
+    },
+    {
+        "id": "673366d4-9664-4020-b03b-b0093366bff9",
+        "name": "Azure Kubernetes Fleet Manager ABAC Custom Resources Writer for Member Clusters",
+        "description": "Allows write and delete access to manage Kubernetes custom resources on Azure Kubernetes Fleet Manager member clusters. This role enables creating, modifying, and deleting custom resources. Applying this role at cluster scope will give access to custom resources across all namespaces. More information on supported attributes for Attribute-Based Access Control (ABAC) conditions can be found under documentation at aka.ms/aks/abac/custom-resources/docs",
+        "link": "https://management.azure.com/673366d4-9664-4020-b03b-b0093366bff9?api-version=2022-04-01",
+        "detected": "2026-02-16T03:42:33Z",
+        "deleted": "false"
+    },
+    {
         "id": "63bb64ad-9799-4770-b5c3-24ed299a07bf",
         "name": "Azure Kubernetes Fleet Manager Contributor Role",
         "description": "Grants read/write access to Azure resources provided by Azure Kubernetes Fleet Manager, including fleets, fleet members, fleet update strategies, fleet update runs, etc.",
@@ -3424,6 +3456,14 @@
         "deleted": "false"
     },
     {
+        "id": "a366d631-94bf-46bf-b4af-b38f28c80774",
+        "name": "Defender for Storage Threat Protection",
+        "description": "Microsoft Defender for Storage Threat Protection role - grants the permissions needed to enable/disable Defender for Storage Advanced Threat Protection at resource level.",
+        "link": "https://management.azure.com/a366d631-94bf-46bf-b4af-b38f28c80774?api-version=2022-04-01",
+        "detected": "2026-02-16T03:42:33Z",
+        "deleted": "false"
+    },
+    {
         "id": "eb960402-bf75-4cc3-8d68-35b34f960f72",
         "name": "Deployment Environments Reader",
         "description": "Provides read access to environment resources.",
@@ -3637,6 +3677,14 @@
         "description": "Gives you read access to content operations, but does not allow making changes",
         "link": "https://management.azure.com/d1ee9a80-8b14-47f0-bdc2-f4a351625a7b?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f82fbe13-0f98-4809-af81-b82c343db82f",
+        "name": "Device Update Contributor",
+        "description": "Gives you full access to manage Device Update accounts, instances, and private endpoint connections",
+        "link": "https://management.azure.com/f82fbe13-0f98-4809-af81-b82c343db82f?api-version=2022-04-01",
+        "detected": "2026-02-16T03:42:33Z",
         "deleted": "false"
     },
     {
