@@ -2532,6 +2532,14 @@
         "link": "https://management.azure.com/68ac31b4-936a-4046-a6d2-ba6f8a757bf6?api-version=2022-04-01"
     },
     {
+        "id": "78b19ac9-582c-44d8-9e11-733ae424ad83",
+        "name": "Defender Servers P1",
+        "description": "Defender Servers P1",
+        "link": "https://management.azure.com/78b19ac9-582c-44d8-9e11-733ae424ad83?api-version=2022-04-01",
+        "detected": "2026-02-18T03:39:24Z",
+        "deleted": "false"
+    },
+    {
         "id": "7d0c0268-1199-449b-a52e-75c20879f46b",
         "name": "Defender Settings Contributor",
         "description": "Grants Microsoft Defender for Cloud access to Defender Settings",
