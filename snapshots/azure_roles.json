@@ -3153,9 +3153,7 @@
         "id": "ef3729d8-2861-401e-95ae-c7d4845a6097",
         "name": "Genome Admin",
         "description": "Full access to Genome control plane operations only",
-        "link": "https://management.azure.com/ef3729d8-2861-401e-95ae-c7d4845a6097?api-version=2022-04-01",
-        "detected": "2026-02-20T03:34:19Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/ef3729d8-2861-401e-95ae-c7d4845a6097?api-version=2022-04-01"
     },
     {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",

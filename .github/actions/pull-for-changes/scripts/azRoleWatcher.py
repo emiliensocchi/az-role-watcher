@@ -203,7 +203,7 @@ def update_file(local_file, content):
 
     """
     try:
-        with open(local_file, "w") as file:
+        with open(local_file, "w", encoding="utf-8") as file:
             file.write(content)
 
     except FileNotFoundError:
@@ -444,7 +444,7 @@ if __name__ == "__main__":
             # Add to history
             entra_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
             entra_role['deleted'] = 'false'               
-            history_builtin_azure_roles.append(entra_role)
+            history_builtin_entra_roles.append(entra_role)
 
         for removed_role_id in removed_role_ids:
             entra_role_list = [role for role in snapshoted_builtin_entra_roles if role['id'] == added_role_id]

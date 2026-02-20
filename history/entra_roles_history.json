@@ -120,6 +120,14 @@
         "deleted": "false"
     },
     {
+        "id": "0b00bede-4072-4d22-b441-e7df02a1ef63",
+        "name": "Authentication Extensibility Password Administrator",
+        "description": "Trigger a password submit event for custom authentication.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0b00bede-4072-4d22-b441-e7df02a1ef63",
+        "detected": "2026-02-20T22:29:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "0526716b-113d-4c15-b2c8-68e3c22b9f80",
         "name": "Authentication Policy Administrator",
         "description": "Can create and manage the authentication methods policy, tenant-wide MFA settings, password protection policy, and verifiable credentials.",
@@ -861,6 +869,14 @@
         "description": "Can perform management related tasks on Teams certified devices.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3d762c5a-1b6c-493f-843e-55a3b42923d4",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2fe872fb-daa8-4afc-8f6c-53c4565cfef4",
+        "name": "Teams External Collaboration Administrator",
+        "description": "Manage external collaboration policies and settings for Teams, including configuring external domains and controlling which groups and users can interact with the organization.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2fe872fb-daa8-4afc-8f6c-53c4565cfef4",
+        "detected": "2026-02-20T22:29:58Z",
         "deleted": "false"
     },
     {
