@@ -3510,6 +3510,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a3371ca5-911d-46d6-901c-42c8c7a937d8"
     },
     {
+        "id": "b0cfd829-be18-4b31-bb0e-ec1df8197ba3",
+        "name": "TeamworkTargetedMessage.Read.All",
+        "description": "Read all targeted messages of group chat or channel",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b0cfd829-be18-4b31-bb0e-ec1df8197ba3"
+    },
+    {
         "id": "ea047cc2-df29-4f3e-83a3-205de61501ca",
         "name": "TermStore.Read.All",
         "description": "Read all term store data",

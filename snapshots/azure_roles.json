@@ -3150,6 +3150,14 @@
         "link": "https://management.azure.com/a51d5f27-deba-47d1-9ccd-8589014b2e28?api-version=2022-04-01"
     },
     {
+        "id": "ef3729d8-2861-401e-95ae-c7d4845a6097",
+        "name": "Genome Admin",
+        "description": "Full access to Genome control plane operations only",
+        "link": "https://management.azure.com/ef3729d8-2861-401e-95ae-c7d4845a6097?api-version=2022-04-01",
+        "detected": "2026-02-20T03:34:19Z",
+        "deleted": "false"
+    },
+    {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
         "name": "GeoCatalog Administrator",
         "description": "Grants full access to manage GeoCatalogs, but does not allow you to assign roles in Azure RBAC.",
