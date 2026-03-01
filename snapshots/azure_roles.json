@@ -2538,6 +2538,14 @@
         "link": "https://management.azure.com/78b19ac9-582c-44d8-9e11-733ae424ad83?api-version=2022-04-01"
     },
     {
+        "id": "1dc24dd8-b00e-4344-837c-58b193cd23c7",
+        "name": "Defender Servers P2",
+        "description": "Defender Servers P2",
+        "link": "https://management.azure.com/1dc24dd8-b00e-4344-837c-58b193cd23c7?api-version=2022-04-01",
+        "detected": "2026-03-01T03:41:57Z",
+        "deleted": "false"
+    },
+    {
         "id": "7d0c0268-1199-449b-a52e-75c20879f46b",
         "name": "Defender Settings Contributor",
         "description": "Grants Microsoft Defender for Cloud access to Defender Settings",
@@ -3298,6 +3306,14 @@
         "name": "Healthcare Apis contributor",
         "description": "Allows all actions on healthcareapis provider resources",
         "link": "https://management.azure.com/29f61507-bdfb-4987-b629-20033be2d6c3?api-version=2022-04-01"
+    },
+    {
+        "id": "585db2ed-219e-4821-a06a-c6c14b602afa",
+        "name": "Healthcare Interop Contributor",
+        "description": "Allows all actions on healthcare interop provider resources",
+        "link": "https://management.azure.com/585db2ed-219e-4821-a06a-c6c14b602afa?api-version=2022-04-01",
+        "detected": "2026-03-01T03:41:57Z",
+        "deleted": "false"
     },
     {
         "id": "350f8d15-c687-4448-8ae1-157740a3936d",
