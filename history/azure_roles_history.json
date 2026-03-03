@@ -2464,6 +2464,14 @@
         "deleted": "false"
     },
     {
+        "id": "b1e6a0dd-ea0f-4108-8925-7047693f2cfe",
+        "name": "CloudTest Leased VM Reader",
+        "description": "Can view CloudTest leased VM's credentials",
+        "link": "https://management.azure.com/b1e6a0dd-ea0f-4108-8925-7047693f2cfe?api-version=2022-04-01",
+        "detected": "2026-03-03T03:34:09Z",
+        "deleted": "false"
+    },
+    {
         "id": "7ac06ca7-21ca-47e3-a67b-cbd6e6223baf",
         "name": "Cognitive Search Serverless Data Contributor (Deprecated)",
         "description": "This role has been deprecated",
