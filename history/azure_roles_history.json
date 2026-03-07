@@ -3080,6 +3080,22 @@
         "deleted": "false"
     },
     {
+        "id": "fc896ebc-f9a8-484d-a5ff-bd6a8c36289f",
+        "name": "Cosmos DB Long Term Retention Backup Role",
+        "description": "Allows performing long term retention backup operations for Cosmos DB",
+        "link": "https://management.azure.com/fc896ebc-f9a8-484d-a5ff-bd6a8c36289f?api-version=2022-04-01",
+        "detected": "2026-03-07T03:17:44Z",
+        "deleted": "false"
+    },
+    {
+        "id": "955d0cb2-de4e-43ed-819a-14220e079ba7",
+        "name": "Cosmos DB Long Term Retention Restore Role",
+        "description": "Allows performing long term retention restore operations for Cosmos DB",
+        "link": "https://management.azure.com/955d0cb2-de4e-43ed-819a-14220e079ba7?api-version=2022-04-01",
+        "detected": "2026-03-07T03:17:44Z",
+        "deleted": "false"
+    },
+    {
         "id": "230815da-be43-4aae-9cb4-875f7bd000aa",
         "name": "Cosmos DB Operator",
         "description": "Lets you manage Azure Cosmos DB accounts, but not access data in them. Prevents access to account keys and connection strings.",
