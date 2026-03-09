@@ -3860,7 +3860,7 @@
     {
         "id": "3bb7c424-af4e-436b-bfcc-8779c8934c31",
         "name": "Microsoft Discovery Platform Reader (Preview)",
-        "description": "Grants readonly permissions to view Microsoft.Discovery resources. This role in preview and subject to change.",
+        "description": "Grants readonly permissions to view Microsoft.Discovery resources. This role in preview and subjet to change.",
         "link": "https://management.azure.com/3bb7c424-af4e-436b-bfcc-8779c8934c31?api-version=2022-04-01"
     },
     {
