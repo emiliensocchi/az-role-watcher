@@ -1338,6 +1338,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9acd699f-1e81-4958-b001-93b1d2506e19"
     },
     {
+        "id": "56eda3c5-3834-4815-bd41-6f8fa1295247",
+        "name": "EntraBackup.Read.All",
+        "description": "Read Preview jobs and snapshots",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/56eda3c5-3834-4815-bd41-6f8fa1295247"
+    },
+    {
         "id": "b7f6385c-6ce6-4639-a480-e23c42ed9784",
         "name": "EventListener.Read.All",
         "description": "Read all authentication event listeners",
@@ -2262,6 +2268,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8e3bc81b-d2f3-4b7b-838c-32c88218d2f0"
     },
     {
+        "id": "227900ff-df89-40f8-90e2-8157cf6995d5",
+        "name": "Policy.Read.B2BManagementPolicy",
+        "description": "Read your organization's B2BManagement policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/227900ff-df89-40f8-90e2-8157cf6995d5"
+    },
+    {
         "id": "37730810-e9ba-4e46-b07e-8ca78d182097",
         "name": "Policy.Read.ConditionalAccess",
         "description": "Read your organization's conditional access policies",
@@ -2314,6 +2326,12 @@
         "name": "Policy.ReadWrite.Authorization",
         "description": "Read and write your organization's authorization policy",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fb221be6-99f2-473f-bd32-01c6a0e9ca3b"
+    },
+    {
+        "id": "886bd2d9-5b8b-4b49-adea-ca75fb50d9ef",
+        "name": "Policy.ReadWrite.B2BManagementPolicy",
+        "description": "Read and write your organization's B2BManagement policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/886bd2d9-5b8b-4b49-adea-ca75fb50d9ef"
     },
     {
         "id": "01c0a623-fc9b-48e9-b794-0756f8e8f067",

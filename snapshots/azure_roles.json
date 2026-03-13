@@ -768,6 +768,14 @@
         "link": "https://management.azure.com/207bcc4b-86a6-4487-9141-d6c1f4c238aa?api-version=2022-04-01"
     },
     {
+        "id": "78739afa-3ece-4d6b-90ba-762fdccd7438",
+        "name": "Azure Edge On-Site Deployment Manager",
+        "description": "Grants you access to take actions as an on-site person to assist in the provisioning of an edge device",
+        "link": "https://management.azure.com/78739afa-3ece-4d6b-90ba-762fdccd7438?api-version=2022-04-01",
+        "detected": "2026-03-13T03:29:47Z",
+        "deleted": "false"
+    },
+    {
         "id": "f526a384-b230-433a-b45c-95f59c4a2dec",
         "name": "Azure Event Hubs Data Owner",
         "description": "Allows for full access to Azure Event Hubs resources.",
@@ -2452,6 +2460,14 @@
         "name": "Dedicated Host Contributor Role",
         "description": "This is the role created for DedicatedHosts Contributor",
         "link": "https://management.azure.com/96ebd254-ecc7-4590-aff5-e9af3ff5f3b3?api-version=2022-04-01"
+    },
+    {
+        "id": "6fe711ec-654d-4ef7-8e32-eb7de3d94774",
+        "name": "Defender AI",
+        "description": "Service role that provides permissions for Microsoft Defender for AI",
+        "link": "https://management.azure.com/6fe711ec-654d-4ef7-8e32-eb7de3d94774?api-version=2022-04-01",
+        "detected": "2026-03-13T03:29:47Z",
+        "deleted": "false"
     },
     {
         "id": "6f91a4f9-10ee-4b95-b8cd-96ee73c5968d",
