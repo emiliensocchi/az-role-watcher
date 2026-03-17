@@ -723,9 +723,7 @@
         "id": "12675fd7-7f59-493f-9201-f7944860a2f1",
         "name": "Azure Device Registry Administrator",
         "description": "Azure Device Registry Administrator",
-        "link": "https://management.azure.com/12675fd7-7f59-493f-9201-f7944860a2f1?api-version=2022-04-01",
-        "detected": "2026-03-16T03:55:35Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/12675fd7-7f59-493f-9201-f7944860a2f1?api-version=2022-04-01"
     },
     {
         "id": "a5c3590a-3a1a-4cd4-9648-ea0a32b15137",
