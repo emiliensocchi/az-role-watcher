@@ -2115,17 +2115,13 @@
         "id": "f1641a58-a144-402b-baf9-39d1a4c10119",
         "name": "Confidential Ledger Data Contributor",
         "description": "Allows read and write access to Confidential Ledger transactions, including reading entries, receipts, and transaction status, and creating new ledger entries.",
-        "link": "https://management.azure.com/f1641a58-a144-402b-baf9-39d1a4c10119?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/f1641a58-a144-402b-baf9-39d1a4c10119?api-version=2022-04-01"
     },
     {
         "id": "4f1e6fca-3fde-4291-961e-642def6d5e1d",
         "name": "Confidential Ledger Data Reader",
         "description": "Allows read access to Confidential Ledger transactions, including reading entries, receipts, and transaction status.",
-        "link": "https://management.azure.com/4f1e6fca-3fde-4291-961e-642def6d5e1d?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/4f1e6fca-3fde-4291-961e-642def6d5e1d?api-version=2022-04-01"
     },
     {
         "id": "65a14201-8f6c-4c28-bec4-12619c5a9aaa",
@@ -2509,9 +2505,7 @@
         "id": "eef9d654-743f-4e2c-ad0f-9ed243177663",
         "name": "Defender Azure SQL Databases",
         "description": "Microsoft Defender for Azure SQL Databases role. Grant permissions for enablement.",
-        "link": "https://management.azure.com/eef9d654-743f-4e2c-ad0f-9ed243177663?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/eef9d654-743f-4e2c-ad0f-9ed243177663?api-version=2022-04-01"
     },
     {
         "id": "46023a6a-0702-4cbf-956c-d8c3ac27bc2b",
@@ -2613,25 +2607,19 @@
         "id": "c6c9b2d8-9a5e-4122-85e1-81612a046ab2",
         "name": "Defender Storage Automated Malware Remediation",
         "description": "Grants additional permissions for Microsoft Defender for Storage automated remediation operations including soft-delete management and blob deletion.",
-        "link": "https://management.azure.com/c6c9b2d8-9a5e-4122-85e1-81612a046ab2?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c6c9b2d8-9a5e-4122-85e1-81612a046ab2?api-version=2022-04-01"
     },
     {
         "id": "cd50fd1f-0421-46f2-8cce-afc587dbcc77",
         "name": "Defender Storage Malware Data Scanner",
         "description": "Grants data plane permissions for Microsoft Defender for Storage scanning operations \u2014 blob/file read, index tag updates.",
-        "link": "https://management.azure.com/cd50fd1f-0421-46f2-8cce-afc587dbcc77?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/cd50fd1f-0421-46f2-8cce-afc587dbcc77?api-version=2022-04-01"
     },
     {
         "id": "971cce9f-2680-4357-9678-c947847a9425",
         "name": "Defender Storage Malware Operator",
         "description": "Grants permissions for Microsoft Defender for Storage malware scanning operations including blob/file read, index tag updates, EventGrid management, and network bypass.",
-        "link": "https://management.azure.com/971cce9f-2680-4357-9678-c947847a9425?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/971cce9f-2680-4357-9678-c947847a9425?api-version=2022-04-01"
     },
     {
         "id": "1fd5d8bf-9037-4ede-89bf-680f798e2765",
@@ -4329,9 +4317,7 @@
         "id": "d622af9a-030e-4f32-8267-419abfd54702",
         "name": "Pro Active Coding Data User",
         "description": "Allows processing of health data in Pro Active Coding",
-        "link": "https://management.azure.com/d622af9a-030e-4f32-8267-419abfd54702?api-version=2022-04-01",
-        "detected": "2026-03-20T03:31:08Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/d622af9a-030e-4f32-8267-419abfd54702?api-version=2022-04-01"
     },
     {
         "id": "be1a1ac2-09d3-4261-9e57-a73a6e227f53",
