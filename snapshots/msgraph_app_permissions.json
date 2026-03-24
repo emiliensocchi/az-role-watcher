@@ -882,6 +882,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2932e07a-3c29-44e4-bb36-6d0fc176387f"
     },
     {
+        "id": "f9af4646-98b0-4e9d-a53e-40d4f6452fc4",
+        "name": "Contracts.Read.All",
+        "description": "Read contracts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f9af4646-98b0-4e9d-a53e-40d4f6452fc4"
+    },
+    {
         "id": "72f0655d-6228-4ddc-8e1b-164973b9213b",
         "name": "CopilotPackages.Read.All",
         "description": "Read all packages information",
@@ -2472,6 +2478,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f5b3f73d-6247-44df-a74c-866173fddab0"
     },
     {
+        "id": "e7ebe2d9-6e26-487a-8286-191d623a6904",
+        "name": "PrivilegedAccess-CustomExt.Read.All",
+        "description": "Read Privileged Access (PIM) custom extensions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e7ebe2d9-6e26-487a-8286-191d623a6904"
+    },
+    {
+        "id": "124325f3-0c46-4c57-a050-d6d1a82510f6",
+        "name": "PrivilegedAccess-CustomExt.ReadWrite.All",
+        "description": "Read and write Privileged Access (PIM) custom extensions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/124325f3-0c46-4c57-a050-d6d1a82510f6"
+    },
+    {
         "id": "4cdc2547-9148-4295-8d11-be0db1391d6b",
         "name": "PrivilegedAccess.Read.AzureAD",
         "description": "Read privileged access to Azure AD roles",
@@ -3532,6 +3550,42 @@
         "name": "TeamworkTargetedMessage.Read.All",
         "description": "Read all targeted messages of group chat or channel",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b0cfd829-be18-4b31-bb0e-ec1df8197ba3"
+    },
+    {
+        "id": "3f4f98e9-6faf-4e5f-814b-ed2ed8a4ec9e",
+        "name": "TenantGovernance-Invitation.Read.All",
+        "description": "Read Tenant Governance invitations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3f4f98e9-6faf-4e5f-814b-ed2ed8a4ec9e"
+    },
+    {
+        "id": "eb9465d8-e7c0-4301-8e51-927f34ee3134",
+        "name": "TenantGovernance-PolicyTemplate.Read.All",
+        "description": "Read Tenant Governance policy templates",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eb9465d8-e7c0-4301-8e51-927f34ee3134"
+    },
+    {
+        "id": "7ced9a83-8e7c-46df-b3e0-6b45a6ecedcd",
+        "name": "TenantGovernance-RelatedTenant.Read.All",
+        "description": "Read related tenants",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7ced9a83-8e7c-46df-b3e0-6b45a6ecedcd"
+    },
+    {
+        "id": "41c250d0-8793-44e1-a130-5fdbd5bccd0a",
+        "name": "TenantGovernance-Relationship.Read.All",
+        "description": "Read Tenant Governance relationships",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/41c250d0-8793-44e1-a130-5fdbd5bccd0a"
+    },
+    {
+        "id": "294294d5-2b81-4cf1-837c-28fc22bc3290",
+        "name": "TenantGovernance-Request.Read.All",
+        "description": "Read Tenant Governance requests",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/294294d5-2b81-4cf1-837c-28fc22bc3290"
+    },
+    {
+        "id": "e2d1cac5-0317-4ae3-aca9-59737eb75317",
+        "name": "TenantGovernance-Setting.Read.All",
+        "description": "Read Tenant Governance settings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e2d1cac5-0317-4ae3-aca9-59737eb75317"
     },
     {
         "id": "ea047cc2-df29-4f3e-83a3-205de61501ca",
