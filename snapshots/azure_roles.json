@@ -3900,6 +3900,14 @@
         "link": "https://management.azure.com/5052f0f9-7e27-4570-bc13-9ee1cf442526?api-version=2022-04-01"
     },
     {
+        "id": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
+        "name": "Microsoft Discovery Bookshelf Index Data Reader - Preview",
+        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/8ec773c5-7ce6-4b78-91d1-182f8faa536d?api-version=2022-04-01",
+        "detected": "2026-03-25T03:38:40Z",
+        "deleted": "false"
+    },
+    {
         "id": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
         "name": "Microsoft Discovery Platform Administrator (Preview)",
         "description": "Grants full access to manage Microsoft.Discovery resources. This role is in preview and subject to change.",
