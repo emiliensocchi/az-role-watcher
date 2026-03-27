@@ -1488,6 +1488,22 @@
         "deleted": "false"
     },
     {
+        "id": "3015e5ed-6856-4ab3-b2f0-b8492aa30ca6",
+        "name": "Azure Managed Redis Contributor",
+        "description": "Lets you manage Azure Managed Redis resources, but not access the data stored in them.",
+        "link": "https://management.azure.com/3015e5ed-6856-4ab3-b2f0-b8492aa30ca6?api-version=2022-04-01",
+        "detected": "2026-03-27T03:50:14Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f287ba2f-f923-4464-a5bd-721c3951d32d",
+        "name": "Azure Managed Redis Reader",
+        "description": "Lets you view Azure Managed Redis resources, but not modify them or access keys or access to the data stored in them.",
+        "link": "https://management.azure.com/f287ba2f-f923-4464-a5bd-721c3951d32d?api-version=2022-04-01",
+        "detected": "2026-03-27T03:50:14Z",
+        "deleted": "false"
+    },
+    {
         "id": "dba33070-676a-4fb0-87fa-064dc56ff7fb",
         "name": "Azure Maps Contributor",
         "description": "Grants access all Azure Maps resource management.",
@@ -5629,6 +5645,14 @@
         "description": "(Preview) This role allows full access to Azure Operator Nexus Network Cloud resources. This role is in preview and subject to change.",
         "link": "https://management.azure.com/77be276d-fb44-4f3b-beb5-9bf03c4cd2d3?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "63342533-d951-495d-a3c3-a459aa02362b",
+        "name": "Oracle Database DbSystems Administrator",
+        "description": "Grants full access to manage DbSystems resources",
+        "link": "https://management.azure.com/63342533-d951-495d-a3c3-a459aa02362b?api-version=2022-04-01",
+        "detected": "2026-03-27T03:50:14Z",
         "deleted": "false"
     },
     {
