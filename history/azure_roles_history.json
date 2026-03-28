@@ -3728,6 +3728,14 @@
         "deleted": "false"
     },
     {
+        "id": "c24cf47c-5077-412d-a19c-45202126392c",
+        "name": "Dev Compute SandboxGroup Data Owner",
+        "description": "Ownership of all SandboxGroup data.",
+        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01",
+        "detected": "2026-03-28T03:37:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "45d50f46-0b78-4001-a660-4198cbe8cd05",
         "name": "DevCenter Dev Box User",
         "description": "Provides access to create and manage dev boxes.",

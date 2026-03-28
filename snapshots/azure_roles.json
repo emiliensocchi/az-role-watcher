@@ -1101,17 +1101,13 @@
         "id": "3015e5ed-6856-4ab3-b2f0-b8492aa30ca6",
         "name": "Azure Managed Redis Contributor",
         "description": "Lets you manage Azure Managed Redis resources, but not access the data stored in them.",
-        "link": "https://management.azure.com/3015e5ed-6856-4ab3-b2f0-b8492aa30ca6?api-version=2022-04-01",
-        "detected": "2026-03-27T03:50:14Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/3015e5ed-6856-4ab3-b2f0-b8492aa30ca6?api-version=2022-04-01"
     },
     {
         "id": "f287ba2f-f923-4464-a5bd-721c3951d32d",
         "name": "Azure Managed Redis Reader",
         "description": "Lets you view Azure Managed Redis resources, but not modify them or access keys or access to the data stored in them.",
-        "link": "https://management.azure.com/f287ba2f-f923-4464-a5bd-721c3951d32d?api-version=2022-04-01",
-        "detected": "2026-03-27T03:50:14Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/f287ba2f-f923-4464-a5bd-721c3951d32d?api-version=2022-04-01"
     },
     {
         "id": "dba33070-676a-4fb0-87fa-064dc56ff7fb",
@@ -2800,6 +2796,14 @@
         "link": "https://management.azure.com/0fa44ee9-7a7d-466b-9bb2-2bf446b1204d?api-version=2022-04-01"
     },
     {
+        "id": "c24cf47c-5077-412d-a19c-45202126392c",
+        "name": "Dev Compute SandboxGroup Data Owner",
+        "description": "Ownership of all SandboxGroup data.",
+        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01",
+        "detected": "2026-03-28T03:37:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "45d50f46-0b78-4001-a660-4198cbe8cd05",
         "name": "DevCenter Dev Box User",
         "description": "Provides access to create and manage dev boxes.",
@@ -4195,9 +4199,7 @@
         "id": "63342533-d951-495d-a3c3-a459aa02362b",
         "name": "Oracle Database DbSystems Administrator",
         "description": "Grants full access to manage DbSystems resources",
-        "link": "https://management.azure.com/63342533-d951-495d-a3c3-a459aa02362b?api-version=2022-04-01",
-        "detected": "2026-03-27T03:50:14Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/63342533-d951-495d-a3c3-a459aa02362b?api-version=2022-04-01"
     },
     {
         "id": "4caf51ec-f9f5-413f-8a94-b9f5fddba66b",
