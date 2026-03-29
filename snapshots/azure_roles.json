@@ -2799,9 +2799,7 @@
         "id": "c24cf47c-5077-412d-a19c-45202126392c",
         "name": "Dev Compute SandboxGroup Data Owner",
         "description": "Ownership of all SandboxGroup data.",
-        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01",
-        "detected": "2026-03-28T03:37:42Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01"
     },
     {
         "id": "45d50f46-0b78-4001-a660-4198cbe8cd05",
@@ -4764,6 +4762,14 @@
         "name": "Services Hub Operator",
         "description": "Services Hub Operator allows you to perform all read, write, and deletion operations related to Services Hub Connectors.",
         "link": "https://management.azure.com/82200a5b-e217-47a5-b665-6d8765ee745b?api-version=2022-04-01"
+    },
+    {
+        "id": "4417a88f-3e58-4cf2-a4e9-112cf414254c",
+        "name": "Services Hub User",
+        "description": "Services Hub User allows you to perform all read, write, and deletion operations related to Services Hub Connectors except create/delete connector and managing law.",
+        "link": "https://management.azure.com/4417a88f-3e58-4cf2-a4e9-112cf414254c?api-version=2022-04-01",
+        "detected": "2026-03-29T03:55:24Z",
+        "deleted": "false"
     },
     {
         "id": "04165923-9d83-45d5-8227-78b77b0a687e",

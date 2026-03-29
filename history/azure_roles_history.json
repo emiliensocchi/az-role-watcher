@@ -6440,6 +6440,14 @@
         "deleted": "false"
     },
     {
+        "id": "4417a88f-3e58-4cf2-a4e9-112cf414254c",
+        "name": "Services Hub User",
+        "description": "Services Hub User allows you to perform all read, write, and deletion operations related to Services Hub Connectors except create/delete connector and managing law.",
+        "link": "https://management.azure.com/4417a88f-3e58-4cf2-a4e9-112cf414254c?api-version=2022-04-01",
+        "detected": "2026-03-29T03:55:24Z",
+        "deleted": "false"
+    },
+    {
         "id": "99009c4a-3b3f-4957-82a9-9d35e12db77e",
         "name": "SharePoint Advanced Management Administrator",
         "description": "Manage all aspects of SharePoint Advanced Management.",
