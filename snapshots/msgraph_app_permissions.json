@@ -1314,6 +1314,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bfbd4840-fba0-43a7-93a9-465b687e47d0"
     },
     {
+        "id": "eda8c187-a7d5-42cb-b2e1-c9142f63899f",
+        "name": "EngagementExport.Read.All",
+        "description": "Export Viva Engage data",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eda8c187-a7d5-42cb-b2e1-c9142f63899f"
+    },
+    {
         "id": "d746beae-b46e-446e-924a-5b805a5c4467",
         "name": "EngagementMeetingConversation.Read.All",
         "description": "Read all Viva Engage Teams QA conversations",
@@ -2242,6 +2248,12 @@
         "name": "Place.Read.All",
         "description": "Read all company places",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/913b9306-0ce1-42b8-9137-6a7df690a760"
+    },
+    {
+        "id": "f1f5e9aa-ad18-4b97-883e-6aa7e95b7a5f",
+        "name": "Place.ReadWrite.All",
+        "description": "Read and write organization places",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f1f5e9aa-ad18-4b97-883e-6aa7e95b7a5f"
     },
     {
         "id": "8b724a84-ceac-4fd9-897e-e31ba8f2d7a3",
@@ -3534,6 +3546,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/79c02f5b-bd4f-4713-bc2c-a8a4a66e127b"
     },
     {
+        "id": "e9e1b87a-726e-4628-8fab-d1fc58d4d9ad",
+        "name": "TeamworkSection.Read.All",
+        "description": "Read all users' sections",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e9e1b87a-726e-4628-8fab-d1fc58d4d9ad"
+    },
+    {
+        "id": "fd99f9da-42d6-4d00-8a41-4161bea42309",
+        "name": "TeamworkSection.ReadWrite.All",
+        "description": "Read and write all users' sections",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fd99f9da-42d6-4d00-8a41-4161bea42309"
+    },
+    {
         "id": "b74fd6c4-4bde-488e-9695-eeb100e4907f",
         "name": "TeamworkTag.Read.All",
         "description": "Read tags in Teams",
@@ -3976,6 +4000,12 @@
         "name": "VirtualEventRegistration-Anon.ReadWrite.All",
         "description": "Read and write anonymous users' virtual event registrations",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/23211fc1-f9d1-4e8e-8e9e-08a5d0a109bb"
+    },
+    {
+        "id": "50a8bf5f-b06a-4ac7-881f-3ca0c4be7550",
+        "name": "WindowsUpdates.Read.All",
+        "description": "Read all Windows update deployment settings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/50a8bf5f-b06a-4ac7-881f-3ca0c4be7550"
     },
     {
         "id": "7dd1be58-6e76-4401-bf8d-31d1e8180d5b",

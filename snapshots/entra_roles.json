@@ -192,6 +192,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b1be1c3e-b65d-4f19-8427-f6fa0d97feb9"
     },
     {
+        "id": "fc8ad4e2-40e4-4724-8317-bcda7503ecbf",
+        "name": "Customer Delegated Admin Relationship Administrator",
+        "description": "Manage all aspects of granular delegated admin privileges (GDAP) relationships in a customer tenant.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fc8ad4e2-40e4-4724-8317-bcda7503ecbf"
+    },
+    {
         "id": "5c4f9dcd-47dc-4cf7-8c9a-9e4207cbfc91",
         "name": "Customer LockBox Access Approver",
         "description": "Can approve Microsoft support requests to access customer organizational data.",
