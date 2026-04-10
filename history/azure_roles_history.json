@@ -3848,6 +3848,14 @@
         "deleted": "false"
     },
     {
+        "id": "64375caa-ac3e-48b3-9492-da4d60aba7bb",
+        "name": "Diagnostics Operator",
+        "description": "Role allows users to collect diagnostic information regarding their Virtual Machine",
+        "link": "https://management.azure.com/64375caa-ac3e-48b3-9492-da4d60aba7bb?api-version=2022-04-01",
+        "detected": "2026-04-10T04:08:43Z",
+        "deleted": "false"
+    },
+    {
         "id": "3e5e47e6-65f7-47ef-90b5-e5dd4d455f24",
         "name": "Disk Backup Reader",
         "description": "Provides permission to backup vault to perform disk backup.",
