@@ -1398,6 +1398,30 @@
         "link": "https://management.azure.com/8210e6a3-4e4c-4e1a-bd83-ef8bac788a45?api-version=2022-04-01"
     },
     {
+        "id": "b66c1f7c-c685-40d6-b8b8-64b8230febf4",
+        "name": "Azure Resilience Management Usage Administrator",
+        "description": "Administrator Role of Azure Resilience Management Usage",
+        "link": "https://management.azure.com/b66c1f7c-c685-40d6-b8b8-64b8230febf4?api-version=2022-04-01",
+        "detected": "2026-04-11T03:38:05Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5ca51376-e049-4302-abcc-64c588049c59",
+        "name": "Azure Resilience Management Usage Contributor",
+        "description": "Contributor Role of Azure Resilience Management Usage",
+        "link": "https://management.azure.com/5ca51376-e049-4302-abcc-64c588049c59?api-version=2022-04-01",
+        "detected": "2026-04-11T03:38:05Z",
+        "deleted": "false"
+    },
+    {
+        "id": "b130f7de-5374-4e3d-ada8-bae6e49114b9",
+        "name": "Azure Resilience Management Usage Reader",
+        "description": "Reader Role of Azure Resilience Management Usage",
+        "link": "https://management.azure.com/b130f7de-5374-4e3d-ada8-bae6e49114b9?api-version=2022-04-01",
+        "detected": "2026-04-11T03:38:05Z",
+        "deleted": "false"
+    },
+    {
         "id": "7b1f81f9-4196-4058-8aae-762e593270df",
         "name": "Azure Resource Bridge Deployment Role",
         "description": "Azure Resource Bridge Deployment Role",
@@ -2889,9 +2913,7 @@
         "id": "64375caa-ac3e-48b3-9492-da4d60aba7bb",
         "name": "Diagnostics Operator",
         "description": "Role allows users to collect diagnostic information regarding their Virtual Machine",
-        "link": "https://management.azure.com/64375caa-ac3e-48b3-9492-da4d60aba7bb?api-version=2022-04-01",
-        "detected": "2026-04-10T04:08:43Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/64375caa-ac3e-48b3-9492-da4d60aba7bb?api-version=2022-04-01"
     },
     {
         "id": "3e5e47e6-65f7-47ef-90b5-e5dd4d455f24",
