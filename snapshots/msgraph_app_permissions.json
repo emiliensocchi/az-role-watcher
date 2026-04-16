@@ -1866,6 +1866,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/23c5a9bd-d900-4ecf-be26-a0689755d9e5"
     },
     {
+        "id": "22d2957f-3c5b-4db8-bc3e-d0bd8748a406",
+        "name": "MS-RemoteTenantGroups.Read.All",
+        "description": "Read RemoteTenantGroups information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/22d2957f-3c5b-4db8-bc3e-d0bd8748a406"
+    },
+    {
         "id": "e118f1da-5c1c-46cf-bff6-8858d786f46f",
         "name": "Mail-Advanced.ReadWrite.All",
         "description": "Read and write mail in all mailboxes, including modifying existing non-draft mails",
