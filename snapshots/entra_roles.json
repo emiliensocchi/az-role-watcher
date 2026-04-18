@@ -6,6 +6,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d2562ede-74db-457e-a7b6-544e236ebb61"
     },
     {
+        "id": "1fe13547-53f6-408d-ac04-7f8eed167b38",
+        "name": "AI Reader",
+        "description": "Read all aspects of Microsoft 365 Copilot and AI-related enterprise services in Microsoft 365.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1fe13547-53f6-408d-ac04-7f8eed167b38"
+    },
+    {
         "id": "db506228-d27e-4b7d-95e5-295956d6615f",
         "name": "Agent ID Administrator",
         "description": "Manage all aspects of agents in a tenant including identity lifecycle operations for agent blueprints, agent service principals, agent identities, and agentic users.",

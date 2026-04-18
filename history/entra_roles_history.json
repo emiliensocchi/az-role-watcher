@@ -8,6 +8,14 @@
         "deleted": "false"
     },
     {
+        "id": "1fe13547-53f6-408d-ac04-7f8eed167b38",
+        "name": "AI Reader",
+        "description": "Read all aspects of Microsoft 365 Copilot and AI-related enterprise services in Microsoft 365.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1fe13547-53f6-408d-ac04-7f8eed167b38",
+        "detected": "2026-04-18T03:48:52Z",
+        "deleted": "false"
+    },
+    {
         "id": "9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3",
         "name": "Application Administrator",
         "description": "Can create and manage all aspects of app registrations and enterprise apps.",
