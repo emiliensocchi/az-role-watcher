@@ -864,6 +864,12 @@
         "link": "https://management.azure.com/7b7c71ed-33fa-4ed2-a91a-e56d5da260b5?api-version=2022-04-01"
     },
     {
+        "id": "852e55ca-96ce-48b0-abca-2cd74d9042ca",
+        "name": "Azure Kubernetes Application Network Contributor Role",
+        "description": "Grant read, write and delete access to Azure Kubernetes Application Network",
+        "link": "https://management.azure.com/852e55ca-96ce-48b0-abca-2cd74d9042ca?api-version=2022-04-01"
+    },
+    {
         "id": "20cf746c-c765-402a-885e-c389c64478ce",
         "name": "Azure Kubernetes Fleet Manager ABAC Custom Resources Reader",
         "description": "Allows read-only access to view Kubernetes custom resources on Azure Kubernetes Fleet Manager fleets. This role enables viewing custom resources without the ability to create, modify, or delete them. Applying this role at cluster scope will give read access to custom resources across all namespaces. More information on supported attributes for Attribute-Based Access Control (ABAC) conditions can be found under documentation at aka.ms/aks/abac/custom-resources/docs",
@@ -3892,12 +3898,6 @@
         "name": "Managed Identity Operator",
         "description": "Read and Assign User Assigned Identity",
         "link": "https://management.azure.com/f1a07417-d97a-45cb-824c-7a7467783830?api-version=2022-04-01"
-    },
-    {
-        "id": "852e55ca-96ce-48b0-abca-2cd74d9042ca",
-        "name": "Managed Mesh for AKS Contributor Role",
-        "description": "Grant read, write and delete access to Managed Mesh for AKS",
-        "link": "https://management.azure.com/852e55ca-96ce-48b0-abca-2cd74d9042ca?api-version=2022-04-01"
     },
     {
         "id": "91c1777a-f3dc-4fae-b103-61d183457e46",
