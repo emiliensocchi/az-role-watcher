@@ -240,6 +240,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/782ab1bf-24f1-4c27-8bbc-2006d42792a6"
     },
     {
+        "id": "d3acceb6-4673-47c0-aeac-582f2c7cf72c",
+        "name": "AgentRegistration.Read.All",
+        "description": "Read all agent registrations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d3acceb6-4673-47c0-aeac-582f2c7cf72c"
+    },
+    {
+        "id": "39fb8c64-7bd3-4107-8515-14d6e55ddda4",
+        "name": "AgentRegistration.ReadWrite.All",
+        "description": "Read and write all agent registrations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/39fb8c64-7bd3-4107-8515-14d6e55ddda4"
+    },
+    {
         "id": "2f3e6f8c-093b-4c57-a58b-ba5ce494a169",
         "name": "Agreement.Read.All",
         "description": "Read all terms of use agreements",
@@ -900,6 +912,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ed31732f-9495-47ed-ba3b-4ed0948c1c64"
     },
     {
+        "id": "556d5e2e-1081-4452-8147-26c3a1b06f58",
+        "name": "CopilotPolicySettings.Read",
+        "description": "Read Copilot policy settings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/556d5e2e-1081-4452-8147-26c3a1b06f58"
+    },
+    {
+        "id": "cc147c17-b8e8-4d3f-9f94-aa9e279a079a",
+        "name": "CopilotPolicySettings.ReadWrite",
+        "description": "Read and write Copilot policy settings",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/cc147c17-b8e8-4d3f-9f94-aa9e279a079a"
+    },
+    {
         "id": "cac88765-0581-4025-9725-5ebc13f729ee",
         "name": "CrossTenantInformation.ReadBasic.All",
         "description": "Read cross-tenant basic information",
@@ -1482,6 +1506,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6679c91b-820a-4900-ab47-e97b197a89c4"
     },
     {
+        "id": "2d53948b-d2c5-4008-9c4e-6361bf192555",
+        "name": "Group-NestingSupport.ReadWrite.All",
+        "description": "Read and write groups' disableNesting property",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2d53948b-d2c5-4008-9c4e-6361bf192555"
+    },
+    {
         "id": "2d9bd318-b883-40be-9df7-63ec4fcdc424",
         "name": "Group-OnPremisesSyncBehavior.ReadWrite.All",
         "description": "Read and update the on-premises sync behavior of groups",
@@ -1866,12 +1896,6 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/23c5a9bd-d900-4ecf-be26-a0689755d9e5"
     },
     {
-        "id": "22d2957f-3c5b-4db8-bc3e-d0bd8748a406",
-        "name": "MS-RemoteTenantGroups.Read.All",
-        "description": "Read RemoteTenantGroups information",
-        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/22d2957f-3c5b-4db8-bc3e-d0bd8748a406"
-    },
-    {
         "id": "e118f1da-5c1c-46cf-bff6-8858d786f46f",
         "name": "Mail-Advanced.ReadWrite.All",
         "description": "Read and write mail in all mailboxes, including modifying existing non-draft mails",
@@ -1906,6 +1930,12 @@
         "name": "Mail.Send",
         "description": "Send mail as any user",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b633e1c5-b582-4048-a93e-9f11b44c7e96"
+    },
+    {
+        "id": "a2c9652d-4d7f-4e4e-9d75-ac32fdc6f413",
+        "name": "MailTips.ReadBasic.All",
+        "description": "Read mail tips for all users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a2c9652d-4d7f-4e4e-9d75-ac32fdc6f413"
     },
     {
         "id": "27d9d776-f4d2-426d-80ad-5f22f2b01b0a",
@@ -2550,10 +2580,22 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/cd4161cb-f098-48f8-a884-1eda9a42434c"
     },
     {
+        "id": "3a728f2e-df1d-4294-9899-86f601fae70a",
+        "name": "PrivilegedAssignmentSchedule.Read.EntraAppRole",
+        "description": "Read assignment schedules for app permission grants and app role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3a728f2e-df1d-4294-9899-86f601fae70a"
+    },
+    {
         "id": "41202f2c-f7ab-45be-b001-85c9728b9d69",
         "name": "PrivilegedAssignmentSchedule.ReadWrite.AzureADGroup",
         "description": "Read, create, and delete assignment schedules for access to Azure AD groups",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/41202f2c-f7ab-45be-b001-85c9728b9d69"
+    },
+    {
+        "id": "81adad77-a25a-489d-ac43-321115620139",
+        "name": "PrivilegedAssignmentSchedule.ReadWrite.EntraAppRole",
+        "description": "Read, create, and delete assignment schedules for app permission grants and app role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/81adad77-a25a-489d-ac43-321115620139"
     },
     {
         "id": "55d1104b-3821-413d-b3ca-e2393d333cd3",
@@ -2568,10 +2610,22 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/edb419d6-7edc-42a3-9345-509bfdf5d87c"
     },
     {
+        "id": "d2ab45a0-ed46-4f7f-806a-0f1146144d5a",
+        "name": "PrivilegedEligibilitySchedule.Read.EntraAppRole",
+        "description": "Read eligibility schedules for app permission grants and app role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d2ab45a0-ed46-4f7f-806a-0f1146144d5a"
+    },
+    {
         "id": "618b6020-bca8-4de6-99f6-ef445fa4d857",
         "name": "PrivilegedEligibilitySchedule.ReadWrite.AzureADGroup",
         "description": "Read, create, and delete eligibility schedules for access to Azure AD groups",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/618b6020-bca8-4de6-99f6-ef445fa4d857"
+    },
+    {
+        "id": "7f4c39f1-1aa7-44b7-ab05-38df2609c37a",
+        "name": "PrivilegedEligibilitySchedule.ReadWrite.EntraAppRole",
+        "description": "Read, create, and delete eligibility schedules for app permission grants and app role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7f4c39f1-1aa7-44b7-ab05-38df2609c37a"
     },
     {
         "id": "55745561-7572-4314-a737-a2c2a1b0dd2e",
@@ -2820,6 +2874,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fdc4c997-9942-4479-bfcb-75a36d1138df"
     },
     {
+        "id": "3d201a4e-90f1-420d-bd4f-3beec28a46b9",
+        "name": "RoleManagementPolicy.Read.EntraAppRole",
+        "description": "Read all policies in PIM for App Roles",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3d201a4e-90f1-420d-bd4f-3beec28a46b9"
+    },
+    {
         "id": "b38dcc4d-a239-4ed6-aa84-6c65b284f97c",
         "name": "RoleManagementPolicy.ReadWrite.AzureADGroup",
         "description": "Read, update, and delete all policies in PIM for Groups",
@@ -2830,6 +2890,12 @@
         "name": "RoleManagementPolicy.ReadWrite.Directory",
         "description": "Read, update, and delete all policies for privileged role assignments of your company's directory",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/31e08e0a-d3f7-4ca2-ac39-7343fb83e8ad"
+    },
+    {
+        "id": "ec563bdb-80dc-47c0-81d3-bff47cc6ac06",
+        "name": "RoleManagementPolicy.ReadWrite.EntraAppRole",
+        "description": "Manage all policies in PIM for App Roles",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ec563bdb-80dc-47c0-81d3-bff47cc6ac06"
     },
     {
         "id": "0b21c159-dbf4-4dbb-a6f6-490e412c716e",
@@ -2950,6 +3016,18 @@
         "name": "SecurityIdentitiesHealth.ReadWrite.All",
         "description": "Read and write all identity security health issues",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ab03ddd5-7ae4-4f2e-8af8-86654f7e0a27"
+    },
+    {
+        "id": "b018cc1c-c680-4e91-bb6e-462ee243fdb5",
+        "name": "SecurityIdentitiesMigration.Read.All",
+        "description": "Read all identity security sensor migration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b018cc1c-c680-4e91-bb6e-462ee243fdb5"
+    },
+    {
+        "id": "afd28a5a-707f-4edf-85c2-c446291e63da",
+        "name": "SecurityIdentitiesMigration.ReadWrite.All",
+        "description": "Read and write all identity security sensor migration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/afd28a5a-707f-4edf-85c2-c446291e63da"
     },
     {
         "id": "5f0ffea2-f474-4cf2-9834-61cda2bcea5c",
