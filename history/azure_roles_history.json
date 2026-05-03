@@ -5152,6 +5152,14 @@
         "deleted": "false"
     },
     {
+        "id": "32109304-a0e2-4d64-bd07-b23ac5efbe43",
+        "name": "Logic Apps Hybrid Contributor",
+        "description": "Full management of Logic Apps Hybrid, including creation, deletion, and updates.",
+        "link": "https://management.azure.com/32109304-a0e2-4d64-bd07-b23ac5efbe43?api-version=2022-04-01",
+        "detected": "2026-05-03T04:41:41Z",
+        "deleted": "false"
+    },
+    {
         "id": "ad710c24-b039-4e85-a019-deb4a06e8570",
         "name": "Logic Apps Standard Contributor (Preview)",
         "description": "You can manage all aspects of a Standard logic app and workflows. You can't change access or ownership.",
