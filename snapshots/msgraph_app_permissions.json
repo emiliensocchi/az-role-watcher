@@ -194,13 +194,13 @@
     {
         "id": "8959696d-d07e-4916-9b1e-3ba9ce459161",
         "name": "AgentIdentityBlueprintPrincipal.Create",
-        "description": "Create agent identity blueprint service principals.",
+        "description": "Create agent identity blueprint principals.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8959696d-d07e-4916-9b1e-3ba9ce459161"
     },
     {
         "id": "f86a2dd8-9298-4675-bd78-f5a3572da2d7",
         "name": "AgentIdentityBlueprintPrincipal.DeleteRestore.All",
-        "description": "Delete and restore agent identity blueprints.",
+        "description": "Delete and restore agent identity blueprint principals.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f86a2dd8-9298-4675-bd78-f5a3572da2d7"
     },
     {
