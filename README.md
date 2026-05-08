@@ -4,11 +4,11 @@ Get notified on the **addition** or **removal** of roles and permissions in Micr
 
 ### 🔔 Detected changes this year (2026) 
 
-> last updated: 2026-05-07T05:24:54Z 
+> last updated: 2026-05-08T04:48:44Z 
 
 | 🏷️ Category | ➕ Added | ❌ Removed |
 |----------|-------|---------|
-| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">48</span> | 0 |
+| ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">55</span> | 0 |
 | 👤 Entra roles | <span style="color:#009E73;font-weight:bold">10</span> | 0 |
 | 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">32</span> | <span style="color:#D55E00;font-weight:bold">1</span> |
 
