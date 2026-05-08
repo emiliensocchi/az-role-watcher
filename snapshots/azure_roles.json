@@ -180,6 +180,30 @@
         "link": "https://management.azure.com/a2138dac-4907-4679-a376-736901ed8ad8?api-version=2022-04-01"
     },
     {
+        "id": "3e9f3756-203e-4734-a0b8-4b68691ffae3",
+        "name": "Anyscale Platform Administrator Role",
+        "description": "Provides full access to Anyscale Cloud and resources as well as admin features such as usage and resource notifications.",
+        "link": "https://management.azure.com/3e9f3756-203e-4734-a0b8-4b68691ffae3?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "6d461258-d39c-46cc-8ca1-cab4120979d8",
+        "name": "Anyscale Platform Contributor Role",
+        "description": "Grants read/write access to Anyscale Cloud and resources",
+        "link": "https://management.azure.com/6d461258-d39c-46cc-8ca1-cab4120979d8?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ab24b16e-fd5d-41b5-839e-6c6d2ad32363",
+        "name": "Anyscale Platform Reader Role",
+        "description": "Read access to Anyscale Cloud and resources",
+        "link": "https://management.azure.com/ab24b16e-fd5d-41b5-839e-6c6d2ad32363?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
         "id": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
         "name": "App Compliance Automation Administrator",
         "description": "Allows managing App Compliance Automation tool for Microsoft 365",
@@ -2232,6 +2256,12 @@
         "link": "https://management.azure.com/f3bd1b5c-91fa-40e7-afe7-0c11d331232c?api-version=2022-04-01"
     },
     {
+        "id": "c24cf47c-5077-412d-a19c-45202126392c",
+        "name": "Container Apps SandboxGroup Data Owner",
+        "description": "Ownership of all Container Apps SandboxGroup data.",
+        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01"
+    },
+    {
         "id": "f7669afb-68b2-44b4-9c5f-6d2a47fddda0",
         "name": "Container Apps SessionPools Contributor",
         "description": "Full management of Container Apps SessionPools, including creation, deletion, and updates.",
@@ -2820,12 +2850,6 @@
         "link": "https://management.azure.com/0fa44ee9-7a7d-466b-9bb2-2bf446b1204d?api-version=2022-04-01"
     },
     {
-        "id": "c24cf47c-5077-412d-a19c-45202126392c",
-        "name": "Dev Compute SandboxGroup Data Owner",
-        "description": "Ownership of all SandboxGroup data.",
-        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01"
-    },
-    {
         "id": "45d50f46-0b78-4001-a660-4198cbe8cd05",
         "name": "DevCenter Dev Box User",
         "description": "Provides access to create and manage dev boxes.",
@@ -2912,7 +2936,7 @@
     {
         "id": "64375caa-ac3e-48b3-9492-da4d60aba7bb",
         "name": "Diagnostics Operator",
-        "description": "Role allows users to collect diagnostic information regarding their Virtual Machine",
+        "description": "Collect diagnostic information regarding Virtual Machine and Virtual Machine Scale Sets",
         "link": "https://management.azure.com/64375caa-ac3e-48b3-9492-da4d60aba7bb?api-version=2022-04-01"
     },
     {
@@ -3484,6 +3508,22 @@
         "name": "Impact Reader",
         "description": "Allows read-only access to reported impacts and impact categories",
         "link": "https://management.azure.com/68ff5d27-c7f5-4fa9-a21c-785d0df7bd9e?api-version=2022-04-01"
+    },
+    {
+        "id": "360cab3d-4340-4c96-816d-682fbd52b3e2",
+        "name": "Inference Account Operator",
+        "description": "Create, read, modify, and delete inference accounts. This role should be assigned to users who can only manage inference accounts but can't perform inference operations.",
+        "link": "https://management.azure.com/360cab3d-4340-4c96-816d-682fbd52b3e2?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "76315a85-9e6b-4514-9780-868b1977b64e",
+        "name": "Inference Account Owner",
+        "description": "Create, read, modify, and delete inference accounts; as well as running inference workloads against those accounts. This role should be assigned to users who need full management capabilities over inference accounts, including the ability to run workloads.",
+        "link": "https://management.azure.com/76315a85-9e6b-4514-9780-868b1977b64e?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
     },
     {
         "id": "2e481b5d-5af3-463b-8b01-f9c948aaf0c5",
@@ -4392,6 +4432,14 @@
         "link": "https://management.azure.com/be1a1ac2-09d3-4261-9e57-a73a6e227f53?api-version=2022-04-01"
     },
     {
+        "id": "469a0cf0-3794-4627-838e-39d04f27b306",
+        "name": "Procurement Contributor with Resource Group Permissions",
+        "description": "Manage procurement of products and services, and create, update, and delete resource groups.",
+        "link": "https://management.azure.com/469a0cf0-3794-4627-838e-39d04f27b306?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
         "id": "9ef4ef9c-a049-46b0-82ab-dd8ac094c889",
         "name": "Project Babylon Data Curator",
         "description": "The Microsoft.ProjectBabylon data curator can create, read, modify and delete catalog data objects and establish relationships between objects. This role is in preview and subject to change.",
@@ -4738,6 +4786,14 @@
         "name": "Security Reader",
         "description": "Security Reader Role",
         "link": "https://management.azure.com/39bc4728-0917-49c7-9d2c-d95423bc2eb4?api-version=2022-04-01"
+    },
+    {
+        "id": "6c74a7c5-4a87-40f9-bb03-61e49aecbc78",
+        "name": "Semantic Reranker User",
+        "description": "Execute semantic reranking operations against registered inference accounts. This role should be assigned to users who need to run semantic reranking workloads but do not need to manage the accounts themselves.",
+        "link": "https://management.azure.com/6c74a7c5-4a87-40f9-bb03-61e49aecbc78?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
     },
     {
         "id": "db7003cd-07a9-490c-bfa5-23e40314f8d7",

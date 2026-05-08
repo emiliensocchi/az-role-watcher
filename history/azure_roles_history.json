@@ -272,6 +272,30 @@
         "deleted": "false"
     },
     {
+        "id": "3e9f3756-203e-4734-a0b8-4b68691ffae3",
+        "name": "Anyscale Platform Administrator Role",
+        "description": "Provides full access to Anyscale Cloud and resources as well as admin features such as usage and resource notifications.",
+        "link": "https://management.azure.com/3e9f3756-203e-4734-a0b8-4b68691ffae3?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "6d461258-d39c-46cc-8ca1-cab4120979d8",
+        "name": "Anyscale Platform Contributor Role",
+        "description": "Grants read/write access to Anyscale Cloud and resources",
+        "link": "https://management.azure.com/6d461258-d39c-46cc-8ca1-cab4120979d8?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ab24b16e-fd5d-41b5-839e-6c6d2ad32363",
+        "name": "Anyscale Platform Reader Role",
+        "description": "Read access to Anyscale Cloud and resources",
+        "link": "https://management.azure.com/ab24b16e-fd5d-41b5-839e-6c6d2ad32363?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
         "id": "0f37683f-2463-46b6-9ce7-9b788b988ba2",
         "name": "App Compliance Automation Administrator",
         "description": "Allows managing App Compliance Automation tool for Microsoft 365",
@@ -4664,6 +4688,22 @@
         "deleted": "false"
     },
     {
+        "id": "360cab3d-4340-4c96-816d-682fbd52b3e2",
+        "name": "Inference Account Operator",
+        "description": "Create, read, modify, and delete inference accounts. This role should be assigned to users who can only manage inference accounts but can't perform inference operations.",
+        "link": "https://management.azure.com/360cab3d-4340-4c96-816d-682fbd52b3e2?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
+        "id": "76315a85-9e6b-4514-9780-868b1977b64e",
+        "name": "Inference Account Owner",
+        "description": "Create, read, modify, and delete inference accounts; as well as running inference workloads against those accounts. This role should be assigned to users who need full management capabilities over inference accounts, including the ability to run workloads.",
+        "link": "https://management.azure.com/76315a85-9e6b-4514-9780-868b1977b64e?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
         "id": "2e481b5d-5af3-463b-8b01-f9c948aaf0c5",
         "name": "Informatica DataManagement Contributor role",
         "description": "Informatica DataManagement Provider role to manage organizations and child resource.",
@@ -5920,6 +5960,14 @@
         "deleted": "false"
     },
     {
+        "id": "469a0cf0-3794-4627-838e-39d04f27b306",
+        "name": "Procurement Contributor with Resource Group Permissions",
+        "description": "Manage procurement of products and services, and create, update, and delete resource groups.",
+        "link": "https://management.azure.com/469a0cf0-3794-4627-838e-39d04f27b306?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
+        "deleted": "false"
+    },
+    {
         "id": "9ef4ef9c-a049-46b0-82ab-dd8ac094c889",
         "name": "Project Babylon Data Curator",
         "description": "The Microsoft.ProjectBabylon data curator can create, read, modify and delete catalog data objects and establish relationships between objects. This role is in preview and subject to change.",
@@ -6405,6 +6453,14 @@
         "description": "Security Reader Role",
         "link": "https://management.azure.com/39bc4728-0917-49c7-9d2c-d95423bc2eb4?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "6c74a7c5-4a87-40f9-bb03-61e49aecbc78",
+        "name": "Semantic Reranker User",
+        "description": "Execute semantic reranking operations against registered inference accounts. This role should be assigned to users who need to run semantic reranking workloads but do not need to manage the accounts themselves.",
+        "link": "https://management.azure.com/6c74a7c5-4a87-40f9-bb03-61e49aecbc78?api-version=2022-04-01",
+        "detected": "2026-05-08T04:16:51Z",
         "deleted": "false"
     },
     {
