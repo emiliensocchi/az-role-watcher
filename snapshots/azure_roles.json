@@ -2250,6 +2250,12 @@
         "link": "https://management.azure.com/f3bd1b5c-91fa-40e7-afe7-0c11d331232c?api-version=2022-04-01"
     },
     {
+        "id": "c24cf47c-5077-412d-a19c-45202126392c",
+        "name": "Container Apps SandboxGroup Data Owner",
+        "description": "Ownership of all Container Apps SandboxGroup data.",
+        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01"
+    },
+    {
         "id": "f7669afb-68b2-44b4-9c5f-6d2a47fddda0",
         "name": "Container Apps SessionPools Contributor",
         "description": "Full management of Container Apps SessionPools, including creation, deletion, and updates.",
@@ -2836,12 +2842,6 @@
         "name": "Desktop Virtualization Workspace Reader",
         "description": "Reader of the Desktop Virtualization Workspace.",
         "link": "https://management.azure.com/0fa44ee9-7a7d-466b-9bb2-2bf446b1204d?api-version=2022-04-01"
-    },
-    {
-        "id": "c24cf47c-5077-412d-a19c-45202126392c",
-        "name": "Dev Compute SandboxGroup Data Owner",
-        "description": "Ownership of all SandboxGroup data.",
-        "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01"
     },
     {
         "id": "45d50f46-0b78-4001-a660-4198cbe8cd05",
