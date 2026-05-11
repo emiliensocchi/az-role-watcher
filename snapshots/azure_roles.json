@@ -1914,6 +1914,30 @@
         "link": "https://management.azure.com/79b01272-bf9f-4f4c-9517-5506269cf524?api-version=2022-04-01"
     },
     {
+        "id": "59a2dba3-6303-4fd8-9a2e-8cbb4bdda972",
+        "name": "Cognitive Services Content Understanding Contributor",
+        "description": "Has access to read, create, update, analyze, and test operations for Azure AI Content Understanding. Can manage analyzers, classifiers, labeling projects, and person directories, but cannot delete analyzers or classifiers, manage role assignments, or list account keys.",
+        "link": "https://management.azure.com/59a2dba3-6303-4fd8-9a2e-8cbb4bdda972?api-version=2022-04-01",
+        "detected": "2026-05-11T04:59:07Z",
+        "deleted": "false"
+    },
+    {
+        "id": "4b42bd01-da42-4c92-9b07-15ea5bd6a602",
+        "name": "Cognitive Services Content Understanding Owner",
+        "description": "Has full access to all Azure AI Content Understanding operations including read, create, update, delete, analyze, and test. Can manage all analyzers, classifiers, labeling projects, and person directories.",
+        "link": "https://management.azure.com/4b42bd01-da42-4c92-9b07-15ea5bd6a602?api-version=2022-04-01",
+        "detected": "2026-05-11T04:59:07Z",
+        "deleted": "false"
+    },
+    {
+        "id": "379c52cb-64de-498c-8b5b-c6170d6c49d4",
+        "name": "Cognitive Services Content Understanding Reader",
+        "description": "Has access to read, list, and analyze operations for Azure AI Content Understanding. Can list and view analyzers, classifiers, and person directories, and run analysis and classification jobs, but cannot create, update, or delete resources.",
+        "link": "https://management.azure.com/379c52cb-64de-498c-8b5b-c6170d6c49d4?api-version=2022-04-01",
+        "detected": "2026-05-11T04:59:07Z",
+        "deleted": "false"
+    },
+    {
         "id": "25fbc0a9-bd7c-42a3-aa1a-3b75d497ee68",
         "name": "Cognitive Services Contributor",
         "description": "Lets you create, read, update, delete and manage keys of Cognitive Services.",
