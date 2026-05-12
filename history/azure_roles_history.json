@@ -6032,6 +6032,14 @@
         "deleted": "false"
     },
     {
+        "id": "a2425b74-61f3-4bff-97cb-d0e3bc906777",
+        "name": "Pure Storage Cloud VM Volume Group Mount Reader",
+        "description": "A special role for mount operation (e.g VM extension) only - enables to read connection endpoints.",
+        "link": "https://management.azure.com/a2425b74-61f3-4bff-97cb-d0e3bc906777?api-version=2022-04-01",
+        "detected": "2026-05-12T04:37:29Z",
+        "deleted": "false"
+    },
+    {
         "id": "3f04f91a-4ad7-4bd3-bcfa-49882ea1a88a",
         "name": "Purview Workload Content Administrator",
         "description": "Manage or purge data from Microsoft 365 when accessing from the Microsoft Purview portal.",
