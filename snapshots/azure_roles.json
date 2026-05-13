@@ -4479,9 +4479,7 @@
         "id": "a2425b74-61f3-4bff-97cb-d0e3bc906777",
         "name": "Pure Storage Cloud VM Volume Group Mount Reader",
         "description": "A special role for mount operation (e.g VM extension) only - enables to read connection endpoints.",
-        "link": "https://management.azure.com/a2425b74-61f3-4bff-97cb-d0e3bc906777?api-version=2022-04-01",
-        "detected": "2026-05-12T04:37:29Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/a2425b74-61f3-4bff-97cb-d0e3bc906777?api-version=2022-04-01"
     },
     {
         "id": "8a3c2885-9b38-4fd2-9d99-91af537c1347",
