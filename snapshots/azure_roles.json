@@ -378,6 +378,12 @@
         "link": "https://management.azure.com/98c206fe-ea1b-4578-93f8-83a99a5628fc?api-version=2022-04-01"
     },
     {
+        "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
+        "name": "Azure AI Account Owner",
+        "description": "Grants full access to manage AI projects and accounts. Grants conditional assignment of the Azure AI User role to other user principles.",
+        "link": "https://management.azure.com/e47c6f54-e4a2-4754-9501-8e0985b135e1?api-version=2022-04-01"
+    },
+    {
         "id": "b78c5d69-af96-48a3-bf8d-a8b4d589de94",
         "name": "Azure AI Administrator",
         "description": "A Built-In Role that has all control plane permissions to work with Azure AI and its dependencies.",
@@ -386,7 +392,7 @@
     {
         "id": "64702f94-c441-49e6-a78b-ef80e0188fee",
         "name": "Azure AI Developer",
-        "description": "Can perform all actions within an Azure Machine Learning workspace besides managing the workspace itself. For Foundry project access, use the Foundry User or Foundry Owner roles instead.",
+        "description": "Can perform all actions within an Azure AI resource besides managing the resource itself.",
         "link": "https://management.azure.com/64702f94-c441-49e6-a78b-ef80e0188fee?api-version=2022-04-01"
     },
     {
@@ -406,6 +412,18 @@
         "name": "Azure AI Inference Deployment Operator",
         "description": "Can perform all actions required to create a resource deployment within a resource group.",
         "link": "https://management.azure.com/3afb7f49-54cb-416e-8c09-6dc049efa503?api-version=2022-04-01"
+    },
+    {
+        "id": "c883944f-8b7b-4483-af10-35834be79c4a",
+        "name": "Azure AI Owner",
+        "description": "Grants full to manage AI project and accounts. Grants reader access to AI projects, reader access to AI accounts, and data actions for an AI project.",
+        "link": "https://management.azure.com/c883944f-8b7b-4483-af10-35834be79c4a?api-version=2022-04-01"
+    },
+    {
+        "id": "eadc314b-1a2d-4efa-be10-5d325db5065e",
+        "name": "Azure AI Project Manager",
+        "description": "Lets you perform developer actions and management actions on Azure AI Foundry Projects. Allows for making role assignments, but limited to Cognitive Service User role.",
+        "link": "https://management.azure.com/eadc314b-1a2d-4efa-be10-5d325db5065e?api-version=2022-04-01"
     },
     {
         "id": "11102f94-c441-49e6-a78b-ef80e0188abc",
@@ -3244,24 +3262,6 @@
         "name": "Flux Configurations Contributor",
         "description": "Can create, update, get, list and delete Flux Configurations",
         "link": "https://management.azure.com/61eb6405-5f4a-440b-ad03-fe06c5c85e44?api-version=2022-04-01"
-    },
-    {
-        "id": "e47c6f54-e4a2-4754-9501-8e0985b135e1",
-        "name": "Foundry Account Owner",
-        "description": "Grants full access to manage Foundry projects and accounts. Grants conditional assignment of the Foundry User role to other user principles.",
-        "link": "https://management.azure.com/e47c6f54-e4a2-4754-9501-8e0985b135e1?api-version=2022-04-01"
-    },
-    {
-        "id": "c883944f-8b7b-4483-af10-35834be79c4a",
-        "name": "Foundry Owner",
-        "description": "Grants full to manage Foundry project and accounts. Grants reader access to Foundry projects, reader access to Foundry accounts, and data actions for a Foundry project.",
-        "link": "https://management.azure.com/c883944f-8b7b-4483-af10-35834be79c4a?api-version=2022-04-01"
-    },
-    {
-        "id": "eadc314b-1a2d-4efa-be10-5d325db5065e",
-        "name": "Foundry Project Manager",
-        "description": "Lets you perform developer actions and management actions on Microsoft Foundry Projects. Allows for making role assignments, but limited to Cognitive Service User role.",
-        "link": "https://management.azure.com/eadc314b-1a2d-4efa-be10-5d325db5065e?api-version=2022-04-01"
     },
     {
         "id": "53ca6127-db72-4b80-b1b0-d745d6d5456d",
