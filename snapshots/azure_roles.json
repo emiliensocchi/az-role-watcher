@@ -1106,7 +1106,7 @@
     {
         "id": "f287ba2f-f923-4464-a5bd-721c3951d32d",
         "name": "Azure Managed Redis Reader",
-        "description": "Lets you view Azure Managed Redis resources, but not modify them or access keys or access to the data stored in them.",
+        "description": "Read Azure Managed Redis resources and their configuration. Cannot modify resources, retrieve access keys, or read data stored in the cache.",
         "link": "https://management.azure.com/f287ba2f-f923-4464-a5bd-721c3951d32d?api-version=2022-04-01"
     },
     {
@@ -1198,6 +1198,14 @@
         "name": "Azure Native Dynatrace Agent Management Role",
         "description": "Grants access to manage Dynatrace Agent on compute resources",
         "link": "https://management.azure.com/55077723-1b30-4603-a70b-68de134cfa20?api-version=2022-04-01"
+    },
+    {
+        "id": "bafa5965-3211-483c-a7b7-027648c789e9",
+        "name": "Azure NetApp Files Reader",
+        "description": "Allows read-only discovery operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/bafa5965-3211-483c-a7b7-027648c789e9?api-version=2022-04-01",
+        "detected": "2026-05-22T05:02:58Z",
+        "deleted": "false"
     },
     {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
@@ -2176,6 +2184,30 @@
         "name": "Connected Cluster Managed Identity CheckAccess Reader",
         "description": "Built-in role that allows a Connected Cluster managed identity to call the checkAccess API",
         "link": "https://management.azure.com/65a14201-8f6c-4c28-bec4-12619c5a9aaa?api-version=2022-04-01"
+    },
+    {
+        "id": "e7560e73-ee25-4ed7-94f9-666cca24b501",
+        "name": "Connector Namespace Contributor",
+        "description": "You can manage all aspects of a Connector Namespace and its sub-resources. You can't change access or ownership.",
+        "link": "https://management.azure.com/e7560e73-ee25-4ed7-94f9-666cca24b501?api-version=2022-04-01",
+        "detected": "2026-05-22T05:02:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "93ef01d8-7600-4956-9f82-b924cb66bfc6",
+        "name": "Connector Namespace Developer",
+        "description": "You can create and manage connections, custom connectors, MCP server configurations, and trigger configurations within an existing Connector Namespace. You can't create, modify, or delete the Connector Namespace itself.",
+        "link": "https://management.azure.com/93ef01d8-7600-4956-9f82-b924cb66bfc6?api-version=2022-04-01",
+        "detected": "2026-05-22T05:02:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5d0402fa-1042-4603-9e01-7fea218a05af",
+        "name": "Connector Namespace Reader",
+        "description": "You have read-only access to all resources in a Connector Namespace and its sub-resources, including their configurations.",
+        "link": "https://management.azure.com/5d0402fa-1042-4603-9e01-7fea218a05af?api-version=2022-04-01",
+        "detected": "2026-05-22T05:02:58Z",
+        "deleted": "false"
     },
     {
         "id": "6cdbb904-5ff3-429d-8169-7d7818b91bd8",
@@ -4482,6 +4514,14 @@
         "link": "https://management.azure.com/a2425b74-61f3-4bff-97cb-d0e3bc906777?api-version=2022-04-01"
     },
     {
+        "id": "c9ba051b-aad6-42fd-92dc-e48780abee75",
+        "name": "Pure Storage Cloud VM Volume Group Owner",
+        "description": "To manage anything within the volume group resource.",
+        "link": "https://management.azure.com/c9ba051b-aad6-42fd-92dc-e48780abee75?api-version=2022-04-01",
+        "detected": "2026-05-22T05:02:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "8a3c2885-9b38-4fd2-9d99-91af537c1347",
         "name": "Purview role 1 (Deprecated)",
         "description": "Deprecated role.",
@@ -4532,7 +4572,7 @@
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
         "name": "Redis Cache Contributor",
-        "description": "Lets you manage Redis caches, but not access to them.",
+        "description": "Create and manage Azure Cache for Redis resources. Cannot read or write data stored in the cache.",
         "link": "https://management.azure.com/e0f68234-74aa-48ed-b826-c38b57376e17?api-version=2022-04-01"
     },
     {
