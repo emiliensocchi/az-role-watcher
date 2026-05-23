@@ -6000,6 +6000,14 @@
         "deleted": "false"
     },
     {
+        "id": "dbc9c667-e97f-4491-aee6-90b9cf960190",
+        "name": "Privileged Monitoring Data Reader",
+        "description": "Privileged Monitoring Data Reader can query and search the logs it is allowed to view over Log Analytics workspaces and tables, including protected tables",
+        "link": "https://management.azure.com/dbc9c667-e97f-4491-aee6-90b9cf960190?api-version=2022-04-01",
+        "detected": "2026-05-23T04:43:00Z",
+        "deleted": "false"
+    },
+    {
         "id": "d622af9a-030e-4f32-8267-419abfd54702",
         "name": "Pro Active Coding Data User",
         "description": "Allows processing of health data in Pro Active Coding",

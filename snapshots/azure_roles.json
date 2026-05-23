@@ -1203,9 +1203,7 @@
         "id": "bafa5965-3211-483c-a7b7-027648c789e9",
         "name": "Azure NetApp Files Reader",
         "description": "Allows read-only discovery operations for Azure NetApp Files resources",
-        "link": "https://management.azure.com/bafa5965-3211-483c-a7b7-027648c789e9?api-version=2022-04-01",
-        "detected": "2026-05-22T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/bafa5965-3211-483c-a7b7-027648c789e9?api-version=2022-04-01"
     },
     {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
@@ -2189,25 +2187,19 @@
         "id": "e7560e73-ee25-4ed7-94f9-666cca24b501",
         "name": "Connector Namespace Contributor",
         "description": "You can manage all aspects of a Connector Namespace and its sub-resources. You can't change access or ownership.",
-        "link": "https://management.azure.com/e7560e73-ee25-4ed7-94f9-666cca24b501?api-version=2022-04-01",
-        "detected": "2026-05-22T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/e7560e73-ee25-4ed7-94f9-666cca24b501?api-version=2022-04-01"
     },
     {
         "id": "93ef01d8-7600-4956-9f82-b924cb66bfc6",
         "name": "Connector Namespace Developer",
         "description": "You can create and manage connections, custom connectors, MCP server configurations, and trigger configurations within an existing Connector Namespace. You can't create, modify, or delete the Connector Namespace itself.",
-        "link": "https://management.azure.com/93ef01d8-7600-4956-9f82-b924cb66bfc6?api-version=2022-04-01",
-        "detected": "2026-05-22T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/93ef01d8-7600-4956-9f82-b924cb66bfc6?api-version=2022-04-01"
     },
     {
         "id": "5d0402fa-1042-4603-9e01-7fea218a05af",
         "name": "Connector Namespace Reader",
         "description": "You have read-only access to all resources in a Connector Namespace and its sub-resources, including their configurations.",
-        "link": "https://management.azure.com/5d0402fa-1042-4603-9e01-7fea218a05af?api-version=2022-04-01",
-        "detected": "2026-05-22T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/5d0402fa-1042-4603-9e01-7fea218a05af?api-version=2022-04-01"
     },
     {
         "id": "6cdbb904-5ff3-429d-8169-7d7818b91bd8",
@@ -4460,6 +4452,14 @@
         "link": "https://management.azure.com/b12aa53e-6015-4669-85d0-8515ebb3ae7f?api-version=2022-04-01"
     },
     {
+        "id": "dbc9c667-e97f-4491-aee6-90b9cf960190",
+        "name": "Privileged Monitoring Data Reader",
+        "description": "Privileged Monitoring Data Reader can query and search the logs it is allowed to view over Log Analytics workspaces and tables, including protected tables",
+        "link": "https://management.azure.com/dbc9c667-e97f-4491-aee6-90b9cf960190?api-version=2022-04-01",
+        "detected": "2026-05-23T04:43:00Z",
+        "deleted": "false"
+    },
+    {
         "id": "d622af9a-030e-4f32-8267-419abfd54702",
         "name": "Pro Active Coding Data User",
         "description": "Allows processing of health data in Pro Active Coding",
@@ -4517,9 +4517,7 @@
         "id": "c9ba051b-aad6-42fd-92dc-e48780abee75",
         "name": "Pure Storage Cloud VM Volume Group Owner",
         "description": "To manage anything within the volume group resource.",
-        "link": "https://management.azure.com/c9ba051b-aad6-42fd-92dc-e48780abee75?api-version=2022-04-01",
-        "detected": "2026-05-22T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c9ba051b-aad6-42fd-92dc-e48780abee75?api-version=2022-04-01"
     },
     {
         "id": "8a3c2885-9b38-4fd2-9d99-91af537c1347",
