@@ -1106,7 +1106,7 @@
     {
         "id": "f287ba2f-f923-4464-a5bd-721c3951d32d",
         "name": "Azure Managed Redis Reader",
-        "description": "Read Azure Managed Redis resources and their configuration. Cannot modify resources, retrieve access keys, or read data stored in the cache.",
+        "description": "Lets you view Azure Managed Redis resources, but not modify them or access keys or access to the data stored in them.",
         "link": "https://management.azure.com/f287ba2f-f923-4464-a5bd-721c3951d32d?api-version=2022-04-01"
     },
     {
@@ -4455,9 +4455,7 @@
         "id": "dbc9c667-e97f-4491-aee6-90b9cf960190",
         "name": "Privileged Monitoring Data Reader",
         "description": "Privileged Monitoring Data Reader can query and search the logs it is allowed to view over Log Analytics workspaces and tables, including protected tables",
-        "link": "https://management.azure.com/dbc9c667-e97f-4491-aee6-90b9cf960190?api-version=2022-04-01",
-        "detected": "2026-05-23T04:43:00Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/dbc9c667-e97f-4491-aee6-90b9cf960190?api-version=2022-04-01"
     },
     {
         "id": "d622af9a-030e-4f32-8267-419abfd54702",
@@ -4570,7 +4568,7 @@
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
         "name": "Redis Cache Contributor",
-        "description": "Create and manage Azure Cache for Redis resources. Cannot read or write data stored in the cache.",
+        "description": "Lets you manage Redis caches, but not access to them.",
         "link": "https://management.azure.com/e0f68234-74aa-48ed-b826-c38b57376e17?api-version=2022-04-01"
     },
     {
