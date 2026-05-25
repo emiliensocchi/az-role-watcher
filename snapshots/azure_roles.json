@@ -1106,7 +1106,7 @@
     {
         "id": "f287ba2f-f923-4464-a5bd-721c3951d32d",
         "name": "Azure Managed Redis Reader",
-        "description": "Lets you view Azure Managed Redis resources, but not modify them or access keys or access to the data stored in them.",
+        "description": "Read Azure Managed Redis resources and their configuration. Cannot modify resources, retrieve access keys, or read data stored in the cache.",
         "link": "https://management.azure.com/f287ba2f-f923-4464-a5bd-721c3951d32d?api-version=2022-04-01"
     },
     {
@@ -4568,7 +4568,7 @@
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
         "name": "Redis Cache Contributor",
-        "description": "Lets you manage Redis caches, but not access to them.",
+        "description": "Create and manage Azure Cache for Redis resources. Cannot read or write data stored in the cache.",
         "link": "https://management.azure.com/e0f68234-74aa-48ed-b826-c38b57376e17?api-version=2022-04-01"
     },
     {
