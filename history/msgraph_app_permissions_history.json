@@ -2128,6 +2128,22 @@
         "deleted": "false"
     },
     {
+        "id": "52ced3dd-dbb6-41a0-9ce5-61a056be97b8",
+        "name": "IdentityNotifications.Read.All",
+        "description": "Read all identity notification settings and templates",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/52ced3dd-dbb6-41a0-9ce5-61a056be97b8",
+        "detected": "2026-05-28T05:10:18Z",
+        "deleted": "false"
+    },
+    {
+        "id": "d9fe7b9f-cb27-4289-9cb4-54debd9d3c25",
+        "name": "IdentityNotifications.ReadWrite.All",
+        "description": "Read and write all identity notification settings and templates",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d9fe7b9f-cb27-4289-9cb4-54debd9d3c25",
+        "detected": "2026-05-28T05:10:18Z",
+        "deleted": "false"
+    },
+    {
         "id": "e321f0bb-e7f7-481e-bb28-e3b0b32d4bd0",
         "name": "IdentityProvider.Read.All",
         "description": "Read identity providers",

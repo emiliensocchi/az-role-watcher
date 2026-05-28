@@ -2370,6 +2370,22 @@
         "link": "https://management.azure.com/ad2dd5fb-cd4b-4fd4-a9b6-4fed3630980b?api-version=2022-04-01"
     },
     {
+        "id": "b0ffeab8-d678-4570-b532-ce96bf97b032",
+        "name": "Context Cache Administrator",
+        "description": "Provides full to manage all Azure Context Cache resources. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/b0ffeab8-d678-4570-b532-ce96bf97b032?api-version=2022-04-01",
+        "detected": "2026-05-28T05:10:18Z",
+        "deleted": "false"
+    },
+    {
+        "id": "646a9378-973f-42fd-927f-62d1c4381f50",
+        "name": "Context Cache Container Contributor",
+        "description": "Allows creating and managing Azure Context Cache Container resource. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/646a9378-973f-42fd-927f-62d1c4381f50?api-version=2022-04-01",
+        "detected": "2026-05-28T05:10:18Z",
+        "deleted": "false"
+    },
+    {
         "id": "b24988ac-6180-42a0-ab88-20f7382dd24c",
         "name": "Contributor",
         "description": "Grants full access to manage all resources, but does not allow you to assign roles in Azure RBAC, manage assignments in Azure Blueprints, or share image galleries.",
