@@ -4,7 +4,7 @@ Get notified on the **addition** or **removal** of roles and permissions in Micr
 
 ### 🔔 Detected changes this year (2026) 
 
-> last updated: 2026-05-28T06:03:08Z 
+> last updated: 2026-05-29T06:05:07Z 
 
 | 🏷️ Category | ➕ Added | ❌ Removed |
 |----------|-------|---------|
