@@ -2373,17 +2373,13 @@
         "id": "b0ffeab8-d678-4570-b532-ce96bf97b032",
         "name": "Context Cache Administrator",
         "description": "Provides full to manage all Azure Context Cache resources. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/b0ffeab8-d678-4570-b532-ce96bf97b032?api-version=2022-04-01",
-        "detected": "2026-05-28T05:10:18Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/b0ffeab8-d678-4570-b532-ce96bf97b032?api-version=2022-04-01"
     },
     {
         "id": "646a9378-973f-42fd-927f-62d1c4381f50",
         "name": "Context Cache Container Contributor",
         "description": "Allows creating and managing Azure Context Cache Container resource. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/646a9378-973f-42fd-927f-62d1c4381f50?api-version=2022-04-01",
-        "detected": "2026-05-28T05:10:18Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/646a9378-973f-42fd-927f-62d1c4381f50?api-version=2022-04-01"
     },
     {
         "id": "b24988ac-6180-42a0-ab88-20f7382dd24c",
