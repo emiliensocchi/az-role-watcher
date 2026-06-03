@@ -1518,6 +1518,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2d9bd318-b883-40be-9df7-63ec4fcdc424"
     },
     {
+        "id": "35b96aac-d839-4362-abd4-7381f2b27ccd",
+        "name": "Group-XTenantIdentitySync.Read.All",
+        "description": "Read all Group Cross-Tenant Identity Synchronization properties",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/35b96aac-d839-4362-abd4-7381f2b27ccd"
+    },
+    {
         "id": "bf7b1a76-6e77-406b-b258-bf5c7720e98f",
         "name": "Group.Create",
         "description": "Create groups",
@@ -3822,6 +3828,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/86ceff06-c822-49ff-989a-d912845ffe69"
     },
     {
+        "id": "4240f680-4f73-4082-a766-aa916a2dc9b3",
+        "name": "User.Create",
+        "description": "Create users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4240f680-4f73-4082-a766-aa916a2dc9b3"
+    },
+    {
         "id": "eccc023d-eccf-4e7b-9683-8813ab36cecc",
         "name": "User.DeleteRestore.All",
         "description": "Delete and restore all users",
@@ -3862,6 +3874,12 @@
         "name": "User.ReadBasic.All",
         "description": "Read all users' basic profiles",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/97235f07-e226-4f63-ace3-39588e11d3a1"
+    },
+    {
+        "id": "5639c449-cfd9-4088-bc48-3e16da108bf8",
+        "name": "User.ReadUpdate.All",
+        "description": "Read and update users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5639c449-cfd9-4088-bc48-3e16da108bf8"
     },
     {
         "id": "741f803b-c850-494e-b5df-cde7c675a1ca",
