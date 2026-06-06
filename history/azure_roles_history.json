@@ -1656,6 +1656,14 @@
         "deleted": "false"
     },
     {
+        "id": "063e4498-230d-40a9-be9b-037f35f982b5",
+        "name": "Azure Notebooks NotebookProxy Contributor",
+        "description": "Can create, read, update, delete NotebookProxy resources and manage their credentials under Microsoft.Notebooks.",
+        "link": "https://management.azure.com/063e4498-230d-40a9-be9b-037f35f982b5?api-version=2022-04-01",
+        "detected": "2026-06-06T04:54:56Z",
+        "deleted": "false"
+    },
+    {
         "id": "c20923c5-b089-47a5-bf67-fd89569c4ad9",
         "name": "Azure Programmable Connectivity Gateway Dataplane User",
         "description": "Allows access to all Gateway dataplane APIs.",
