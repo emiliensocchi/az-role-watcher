@@ -294,6 +294,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f42252d9-5400-4d7b-b9ef-cc582dbb8577"
     },
     {
+        "id": "d35481f7-cda1-4fa2-8344-5a21f7f3724d",
+        "name": "Entra Customer Lockbox Approver",
+        "description": "Can approve customer lockbox requests for accessing customer data in Entra ID.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d35481f7-cda1-4fa2-8344-5a21f7f3724d"
+    },
+    {
         "id": "29232cdf-9323-42fd-ade2-1d097af3e4de",
         "name": "Exchange Administrator",
         "description": "Can manage all aspects of the Exchange product.",
