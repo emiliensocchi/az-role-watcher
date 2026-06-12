@@ -126,6 +126,14 @@
         "link": "https://management.azure.com/c8d4ff99-41c3-41a8-9f60-21dfdad59608?api-version=2022-04-01"
     },
     {
+        "id": "f680209a-a2a2-4e0d-aa81-5d2a65c13604",
+        "name": "Advisor Recommendations Contributor",
+        "description": "View assessment recommendations, accepted review recommendations, and manage the recommendations lifecycle (mark recommendations as completed, postponed or dismissed, in progress, or not started).",
+        "link": "https://management.azure.com/f680209a-a2a2-4e0d-aa81-5d2a65c13604?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
+    },
+    {
         "id": "6b534d80-e337-47c4-864f-140f5c7f593d",
         "name": "Advisor Recommendations Contributor (Assessments and Reviews)",
         "description": "View assessment recommendations, accepted review recommendations, and manage the recommendations lifecycle (mark recommendations as completed, postponed or dismissed, in progress, or not started).",
@@ -412,6 +420,30 @@
         "name": "Azure AI Safety Evaluator",
         "description": "This role can perform all actions under workspace evaluations and simulations.",
         "link": "https://management.azure.com/11102f94-c441-49e6-a78b-ef80e0188abc?api-version=2022-04-01"
+    },
+    {
+        "id": "413f2675-4911-4010-be3b-c720b43a3c59",
+        "name": "Azure AIManager Contributor",
+        "description": "Grants read/write access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
+        "link": "https://management.azure.com/413f2675-4911-4010-be3b-c720b43a3c59?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
+    },
+    {
+        "id": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
+        "name": "Azure AIManager User",
+        "description": "Grants read access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
+        "link": "https://management.azure.com/223653d0-bf85-419e-ac7a-a67edf5fc44b?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
+        "name": "Azure AIManager and namespace RBAC Reader",
+        "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "link": "https://management.azure.com/9c77f8a7-b0b9-4462-844c-de6e66add8ba?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -1198,6 +1230,14 @@
         "name": "Azure Native Dynatrace Agent Management Role",
         "description": "Grants access to manage Dynatrace Agent on compute resources",
         "link": "https://management.azure.com/55077723-1b30-4603-a70b-68de134cfa20?api-version=2022-04-01"
+    },
+    {
+        "id": "f5db7409-a2c6-4d0c-8cf4-412ac01a38df",
+        "name": "Azure NetApp Files Administrator",
+        "description": "Allows full administrative access to Azure NetApp Files operations",
+        "link": "https://management.azure.com/f5db7409-a2c6-4d0c-8cf4-412ac01a38df?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
     },
     {
         "id": "bafa5965-3211-483c-a7b7-027648c789e9",
@@ -3294,6 +3334,14 @@
         "link": "https://management.azure.com/e47c6f54-e4a2-4754-9501-8e0985b135e1?api-version=2022-04-01"
     },
     {
+        "id": "eed3b665-ab3a-47b6-8f48-c9382fb1dad6",
+        "name": "Foundry Agent Consumer",
+        "description": "Allows interacting with Foundry agents at runtime.",
+        "link": "https://management.azure.com/eed3b665-ab3a-47b6-8f48-c9382fb1dad6?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
+    },
+    {
         "id": "c883944f-8b7b-4483-af10-35834be79c4a",
         "name": "Foundry Owner",
         "description": "Grants full to manage Foundry project and accounts. Grants reader access to Foundry projects, reader access to Foundry accounts, and data actions for a Foundry project.",
@@ -3304,6 +3352,14 @@
         "name": "Foundry Project Manager",
         "description": "Lets you perform developer actions and management actions on Microsoft Foundry Projects. Allows for making role assignments, but limited to Cognitive Service User role.",
         "link": "https://management.azure.com/eadc314b-1a2d-4efa-be10-5d325db5065e?api-version=2022-04-01"
+    },
+    {
+        "id": "142bfaed-a13f-4c2d-bed2-6db62c4a1009",
+        "name": "Foundry Project Runtime User",
+        "description": "Allows interacting with Foundry agents at runtime with minimal required permissions.",
+        "link": "https://management.azure.com/142bfaed-a13f-4c2d-bed2-6db62c4a1009?api-version=2022-04-01",
+        "detected": "2026-06-12T05:51:06Z",
+        "deleted": "false"
     },
     {
         "id": "53ca6127-db72-4b80-b1b0-d745d6d5456d",

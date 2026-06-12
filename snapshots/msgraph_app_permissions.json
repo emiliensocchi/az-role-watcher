@@ -110,7 +110,7 @@
     {
         "id": "4aa6e624-eee0-40ab-bdd8-f9639038a614",
         "name": "AgentIdUser.ReadWrite.IdentityParentedBy",
-        "description": "Read and write all agent ID users' full profiles",
+        "description": "Read and write full profiles of agent ID users under an agent blueprint",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4aa6e624-eee0-40ab-bdd8-f9639038a614"
     },
     {
