@@ -2964,6 +2964,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f2bf083f-0179-402a-bedb-b2784de8a49b"
     },
     {
+        "id": "06870c4c-7370-4a2a-ad10-239a337af816",
+        "name": "SecurityAlert.Create.All",
+        "description": "Create security alerts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/06870c4c-7370-4a2a-ad10-239a337af816"
+    },
+    {
         "id": "472e4a4d-bb4a-4026-98d1-0b0d74cb74a5",
         "name": "SecurityAlert.Read.All",
         "description": "Read all security alerts",

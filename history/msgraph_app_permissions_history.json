@@ -3984,6 +3984,14 @@
         "deleted": "false"
     },
     {
+        "id": "06870c4c-7370-4a2a-ad10-239a337af816",
+        "name": "SecurityAlert.Create.All",
+        "description": "Create security alerts",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/06870c4c-7370-4a2a-ad10-239a337af816",
+        "detected": "2026-06-17T06:15:38Z",
+        "deleted": "false"
+    },
+    {
         "id": "472e4a4d-bb4a-4026-98d1-0b0d74cb74a5",
         "name": "SecurityAlert.Read.All",
         "description": "Read all security alerts",
