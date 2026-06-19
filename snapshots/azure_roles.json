@@ -3404,8 +3404,16 @@
     {
         "id": "0e91b552-ae32-49ea-9898-317af306aa4b",
         "name": "Genome EndUser",
-        "description": "Full access to Genome data plane operations only",
+        "description": "Full access to Genome control plane and data plane operations",
         "link": "https://management.azure.com/0e91b552-ae32-49ea-9898-317af306aa4b?api-version=2022-04-01"
+    },
+    {
+        "id": "27ddfca1-add5-422d-9817-ab0d2d13dc6c",
+        "name": "Genome SuperAdmin",
+        "description": "Full access to Genome control plane and data plane operations",
+        "link": "https://management.azure.com/27ddfca1-add5-422d-9817-ab0d2d13dc6c?api-version=2022-04-01",
+        "detected": "2026-06-19T06:22:20Z",
+        "deleted": "false"
     },
     {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
@@ -4684,6 +4692,14 @@
         "name": "Resource Policy Contributor",
         "description": "Users with rights to create/modify resource policy, create support ticket and read resources/hierarchy.",
         "link": "https://management.azure.com/36243c78-bf99-498c-9df9-86d9f8d28608?api-version=2022-04-01"
+    },
+    {
+        "id": "2ec40fb7-0838-470f-a644-a574aa191e92",
+        "name": "ResourceBuilder Contributor",
+        "description": "Provides access to Resource Builder Control Plane Operations",
+        "link": "https://management.azure.com/2ec40fb7-0838-470f-a644-a574aa191e92?api-version=2022-04-01",
+        "detected": "2026-06-19T06:22:20Z",
+        "deleted": "false"
     },
     {
         "id": "f58310d9-a9f6-439a-9e8d-f62e7b41a168",

@@ -4552,6 +4552,14 @@
         "deleted": "false"
     },
     {
+        "id": "27ddfca1-add5-422d-9817-ab0d2d13dc6c",
+        "name": "Genome SuperAdmin",
+        "description": "Full access to Genome control plane and data plane operations",
+        "link": "https://management.azure.com/27ddfca1-add5-422d-9817-ab0d2d13dc6c?api-version=2022-04-01",
+        "detected": "2026-06-19T06:22:20Z",
+        "deleted": "false"
+    },
+    {
         "id": "c9c97b9c-105d-4bb5-a2a7-7d15666c2484",
         "name": "GeoCatalog Administrator",
         "description": "Grants full access to manage GeoCatalogs, but does not allow you to assign roles in Azure RBAC.",
@@ -6333,6 +6341,14 @@
         "description": "Users with rights to create/modify resource policy, create support ticket and read resources/hierarchy.",
         "link": "https://management.azure.com/36243c78-bf99-498c-9df9-86d9f8d28608?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2ec40fb7-0838-470f-a644-a574aa191e92",
+        "name": "ResourceBuilder Contributor",
+        "description": "Provides access to Resource Builder Control Plane Operations",
+        "link": "https://management.azure.com/2ec40fb7-0838-470f-a644-a574aa191e92?api-version=2022-04-01",
+        "detected": "2026-06-19T06:22:20Z",
         "deleted": "false"
     },
     {
