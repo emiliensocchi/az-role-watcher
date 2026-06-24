@@ -1110,6 +1110,22 @@
         "link": "https://management.azure.com/478d20ba-a53e-4946-b33c-8078a92f2d0a?api-version=2022-04-01"
     },
     {
+        "id": "1cfa4eac-9a23-481c-a793-bfb6958e836c",
+        "name": "Azure Local Migrate Execute Expert",
+        "description": "Grants restricted access on an Azure Local based Azure Migrate project to only perform migration related operations, including replication, execution of migrations, tracking and monitoring of migration progress, and initiation of agentless migrations.",
+        "link": "https://management.azure.com/1cfa4eac-9a23-481c-a793-bfb6958e836c?api-version=2022-04-01",
+        "detected": "2026-06-24T05:02:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "fd8ea4d5-6509-4db0-bada-356ab233b4fb",
+        "name": "Azure Local Migrate Owner",
+        "description": "Grants full access to create and manage Azure Local based Azure Migrate projects including appliance-based discovery and execution of migrations; Also grants ability to assign Azure Migrate Local specific roles in Azure RBAC",
+        "link": "https://management.azure.com/fd8ea4d5-6509-4db0-bada-356ab233b4fb?api-version=2022-04-01",
+        "detected": "2026-06-24T05:02:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "ea01e6af-a1c1-4350-9563-ad00f8c72ec5",
         "name": "Azure Machine Learning Workspace Connection Secrets Reader",
         "description": "Can list workspace connection secrets",
@@ -3404,7 +3420,7 @@
     {
         "id": "0e91b552-ae32-49ea-9898-317af306aa4b",
         "name": "Genome EndUser",
-        "description": "Full access to Genome data plane operations only",
+        "description": "Full access to Genome control plane and data plane operations",
         "link": "https://management.azure.com/0e91b552-ae32-49ea-9898-317af306aa4b?api-version=2022-04-01"
     },
     {
