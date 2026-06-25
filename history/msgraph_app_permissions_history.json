@@ -760,6 +760,14 @@
         "deleted": "false"
     },
     {
+        "id": "470229df-a15a-4b08-9d95-8c534862b362",
+        "name": "Calendars.Read.All",
+        "description": "Read all users' work hours and locations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/470229df-a15a-4b08-9d95-8c534862b362",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
+    },
+    {
         "id": "8ba4a692-bc31-4128-9094-475872af8a53",
         "name": "Calendars.ReadBasic.All",
         "description": "Read basic details of calendars in all mailboxes ",
@@ -773,6 +781,14 @@
         "description": "Read and write calendars in all mailboxes",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ef54d2bf-783f-4e0f-bca1-3210c0444d99",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "d91697b0-a708-4c11-a712-8fb2dc081aa2",
+        "name": "Calendars.ReadWrite.All",
+        "description": "Read and write all users' work hours and locations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d91697b0-a708-4c11-a712-8fb2dc081aa2",
+        "detected": "2026-06-25T05:07:04Z",
         "deleted": "false"
     },
     {
@@ -885,6 +901,30 @@
         "description": "Join group calls and meetings as a guest",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/fd7ccf6b-3d28-418b-9701-cd10f5cd2fd4",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "050b0d28-840a-4ff6-bdf9-cc6221acbc1f",
+        "name": "Calls.ReportSyntheticMedia.All",
+        "description": "Report synthetic media detections in calls",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/050b0d28-840a-4ff6-bdf9-cc6221acbc1f",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
+    },
+    {
+        "id": "b328f35f-712c-40d6-b6b4-95449d77b352",
+        "name": "CaseManagement.Read.All",
+        "description": "Read all cases, relations, tasks, attachments and activities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/b328f35f-712c-40d6-b6b4-95449d77b352",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
+    },
+    {
+        "id": "57ac77a0-bb98-4ba8-bf9a-7af06dcdcc1f",
+        "name": "CaseManagement.ReadWrite.All",
+        "description": "Read and write to all cases, relations, tasks, attachments and activities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/57ac77a0-bb98-4ba8-bf9a-7af06dcdcc1f",
+        "detected": "2026-06-25T05:07:04Z",
         "deleted": "false"
     },
     {
@@ -2693,6 +2733,14 @@
         "description": "Read all the users' mailbox items",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7d9f353d-a7bd-4fbb-822a-26d5dd39a3ce",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1583d471-fede-4e7c-b062-57e9d60cfb49",
+        "name": "MailboxItem.ReadWrite.All",
+        "description": "Read and write all users' mailbox items",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1583d471-fede-4e7c-b062-57e9d60cfb49",
+        "detected": "2026-06-25T05:07:04Z",
         "deleted": "false"
     },
     {

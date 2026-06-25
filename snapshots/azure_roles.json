@@ -1113,17 +1113,13 @@
         "id": "1cfa4eac-9a23-481c-a793-bfb6958e836c",
         "name": "Azure Local Migrate Execute Expert",
         "description": "Grants restricted access on an Azure Local based Azure Migrate project to only perform migration related operations, including replication, execution of migrations, tracking and monitoring of migration progress, and initiation of agentless migrations.",
-        "link": "https://management.azure.com/1cfa4eac-9a23-481c-a793-bfb6958e836c?api-version=2022-04-01",
-        "detected": "2026-06-24T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/1cfa4eac-9a23-481c-a793-bfb6958e836c?api-version=2022-04-01"
     },
     {
         "id": "fd8ea4d5-6509-4db0-bada-356ab233b4fb",
         "name": "Azure Local Migrate Owner",
         "description": "Grants full access to create and manage Azure Local based Azure Migrate projects including appliance-based discovery and execution of migrations; Also grants ability to assign Azure Migrate Local specific roles in Azure RBAC",
-        "link": "https://management.azure.com/fd8ea4d5-6509-4db0-bada-356ab233b4fb?api-version=2022-04-01",
-        "detected": "2026-06-24T05:02:58Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/fd8ea4d5-6509-4db0-bada-356ab233b4fb?api-version=2022-04-01"
     },
     {
         "id": "ea01e6af-a1c1-4350-9563-ad00f8c72ec5",
@@ -2354,6 +2350,22 @@
         "name": "Container Registry Configuration Reader and Data Access Configuration Reader",
         "description": "Provides permissions to list container registries and registry configuration properties. Provides permissions to list data access configuration such as admin user credentials, scope maps, and tokens, which can be used to read, write or delete repositories and images. Does not provide direct permissions to read, list, or write registry contents including repositories and images. Does not provide permissions to modify data plane content such as imports, Artifact Cache or Sync, and Transfer Pipelines. Does not provide permissions for managing Tasks.",
         "link": "https://management.azure.com/69b07be0-09bf-439a-b9a6-e73de851bd59?api-version=2022-04-01"
+    },
+    {
+        "id": "281928aa-9782-4d9a-954a-3f34c1ed9f95",
+        "name": "Container Registry Connected Registry Administrator",
+        "description": "Can manage connected registries in a container registry, including the scope maps and tokens required to provision and operate them.",
+        "link": "https://management.azure.com/281928aa-9782-4d9a-954a-3f34c1ed9f95?api-version=2022-04-01",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
+    },
+    {
+        "id": "93f83a62-9a8b-4821-9827-5b3ee513aec3",
+        "name": "Container Registry Connected Registry Reader",
+        "description": "Can view connected registries and their associated scope maps and tokens in a container registry.",
+        "link": "https://management.azure.com/93f83a62-9a8b-4821-9827-5b3ee513aec3?api-version=2022-04-01",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
     },
     {
         "id": "3bc748fc-213d-45c1-8d91-9da5725539b9",
@@ -4007,7 +4019,7 @@
     },
     {
         "id": "b70c96e9-66fe-4c09-b6e7-c98e69c98555",
-        "name": "Logic Apps Standard Operator (Preview)",
+        "name": "Logic Apps Standard Operator",
         "description": "You can enable and disable the logic app, resubmit workflow runs, as well as create connections. You can't edit workflows or settings.",
         "link": "https://management.azure.com/b70c96e9-66fe-4c09-b6e7-c98e69c98555?api-version=2022-04-01"
     },
@@ -5188,6 +5200,14 @@
         "link": "https://management.azure.com/35c49d44-ccc1-4b18-8267-cfb3bacdd396?api-version=2022-04-01"
     },
     {
+        "id": "c8a487a2-c85b-4487-83a1-9f04cde10293",
+        "name": "Storage File Backup Contributor",
+        "description": "Lets you perform file share backup operations using Azure Backup on the storage account",
+        "link": "https://management.azure.com/c8a487a2-c85b-4487-83a1-9f04cde10293?api-version=2022-04-01",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
+    },
+    {
         "id": "69566ab7-960f-475b-8e7c-b3118f30c6bd",
         "name": "Storage File Data Privileged Contributor",
         "description": "Customer has read, write, delete and modify NTFS permission access on Azure Storage file shares.",
@@ -5240,6 +5260,14 @@
         "name": "Storage File Delegator",
         "description": "Allows for generation of a user delegation key, which can then be used to create a shared access signature for a file or Azure file share that is signed with Entra ID credentials.",
         "link": "https://management.azure.com/765a04e0-5de8-4bb2-9bf6-b2a30bc03e91?api-version=2022-04-01"
+    },
+    {
+        "id": "e7a9e73d-4397-41f2-a282-af8b65aaa2dc",
+        "name": "Storage File Restore Contributor",
+        "description": "Lets you perform file share restore operations using Azure Backup on the storage account",
+        "link": "https://management.azure.com/e7a9e73d-4397-41f2-a282-af8b65aaa2dc?api-version=2022-04-01",
+        "detected": "2026-06-25T05:07:04Z",
+        "deleted": "false"
     },
     {
         "id": "974c5e8b-45b9-4653-ba55-5f855dd0fb88",
