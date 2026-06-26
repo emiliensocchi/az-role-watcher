@@ -2355,17 +2355,13 @@
         "id": "281928aa-9782-4d9a-954a-3f34c1ed9f95",
         "name": "Container Registry Connected Registry Administrator",
         "description": "Can manage connected registries in a container registry, including the scope maps and tokens required to provision and operate them.",
-        "link": "https://management.azure.com/281928aa-9782-4d9a-954a-3f34c1ed9f95?api-version=2022-04-01",
-        "detected": "2026-06-25T05:07:04Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/281928aa-9782-4d9a-954a-3f34c1ed9f95?api-version=2022-04-01"
     },
     {
         "id": "93f83a62-9a8b-4821-9827-5b3ee513aec3",
         "name": "Container Registry Connected Registry Reader",
         "description": "Can view connected registries and their associated scope maps and tokens in a container registry.",
-        "link": "https://management.azure.com/93f83a62-9a8b-4821-9827-5b3ee513aec3?api-version=2022-04-01",
-        "detected": "2026-06-25T05:07:04Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/93f83a62-9a8b-4821-9827-5b3ee513aec3?api-version=2022-04-01"
     },
     {
         "id": "3bc748fc-213d-45c1-8d91-9da5725539b9",
@@ -5203,9 +5199,7 @@
         "id": "c8a487a2-c85b-4487-83a1-9f04cde10293",
         "name": "Storage File Backup Contributor",
         "description": "Lets you perform file share backup operations using Azure Backup on the storage account",
-        "link": "https://management.azure.com/c8a487a2-c85b-4487-83a1-9f04cde10293?api-version=2022-04-01",
-        "detected": "2026-06-25T05:07:04Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c8a487a2-c85b-4487-83a1-9f04cde10293?api-version=2022-04-01"
     },
     {
         "id": "69566ab7-960f-475b-8e7c-b3118f30c6bd",
@@ -5265,9 +5259,7 @@
         "id": "e7a9e73d-4397-41f2-a282-af8b65aaa2dc",
         "name": "Storage File Restore Contributor",
         "description": "Lets you perform file share restore operations using Azure Backup on the storage account",
-        "link": "https://management.azure.com/e7a9e73d-4397-41f2-a282-af8b65aaa2dc?api-version=2022-04-01",
-        "detected": "2026-06-25T05:07:04Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/e7a9e73d-4397-41f2-a282-af8b65aaa2dc?api-version=2022-04-01"
     },
     {
         "id": "974c5e8b-45b9-4653-ba55-5f855dd0fb88",
