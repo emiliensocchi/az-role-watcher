@@ -6381,7 +6381,7 @@
         "description": "Provides access to Resource Builder Control Plane Operations",
         "link": "https://management.azure.com/2ec40fb7-0838-470f-a644-a574aa191e92?api-version=2022-04-01",
         "detected": "2026-06-19T06:22:20Z",
-        "deleted": "false"
+        "deleted": "true"
     },
     {
         "id": "f58310d9-a9f6-439a-9e8d-f62e7b41a168",
