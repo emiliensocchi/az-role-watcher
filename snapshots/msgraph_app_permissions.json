@@ -86,13 +86,13 @@
     {
         "id": "e65ee1da-d1d5-467b-bdd0-3e9bb94e6e0c",
         "name": "AgentCollection.Read.All",
-        "description": "Read all collections in Agent Registry",
+        "description": "Read all collections in Agent Registry, except quarantined and global",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e65ee1da-d1d5-467b-bdd0-3e9bb94e6e0c"
     },
     {
         "id": "feb31d7d-a227-4487-898c-e014840d07b3",
         "name": "AgentCollection.ReadWrite.All",
-        "description": "Read and write all collections in Agent Registry",
+        "description": "Read and write all collections in Agent Registry, except quarantined and global",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/feb31d7d-a227-4487-898c-e014840d07b3"
     },
     {
@@ -122,7 +122,7 @@
     {
         "id": "4c390976-b2b7-42e0-9187-c6be3bead001",
         "name": "AgentIdentity.CreateAsManager",
-        "description": "Create agent identities linked to itself.",
+        "description": "Create and manage agent identities as the parent agent identity blueprint",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4c390976-b2b7-42e0-9187-c6be3bead001"
     },
     {
@@ -1560,6 +1560,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bf7b1a76-6e77-406b-b258-bf5c7720e98f"
     },
     {
+        "id": "60f8cea0-2476-45c9-ab18-70e79e60ad14",
+        "name": "Group.ManageProtection.All",
+        "description": "Manage the Microsoft Information Protection (MIP) label for M365 and security groups.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/60f8cea0-2476-45c9-ab18-70e79e60ad14"
+    },
+    {
         "id": "5b567255-7703-4780-807c-7be8301ae99b",
         "name": "Group.Read.All",
         "description": "Read all groups",
@@ -2388,6 +2394,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/37730810-e9ba-4e46-b07e-8ca78d182097"
     },
     {
+        "id": "8fc84b9a-5c21-479b-ba9d-02d252d062aa",
+        "name": "Policy.Read.CrossTenantAccess",
+        "description": "Read your organization's cross tenant access policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8fc84b9a-5c21-479b-ba9d-02d252d062aa"
+    },
+    {
         "id": "bdba4817-6ba1-4a7c-8a01-be9bc7c242dd",
         "name": "Policy.Read.DeviceConfiguration",
         "description": "Read your organization's device configuration policies",
@@ -2764,6 +2776,12 @@
         "name": "RecordsManagement.ReadWrite.All",
         "description": "Read and write Records Management configuration, labels and policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eb158f57-df43-4751-8b21-b8932adb3d34"
+    },
+    {
+        "id": "faa08cc0-0dcd-4ea9-9f9c-8b16f842b36e",
+        "name": "RemoteTenantGroups.Read.All",
+        "description": "Read RemoteTenantGroups information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/faa08cc0-0dcd-4ea9-9f9c-8b16f842b36e"
     },
     {
         "id": "ee353f83-55ef-4b78-82da-555bfa2b4b95",

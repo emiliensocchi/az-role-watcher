@@ -2096,6 +2096,14 @@
         "deleted": "false"
     },
     {
+        "id": "60f8cea0-2476-45c9-ab18-70e79e60ad14",
+        "name": "Group.ManageProtection.All",
+        "description": "Manage the Microsoft Information Protection (MIP) label for M365 and security groups.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/60f8cea0-2476-45c9-ab18-70e79e60ad14",
+        "detected": "2026-07-01T05:23:21Z",
+        "deleted": "false"
+    },
+    {
         "id": "5b567255-7703-4780-807c-7be8301ae99b",
         "name": "Group.Read.All",
         "description": "Read all groups",
@@ -3216,6 +3224,14 @@
         "deleted": "false"
     },
     {
+        "id": "8fc84b9a-5c21-479b-ba9d-02d252d062aa",
+        "name": "Policy.Read.CrossTenantAccess",
+        "description": "Read your organization's cross tenant access policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8fc84b9a-5c21-479b-ba9d-02d252d062aa",
+        "detected": "2026-07-01T05:23:21Z",
+        "deleted": "false"
+    },
+    {
         "id": "bdba4817-6ba1-4a7c-8a01-be9bc7c242dd",
         "name": "Policy.Read.DeviceConfiguration",
         "description": "Read your organization's device configuration policies",
@@ -3717,6 +3733,14 @@
         "description": "Read and write Records Management configuration, labels and policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eb158f57-df43-4751-8b21-b8932adb3d34",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "faa08cc0-0dcd-4ea9-9f9c-8b16f842b36e",
+        "name": "RemoteTenantGroups.Read.All",
+        "description": "Read RemoteTenantGroups information",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/faa08cc0-0dcd-4ea9-9f9c-8b16f842b36e",
+        "detected": "2026-07-01T05:23:21Z",
         "deleted": "false"
     },
     {
