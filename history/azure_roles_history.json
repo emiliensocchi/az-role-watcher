@@ -3136,6 +3136,14 @@
         "deleted": "false"
     },
     {
+        "id": "11b23f7a-6229-4518-88db-0576f10dd2a0",
+        "name": "Container Apps SandboxGroup Contributor",
+        "description": "Full management of Container Apps Sandbox Groups, including creation, deletion, and updates.",
+        "link": "https://management.azure.com/11b23f7a-6229-4518-88db-0576f10dd2a0?api-version=2022-04-01",
+        "detected": "2026-07-02T04:59:13Z",
+        "deleted": "false"
+    },
+    {
         "id": "f7669afb-68b2-44b4-9c5f-6d2a47fddda0",
         "name": "Container Apps SessionPools Contributor",
         "description": "Full management of Container Apps SessionPools, including creation, deletion, and updates.",

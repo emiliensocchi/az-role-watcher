@@ -2316,6 +2316,14 @@
         "link": "https://management.azure.com/f3bd1b5c-91fa-40e7-afe7-0c11d331232c?api-version=2022-04-01"
     },
     {
+        "id": "11b23f7a-6229-4518-88db-0576f10dd2a0",
+        "name": "Container Apps SandboxGroup Contributor",
+        "description": "Full management of Container Apps Sandbox Groups, including creation, deletion, and updates.",
+        "link": "https://management.azure.com/11b23f7a-6229-4518-88db-0576f10dd2a0?api-version=2022-04-01",
+        "detected": "2026-07-02T04:59:13Z",
+        "deleted": "false"
+    },
+    {
         "id": "c24cf47c-5077-412d-a19c-45202126392c",
         "name": "Container Apps SandboxGroup Data Owner",
         "description": "Ownership of all Container Apps SandboxGroup data.",
