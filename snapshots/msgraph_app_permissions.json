@@ -2418,6 +2418,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9e640839-a198-48fb-8b9a-013fd6f6cbcd"
     },
     {
+        "id": "447f996a-7c58-4ce7-9a9e-da80381a45ab",
+        "name": "Policy.Read.Recovery",
+        "description": "Read your organization's recovery policy",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/447f996a-7c58-4ce7-9a9e-da80381a45ab"
+    },
+    {
         "id": "77c863fd-06c0-47ce-a7eb-49773e89d319",
         "name": "Policy.ReadWrite.AccessReview",
         "description": "Read and write your organization's directory access review default policy",
@@ -3696,6 +3702,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ab5b445e-8f10-45f4-9c79-dd3f8062cc4e"
     },
     {
+        "id": "85643b08-0e25-4d99-9d68-04ba0fef9740",
+        "name": "TeamworkCustomEmoji.Create.All",
+        "description": "Create custom emoji",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/85643b08-0e25-4d99-9d68-04ba0fef9740"
+    },
+    {
+        "id": "1efa3d37-1703-4685-9a59-baf6296fb956",
+        "name": "TeamworkCustomEmoji.Read.All",
+        "description": "Read custom emoji",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1efa3d37-1703-4685-9a59-baf6296fb956"
+    },
+    {
         "id": "0591bafd-7c1c-4c30-a2a5-2b9aacb1dfe8",
         "name": "TeamworkDevice.Read.All",
         "description": "Read Teams devices",
@@ -4066,6 +4084,18 @@
         "name": "UserAuthMethod-QR.ReadWrite.All",
         "description": "Read and write all users' QR methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4869299f-18c3-40c8-98f2-222657e67db1"
+    },
+    {
+        "id": "94ed018c-a499-47e0-beef-803b93873ece",
+        "name": "UserAuthMethod-ResourceKey.Read.All",
+        "description": "Read and write all users' external authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/94ed018c-a499-47e0-beef-803b93873ece"
+    },
+    {
+        "id": "1bf7461f-222a-4525-9760-f7739228d0f4",
+        "name": "UserAuthMethod-ResourceKey.ReadWrite.All",
+        "description": "Read and delete all users' external authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1bf7461f-222a-4525-9760-f7739228d0f4"
     },
     {
         "id": "a6b423df-a0c8-411d-a809-a4a5985d2939",
