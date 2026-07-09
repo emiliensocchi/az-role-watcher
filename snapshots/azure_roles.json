@@ -4009,13 +4009,13 @@
     },
     {
         "id": "ad710c24-b039-4e85-a019-deb4a06e8570",
-        "name": "Logic Apps Standard Contributor (Preview)",
+        "name": "Logic Apps Standard Contributor",
         "description": "You can manage all aspects of a Standard logic app and workflows. You can't change access or ownership.",
         "link": "https://management.azure.com/ad710c24-b039-4e85-a019-deb4a06e8570?api-version=2022-04-01"
     },
     {
         "id": "523776ba-4eb2-4600-a3c8-f2dc93da4bdb",
-        "name": "Logic Apps Standard Developer (Preview)",
+        "name": "Logic Apps Standard Developer",
         "description": "You can create and edit workflows, connections, and settings for a Standard logic app. You can't make changes outside the workflow scope.",
         "link": "https://management.azure.com/523776ba-4eb2-4600-a3c8-f2dc93da4bdb?api-version=2022-04-01"
     },
@@ -4027,7 +4027,7 @@
     },
     {
         "id": "4accf36b-2c05-432f-91c8-5c532dff4c73",
-        "name": "Logic Apps Standard Reader (Preview)",
+        "name": "Logic Apps Standard Reader",
         "description": "You have read-only access to all resources in a Standard logic app and workflows, including the workflow runs and their history.",
         "link": "https://management.azure.com/4accf36b-2c05-432f-91c8-5c532dff4c73?api-version=2022-04-01"
     },
