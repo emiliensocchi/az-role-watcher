@@ -2214,6 +2214,14 @@
         "link": "https://management.azure.com/e82342c9-ac7f-422b-af64-e426d2e12b2d?api-version=2022-04-01"
     },
     {
+        "id": "9cf8853f-1e61-4999-915d-3e018bfc8a71",
+        "name": "Confidential Ledger Contributor",
+        "description": "Allows full management of Confidential Ledger resources, including create, read, update, delete, backup and private endpoint connection management.",
+        "link": "https://management.azure.com/9cf8853f-1e61-4999-915d-3e018bfc8a71?api-version=2022-04-01",
+        "detected": "2026-07-10T04:53:44Z",
+        "deleted": "false"
+    },
+    {
         "id": "f1641a58-a144-402b-baf9-39d1a4c10119",
         "name": "Confidential Ledger Data Contributor",
         "description": "Allows read and write access to Confidential Ledger transactions, including reading entries, receipts, and transaction status, and creating new ledger entries.",
