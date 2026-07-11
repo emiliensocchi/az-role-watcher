@@ -2217,9 +2217,7 @@
         "id": "9cf8853f-1e61-4999-915d-3e018bfc8a71",
         "name": "Confidential Ledger Contributor",
         "description": "Allows full management of Confidential Ledger resources, including create, read, update, delete, backup and private endpoint connection management.",
-        "link": "https://management.azure.com/9cf8853f-1e61-4999-915d-3e018bfc8a71?api-version=2022-04-01",
-        "detected": "2026-07-10T04:53:44Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/9cf8853f-1e61-4999-915d-3e018bfc8a71?api-version=2022-04-01"
     },
     {
         "id": "f1641a58-a144-402b-baf9-39d1a4c10119",
