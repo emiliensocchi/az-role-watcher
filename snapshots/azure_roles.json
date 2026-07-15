@@ -2330,7 +2330,7 @@
     {
         "id": "c24cf47c-5077-412d-a19c-45202126392c",
         "name": "Container Apps SandboxGroup Data Owner",
-        "description": "Ownership of all Container Apps SandboxGroup data.",
+        "description": "Grants ownership of Container Apps Sandbox Group data in the group, including sandboxes, disk images, volumes, secrets, and all associated operations.",
         "link": "https://management.azure.com/c24cf47c-5077-412d-a19c-45202126392c?api-version=2022-04-01"
     },
     {
