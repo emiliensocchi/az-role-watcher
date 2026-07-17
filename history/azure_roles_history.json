@@ -592,6 +592,14 @@
         "deleted": "false"
     },
     {
+        "id": "82b2f1a9-9593-4498-a824-c209343a28ec",
+        "name": "Azure AI Manager and Namespace RBAC Inference Operator",
+        "description": "Allows read access to all objects in an Azure AI Manager namespace, plus the ability to read Secrets and invoke inference against AI models deployed in that namespace. This role does not allow modifying objects, roles, or role bindings. However, the ability to read Secrets allows the holder to obtain ServiceAccount tokens in the namespace. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01",
+        "detected": "2026-07-17T04:08:35Z",
+        "deleted": "false"
+    },
+    {
         "id": "c883944f-8b7b-4483-af10-35834be79c4a",
         "name": "Azure AI Owner",
         "description": "Grants full to manage AI project and accounts. Grants reader access to AI projects, reader access to AI accounts, and data actions for an AI project.",
@@ -6205,6 +6213,14 @@
         "description": "Allows you to view all Microsoft.ProviderHub resources created through the Resource Provider Platform, but does not allow you to make any changes to the resources.",
         "link": "https://management.azure.com/4d8c6f2e-3fd6-4d40-826e-93e3dc4c3fc1?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "cc733c34-b633-4850-8d77-77aa26638325",
+        "name": "Provisioned Machine Reader",
+        "description": "Grants read-only access to Azure Stack HCI Provisioned Machine resources",
+        "link": "https://management.azure.com/cc733c34-b633-4850-8d77-77aa26638325?api-version=2022-04-01",
+        "detected": "2026-07-17T04:08:35Z",
         "deleted": "false"
     },
     {
