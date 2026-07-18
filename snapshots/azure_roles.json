@@ -417,9 +417,7 @@
         "id": "82b2f1a9-9593-4498-a824-c209343a28ec",
         "name": "Azure AI Manager and Namespace RBAC Inference Operator",
         "description": "Allows read access to all objects in an Azure AI Manager namespace, plus the ability to read Secrets and invoke inference against AI models deployed in that namespace. This role does not allow modifying objects, roles, or role bindings. However, the ability to read Secrets allows the holder to obtain ServiceAccount tokens in the namespace. Applying this role at the AI Manager scope will give access across all namespaces.",
-        "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01",
-        "detected": "2026-07-17T04:08:35Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
     },
     {
         "id": "11102f94-c441-49e6-a78b-ef80e0188abc",
@@ -4616,12 +4614,26 @@
         "link": "https://management.azure.com/4d8c6f2e-3fd6-4d40-826e-93e3dc4c3fc1?api-version=2022-04-01"
     },
     {
+        "id": "97922edc-56af-49a9-8996-4679a6e10e68",
+        "name": "Provisioned Machine Admin",
+        "description": "Grants full access to Azure Stack HCI Provisioned Machine resources, including disk management, device reset, deletion, and the ability to assign others as Provisioned Machine Reader and/or Contributor",
+        "link": "https://management.azure.com/97922edc-56af-49a9-8996-4679a6e10e68?api-version=2022-04-01",
+        "detected": "2026-07-18T03:56:19Z",
+        "deleted": "false"
+    },
+    {
+        "id": "dab09fbf-28d0-4b30-b97e-d2a0f680847a",
+        "name": "Provisioned Machine Contributor",
+        "description": "Grants permissions to manage Azure Stack HCI Provisioned Machine resources, excluding disk management, device reset, and resource deletion",
+        "link": "https://management.azure.com/dab09fbf-28d0-4b30-b97e-d2a0f680847a?api-version=2022-04-01",
+        "detected": "2026-07-18T03:56:19Z",
+        "deleted": "false"
+    },
+    {
         "id": "cc733c34-b633-4850-8d77-77aa26638325",
         "name": "Provisioned Machine Reader",
         "description": "Grants read-only access to Azure Stack HCI Provisioned Machine resources",
-        "link": "https://management.azure.com/cc733c34-b633-4850-8d77-77aa26638325?api-version=2022-04-01",
-        "detected": "2026-07-17T04:08:35Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/cc733c34-b633-4850-8d77-77aa26638325?api-version=2022-04-01"
     },
     {
         "id": "a2425b74-61f3-4bff-97cb-d0e3bc906777",

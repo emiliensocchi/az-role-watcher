@@ -368,6 +368,14 @@
         "deleted": "false"
     },
     {
+        "id": "58f930cc-fcf4-4152-852c-1d7dbf502139",
+        "name": "Entra SOC Identity Responder",
+        "description": "Perform identity containment actions for SOC incident response, including disabling users, revoking sessions, and resetting passwords.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/58f930cc-fcf4-4152-852c-1d7dbf502139",
+        "detected": "2026-07-18T03:56:19Z",
+        "deleted": "false"
+    },
+    {
         "id": "29232cdf-9323-42fd-ade2-1d097af3e4de",
         "name": "Exchange Administrator",
         "description": "Can manage all aspects of the Exchange product.",
