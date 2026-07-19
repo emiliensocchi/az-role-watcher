@@ -4617,17 +4617,13 @@
         "id": "97922edc-56af-49a9-8996-4679a6e10e68",
         "name": "Provisioned Machine Admin",
         "description": "Grants full access to Azure Stack HCI Provisioned Machine resources, including disk management, device reset, deletion, and the ability to assign others as Provisioned Machine Reader and/or Contributor",
-        "link": "https://management.azure.com/97922edc-56af-49a9-8996-4679a6e10e68?api-version=2022-04-01",
-        "detected": "2026-07-18T03:56:19Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/97922edc-56af-49a9-8996-4679a6e10e68?api-version=2022-04-01"
     },
     {
         "id": "dab09fbf-28d0-4b30-b97e-d2a0f680847a",
         "name": "Provisioned Machine Contributor",
         "description": "Grants permissions to manage Azure Stack HCI Provisioned Machine resources, excluding disk management, device reset, and resource deletion",
-        "link": "https://management.azure.com/dab09fbf-28d0-4b30-b97e-d2a0f680847a?api-version=2022-04-01",
-        "detected": "2026-07-18T03:56:19Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/dab09fbf-28d0-4b30-b97e-d2a0f680847a?api-version=2022-04-01"
     },
     {
         "id": "cc733c34-b633-4850-8d77-77aa26638325",
