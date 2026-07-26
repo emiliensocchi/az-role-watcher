@@ -4143,9 +4143,7 @@
         "id": "5e523d62-66de-4912-99be-6b009b7839cc",
         "name": "Microsoft Discovery Chat Model Reader - Preview",
         "description": "Read-only access to Discovery chat model deployments: allows listing chat model deployments and reading their details. Does not allow creating, modifying, or deleting deployments. Intended to be assigned alongside Discovery project roles so users can view and select the models available to them (e.g. in the agent-create model picker). This role is in preview and subject to change.",
-        "link": "https://management.azure.com/5e523d62-66de-4912-99be-6b009b7839cc?api-version=2022-04-01",
-        "detected": "2026-07-25T04:12:48Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/5e523d62-66de-4912-99be-6b009b7839cc?api-version=2022-04-01"
     },
     {
         "id": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
@@ -4169,25 +4167,19 @@
         "id": "c883607b-5c40-4930-b09a-19f58ae1c538",
         "name": "Microsoft Discovery Project Contributor - Preview",
         "description": "Full operational control over an existing Discovery project: investigations and conversations (read/write/delete) plus project settings update and deletion. Does not allow creating new projects, assigning roles, or managing tools or knowledge bases. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/c883607b-5c40-4930-b09a-19f58ae1c538?api-version=2022-04-01",
-        "detected": "2026-07-25T04:12:48Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c883607b-5c40-4930-b09a-19f58ae1c538?api-version=2022-04-01"
     },
     {
         "id": "ac7d1e6d-3070-4d7d-9cd9-7adbf5cdd579",
         "name": "Microsoft Discovery Project Reader - Preview",
         "description": "Read-only access to an existing Discovery project and its contents, including its investigations and conversations. Does not allow creating, modifying, or deleting any resources, nor assigning roles. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/ac7d1e6d-3070-4d7d-9cd9-7adbf5cdd579?api-version=2022-04-01",
-        "detected": "2026-07-25T04:12:48Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/ac7d1e6d-3070-4d7d-9cd9-7adbf5cdd579?api-version=2022-04-01"
     },
     {
         "id": "84c36cf8-7fcd-4453-af30-5f5b52b86732",
         "name": "Microsoft Discovery Tools Reader - Preview",
         "description": "Read-only access to Discovery tool definitions: allows listing tools and reading their definitions. Does not allow creating, modifying, deleting, or running tools. Intended to be assigned alongside Discovery project roles so users can view the tools available to them. This role is in preview and subject to change.",
-        "link": "https://management.azure.com/84c36cf8-7fcd-4453-af30-5f5b52b86732?api-version=2022-04-01",
-        "detected": "2026-07-25T04:12:48Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/84c36cf8-7fcd-4453-af30-5f5b52b86732?api-version=2022-04-01"
     },
     {
         "id": "8c87871d-6201-42da-abb1-1c0c985ff71c",
@@ -4703,9 +4695,7 @@
         "id": "27af9d98-85b7-4dad-bc1b-df53a7fc8877",
         "name": "Quantum Workspace Data Reader",
         "description": "Read jobs and other Workspace data.",
-        "link": "https://management.azure.com/27af9d98-85b7-4dad-bc1b-df53a7fc8877?api-version=2022-04-01",
-        "detected": "2026-07-25T04:12:48Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/27af9d98-85b7-4dad-bc1b-df53a7fc8877?api-version=2022-04-01"
     },
     {
         "id": "0e5f05e5-9ab9-446b-b98d-1e2157c94125",
