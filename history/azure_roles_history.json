@@ -1496,6 +1496,22 @@
         "deleted": "false"
     },
     {
+        "id": "4f772c11-8026-4833-859c-5c23e84b5c30",
+        "name": "Azure Kubernetes Service Prepared Image Specification Contributor",
+        "description": "Allows users to create and manage Prepared Image Specification resources.",
+        "link": "https://management.azure.com/4f772c11-8026-4833-859c-5c23e84b5c30?api-version=2022-04-01",
+        "detected": "2026-07-29T04:13:33Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ed915fdf-c373-4707-988e-fb5d15a5a9ec",
+        "name": "Azure Kubernetes Service Prepared Image Specification Reader",
+        "description": "Allows read-only access to Prepared Image Specification resources.",
+        "link": "https://management.azure.com/ed915fdf-c373-4707-988e-fb5d15a5a9ec?api-version=2022-04-01",
+        "detected": "2026-07-29T04:13:33Z",
+        "deleted": "false"
+    },
+    {
         "id": "3498e952-d568-435e-9b2c-8d77e338d7f7",
         "name": "Azure Kubernetes Service RBAC Admin",
         "description": "Lets you manage all resources under cluster/namespace, except update or delete resource quotas and namespaces.",
