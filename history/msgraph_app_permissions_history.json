@@ -3392,6 +3392,14 @@
         "deleted": "false"
     },
     {
+        "id": "795fc94d-3deb-4632-b1eb-e6d1a5f44918",
+        "name": "Policy.ReadWrite.Recovery",
+        "description": "Read and write your organization's recovery policy",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/795fc94d-3deb-4632-b1eb-e6d1a5f44918",
+        "detected": "2026-08-11T03:04:29Z",
+        "deleted": "false"
+    },
+    {
         "id": "1c6e93a6-28e2-4cbb-9f64-1a46a821124d",
         "name": "Policy.ReadWrite.SecurityDefaults",
         "description": "Read and write your organization's security defaults policy",
@@ -3405,6 +3413,14 @@
         "description": "Read and write your organization's trust framework policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/79a677f7-b79d-40d0-a36a-3e6f8688dd7a",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "66ae8ecc-328f-47f6-97ca-4d9e952df081",
+        "name": "PreAuthorizationGrant.Read.All",
+        "description": "Read all preauthorization grants",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/66ae8ecc-328f-47f6-97ca-4d9e952df081",
+        "detected": "2026-08-11T03:04:29Z",
         "deleted": "false"
     },
     {

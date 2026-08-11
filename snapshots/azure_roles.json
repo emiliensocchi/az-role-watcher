@@ -2196,6 +2196,14 @@
         "link": "https://management.azure.com/e6aadb6b-e64f-41c0-9392-d2bba3bc3ebc?api-version=2022-04-01"
     },
     {
+        "id": "222f0527-8571-4054-955d-aae12f1d09d6",
+        "name": "Commvault Contributor",
+        "description": "Provides access to Commvault ContentStore Control Plane Operations",
+        "link": "https://management.azure.com/222f0527-8571-4054-955d-aae12f1d09d6?api-version=2022-04-01",
+        "detected": "2026-08-11T03:04:29Z",
+        "deleted": "false"
+    },
+    {
         "id": "df2711a6-406d-41cf-b366-b0250bff9ad1",
         "name": "Compute Diagnostics Role",
         "description": "Grants permissions to execute diagnostics provided by Compute Diagnostic Service for Compute Resources.",
