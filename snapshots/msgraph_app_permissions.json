@@ -2024,7 +2024,7 @@
     {
         "id": "76577085-e73d-4f1d-b26a-85fb33892327",
         "name": "MailboxItem.ImportExport.All",
-        "description": "Allows the app to perform backup and restore for all mailbox items",
+        "description": "Export and import all the users' mailbox items",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/76577085-e73d-4f1d-b26a-85fb33892327"
     },
     {

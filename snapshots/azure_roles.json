@@ -2199,9 +2199,7 @@
         "id": "222f0527-8571-4054-955d-aae12f1d09d6",
         "name": "Commvault Contributor",
         "description": "Provides access to Commvault ContentStore Control Plane Operations",
-        "link": "https://management.azure.com/222f0527-8571-4054-955d-aae12f1d09d6?api-version=2022-04-01",
-        "detected": "2026-08-11T03:04:29Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/222f0527-8571-4054-955d-aae12f1d09d6?api-version=2022-04-01"
     },
     {
         "id": "df2711a6-406d-41cf-b366-b0250bff9ad1",
@@ -4200,6 +4198,22 @@
         "name": "Microsoft Discovery Project Reader - Preview",
         "description": "Read-only access to an existing Discovery project and its contents, including its investigations and conversations. Does not allow creating, modifying, or deleting any resources, nor assigning roles. This role is in preview and subject to change.",
         "link": "https://management.azure.com/ac7d1e6d-3070-4d7d-9cd9-7adbf5cdd579?api-version=2022-04-01"
+    },
+    {
+        "id": "9697f39a-3a08-4fc8-ab07-674a0d5cacdd",
+        "name": "Microsoft Discovery Storage Container Contributor - Preview",
+        "description": "Grants management of storage assets within Microsoft.Discovery storage containers: allows reading a storage container and creating, reading, updating, and deleting the storage assets within it, including checking the status of asynchronous storage asset operations. Cannot create, update, or delete the storage container itself, and does not grant access to the underlying Azure Storage blob data. Intended to be assigned alongside Discovery project roles. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/9697f39a-3a08-4fc8-ab07-674a0d5cacdd?api-version=2022-04-01",
+        "detected": "2026-08-12T03:23:48Z",
+        "deleted": "false"
+    },
+    {
+        "id": "a51eacd1-6976-43ce-b6b6-83585e3639f0",
+        "name": "Microsoft Discovery Storage Container Reader - Preview",
+        "description": "Read-only access to Microsoft.Discovery storage containers and the storage assets within them: allows reading a storage container and listing/reading its storage assets. Does not allow creating, modifying, or deleting storage assets or containers, and does not grant access to the underlying Azure Storage blob data. Intended to be assigned alongside Discovery project roles. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/a51eacd1-6976-43ce-b6b6-83585e3639f0?api-version=2022-04-01",
+        "detected": "2026-08-12T03:23:48Z",
+        "deleted": "false"
     },
     {
         "id": "84c36cf8-7fcd-4453-af30-5f5b52b86732",
