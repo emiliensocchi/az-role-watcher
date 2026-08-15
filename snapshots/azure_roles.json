@@ -1134,6 +1134,22 @@
         "link": "https://management.azure.com/478d20ba-a53e-4946-b33c-8078a92f2d0a?api-version=2022-04-01"
     },
     {
+        "id": "3e43f27e-8f98-43b0-9036-e5ae540c968a",
+        "name": "Azure Local Infrastructure Contributor",
+        "description": "Grants permission to manage GPUs, network, disks, and volumes on Azure Local clusters.",
+        "link": "https://management.azure.com/3e43f27e-8f98-43b0-9036-e5ae540c968a?api-version=2022-04-01",
+        "detected": "2026-08-15T02:14:01Z",
+        "deleted": "false"
+    },
+    {
+        "id": "345f07df-7946-4fa9-9edd-80e603e89ea1",
+        "name": "Azure Local Infrastructure Reader",
+        "description": "Grants read-only access to GPUs, network, disks, and volumes on Azure Local clusters.",
+        "link": "https://management.azure.com/345f07df-7946-4fa9-9edd-80e603e89ea1?api-version=2022-04-01",
+        "detected": "2026-08-15T02:14:01Z",
+        "deleted": "false"
+    },
+    {
         "id": "1cfa4eac-9a23-481c-a793-bfb6958e836c",
         "name": "Azure Local Migrate Execute Expert",
         "description": "Grants restricted access on an Azure Local based Azure Migrate project to only perform migration related operations, including replication, execution of migrations, tracking and monitoring of migration progress, and initiation of agentless migrations.",
@@ -4160,7 +4176,7 @@
     {
         "id": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
         "name": "Microsoft Discovery Bookshelf Index Data Reader - Preview",
-        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
+        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases, and read-only access to list Bookshelves and their knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
         "link": "https://management.azure.com/8ec773c5-7ce6-4b78-91d1-182f8faa536d?api-version=2022-04-01"
     },
     {

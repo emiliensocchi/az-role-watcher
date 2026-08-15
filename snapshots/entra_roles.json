@@ -116,7 +116,7 @@
     {
         "id": "0b00bede-4072-4d22-b441-e7df02a1ef63",
         "name": "Authentication Extensibility Password Administrator",
-        "description": "Trigger a password submit event for custom authentication.",
+        "description": "Trigger a password submit or password update event for custom authentication.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0b00bede-4072-4d22-b441-e7df02a1ef63"
     },
     {
