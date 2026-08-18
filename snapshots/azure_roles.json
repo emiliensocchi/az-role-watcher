@@ -4172,7 +4172,7 @@
     {
         "id": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
         "name": "Microsoft Discovery Bookshelf Index Data Reader - Preview",
-        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
+        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases, and read-only access to list Bookshelves and their knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
         "link": "https://management.azure.com/8ec773c5-7ce6-4b78-91d1-182f8faa536d?api-version=2022-04-01"
     },
     {
