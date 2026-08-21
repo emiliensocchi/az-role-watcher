@@ -102,6 +102,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2e0fb698-9996-479f-926b-ce63f4397829"
     },
     {
+        "id": "eccf3f2d-f81a-4718-95d7-ef4a0c42ac43",
+        "name": "AgentCommunicationConfiguration.Read.All",
+        "description": "Read all agent communication configurations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/eccf3f2d-f81a-4718-95d7-ef4a0c42ac43"
+    },
+    {
+        "id": "9c72696d-c77b-4d8d-b59e-dfca4792c9ec",
+        "name": "AgentCommunicationConfiguration.ReadWrite.All",
+        "description": "Read and write all agent communication configurations",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9c72696d-c77b-4d8d-b59e-dfca4792c9ec"
+    },
+    {
         "id": "b782c9ad-6f2b-4894-a21b-72bf22417f0a",
         "name": "AgentIdUser.ReadWrite.All",
         "description": "Read and write all agent ID users' full profiles",
@@ -1140,6 +1152,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9241abd9-d0e6-425a-bd4f-47ba86e767a4"
     },
     {
+        "id": "c5825671-0390-4bf2-b99b-80496fd4b673",
+        "name": "DeviceManagementDeploymentPlans.Read.All",
+        "description": "Read Microsoft Intune Deployment Plans",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c5825671-0390-4bf2-b99b-80496fd4b673"
+    },
+    {
+        "id": "68356fd1-028d-4ce3-b724-241dec11127a",
+        "name": "DeviceManagementDeploymentPlans.ReadWrite.All",
+        "description": "Read and write Microsoft Intune Deployment Plans",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/68356fd1-028d-4ce3-b724-241dec11127a"
+    },
+    {
         "id": "5b07b0dd-2377-4e44-a38d-703f09a0dc3c",
         "name": "DeviceManagementManagedDevices.PrivilegedOperations.All",
         "description": "Perform user-impacting remote actions on Microsoft Intune devices",
@@ -1882,6 +1906,18 @@
         "name": "LicenseAssignment.ReadWrite.All",
         "description": "Manage all license assignments",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5facf0c1-8979-4e95-abcf-ff3d079771c0"
+    },
+    {
+        "id": "6343d63f-034f-45b5-832d-9f9d7632e182",
+        "name": "LifecyclePolicies-AgentId.Read.All",
+        "description": "Read identity lifecycle policies for agent identities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6343d63f-034f-45b5-832d-9f9d7632e182"
+    },
+    {
+        "id": "00d1c504-8dc7-461b-8a0b-dc15c8f1bd5a",
+        "name": "LifecyclePolicies-AgentId.ReadWrite.All",
+        "description": "Read and write identity lifecycle policies for agent identities",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/00d1c504-8dc7-461b-8a0b-dc15c8f1bd5a"
     },
     {
         "id": "2cb19e7d-9012-40bf-9a22-69fc776af8b0",
@@ -2770,6 +2806,12 @@
         "name": "PublicKeyInfrastructure.ReadWrite.All",
         "description": "Read and write all certificate based authentication configurations",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a2b63618-5350-462d-b1b3-ba6eb3684e26"
+    },
+    {
+        "id": "f369d3b8-fe98-4772-85e1-b23e7cf41982",
+        "name": "PullPrintPrinter.Read.All",
+        "description": "Read pull-print printers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f369d3b8-fe98-4772-85e1-b23e7cf41982"
     },
     {
         "id": "ee49e170-1dd1-4030-b44c-61ad6e98f743",
