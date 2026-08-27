@@ -1,5 +1,29 @@
 [
     {
+        "id": "a6b68e3d-a1f0-4c60-8678-237c050cf4ea",
+        "name": "AI Gateway Models User",
+        "description": "Invoke models in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/a6b68e3d-a1f0-4c60-8678-237c050cf4ea?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "dce03f8d-857f-4e40-a90d-67770fa6ecd2",
+        "name": "AI Gateway Tools User",
+        "description": "Invoke MCP servers in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/dce03f8d-857f-4e40-a90d-67770fa6ecd2?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "caad7a21-134e-43f4-a550-c5ffc17e051c",
+        "name": "AI Gateway User",
+        "description": "Invoke all assets in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/caad7a21-134e-43f4-a550-c5ffc17e051c?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "8b9beb50-e28c-4879-8472-24c9d328085f",
         "name": "AI Model Scanner Operator",
         "description": "Grants Microsoft Defender for AI access to AI services and resources.",
@@ -165,6 +189,22 @@
         "description": "acr quarantine data writer",
         "link": "https://management.azure.com/c8d4ff99-41c3-41a8-9f60-21dfdad59608?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e4ea5ade-238a-4e4a-9e4d-683d809f7072",
+        "name": "Advisor Discoverable Workload Reader",
+        "description": "View discoverable workloads and their resources.",
+        "link": "https://management.azure.com/e4ea5ade-238a-4e4a-9e4d-683d809f7072?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "98911e7b-8e37-41af-86f4-9258b2a05035",
+        "name": "Advisor Discoverable Workloads Contributor",
+        "description": "Convert discoverable workload into service group.",
+        "link": "https://management.azure.com/98911e7b-8e37-41af-86f4-9258b2a05035?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
         "deleted": "false"
     },
     {
@@ -2656,6 +2696,14 @@
         "deleted": "false"
     },
     {
+        "id": "1a22653f-3441-4c27-8f4a-ba9f93b30e5d",
+        "name": "Cloud Device Platform Sandbox Partner Data Contributor",
+        "description": "Read and manage resources for Cloud Device Platform sandbox partners.",
+        "link": "https://management.azure.com/1a22653f-3441-4c27-8f4a-ba9f93b30e5d?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "4e9d0bd4-5aab-4f91-92df-9def33fe287c",
         "name": "CloudTest Contributor Role",
         "description": "Read, write, delete and perform actions on CloudTest Accounts, CloudTest Pools, 1ES Hosted Pools and 1ES Images.",
@@ -3125,6 +3173,14 @@
         "description": "Write connectors and have basic customer permissions like reading authorizations, alert rules and resourceGroups",
         "link": "https://management.azure.com/c459b115-f629-486b-b359-35feb5568b83?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2aea396c-91f9-444f-a367-6bd94ab9a5cf",
+        "name": "Container Apps Artifact Data Pull",
+        "description": "Grants content pull permission for Container Apps Artifacts, allowing callers to pull the contents of Artifact versions.",
+        "link": "https://management.azure.com/2aea396c-91f9-444f-a367-6bd94ab9a5cf?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
         "deleted": "false"
     },
     {
@@ -4128,6 +4184,14 @@
         "deleted": "false"
     },
     {
+        "id": "506c2fa4-2713-45d3-a893-4b1360a66e88",
+        "name": "Discovery Log Analytics Cluster Linker - Preview",
+        "description": "Allows the Discovery control plane to link Log Analytics workspaces to a customer's dedicated cluster for CMK (customer-managed key) encryption. Grants only cluster read and write permissions \u2014 no storage key access, no VM extensions, no broad read.",
+        "link": "https://management.azure.com/506c2fa4-2713-45d3-a893-4b1360a66e88?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "3e5e47e6-65f7-47ef-90b5-e5dd4d455f24",
         "name": "Disk Backup Reader",
         "description": "Provides permission to backup vault to perform disk backup.",
@@ -4533,6 +4597,22 @@
         "description": "Role allows user to access FHIR Service according to SMART on FHIR specification",
         "link": "https://management.azure.com/4ba50f17-9666-485c-a643-ff00808643f0?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1eedde9e-98e4-4247-8236-e8aa2ffff3b8",
+        "name": "File Share Data Privileged Contributor",
+        "description": "Allows for read, write, and delete access to all files and directories in an Azure file share, overriding the ownership and permissions configured on those files and directories.",
+        "link": "https://management.azure.com/1eedde9e-98e4-4247-8236-e8aa2ffff3b8?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1cfd6744-7b03-40d9-87bd-9f36e42e1df2",
+        "name": "File Share Data Privileged Reader",
+        "description": "Allows for read access to all files and directories in an Azure file share, overriding the ownership and permissions configured on those files and directories.",
+        "link": "https://management.azure.com/1cfd6744-7b03-40d9-87bd-9f36e42e1df2?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
         "deleted": "false"
     },
     {

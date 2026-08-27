@@ -1,5 +1,29 @@
 [
     {
+        "id": "a6b68e3d-a1f0-4c60-8678-237c050cf4ea",
+        "name": "AI Gateway Models User",
+        "description": "Invoke models in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/a6b68e3d-a1f0-4c60-8678-237c050cf4ea?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "dce03f8d-857f-4e40-a90d-67770fa6ecd2",
+        "name": "AI Gateway Tools User",
+        "description": "Invoke MCP servers in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/dce03f8d-857f-4e40-a90d-67770fa6ecd2?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "caad7a21-134e-43f4-a550-c5ffc17e051c",
+        "name": "AI Gateway User",
+        "description": "Invoke all assets in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
+        "link": "https://management.azure.com/caad7a21-134e-43f4-a550-c5ffc17e051c?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "8b9beb50-e28c-4879-8472-24c9d328085f",
         "name": "AI Model Scanner Operator",
         "description": "Grants Microsoft Defender for AI access to AI services and resources.",
@@ -124,6 +148,22 @@
         "name": "AcrQuarantineWriter",
         "description": "acr quarantine data writer",
         "link": "https://management.azure.com/c8d4ff99-41c3-41a8-9f60-21dfdad59608?api-version=2022-04-01"
+    },
+    {
+        "id": "e4ea5ade-238a-4e4a-9e4d-683d809f7072",
+        "name": "Advisor Discoverable Workload Reader",
+        "description": "View discoverable workloads and their resources.",
+        "link": "https://management.azure.com/e4ea5ade-238a-4e4a-9e4d-683d809f7072?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "98911e7b-8e37-41af-86f4-9258b2a05035",
+        "name": "Advisor Discoverable Workloads Contributor",
+        "description": "Convert discoverable workload into service group.",
+        "link": "https://management.azure.com/98911e7b-8e37-41af-86f4-9258b2a05035?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
     },
     {
         "id": "f680209a-a2a2-4e0d-aa81-5d2a65c13604",
@@ -1956,6 +1996,14 @@
         "link": "https://management.azure.com/d0a94e7a-d791-4571-b2e0-8bdd8f867544?api-version=2022-04-01"
     },
     {
+        "id": "1a22653f-3441-4c27-8f4a-ba9f93b30e5d",
+        "name": "Cloud Device Platform Sandbox Partner Data Contributor",
+        "description": "Read and manage resources for Cloud Device Platform sandbox partners.",
+        "link": "https://management.azure.com/1a22653f-3441-4c27-8f4a-ba9f93b30e5d?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "4e9d0bd4-5aab-4f91-92df-9def33fe287c",
         "name": "CloudTest Contributor Role",
         "description": "Read, write, delete and perform actions on CloudTest Accounts, CloudTest Pools, 1ES Hosted Pools, 1ES Build Caches and 1ES Images.",
@@ -2308,6 +2356,14 @@
         "name": "Connector Writer",
         "description": "Write connectors and have basic customer permissions like reading authorizations, alert rules and resourceGroups",
         "link": "https://management.azure.com/c459b115-f629-486b-b359-35feb5568b83?api-version=2022-04-01"
+    },
+    {
+        "id": "2aea396c-91f9-444f-a367-6bd94ab9a5cf",
+        "name": "Container Apps Artifact Data Pull",
+        "description": "Grants content pull permission for Container Apps Artifacts, allowing callers to pull the contents of Artifact versions.",
+        "link": "https://management.azure.com/2aea396c-91f9-444f-a367-6bd94ab9a5cf?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
     },
     {
         "id": "6f4fe6fc-f04f-4d97-8528-8bc18c848dca",
@@ -3032,7 +3088,7 @@
     {
         "id": "02ca0879-e8e4-47a5-a61e-5c618b76e64a",
         "name": "Device Update Administrator",
-        "description": "Gives you full access to management and content operations",
+        "description": "Gives you full access to Device Update content and device management operations, with read access to Device Update resources",
         "link": "https://management.azure.com/02ca0879-e8e4-47a5-a61e-5c618b76e64a?api-version=2022-04-01"
     },
     {
@@ -3050,7 +3106,7 @@
     {
         "id": "f82fbe13-0f98-4809-af81-b82c343db82f",
         "name": "Device Update Contributor",
-        "description": "Gives you full access to manage Device Update accounts, instances, and private endpoint connections",
+        "description": "Gives you full access to manage Device Update accounts, instances, linked accounts, linking operations, and private endpoint connections",
         "link": "https://management.azure.com/f82fbe13-0f98-4809-af81-b82c343db82f?api-version=2022-04-01"
     },
     {
@@ -3076,6 +3132,14 @@
         "name": "Diagnostics Operator",
         "description": "Collect diagnostic information regarding Virtual Machine and Virtual Machine Scale Sets",
         "link": "https://management.azure.com/64375caa-ac3e-48b3-9492-da4d60aba7bb?api-version=2022-04-01"
+    },
+    {
+        "id": "506c2fa4-2713-45d3-a893-4b1360a66e88",
+        "name": "Discovery Log Analytics Cluster Linker - Preview",
+        "description": "Allows the Discovery control plane to link Log Analytics workspaces to a customer's dedicated cluster for CMK (customer-managed key) encryption. Grants only cluster read and write permissions \u2014 no storage key access, no VM extensions, no broad read.",
+        "link": "https://management.azure.com/506c2fa4-2713-45d3-a893-4b1360a66e88?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
     },
     {
         "id": "3e5e47e6-65f7-47ef-90b5-e5dd4d455f24",
@@ -3370,6 +3434,22 @@
         "name": "FHIR SMART User",
         "description": "Role allows user to access FHIR Service according to SMART on FHIR specification",
         "link": "https://management.azure.com/4ba50f17-9666-485c-a643-ff00808643f0?api-version=2022-04-01"
+    },
+    {
+        "id": "1eedde9e-98e4-4247-8236-e8aa2ffff3b8",
+        "name": "File Share Data Privileged Contributor",
+        "description": "Allows for read, write, and delete access to all files and directories in an Azure file share, overriding the ownership and permissions configured on those files and directories.",
+        "link": "https://management.azure.com/1eedde9e-98e4-4247-8236-e8aa2ffff3b8?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1cfd6744-7b03-40d9-87bd-9f36e42e1df2",
+        "name": "File Share Data Privileged Reader",
+        "description": "Allows for read access to all files and directories in an Azure file share, overriding the ownership and permissions configured on those files and directories.",
+        "link": "https://management.azure.com/1cfd6744-7b03-40d9-87bd-9f36e42e1df2?api-version=2022-04-01",
+        "detected": "2026-08-27T10:59:42Z",
+        "deleted": "false"
     },
     {
         "id": "9c1607d1-791d-4c68-885d-c7b7aaff7c8a",
@@ -4177,8 +4257,8 @@
     },
     {
         "id": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
-        "name": "Microsoft Discovery Bookshelf Index Data Reader - Preview",
-        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases, and read-only access to list Bookshelves and their knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
+        "name": "Microsoft Discovery Bookshelf Index Data Reader",
+        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases, and read-only access to list Bookshelves and their knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent.",
         "link": "https://management.azure.com/8ec773c5-7ce6-4b78-91d1-182f8faa536d?api-version=2022-04-01"
     },
     {
@@ -4189,20 +4269,20 @@
     },
     {
         "id": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
-        "name": "Microsoft Discovery Platform Administrator (Preview)",
-        "description": "Grants full access to manage Microsoft.Discovery resources. This role is in preview and subject to change.",
+        "name": "Microsoft Discovery Platform Administrator",
+        "description": "Grants full access to manage Microsoft.Discovery resources.",
         "link": "https://management.azure.com/7a2b6e6c-472e-4b39-8878-a26eb63d75c6?api-version=2022-04-01"
     },
     {
         "id": "01288891-85ee-45a7-b367-9db3b752fc65",
-        "name": "Microsoft Discovery Platform Contributor (Preview)",
-        "description": "Grants permissions to view and operate on most Discovery platform resources, including workspaces, supercomputers, storages, agents, bookshelves, data containers, models, tools, workflows, and investigations, as well as perform data plane actions, but does not allow creating, updating, or deleting core resources such as workspaces, supercomputers, storages, bookshelves, node pools, or projects. This role is in preview and subject to change.",
+        "name": "Microsoft Discovery Platform Contributor",
+        "description": "Grants permissions to view and operate on most Discovery platform resources, including workspaces, supercomputers, storages, agents, bookshelves, data containers, models, tools, workflows, and investigations, as well as perform data plane actions, but does not allow creating, updating, or deleting core resources such as workspaces, supercomputers, storages, bookshelves, node pools, or projects.",
         "link": "https://management.azure.com/01288891-85ee-45a7-b367-9db3b752fc65?api-version=2022-04-01"
     },
     {
         "id": "3bb7c424-af4e-436b-bfcc-8779c8934c31",
-        "name": "Microsoft Discovery Platform Reader (Preview)",
-        "description": "Grants readonly permissions to view Microsoft.Discovery resources. This role in preview and subject to change.",
+        "name": "Microsoft Discovery Platform Reader",
+        "description": "Grants readonly permissions to view Microsoft.Discovery resources.",
         "link": "https://management.azure.com/3bb7c424-af4e-436b-bfcc-8779c8934c31?api-version=2022-04-01"
     },
     {
