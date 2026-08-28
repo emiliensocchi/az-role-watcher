@@ -5408,6 +5408,14 @@
         "deleted": "false"
     },
     {
+        "id": "f0e9adfd-ed6b-45f5-b969-324a75286a39",
+        "name": "UserAuthMethod-Email.Delete.All",
+        "description": "Delete all users' email methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f0e9adfd-ed6b-45f5-b969-324a75286a39",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "a1e58be0-1095-422b-b067-73434bd7d40f",
         "name": "UserAuthMethod-Email.Read.All",
         "description": "Read all users' email methods",
@@ -5421,6 +5429,14 @@
         "description": "Read and write all users' email methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e8ecb853-1435-4a49-95ba-ec5b31b11672",
         "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7fa6d39e-1e4e-44be-bf9c-e8260b12e1f5",
+        "name": "UserAuthMethod-External.Delete.All",
+        "description": "Delete all users' external authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7fa6d39e-1e4e-44be-bf9c-e8260b12e1f5",
+        "detected": "2026-08-28T12:34:23Z",
         "deleted": "false"
     },
     {
@@ -5440,6 +5456,14 @@
         "deleted": "false"
     },
     {
+        "id": "9d8eb432-7ea3-491a-9ed7-e6361b308f08",
+        "name": "UserAuthMethod-HardwareOATH.Delete.All",
+        "description": "Delete all users' HardwareOATH authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9d8eb432-7ea3-491a-9ed7-e6361b308f08",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "7b544555-7811-49ff-8223-a56be870e33a",
         "name": "UserAuthMethod-HardwareOATH.Read.All",
         "description": "Read all users' HardwareOATH authentication methods",
@@ -5456,6 +5480,14 @@
         "deleted": "false"
     },
     {
+        "id": "ae494ca6-9612-417a-972a-ef52efaf2de3",
+        "name": "UserAuthMethod-MicrosoftAuthApp.Delete.All",
+        "description": "Delete all users' Microsoft Authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ae494ca6-9612-417a-972a-ef52efaf2de3",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "a9c5f16e-e5ca-4e33-89ad-903fcfc01c23",
         "name": "UserAuthMethod-MicrosoftAuthApp.Read.All",
         "description": "Read all users' Microsoft authentication methods",
@@ -5469,6 +5501,14 @@
         "description": "Read and write all users' Microsoft Authentication methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c833c349-a1ab-4b6d-94a2-fa9a8674420c",
         "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9563fbd0-03a7-466e-8042-63d668b7d1a3",
+        "name": "UserAuthMethod-Passkey.Delete.All",
+        "description": "Delete all users' passkey authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9563fbd0-03a7-466e-8042-63d668b7d1a3",
+        "detected": "2026-08-28T12:34:23Z",
         "deleted": "false"
     },
     {
@@ -5504,6 +5544,14 @@
         "deleted": "false"
     },
     {
+        "id": "59f17651-8b6c-494e-a269-4ac582fbbca0",
+        "name": "UserAuthMethod-Phone.Delete.All",
+        "description": "Delete all users' phone methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/59f17651-8b6c-494e-a269-4ac582fbbca0",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "f529a223-ea70-43ec-b268-5012de2fbaa2",
         "name": "UserAuthMethod-Phone.Read.All",
         "description": "Read all users' phone authentication methods",
@@ -5517,6 +5565,14 @@
         "description": "Read and write all users' phone methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e85d483-7092-4375-babe-0a94a8213a58",
         "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "bd760918-651f-4e67-b66f-8f614384dec2",
+        "name": "UserAuthMethod-PlatformCred.Delete.All",
+        "description": "Delete all users' platform credentials methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bd760918-651f-4e67-b66f-8f614384dec2",
+        "detected": "2026-08-28T12:34:23Z",
         "deleted": "false"
     },
     {
@@ -5536,6 +5592,14 @@
         "deleted": "false"
     },
     {
+        "id": "e1c34213-26ac-400b-9548-a749f1b1a4e0",
+        "name": "UserAuthMethod-QR.Delete.All",
+        "description": "Delete all users' QR authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e1c34213-26ac-400b-9548-a749f1b1a4e0",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "9a45bc50-cddd-4ebe-bd9c-4f2eacf646ae",
         "name": "UserAuthMethod-QR.Read.All",
         "description": "Read all users' QR methods",
@@ -5549,6 +5613,14 @@
         "description": "Read and write all users' QR methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4869299f-18c3-40c8-98f2-222657e67db1",
         "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "a71aecaf-82f1-47c5-ad0a-5e63503b928f",
+        "name": "UserAuthMethod-ResourceKey.Delete.All",
+        "description": "Delete all users' resource key authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/a71aecaf-82f1-47c5-ad0a-5e63503b928f",
+        "detected": "2026-08-28T12:34:23Z",
         "deleted": "false"
     },
     {
@@ -5568,6 +5640,14 @@
         "deleted": "false"
     },
     {
+        "id": "e5676e10-1a16-452b-ad10-71f54b755852",
+        "name": "UserAuthMethod-SoftwareOATH.Delete.All",
+        "description": "Delete all users' SoftwareOATH authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e5676e10-1a16-452b-ad10-71f54b755852",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "a6b423df-a0c8-411d-a809-a4a5985d2939",
         "name": "UserAuthMethod-SoftwareOATH.Read.All",
         "description": "Read all users' SoftwareOATH methods",
@@ -5581,6 +5661,14 @@
         "description": "Read and write all users' SoftwareOATH methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/787442d4-3c6e-4e99-aa95-8ccca20a48ff",
         "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "4f872e9d-d232-4ecd-ab9c-337cbdb184e5",
+        "name": "UserAuthMethod-TAP.Delete.All",
+        "description": "Delete all users' Temporary Access Pass authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4f872e9d-d232-4ecd-ab9c-337cbdb184e5",
+        "detected": "2026-08-28T12:34:23Z",
         "deleted": "false"
     },
     {
@@ -5600,6 +5688,14 @@
         "deleted": "false"
     },
     {
+        "id": "f3197110-aa7f-4acd-a0fd-71981ad68d42",
+        "name": "UserAuthMethod-WindowsHello.Delete.All",
+        "description": "Delete all users' Windows Hello authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f3197110-aa7f-4acd-a0fd-71981ad68d42",
+        "detected": "2026-08-28T12:34:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "9b8dd4c7-8cca-4ef5-a34a-9c2c75fcc934",
         "name": "UserAuthMethod-WindowsHello.Read.All",
         "description": "Read all users' Windows Hello methods",
@@ -5613,6 +5709,14 @@
         "description": "Read and write all users' Windows Hello authentication methods",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f14eee8a-713e-45aa-8223-2ab74632db1a",
         "detected": "2025-10-16T02:25:58Z",
+        "deleted": "false"
+    },
+    {
+        "id": "712f5e0d-bc8d-4ae5-8242-cfb9a4921ed3",
+        "name": "UserAuthenticationMethod.Delete.All",
+        "description": "Delete all users' authentication methods",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/712f5e0d-bc8d-4ae5-8242-cfb9a4921ed3",
+        "detected": "2026-08-28T12:34:23Z",
         "deleted": "false"
     },
     {
