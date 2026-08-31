@@ -4237,8 +4237,8 @@
     },
     {
         "id": "8ec773c5-7ce6-4b78-91d1-182f8faa536d",
-        "name": "Microsoft Discovery Bookshelf Index Data Reader - Preview",
-        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases, and read-only access to list Bookshelves and their knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent. This role is in preview and subject to change.",
+        "name": "Microsoft Discovery Bookshelf Index Data Reader",
+        "description": "Grants query access to search and retrieve data from Microsoft Discovery Bookshelf knowledge bases, and read-only access to list Bookshelves and their knowledge bases. This is the minimum role required to use the retrieve action when linking a knowledge base to an agent.",
         "link": "https://management.azure.com/8ec773c5-7ce6-4b78-91d1-182f8faa536d?api-version=2022-04-01"
     },
     {
@@ -4249,20 +4249,20 @@
     },
     {
         "id": "7a2b6e6c-472e-4b39-8878-a26eb63d75c6",
-        "name": "Microsoft Discovery Platform Administrator (Preview)",
-        "description": "Grants full access to manage Microsoft.Discovery resources. This role is in preview and subject to change.",
+        "name": "Microsoft Discovery Platform Administrator",
+        "description": "Grants full access to manage Microsoft.Discovery resources.",
         "link": "https://management.azure.com/7a2b6e6c-472e-4b39-8878-a26eb63d75c6?api-version=2022-04-01"
     },
     {
         "id": "01288891-85ee-45a7-b367-9db3b752fc65",
-        "name": "Microsoft Discovery Platform Contributor (Preview)",
-        "description": "Grants permissions to view and operate on most Discovery platform resources, including workspaces, supercomputers, storages, agents, bookshelves, data containers, models, tools, workflows, and investigations, as well as perform data plane actions, but does not allow creating, updating, or deleting core resources such as workspaces, supercomputers, storages, bookshelves, node pools, or projects. This role is in preview and subject to change.",
+        "name": "Microsoft Discovery Platform Contributor",
+        "description": "Grants permissions to view and operate on most Discovery platform resources, including workspaces, supercomputers, storages, agents, bookshelves, data containers, models, tools, workflows, and investigations, as well as perform data plane actions, but does not allow creating, updating, or deleting core resources such as workspaces, supercomputers, storages, bookshelves, node pools, or projects.",
         "link": "https://management.azure.com/01288891-85ee-45a7-b367-9db3b752fc65?api-version=2022-04-01"
     },
     {
         "id": "3bb7c424-af4e-436b-bfcc-8779c8934c31",
-        "name": "Microsoft Discovery Platform Reader (Preview)",
-        "description": "Grants readonly permissions to view Microsoft.Discovery resources. This role in preview and subject to change.",
+        "name": "Microsoft Discovery Platform Reader",
+        "description": "Grants readonly permissions to view Microsoft.Discovery resources.",
         "link": "https://management.azure.com/3bb7c424-af4e-436b-bfcc-8779c8934c31?api-version=2022-04-01"
     },
     {
