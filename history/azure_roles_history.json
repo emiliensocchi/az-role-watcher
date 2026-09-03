@@ -5560,6 +5560,14 @@
         "deleted": "false"
     },
     {
+        "id": "24e6456b-7741-4fc8-b632-f44af1180ec3",
+        "name": "MEAT Criteria Data User",
+        "description": "Process health data in MEAT Criteria service API",
+        "link": "https://management.azure.com/24e6456b-7741-4fc8-b632-f44af1180ec3?api-version=2022-04-01",
+        "detected": "2026-09-03T05:32:37Z",
+        "deleted": "false"
+    },
+    {
         "id": "641177b8-a67a-45b9-a033-47bc880bb21e",
         "name": "Managed Application Contributor Role",
         "description": "Allows for creating managed application resources.",

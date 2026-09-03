@@ -2216,6 +2216,22 @@
         "deleted": "false"
     },
     {
+        "id": "bb1e8ab4-fe40-4b26-82ec-65dfaf4d367b",
+        "name": "IdentityDiagnostic.Read.All",
+        "description": "Read all identity diagnostics",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bb1e8ab4-fe40-4b26-82ec-65dfaf4d367b",
+        "detected": "2026-09-03T05:32:37Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2607bb8b-0a9b-4f53-9d2f-6f81b99ac145",
+        "name": "IdentityDiagnostic.StartDiagnosis.All",
+        "description": "Start identity diagnostics for all users",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2607bb8b-0a9b-4f53-9d2f-6f81b99ac145",
+        "detected": "2026-09-03T05:32:37Z",
+        "deleted": "false"
+    },
+    {
         "id": "52ced3dd-dbb6-41a0-9ce5-61a056be97b8",
         "name": "IdentityNotifications.Read.All",
         "description": "Read all identity notification settings and templates",
