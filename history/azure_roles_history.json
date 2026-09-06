@@ -1,5 +1,13 @@
 [
     {
+        "id": "849de3f8-3686-489c-bd02-732984d0c145",
+        "name": "A365 Gateway Policy Operator",
+        "description": "Read Azure API Management services and update asset's access state according to A365 policies.",
+        "link": "https://management.azure.com/849de3f8-3686-489c-bd02-732984d0c145?api-version=2022-04-01",
+        "detected": "2026-09-06T05:38:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "a6b68e3d-a1f0-4c60-8678-237c050cf4ea",
         "name": "AI Gateway Models User",
         "description": "Invoke models in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
