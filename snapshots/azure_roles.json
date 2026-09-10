@@ -2576,7 +2576,7 @@
     {
         "id": "230815da-be43-4aae-9cb4-875f7bd000aa",
         "name": "Cosmos DB Operator",
-        "description": "Lets you manage Azure Cosmos DB accounts, but not access data in them. Prevents access to account keys and connection strings.",
+        "description": "Lets you manage Azure Cosmos DB accounts and their databases, containers, stored procedures, triggers, user-defined functions, and client encryption key metadata. Does not grant direct access to item data, account keys, or connection strings.",
         "link": "https://management.azure.com/230815da-be43-4aae-9cb4-875f7bd000aa?api-version=2022-04-01"
     },
     {
