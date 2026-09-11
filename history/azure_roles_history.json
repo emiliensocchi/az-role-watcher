@@ -704,6 +704,14 @@
         "deleted": "false"
     },
     {
+        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
+        "name": "Azure AIManager and namespace RBAC Admin",
+        "description": "Allows read/write access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01",
+        "detected": "2026-09-11T05:41:21Z",
+        "deleted": "false"
+    },
+    {
         "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
         "name": "Azure AIManager and namespace RBAC Reader",
         "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
@@ -1221,6 +1229,14 @@
         "description": "Provides read access to Azure File Sync service (Storage Sync Service).",
         "link": "https://management.azure.com/754c1a27-40dc-4708-8ad4-2bffdeee09e8?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "3060977b-24b3-41d4-89d2-3c9b2c426041",
+        "name": "Azure Firewall for Containers Configuration Manager",
+        "description": "Allows access and configuration updates to Azure Firewall for Containers.",
+        "link": "https://management.azure.com/3060977b-24b3-41d4-89d2-3c9b2c426041?api-version=2022-04-01",
+        "detected": "2026-09-11T05:41:21Z",
         "deleted": "false"
     },
     {
