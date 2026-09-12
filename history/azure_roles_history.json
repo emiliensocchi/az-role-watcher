@@ -2624,6 +2624,22 @@
         "deleted": "false"
     },
     {
+        "id": "bc747a16-60be-4b06-8dc5-e22ba64a208c",
+        "name": "CTR Contributor",
+        "description": "Allows cross-tenant restore operations using Recovery Services vault mappings.",
+        "link": "https://management.azure.com/bc747a16-60be-4b06-8dc5-e22ba64a208c?api-version=2022-04-01",
+        "detected": "2026-09-12T05:28:23Z",
+        "deleted": "false"
+    },
+    {
+        "id": "60141276-53cb-43d3-9eeb-bbe8980b1f53",
+        "name": "CTR Creator",
+        "description": "Allows creating cross-tenant restore vault mappings on a target Recovery Services vault.",
+        "link": "https://management.azure.com/60141276-53cb-43d3-9eeb-bbe8980b1f53?api-version=2022-04-01",
+        "detected": "2026-09-12T05:28:23Z",
+        "deleted": "false"
+    },
+    {
         "id": "fa0d39e6-28e5-40cf-8521-1eb320653a4c",
         "name": "Carbon Optimization Reader",
         "description": "Allow read access to Azure Carbon Optimization data",
@@ -3109,6 +3125,14 @@
         "description": "This role allows user to share gallery to another subscription/tenant or share it to the public.",
         "link": "https://management.azure.com/1ef6a3be-d0ac-425d-8c01-acb62866290b?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "c9b5f20e-fe31-47ac-8115-d5c4c7fb19e3",
+        "name": "Compute Gallery Tenant Level Sharing Admin",
+        "description": "This role allows user to accept/reject galleries shared to the user's AAD tenant.",
+        "link": "https://management.azure.com/c9b5f20e-fe31-47ac-8115-d5c4c7fb19e3?api-version=2022-04-01",
+        "detected": "2026-09-12T05:28:23Z",
         "deleted": "false"
     },
     {
