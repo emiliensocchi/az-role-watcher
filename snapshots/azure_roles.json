@@ -468,28 +468,28 @@
         "link": "https://management.azure.com/413f2675-4911-4010-be3b-c720b43a3c59?api-version=2022-04-01"
     },
     {
+        "id": "82b2f1a9-9593-4498-a824-c209343a28ec",
+        "name": "Azure AIManager Inference User",
+        "description": "Allows read access to read access keys and invoke inference against AI models deployed in a namespace. applying this role at the AIManager scope will give access across all namespaces.",
+        "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
+    },
+    {
+        "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
+        "name": "Azure AIManager RBAC Reader",
+        "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "link": "https://management.azure.com/9c77f8a7-b0b9-4462-844c-de6e66add8ba?api-version=2022-04-01"
+    },
+    {
         "id": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
         "name": "Azure AIManager User",
         "description": "Grants read access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
         "link": "https://management.azure.com/223653d0-bf85-419e-ac7a-a67edf5fc44b?api-version=2022-04-01"
     },
     {
-        "id": "82b2f1a9-9593-4498-a824-c209343a28ec",
-        "name": "Azure AIManager and Namespace RBAC Inference Operator",
-        "description": "Allows read access to all objects in an Azure AIManager namespace, plus the ability to read Secrets and invoke inference against AI models deployed in that namespace. This role does not allow modifying objects, roles, or role bindings. However, the ability to read Secrets allows the holder to obtain ServiceAccount tokens in the namespace. Applying this role at the AI Manager scope will give access across all namespaces.",
-        "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
-    },
-    {
         "id": "e2845093-d729-45cd-9f6e-a337c027d655",
         "name": "Azure AIManager and namespace RBAC Admin",
         "description": "Allows read/write access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
         "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
-    },
-    {
-        "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
-        "name": "Azure AIManager and namespace RBAC Reader",
-        "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
-        "link": "https://management.azure.com/9c77f8a7-b0b9-4462-844c-de6e66add8ba?api-version=2022-04-01"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -2306,7 +2306,7 @@
     {
         "id": "1ef6a3be-d0ac-425d-8c01-acb62866290b",
         "name": "Compute Gallery Sharing Admin",
-        "description": "This role allows user to share gallery to another subscription/tenant or share it to the public.",
+        "description": "This role allows user to share gallery to another subscription/tenant or share it to the public or to accept/reject galleries shared to the user's subscription.",
         "link": "https://management.azure.com/1ef6a3be-d0ac-425d-8c01-acb62866290b?api-version=2022-04-01"
     },
     {
