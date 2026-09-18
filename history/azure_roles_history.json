@@ -1512,6 +1512,14 @@
         "deleted": "false"
     },
     {
+        "id": "8f139b0f-7eaf-460b-a9da-5b1246d9ed0d",
+        "name": "Azure Kubernetes Service Flex Node Agent Role",
+        "description": "Grants AKS Flex Node agents permission to retrieve bootstrap data and manage machine resources within an agent pool",
+        "link": "https://management.azure.com/8f139b0f-7eaf-460b-a9da-5b1246d9ed0d?api-version=2022-04-01",
+        "detected": "2026-09-18T05:37:30Z",
+        "deleted": "false"
+    },
+    {
         "id": "b5092dac-c796-4349-8681-1a322a31c3f9",
         "name": "Azure Kubernetes Service Hybrid Cluster Admin Role",
         "description": "List cluster admin credential action.",
@@ -4776,6 +4784,14 @@
         "deleted": "false"
     },
     {
+        "id": "1344669a-e3ad-4e43-8972-087b0c4cf2d9",
+        "name": "Genome Data Reader",
+        "description": "Grants read access to Genome data plane operations",
+        "link": "https://management.azure.com/1344669a-e3ad-4e43-8972-087b0c4cf2d9?api-version=2022-04-01",
+        "detected": "2026-09-18T05:37:30Z",
+        "deleted": "false"
+    },
+    {
         "id": "0e91b552-ae32-49ea-9898-317af306aa4b",
         "name": "Genome EndUser",
         "description": "Full access to Genome data plane operations only",
@@ -6957,6 +6973,14 @@
         "description": "Security Reader Role",
         "link": "https://management.azure.com/39bc4728-0917-49c7-9d2c-d95423bc2eb4?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "23511ce8-0df2-4291-ac54-4c47989f54fa",
+        "name": "Security Service Entitlements Contributor",
+        "description": "Allows users to read and create or update Microsoft.Security service entitlement resources for Defender product onboarding.",
+        "link": "https://management.azure.com/23511ce8-0df2-4291-ac54-4c47989f54fa?api-version=2022-04-01",
+        "detected": "2026-09-18T05:37:30Z",
         "deleted": "false"
     },
     {
