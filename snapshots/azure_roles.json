@@ -464,7 +464,7 @@
     {
         "id": "413f2675-4911-4010-be3b-c720b43a3c59",
         "name": "Azure AIManager Contributor",
-        "description": "Grants read/write access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
+        "description": "Grants read/write access to Azure resources provided by Azure AIManager, including aimanagers, deployments, namespace and models etc.",
         "link": "https://management.azure.com/413f2675-4911-4010-be3b-c720b43a3c59?api-version=2022-04-01"
     },
     {
@@ -474,22 +474,22 @@
         "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
     },
     {
+        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
+        "name": "Azure AIManager RBAC Admin",
+        "description": "Allows read/write access to all Kubernetes objects in an Azure AIManager.",
+        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
+    },
+    {
         "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
         "name": "Azure AIManager RBAC Reader",
-        "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "description": "Allows read-only access to all Kubernetes objects in an Azure AIManager, except Secrets, roles, and role bindings. Applying this role at the AIManager scope will give access across all namespaces.",
         "link": "https://management.azure.com/9c77f8a7-b0b9-4462-844c-de6e66add8ba?api-version=2022-04-01"
     },
     {
         "id": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
         "name": "Azure AIManager User",
-        "description": "Grants read access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
+        "description": "Grants read access to Azure resources provided by Azure AIManager, including aimanagers, deployments, namespace, etc.",
         "link": "https://management.azure.com/223653d0-bf85-419e-ac7a-a67edf5fc44b?api-version=2022-04-01"
-    },
-    {
-        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
-        "name": "Azure AIManager and namespace RBAC Admin",
-        "description": "Allows read/write access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
-        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -544,6 +544,14 @@
         "name": "Azure Arc Kubernetes Cluster Admin",
         "description": "Lets you manage all resources in the cluster.",
         "link": "https://management.azure.com/8393591c-06b9-48a2-a542-1bd6b377f6a2?api-version=2022-04-01"
+    },
+    {
+        "id": "06927065-6e3c-475e-b565-1dd2c3a93b60",
+        "name": "Azure Arc Kubernetes Reader",
+        "description": "Lets you read all resources in cluster/namespace, except secrets.",
+        "link": "https://management.azure.com/06927065-6e3c-475e-b565-1dd2c3a93b60?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
     },
     {
         "id": "63f0a09d-1495-4db4-a681-037d84835eb4",
@@ -1101,9 +1109,7 @@
         "id": "8f139b0f-7eaf-460b-a9da-5b1246d9ed0d",
         "name": "Azure Kubernetes Service Flex Node Agent Role",
         "description": "Grants AKS Flex Node agents permission to retrieve bootstrap data and manage machine resources within an agent pool",
-        "link": "https://management.azure.com/8f139b0f-7eaf-460b-a9da-5b1246d9ed0d?api-version=2022-04-01",
-        "detected": "2026-09-18T05:37:30Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/8f139b0f-7eaf-460b-a9da-5b1246d9ed0d?api-version=2022-04-01"
     },
     {
         "id": "b5092dac-c796-4349-8681-1a322a31c3f9",
@@ -3587,9 +3593,7 @@
         "id": "1344669a-e3ad-4e43-8972-087b0c4cf2d9",
         "name": "Genome Data Reader",
         "description": "Grants read access to Genome data plane operations",
-        "link": "https://management.azure.com/1344669a-e3ad-4e43-8972-087b0c4cf2d9?api-version=2022-04-01",
-        "detected": "2026-09-18T05:37:30Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/1344669a-e3ad-4e43-8972-087b0c4cf2d9?api-version=2022-04-01"
     },
     {
         "id": "0e91b552-ae32-49ea-9898-317af306aa4b",
@@ -4894,6 +4898,30 @@
         "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01"
     },
     {
+        "id": "3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e",
+        "name": "Red Team Administrator",
+        "description": "Read approved Azure resources and manage Azure role assignments.",
+        "link": "https://management.azure.com/3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60",
+        "name": "Red Team Recon Agent - Azure",
+        "description": "Read approved Azure resources and security metadata.",
+        "link": "https://management.azure.com/7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1",
+        "name": "Red Team Web App Agent",
+        "description": "Read Azure web application and exposure metadata.",
+        "link": "https://management.azure.com/c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
+    },
+    {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
         "name": "Redis Cache Contributor",
         "description": "Create and manage Azure Cache for Redis resources. Cannot read or write data stored in the cache.",
@@ -5167,9 +5195,7 @@
         "id": "23511ce8-0df2-4291-ac54-4c47989f54fa",
         "name": "Security Service Entitlements Contributor",
         "description": "Allows users to read and create or update Microsoft.Security service entitlement resources for Defender product onboarding.",
-        "link": "https://management.azure.com/23511ce8-0df2-4291-ac54-4c47989f54fa?api-version=2022-04-01",
-        "detected": "2026-09-18T05:37:30Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/23511ce8-0df2-4291-ac54-4c47989f54fa?api-version=2022-04-01"
     },
     {
         "id": "6c74a7c5-4a87-40f9-bb03-61e49aecbc78",

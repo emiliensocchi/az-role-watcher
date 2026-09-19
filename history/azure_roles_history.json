@@ -792,6 +792,14 @@
         "deleted": "false"
     },
     {
+        "id": "06927065-6e3c-475e-b565-1dd2c3a93b60",
+        "name": "Azure Arc Kubernetes Reader",
+        "description": "Lets you read all resources in cluster/namespace, except secrets.",
+        "link": "https://management.azure.com/06927065-6e3c-475e-b565-1dd2c3a93b60?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
+    },
+    {
         "id": "63f0a09d-1495-4db4-a681-037d84835eb4",
         "name": "Azure Arc Kubernetes Viewer",
         "description": "Lets you view all resources in cluster/namespace, except secrets.",
@@ -6605,6 +6613,30 @@
         "description": "Allows users to use Recurring Scheduled Actions offered by Microsoft.ComputeSchedule",
         "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01",
         "detected": "2025-08-06T11:57:47Z",
+        "deleted": "false"
+    },
+    {
+        "id": "3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e",
+        "name": "Red Team Administrator",
+        "description": "Read approved Azure resources and manage Azure role assignments.",
+        "link": "https://management.azure.com/3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60",
+        "name": "Red Team Recon Agent - Azure",
+        "description": "Read approved Azure resources and security metadata.",
+        "link": "https://management.azure.com/7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1",
+        "name": "Red Team Web App Agent",
+        "description": "Read Azure web application and exposure metadata.",
+        "link": "https://management.azure.com/c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1?api-version=2022-04-01",
+        "detected": "2026-09-19T05:33:21Z",
         "deleted": "false"
     },
     {
