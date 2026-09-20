@@ -464,7 +464,7 @@
     {
         "id": "413f2675-4911-4010-be3b-c720b43a3c59",
         "name": "Azure AIManager Contributor",
-        "description": "Grants read/write access to Azure resources provided by Azure AIManager, including aimanagers, deployments, namespace and models etc.",
+        "description": "Grants read/write access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
         "link": "https://management.azure.com/413f2675-4911-4010-be3b-c720b43a3c59?api-version=2022-04-01"
     },
     {
@@ -474,22 +474,22 @@
         "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
     },
     {
-        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
-        "name": "Azure AIManager RBAC Admin",
-        "description": "Allows read/write access to all Kubernetes objects in an Azure AIManager.",
-        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
-    },
-    {
         "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
         "name": "Azure AIManager RBAC Reader",
-        "description": "Allows read-only access to all Kubernetes objects in an Azure AIManager, except Secrets, roles, and role bindings. Applying this role at the AIManager scope will give access across all namespaces.",
+        "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
         "link": "https://management.azure.com/9c77f8a7-b0b9-4462-844c-de6e66add8ba?api-version=2022-04-01"
     },
     {
         "id": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
         "name": "Azure AIManager User",
-        "description": "Grants read access to Azure resources provided by Azure AIManager, including aimanagers, deployments, namespace, etc.",
+        "description": "Grants read access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
         "link": "https://management.azure.com/223653d0-bf85-419e-ac7a-a67edf5fc44b?api-version=2022-04-01"
+    },
+    {
+        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
+        "name": "Azure AIManager and namespace RBAC Admin",
+        "description": "Allows read/write access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
@@ -549,9 +549,7 @@
         "id": "06927065-6e3c-475e-b565-1dd2c3a93b60",
         "name": "Azure Arc Kubernetes Reader",
         "description": "Lets you read all resources in cluster/namespace, except secrets.",
-        "link": "https://management.azure.com/06927065-6e3c-475e-b565-1dd2c3a93b60?api-version=2022-04-01",
-        "detected": "2026-09-19T05:33:21Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/06927065-6e3c-475e-b565-1dd2c3a93b60?api-version=2022-04-01"
     },
     {
         "id": "63f0a09d-1495-4db4-a681-037d84835eb4",
@@ -4901,25 +4899,19 @@
         "id": "3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e",
         "name": "Red Team Administrator",
         "description": "Read approved Azure resources and manage Azure role assignments.",
-        "link": "https://management.azure.com/3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e?api-version=2022-04-01",
-        "detected": "2026-09-19T05:33:21Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e?api-version=2022-04-01"
     },
     {
         "id": "7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60",
         "name": "Red Team Recon Agent - Azure",
         "description": "Read approved Azure resources and security metadata.",
-        "link": "https://management.azure.com/7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60?api-version=2022-04-01",
-        "detected": "2026-09-19T05:33:21Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60?api-version=2022-04-01"
     },
     {
         "id": "c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1",
         "name": "Red Team Web App Agent",
         "description": "Read Azure web application and exposure metadata.",
-        "link": "https://management.azure.com/c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1?api-version=2022-04-01",
-        "detected": "2026-09-19T05:33:21Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1?api-version=2022-04-01"
     },
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",

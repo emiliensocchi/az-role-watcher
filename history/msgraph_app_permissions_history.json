@@ -928,6 +928,14 @@
         "deleted": "false"
     },
     {
+        "id": "010650d3-1605-49e9-b242-230afecb9dc5",
+        "name": "CaseManagement.ConfigManage.All",
+        "description": "Manage case management configuration",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/010650d3-1605-49e9-b242-230afecb9dc5",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
         "id": "b328f35f-712c-40d6-b6b4-95449d77b352",
         "name": "CaseManagement.Read.All",
         "description": "Read all cases, relations, tasks, attachments and activities",
@@ -2112,6 +2120,14 @@
         "deleted": "false"
     },
     {
+        "id": "603ce4e3-fb05-4b63-91ba-729bb1dca667",
+        "name": "Group-PreferredDataLocation.ReadWrite.All",
+        "description": "Read and write all groups\u2019 preferred data location property",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/603ce4e3-fb05-4b63-91ba-729bb1dca667",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
         "id": "35b96aac-d839-4362-abd4-7381f2b27ccd",
         "name": "Group-XTenantIdentitySync.Read.All",
         "description": "Read all Group Cross-Tenant Identity Synchronization properties",
@@ -2144,6 +2160,14 @@
         "deleted": "false"
     },
     {
+        "id": "07d67222-3a10-4d3b-9ddc-b8aa43198a00",
+        "name": "Group.ReadBasic.All",
+        "description": "Read all groups\u2019 basic property",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/07d67222-3a10-4d3b-9ddc-b8aa43198a00",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
         "id": "62a82d76-70ea-41e2-9197-370581804d09",
         "name": "Group.ReadWrite.All",
         "description": "Read and write all groups",
@@ -2157,6 +2181,14 @@
         "description": "Read all group memberships",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/98830695-27a2-44f7-8c18-0c3ebc9698f6",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "8222c640-cae5-4860-8d11-b32cfad95e03",
+        "name": "GroupMember.ReadBasic.All",
+        "description": "Read all group memberships",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8222c640-cae5-4860-8d11-b32cfad95e03",
+        "detected": "2026-09-20T05:51:13Z",
         "deleted": "false"
     },
     {
@@ -2469,6 +2501,54 @@
         "description": "View basic service and resource information",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4f5ac95f-62fd-472c-b60f-125d24ca0bc5",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "66905074-ba83-4bb3-b5a1-1bb769025947",
+        "name": "InfoProtectABACPolicy.Read.All",
+        "description": "Read all ABAC policies.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/66905074-ba83-4bb3-b5a1-1bb769025947",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
+        "id": "4bfc1735-3a0c-4602-a159-9cfa07213339",
+        "name": "InfoProtectABACPolicy.ReadWrite.All",
+        "description": "Read and write all ABAC policies.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4bfc1735-3a0c-4602-a159-9cfa07213339",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
+        "id": "64e5621c-1c93-43aa-ac76-c58f9fd136c7",
+        "name": "InfoProtectAttributeAssignment.Read.All",
+        "description": "Read all information protection attribute assignments.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/64e5621c-1c93-43aa-ac76-c58f9fd136c7",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
+        "id": "bc81c4f9-5b1f-4107-b330-4665a9cebecf",
+        "name": "InfoProtectAttributeAssignment.ReadWrite.All",
+        "description": "Read and write all information protection attribute assignments.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/bc81c4f9-5b1f-4107-b330-4665a9cebecf",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
+        "id": "1a8b595b-d654-4a0c-9b37-caf656a24853",
+        "name": "InfoProtectAttributeDefinition.Read.All",
+        "description": "Read all information protection attribute definitions.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1a8b595b-d654-4a0c-9b37-caf656a24853",
+        "detected": "2026-09-20T05:51:13Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7ec4dbde-910f-4bbb-9717-d1cde4470763",
+        "name": "InfoProtectAttributeDefinition.ReadWrite.All",
+        "description": "Read and write all information protection attribute definitions.",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7ec4dbde-910f-4bbb-9717-d1cde4470763",
+        "detected": "2026-09-20T05:51:13Z",
         "deleted": "false"
     },
     {
