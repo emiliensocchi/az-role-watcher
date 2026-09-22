@@ -776,7 +776,7 @@
     {
         "id": "1981f584-96e9-4a6f-95b0-f522373f8fae",
         "name": "Tenant Governance Administrator",
-        "description": "Manage all capabilities in the Microsoft Entra Tenant Governance service.",
+        "description": "Manage Tenant Governance, service principals, application role assignments, and permission grants through the approved Tenant Governance application.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/1981f584-96e9-4a6f-95b0-f522373f8fae"
     },
     {

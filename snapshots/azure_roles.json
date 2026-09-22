@@ -464,7 +464,7 @@
     {
         "id": "413f2675-4911-4010-be3b-c720b43a3c59",
         "name": "Azure AIManager Contributor",
-        "description": "Grants read/write access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
+        "description": "Grants read/write access to Azure resources provided by Azure AIManager, including aimanagers, deployments, namespace and models etc.",
         "link": "https://management.azure.com/413f2675-4911-4010-be3b-c720b43a3c59?api-version=2022-04-01"
     },
     {
@@ -474,22 +474,22 @@
         "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
     },
     {
+        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
+        "name": "Azure AIManager RBAC Admin",
+        "description": "Allows read/write access to all Kubernetes objects in an Azure AIManager.",
+        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
+    },
+    {
         "id": "9c77f8a7-b0b9-4462-844c-de6e66add8ba",
         "name": "Azure AIManager RBAC Reader",
-        "description": "Allows read-only access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
+        "description": "Allows read-only access to all Kubernetes objects in an Azure AIManager, except Secrets, roles, and role bindings. Applying this role at the AIManager scope will give access across all namespaces.",
         "link": "https://management.azure.com/9c77f8a7-b0b9-4462-844c-de6e66add8ba?api-version=2022-04-01"
     },
     {
         "id": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
         "name": "Azure AIManager User",
-        "description": "Grants read access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
+        "description": "Grants read access to Azure resources provided by Azure AIManager, including aimanagers, deployments, namespace, etc.",
         "link": "https://management.azure.com/223653d0-bf85-419e-ac7a-a67edf5fc44b?api-version=2022-04-01"
-    },
-    {
-        "id": "e2845093-d729-45cd-9f6e-a337c027d655",
-        "name": "Azure AIManager and namespace RBAC Admin",
-        "description": "Allows read/write access to all objects in an Azure AI Manager namespace, except Secrets, roles, and role bindings. Applying this role at the AI Manager scope will give access across all namespaces.",
-        "link": "https://management.azure.com/e2845093-d729-45cd-9f6e-a337c027d655?api-version=2022-04-01"
     },
     {
         "id": "ede9aaa3-4627-494e-be13-4aa7c256148d",
