@@ -416,6 +416,22 @@
         "deleted": "false"
     },
     {
+        "id": "f0d7f93b-6fce-4221-a197-ace5848da396",
+        "name": "AppCertTrustConfiguration.Read.All",
+        "description": "Read all trusted certificate authority configurations for applications",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f0d7f93b-6fce-4221-a197-ace5848da396",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e508b0bc-7b1a-4b59-8646-d12066f4a72f",
+        "name": "AppCertTrustConfiguration.ReadWrite.All",
+        "description": "Read and write all trusted certificate authority configurations for applications",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e508b0bc-7b1a-4b59-8646-d12066f4a72f",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
+    },
+    {
         "id": "06b708a9-e830-4db3-a914-8e69da51d44f",
         "name": "AppRoleAssignment.ReadWrite.All",
         "description": "Manage app permission grants and app role assignments",
@@ -1309,6 +1325,22 @@
         "description": "Read and write Copilot policy settings",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/cc147c17-b8e8-4d3f-9f94-aa9e279a079a",
         "detected": "2026-04-30T04:33:12Z",
+        "deleted": "false"
+    },
+    {
+        "id": "0ef71a66-690d-439b-96ef-41705a240606",
+        "name": "CrossTenantContentMigration.Read.All",
+        "description": "Read all cross tenant content migration job details",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0ef71a66-690d-439b-96ef-41705a240606",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
+    },
+    {
+        "id": "c5a29fd1-4629-4f52-8316-4d639ffa95d0",
+        "name": "CrossTenantContentMigration.ReadWrite.All",
+        "description": "Read and write all cross tenant content migration job details",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/c5a29fd1-4629-4f52-8316-4d639ffa95d0",
+        "detected": "2026-09-24T05:55:49Z",
         "deleted": "false"
     },
     {
@@ -5925,6 +5957,22 @@
         "description": "Read and write all Windows update deployment settings",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7dd1be58-6e76-4401-bf8d-31d1e8180d5b",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "d6559210-2a3e-46f8-90b3-e69ef5507772",
+        "name": "Workbooks.Read.All",
+        "description": "Read all workbooks",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d6559210-2a3e-46f8-90b3-e69ef5507772",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
+    },
+    {
+        "id": "164a9e2c-8434-444a-a250-b8c70dded2af",
+        "name": "Workbooks.ReadWrite.All",
+        "description": "Read and write all workbooks",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/164a9e2c-8434-444a-a250-b8c70dded2af",
+        "detected": "2026-09-24T05:55:49Z",
         "deleted": "false"
     },
     {

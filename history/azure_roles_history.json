@@ -696,6 +696,14 @@
         "deleted": "false"
     },
     {
+        "id": "cfd6c7dc-3ed8-41c1-989c-bccee069803a",
+        "name": "Azure AIManager Model User",
+        "description": "Allows read access to list models, get model details, and calculate model costs",
+        "link": "https://management.azure.com/cfd6c7dc-3ed8-41c1-989c-bccee069803a?api-version=2022-04-01",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
+    },
+    {
         "id": "223653d0-bf85-419e-ac7a-a67edf5fc44b",
         "name": "Azure AIManager User",
         "description": "Grants read access to Azure resources provided by Kubernetes AI Manager, including aimanagers, deployments, namespace, etc.",
@@ -4325,6 +4333,14 @@
         "description": "Manage all aspects of the Microsoft Dragon admin center.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e93e3737-fa85-474a-aee4-7d3fb86510f3",
         "detected": "2025-09-09T02:25:48Z",
+        "deleted": "false"
+    },
+    {
+        "id": "b774de67-8924-4991-9fe5-07d8a8f51401",
+        "name": "Durable Task Contributor",
+        "description": "Full management of Durable Task Scheduler, including creation, deletion, and updates.",
+        "link": "https://management.azure.com/b774de67-8924-4991-9fe5-07d8a8f51401?api-version=2022-04-01",
+        "detected": "2026-09-24T05:55:49Z",
         "deleted": "false"
     },
     {

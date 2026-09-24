@@ -474,6 +474,14 @@
         "link": "https://management.azure.com/82b2f1a9-9593-4498-a824-c209343a28ec?api-version=2022-04-01"
     },
     {
+        "id": "cfd6c7dc-3ed8-41c1-989c-bccee069803a",
+        "name": "Azure AIManager Model User",
+        "description": "Allows read access to list models, get model details, and calculate model costs",
+        "link": "https://management.azure.com/cfd6c7dc-3ed8-41c1-989c-bccee069803a?api-version=2022-04-01",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
+    },
+    {
         "id": "e2845093-d729-45cd-9f6e-a337c027d655",
         "name": "Azure AIManager RBAC Admin",
         "description": "Allows read/write access to all Kubernetes objects in an Azure AIManager.",
@@ -3220,6 +3228,14 @@
         "name": "Domain Services Reader",
         "description": "Can view Azure AD Domain Services and related network configurations",
         "link": "https://management.azure.com/361898ef-9ed1-48c2-849c-a832951106bb?api-version=2022-04-01"
+    },
+    {
+        "id": "b774de67-8924-4991-9fe5-07d8a8f51401",
+        "name": "Durable Task Contributor",
+        "description": "Full management of Durable Task Scheduler, including creation, deletion, and updates.",
+        "link": "https://management.azure.com/b774de67-8924-4991-9fe5-07d8a8f51401?api-version=2022-04-01",
+        "detected": "2026-09-24T05:55:49Z",
+        "deleted": "false"
     },
     {
         "id": "0ad04412-c4d5-4796-b79c-f76d14c8d402",
