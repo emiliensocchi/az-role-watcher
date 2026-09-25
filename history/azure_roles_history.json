@@ -6640,6 +6640,22 @@
         "deleted": "false"
     },
     {
+        "id": "9ab4e761-2c0f-4d8e-a573-6f18c92deab7",
+        "name": "Red Team Operator",
+        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information; no role-assignment management.",
+        "link": "https://management.azure.com/9ab4e761-2c0f-4d8e-a573-6f18c92deab7?api-version=2022-04-01",
+        "detected": "2026-09-25T05:57:12Z",
+        "deleted": "false"
+    },
+    {
+        "id": "689fda5e-27b1-47b9-b9c7-ddb104e5cdba",
+        "name": "Red Team Reader",
+        "description": "Read the same approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information as Red Team Recon Agent - Azure; no role-assignment management.",
+        "link": "https://management.azure.com/689fda5e-27b1-47b9-b9c7-ddb104e5cdba?api-version=2022-04-01",
+        "detected": "2026-09-25T05:57:12Z",
+        "deleted": "false"
+    },
+    {
         "id": "7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60",
         "name": "Red Team Recon Agent - Azure",
         "description": "Read approved Azure resources and security metadata.",

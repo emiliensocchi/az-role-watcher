@@ -477,9 +477,7 @@
         "id": "cfd6c7dc-3ed8-41c1-989c-bccee069803a",
         "name": "Azure AIManager Model User",
         "description": "Allows read access to list models, get model details, and calculate model costs",
-        "link": "https://management.azure.com/cfd6c7dc-3ed8-41c1-989c-bccee069803a?api-version=2022-04-01",
-        "detected": "2026-09-24T05:55:49Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/cfd6c7dc-3ed8-41c1-989c-bccee069803a?api-version=2022-04-01"
     },
     {
         "id": "e2845093-d729-45cd-9f6e-a337c027d655",
@@ -3233,9 +3231,7 @@
         "id": "b774de67-8924-4991-9fe5-07d8a8f51401",
         "name": "Durable Task Contributor",
         "description": "Full management of Durable Task Scheduler, including creation, deletion, and updates.",
-        "link": "https://management.azure.com/b774de67-8924-4991-9fe5-07d8a8f51401?api-version=2022-04-01",
-        "detected": "2026-09-24T05:55:49Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/b774de67-8924-4991-9fe5-07d8a8f51401?api-version=2022-04-01"
     },
     {
         "id": "0ad04412-c4d5-4796-b79c-f76d14c8d402",
@@ -4914,19 +4910,35 @@
     {
         "id": "3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e",
         "name": "Red Team Administrator",
-        "description": "Read approved Azure resources and manage Azure role assignments.",
+        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, and Log Analytics information, and create or delete Azure role assignments within approved scopes.",
         "link": "https://management.azure.com/3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e?api-version=2022-04-01"
+    },
+    {
+        "id": "9ab4e761-2c0f-4d8e-a573-6f18c92deab7",
+        "name": "Red Team Operator",
+        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information; no role-assignment management.",
+        "link": "https://management.azure.com/9ab4e761-2c0f-4d8e-a573-6f18c92deab7?api-version=2022-04-01",
+        "detected": "2026-09-25T05:57:12Z",
+        "deleted": "false"
+    },
+    {
+        "id": "689fda5e-27b1-47b9-b9c7-ddb104e5cdba",
+        "name": "Red Team Reader",
+        "description": "Read the same approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information as Red Team Recon Agent - Azure; no role-assignment management.",
+        "link": "https://management.azure.com/689fda5e-27b1-47b9-b9c7-ddb104e5cdba?api-version=2022-04-01",
+        "detected": "2026-09-25T05:57:12Z",
+        "deleted": "false"
     },
     {
         "id": "7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60",
         "name": "Red Team Recon Agent - Azure",
-        "description": "Read approved Azure resources and security metadata.",
+        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information; no role-assignment management.",
         "link": "https://management.azure.com/7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60?api-version=2022-04-01"
     },
     {
         "id": "c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1",
         "name": "Red Team Web App Agent",
-        "description": "Read Azure web application and exposure metadata.",
+        "description": "Read approved Azure web application, configuration, network exposure, storage account, registry, and managed identity information for web application penetration testing.",
         "link": "https://management.azure.com/c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1?api-version=2022-04-01"
     },
     {
