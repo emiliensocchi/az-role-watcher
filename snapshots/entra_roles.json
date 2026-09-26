@@ -674,7 +674,7 @@
     {
         "id": "5f2222b1-57c3-48ba-8ad5-d4759f1fde6f",
         "name": "Security Operator",
-        "description": "Creates and manages security events.",
+        "description": "Create and manage security events and perform identity containment actions during security incidents.",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/5f2222b1-57c3-48ba-8ad5-d4759f1fde6f"
     },
     {
