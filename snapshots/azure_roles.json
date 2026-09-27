@@ -1974,6 +1974,22 @@
         "link": "https://management.azure.com/fdb3df26-8dd6-49ff-9a74-e95dbfadcad3?api-version=2022-04-01"
     },
     {
+        "id": "1091dee8-a09b-4205-95fa-b0100e8f006d",
+        "name": "Chaos Permissions Admin",
+        "description": "Can review and fix resource permissions for Chaos Studio scenario configurations, with read-only access to other workspace resources and results. Cannot author resources, trigger discovery or evaluation, validate configurations, or execute or cancel runs. Intended for security and IAM administrators.",
+        "link": "https://management.azure.com/1091dee8-a09b-4205-95fa-b0100e8f006d?api-version=2022-04-01",
+        "detected": "2026-09-27T06:23:16Z",
+        "deleted": "false"
+    },
+    {
+        "id": "08debc4b-0ada-478e-b198-db165d97e7de",
+        "name": "Chaos Scenario Operator",
+        "description": "Can validate configurations and execute, cancel, and monitor Chaos Studio scenario runs. Cannot author or delete workspace resources, trigger discovery or evaluation, or fix resource permissions. Intended for SREs and on-call engineers.",
+        "link": "https://management.azure.com/08debc4b-0ada-478e-b198-db165d97e7de?api-version=2022-04-01",
+        "detected": "2026-09-27T06:23:16Z",
+        "deleted": "false"
+    },
+    {
         "id": "7c2e40b7-25eb-482a-82cb-78ba06cb46d5",
         "name": "Chaos Studio Experiment Contributor",
         "description": "Can create, run, and see details for experiments, onboard targets, and manage capabilities.",
@@ -1996,6 +2012,14 @@
         "name": "Chaos Studio Target Contributor",
         "description": "Can onboard targets and manage capabilities but cannot create, run, or see details for experiments",
         "link": "https://management.azure.com/59a618e3-3c9a-406e-9f03-1a20dd1c55f1?api-version=2022-04-01"
+    },
+    {
+        "id": "9a6bb34c-81a2-4692-b7e4-d892eb1f56b5",
+        "name": "Chaos Workspace Contributor",
+        "description": "Can manage Chaos Studio workspaces and connections, discover resources, evaluate recommendations, author and validate scenarios and configurations, and execute and cancel runs. Cannot fix resource permissions. Intended for workspace owners.",
+        "link": "https://management.azure.com/9a6bb34c-81a2-4692-b7e4-d892eb1f56b5?api-version=2022-04-01",
+        "detected": "2026-09-27T06:23:16Z",
+        "deleted": "false"
     },
     {
         "id": "b34d265f-36f7-4a0d-a4d4-e158ca92e90f",
@@ -2512,6 +2536,22 @@
         "name": "Container Registry Connected Registry Reader",
         "description": "Can view connected registries and their associated scope maps and tokens in a container registry.",
         "link": "https://management.azure.com/93f83a62-9a8b-4821-9827-5b3ee513aec3?api-version=2022-04-01"
+    },
+    {
+        "id": "e85263c4-8ef3-4ab1-82a4-f6d18e75d328",
+        "name": "Container Registry Connected Registry Sync Contributor",
+        "description": "Grants the data-plane permissions required to list repositories; read, write, and delete repository content and metadata; and communicate with the ACR gateway for ReadWrite Connected Registry synchronization.",
+        "link": "https://management.azure.com/e85263c4-8ef3-4ab1-82a4-f6d18e75d328?api-version=2022-04-01",
+        "detected": "2026-09-27T06:23:16Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2b7c9e07-f345-488e-ac2f-78e83b45fda4",
+        "name": "Container Registry Connected Registry Sync Reader",
+        "description": "Grants the data-plane permissions required to list repositories, read repository content and metadata, and communicate with the ACR gateway for ReadOnly Connected Registry synchronization.",
+        "link": "https://management.azure.com/2b7c9e07-f345-488e-ac2f-78e83b45fda4?api-version=2022-04-01",
+        "detected": "2026-09-27T06:23:16Z",
+        "deleted": "false"
     },
     {
         "id": "3bc748fc-213d-45c1-8d91-9da5725539b9",
@@ -4908,15 +4948,9 @@
         "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01"
     },
     {
-        "id": "3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e",
-        "name": "Red Team Administrator",
-        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, and Log Analytics information, and create or delete Azure role assignments within approved scopes.",
-        "link": "https://management.azure.com/3f6d1a95-b7c8-4e2b-8f04-d91a6ce7235e?api-version=2022-04-01"
-    },
-    {
         "id": "9ab4e761-2c0f-4d8e-a573-6f18c92deab7",
         "name": "Red Team Operator",
-        "description": "Operate Perception with approved Azure read permissions.",
+        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information; no role-assignment management.",
         "link": "https://management.azure.com/9ab4e761-2c0f-4d8e-a573-6f18c92deab7?api-version=2022-04-01"
     },
     {
@@ -4924,18 +4958,6 @@
         "name": "Red Team Reader",
         "description": "Read the same approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information as Red Team Recon Agent - Azure; no role-assignment management.",
         "link": "https://management.azure.com/689fda5e-27b1-47b9-b9c7-ddb104e5cdba?api-version=2022-04-01"
-    },
-    {
-        "id": "7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60",
-        "name": "Red Team Recon Agent - Azure",
-        "description": "Read approved Azure resources and security metadata.",
-        "link": "https://management.azure.com/7e2a3b84-6f91-4c5d-b8a2-1f37e9d4ac60?api-version=2022-04-01"
-    },
-    {
-        "id": "c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1",
-        "name": "Red Team Web App Agent",
-        "description": "Read approved Azure web application, configuration, network exposure, storage account, registry, and managed identity information for web application penetration testing.",
-        "link": "https://management.azure.com/c1d8f2a9-45be-4f73-9a16-8b02d5e7f4c1?api-version=2022-04-01"
     },
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
