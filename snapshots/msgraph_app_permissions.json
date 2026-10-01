@@ -3966,6 +3966,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dd98c7f5-2d42-42d3-a0e4-633161547251"
     },
     {
+        "id": "6e251752-0d87-4158-b87b-b60e768fa657",
+        "name": "ThreatHunting.ReadWrite.All",
+        "description": "Run hunting queries and manage all hunting functions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e251752-0d87-4158-b87b-b60e768fa657"
+    },
+    {
         "id": "197ee4e9-b993-4066-898f-d6aecc55125b",
         "name": "ThreatIndicators.Read.All",
         "description": "Read all threat indicators",

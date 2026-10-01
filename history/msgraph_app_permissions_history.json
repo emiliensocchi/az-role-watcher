@@ -5320,6 +5320,14 @@
         "deleted": "false"
     },
     {
+        "id": "6e251752-0d87-4158-b87b-b60e768fa657",
+        "name": "ThreatHunting.ReadWrite.All",
+        "description": "Run hunting queries and manage all hunting functions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e251752-0d87-4158-b87b-b60e768fa657",
+        "detected": "2026-10-01T06:58:42Z",
+        "deleted": "false"
+    },
+    {
         "id": "197ee4e9-b993-4066-898f-d6aecc55125b",
         "name": "ThreatIndicators.Read.All",
         "description": "Read all threat indicators",
