@@ -4938,18 +4938,6 @@
         "link": "https://management.azure.com/376d0802-aca8-4c2d-83a5-c88630f396fe?api-version=2022-04-01"
     },
     {
-        "id": "9ab4e761-2c0f-4d8e-a573-6f18c92deab7",
-        "name": "Red Team Operator",
-        "description": "Read approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information; no role-assignment management.",
-        "link": "https://management.azure.com/9ab4e761-2c0f-4d8e-a573-6f18c92deab7?api-version=2022-04-01"
-    },
-    {
-        "id": "689fda5e-27b1-47b9-b9c7-ddb104e5cdba",
-        "name": "Red Team Reader",
-        "description": "Read the same approved Azure reconnaissance, security posture, Key Vault metadata, App Service configuration, and Log Analytics information as Red Team Recon Agent - Azure; no role-assignment management.",
-        "link": "https://management.azure.com/689fda5e-27b1-47b9-b9c7-ddb104e5cdba?api-version=2022-04-01"
-    },
-    {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
         "name": "Redis Cache Contributor",
         "description": "Create and manage Azure Cache for Redis resources. Cannot read or write data stored in the cache.",
