@@ -1344,10 +1344,82 @@
         "link": "https://management.azure.com/f5db7409-a2c6-4d0c-8cf4-412ac01a38df?api-version=2022-04-01"
     },
     {
+        "id": "560925e9-df7e-4147-af0c-56cd61a450a9",
+        "name": "Azure NetApp Files Backup Manager",
+        "description": "Allows full backup lifecycle operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/560925e9-df7e-4147-af0c-56cd61a450a9?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ed55662f-36d4-4cdf-803b-9f0a4611d841",
+        "name": "Azure NetApp Files Backup Operator",
+        "description": "Allows backup creation and restore operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/ed55662f-36d4-4cdf-803b-9f0a4611d841?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9a2eb804-9386-45a4-a977-605001278085",
+        "name": "Azure NetApp Files Cost Manager",
+        "description": "Allows capacity and cost-impacting operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/9a2eb804-9386-45a4-a977-605001278085?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "88aa0c9d-b88e-4a65-98b5-6908009ba28a",
+        "name": "Azure NetApp Files Policy And Compliance Manager",
+        "description": "Allows policy and compliance operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/88aa0c9d-b88e-4a65-98b5-6908009ba28a?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
         "id": "bafa5965-3211-483c-a7b7-027648c789e9",
         "name": "Azure NetApp Files Reader",
         "description": "Allows read-only discovery operations for Azure NetApp Files resources",
         "link": "https://management.azure.com/bafa5965-3211-483c-a7b7-027648c789e9?api-version=2022-04-01"
+    },
+    {
+        "id": "17279d5b-dadc-4ed6-89b8-a1bdb7c911d7",
+        "name": "Azure NetApp Files Replication Manager",
+        "description": "Allows full replication lifecycle operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/17279d5b-dadc-4ed6-89b8-a1bdb7c911d7?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "a0a967d8-29e2-4c1a-b9b1-3e596ae3298a",
+        "name": "Azure NetApp Files Replication Operator",
+        "description": "Allows replication operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/a0a967d8-29e2-4c1a-b9b1-3e596ae3298a?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "b24ae3d9-cb64-4f41-b0f9-945879b43a72",
+        "name": "Azure NetApp Files Security And Identity Manager",
+        "description": "Allows security and identity operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/b24ae3d9-cb64-4f41-b0f9-945879b43a72?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "d653ec4d-4137-4db2-9b34-2056fb930d93",
+        "name": "Azure NetApp Files Storage Manager",
+        "description": "Allows full storage lifecycle operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/d653ec4d-4137-4db2-9b34-2056fb930d93?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
+    },
+    {
+        "id": "bfa9c06b-d58c-4c1e-a5a5-da7cb961f0e9",
+        "name": "Azure NetApp Files Storage Operator",
+        "description": "Allows day-to-day storage operations for Azure NetApp Files resources",
+        "link": "https://management.azure.com/bfa9c06b-d58c-4c1e-a5a5-da7cb961f0e9?api-version=2022-04-01",
+        "detected": "2026-10-04T06:40:21Z",
+        "deleted": "false"
     },
     {
         "id": "063e4498-230d-40a9-be9b-037f35f982b5",
