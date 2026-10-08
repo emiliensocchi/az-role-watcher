@@ -1288,6 +1288,30 @@
         "deleted": "false"
     },
     {
+        "id": "73fac914-e726-4af5-9a46-62f65f7b0a8b",
+        "name": "ContentHub-Catalog.Read.All",
+        "description": "Read the Content Hub catalog",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/73fac914-e726-4af5-9a46-62f65f7b0a8b",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "cc44d51e-040e-4631-a93a-1982ea54b428",
+        "name": "ContentHub-Installed.Read.All",
+        "description": "Read Content Hub installed packages",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/cc44d51e-040e-4631-a93a-1982ea54b428",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "0c6404f6-8e7a-413b-adc0-e9b750d959c8",
+        "name": "ContentHub-Installed.ReadWrite.All",
+        "description": "Read and write Content Hub installed packages",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/0c6404f6-8e7a-413b-adc0-e9b750d959c8",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
         "id": "f9af4646-98b0-4e9d-a53e-40d4f6452fc4",
         "name": "Contracts.Read.All",
         "description": "Read contracts",
@@ -1405,6 +1429,46 @@
         "description": "Read and write all custom detection rules",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e0fd9c8d-a12e-4cc9-9827-20c8c3cd6fb8",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7eb97e53-a7bc-4492-9113-1cd84a1ef8d8",
+        "name": "CustomObject.Read.All",
+        "description": "Read all custom objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7eb97e53-a7bc-4492-9113-1cd84a1ef8d8",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "2ebdaf81-319a-4058-9cb1-7c2c20cda877",
+        "name": "CustomObject.ReadWrite.All",
+        "description": "Read and write all custom objects",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/2ebdaf81-319a-4058-9cb1-7c2c20cda877",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "3bb529ad-d59a-499c-abe2-736f636068a5",
+        "name": "CustomObjectDefinition.Read.All",
+        "description": "Read all custom object definitions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3bb529ad-d59a-499c-abe2-736f636068a5",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "4d482dd7-21ae-4e2d-97f9-58cd926f5c5e",
+        "name": "CustomObjectDefinition.ReadBasic.All",
+        "description": "Read basic information about custom object definitions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4d482dd7-21ae-4e2d-97f9-58cd926f5c5e",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "19f10513-d519-42cf-b01a-b3b662f46b8f",
+        "name": "CustomObjectDefinition.ReadWrite.All",
+        "description": "Manage all custom object definitions",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/19f10513-d519-42cf-b01a-b3b662f46b8f",
+        "detected": "2026-10-08T07:05:38Z",
         "deleted": "false"
     },
     {
@@ -4725,6 +4789,38 @@
         "description": "Upload user data to the identity sync service for apps that this application creates or owns",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/25c32ff3-849a-494b-b94f-20a8ac4e6774",
         "detected": "2025-02-05T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "9c668bfa-7e4d-4ea4-9f0b-ba2d67cac55c",
+        "name": "SynchronizationMetadata.Read.All",
+        "description": "Read synchronization metadata for all provisioning jobs",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/9c668bfa-7e4d-4ea4-9f0b-ba2d67cac55c",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7090aa1b-99c0-444b-b40b-528bd2f35087",
+        "name": "SynchronizationMetadata.Read.OwnedBy",
+        "description": "Read synchronization metadata for owned provisioning jobs",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7090aa1b-99c0-444b-b40b-528bd2f35087",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "71a8afcf-c9ac-4704-a49c-a2520ddfc6d8",
+        "name": "SynchronizationMetadata.ReadWrite.All",
+        "description": "Read and manage synchronization metadata for all provisioning jobs",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/71a8afcf-c9ac-4704-a49c-a2520ddfc6d8",
+        "detected": "2026-10-08T07:05:38Z",
+        "deleted": "false"
+    },
+    {
+        "id": "dc64b9ee-d7b6-4de6-97d3-189051d1c773",
+        "name": "SynchronizationMetadata.ReadWrite.OwnedBy",
+        "description": "Read and manage synchronization metadata for owned provisioning jobs",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dc64b9ee-d7b6-4de6-97d3-189051d1c773",
+        "detected": "2026-10-08T07:05:38Z",
         "deleted": "false"
     },
     {
