@@ -560,7 +560,7 @@
     {
         "id": "63f0a09d-1495-4db4-a681-037d84835eb4",
         "name": "Azure Arc Kubernetes Viewer",
-        "description": "Lets you view all resources in cluster/namespace, except secrets.",
+        "description": "Lets you view all resources in cluster/namespace, except secrets. This Role Definition is on the path to deprecation, please use Azure Arc Kubernetes Reader instead.",
         "link": "https://management.azure.com/63f0a09d-1495-4db4-a681-037d84835eb4?api-version=2022-04-01"
     },
     {
@@ -3402,6 +3402,14 @@
         "link": "https://management.azure.com/90e8b822-3e73-47b5-868a-787dc80c008f?api-version=2022-04-01"
     },
     {
+        "id": "a55e9338-b2cb-4a9b-8ee0-5c56842dc830",
+        "name": "Embedding User",
+        "description": "Execute embedding operations against registered inference accounts. This role should be assigned to users who need to run embedding generation workloads but do not need to manage the accounts themselves.",
+        "link": "https://management.azure.com/a55e9338-b2cb-4a9b-8ee0-5c56842dc830?api-version=2022-04-01",
+        "detected": "2026-10-13T07:27:37Z",
+        "deleted": "false"
+    },
+    {
         "id": "2142ea27-02ad-4094-bfea-2dbac6d24934",
         "name": "Enclave Approver Role",
         "description": "Read all resources in Azure Virtual Enclaves and Approve approval requests within the Enclave",
@@ -5750,7 +5758,7 @@
     {
         "id": "dfce8971-25e3-42e3-ba33-6055438e3080",
         "name": "VM Restore Operator",
-        "description": "Create and Delete resources during VM Restore. This role is in preview and subject to change.",
+        "description": "Grants permissions to create, access, and delete the Restore VM, Restored VM Extension, Disks, Network, and staging location storage account resources required during Azure Backup VM restore operations. Assign this role only to the Recovery Services vault's managed identity (system- or user-assigned), scoped to the target resource group and staging storage account. This role is in preview and subject to change.",
         "link": "https://management.azure.com/dfce8971-25e3-42e3-ba33-6055438e3080?api-version=2022-04-01"
     },
     {
@@ -5836,6 +5844,14 @@
         "name": "Windows 365 Network User",
         "description": "This role is used by Windows 365 to read virtual networks and join the designated virtual networks.",
         "link": "https://management.azure.com/7eabc9a4-85f7-4f71-b8ab-75daaccc1033?api-version=2022-04-01"
+    },
+    {
+        "id": "edbce4e0-c70f-4f11-94ea-eb5f338fc09e",
+        "name": "Windows 365 Service Connector Administrator",
+        "description": "Provides access to create, read, and update service connectors and attach them to Windows 365 resources.",
+        "link": "https://management.azure.com/edbce4e0-c70f-4f11-94ea-eb5f338fc09e?api-version=2022-04-01",
+        "detected": "2026-10-13T07:27:37Z",
+        "deleted": "false"
     },
     {
         "id": "a6333a3e-0164-44c3-b281-7a577aff287f",
