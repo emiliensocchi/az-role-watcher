@@ -312,6 +312,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e508b0bc-7b1a-4b59-8646-d12066f4a72f"
     },
     {
+        "id": "231187a1-75b7-4554-a255-682d4d4971e8",
+        "name": "AppFederatedCredentialIssuers.Read.All",
+        "description": "Read trusted federated identity credential issuers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/231187a1-75b7-4554-a255-682d4d4971e8"
+    },
+    {
+        "id": "aa595073-8ce6-409a-8b9e-258e9faab0f3",
+        "name": "AppFederatedCredentialIssuers.ReadWrite.All",
+        "description": "Read and write all trusted federated identity credential issuers",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/aa595073-8ce6-409a-8b9e-258e9faab0f3"
+    },
+    {
         "id": "06b708a9-e830-4db3-a914-8e69da51d44f",
         "name": "AppRoleAssignment.ReadWrite.All",
         "description": "Manage app permission grants and app role assignments",
@@ -1508,7 +1520,7 @@
     {
         "id": "56eda3c5-3834-4815-bd41-6f8fa1295247",
         "name": "EntraBackup.Read.All",
-        "description": "Read Preview jobs and snapshots",
+        "description": "Read Entra Backup configuration, preview jobs, and snapshots",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/56eda3c5-3834-4815-bd41-6f8fa1295247"
     },
     {

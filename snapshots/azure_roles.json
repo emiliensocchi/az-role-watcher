@@ -3405,9 +3405,7 @@
         "id": "a55e9338-b2cb-4a9b-8ee0-5c56842dc830",
         "name": "Embedding User",
         "description": "Execute embedding operations against registered inference accounts. This role should be assigned to users who need to run embedding generation workloads but do not need to manage the accounts themselves.",
-        "link": "https://management.azure.com/a55e9338-b2cb-4a9b-8ee0-5c56842dc830?api-version=2022-04-01",
-        "detected": "2026-10-13T07:27:37Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/a55e9338-b2cb-4a9b-8ee0-5c56842dc830?api-version=2022-04-01"
     },
     {
         "id": "2142ea27-02ad-4094-bfea-2dbac6d24934",
@@ -5849,9 +5847,7 @@
         "id": "edbce4e0-c70f-4f11-94ea-eb5f338fc09e",
         "name": "Windows 365 Service Connector Administrator",
         "description": "Provides access to create, read, and update service connectors and attach them to Windows 365 resources.",
-        "link": "https://management.azure.com/edbce4e0-c70f-4f11-94ea-eb5f338fc09e?api-version=2022-04-01",
-        "detected": "2026-10-13T07:27:37Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/edbce4e0-c70f-4f11-94ea-eb5f338fc09e?api-version=2022-04-01"
     },
     {
         "id": "a6333a3e-0164-44c3-b281-7a577aff287f",
