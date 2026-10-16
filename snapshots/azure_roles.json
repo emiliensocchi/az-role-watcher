@@ -2031,9 +2031,7 @@
         "id": "681440c1-3630-4424-a530-0305ac721cfd",
         "name": "Chaos Kubernetes Extension Operator",
         "description": "Lets a Chaos Studio workspace identity impersonate the Chaos Studio extension's Kubernetes service account and read pods on AKS clusters, and read the cluster's Deployment Safeguards, so Chaos Studio can run faults through the extension.",
-        "link": "https://management.azure.com/681440c1-3630-4424-a530-0305ac721cfd?api-version=2022-04-01",
-        "detected": "2026-10-15T05:38:52Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/681440c1-3630-4424-a530-0305ac721cfd?api-version=2022-04-01"
     },
     {
         "id": "1091dee8-a09b-4205-95fa-b0100e8f006d",
@@ -4024,7 +4022,7 @@
     {
         "id": "12338af0-0e69-4776-bea7-57ae8d297424",
         "name": "Key Vault Crypto User",
-        "description": "Read key metadata and public material, perform cryptographic operations, back up keys, and update key properties and mutable release policies, including making policies immutable. Does not grant key release. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "description": "Perform cryptographic operations using keys. Only works for key vaults that use the 'Azure role-based access control' permission model.",
         "link": "https://management.azure.com/12338af0-0e69-4776-bea7-57ae8d297424?api-version=2022-04-01"
     },
     {
