@@ -3952,6 +3952,14 @@
         "deleted": "false"
     },
     {
+        "id": "fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c",
+        "name": "Defender Foundational CSPM",
+        "description": "Grants Microsoft Defender for Cloud CSPM access required for posture recommendations",
+        "link": "https://management.azure.com/fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c?api-version=2022-04-01",
+        "detected": "2026-10-18T05:31:03Z",
+        "deleted": "false"
+    },
+    {
         "id": "8bb6f106-b146-4ee6-a3f9-b9c5a96e0ae5",
         "name": "Defender Kubernetes Agent Operator",
         "description": "Grants Microsoft Defender for Cloud permissions to provision the Kubernetes defender security agent",
@@ -7989,6 +7997,14 @@
         "description": "Provides access to create, read, and update service connectors and attach them to Windows 365 resources.",
         "link": "https://management.azure.com/edbce4e0-c70f-4f11-94ea-eb5f338fc09e?api-version=2022-04-01",
         "detected": "2026-10-13T07:27:37Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5f70377a-ce1d-4a07-b3b9-12c99f22d21f",
+        "name": "Windows 365 Service Connector User",
+        "description": "Provides access to read service connectors and attach them to Windows 365 resources.",
+        "link": "https://management.azure.com/5f70377a-ce1d-4a07-b3b9-12c99f22d21f?api-version=2022-04-01",
+        "detected": "2026-10-18T05:31:03Z",
         "deleted": "false"
     },
     {

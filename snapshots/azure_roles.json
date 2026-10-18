@@ -2934,6 +2934,14 @@
         "link": "https://management.azure.com/c5c82243-e78e-43f9-8428-793bba85b28e?api-version=2022-04-01"
     },
     {
+        "id": "fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c",
+        "name": "Defender Foundational CSPM",
+        "description": "Grants Microsoft Defender for Cloud CSPM access required for posture recommendations",
+        "link": "https://management.azure.com/fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c?api-version=2022-04-01",
+        "detected": "2026-10-18T05:31:03Z",
+        "deleted": "false"
+    },
+    {
         "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
         "name": "Defender Kubernetes API Access",
         "description": "Grants Microsoft Defender for Cloud access to Azure Kubernetes Services",
@@ -4022,7 +4030,7 @@
     {
         "id": "12338af0-0e69-4776-bea7-57ae8d297424",
         "name": "Key Vault Crypto User",
-        "description": "Perform cryptographic operations using keys. Only works for key vaults that use the 'Azure role-based access control' permission model.",
+        "description": "Read key metadata and public material, perform cryptographic operations, back up keys, and update key properties and mutable release policies, including making policies immutable. Does not grant key release. Only works for key vaults that use the 'Azure role-based access control' permission model.",
         "link": "https://management.azure.com/12338af0-0e69-4776-bea7-57ae8d297424?api-version=2022-04-01"
     },
     {
@@ -5854,6 +5862,14 @@
         "name": "Windows 365 Service Connector Administrator",
         "description": "Provides access to create, read, and update service connectors and attach them to Windows 365 resources.",
         "link": "https://management.azure.com/edbce4e0-c70f-4f11-94ea-eb5f338fc09e?api-version=2022-04-01"
+    },
+    {
+        "id": "5f70377a-ce1d-4a07-b3b9-12c99f22d21f",
+        "name": "Windows 365 Service Connector User",
+        "description": "Provides access to read service connectors and attach them to Windows 365 resources.",
+        "link": "https://management.azure.com/5f70377a-ce1d-4a07-b3b9-12c99f22d21f?api-version=2022-04-01",
+        "detected": "2026-10-18T05:31:03Z",
+        "deleted": "false"
     },
     {
         "id": "a6333a3e-0164-44c3-b281-7a577aff287f",
