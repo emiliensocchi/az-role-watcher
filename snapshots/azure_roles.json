@@ -2937,9 +2937,7 @@
         "id": "fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c",
         "name": "Defender Foundational CSPM",
         "description": "Grants Microsoft Defender for Cloud CSPM access required for posture recommendations",
-        "link": "https://management.azure.com/fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c?api-version=2022-04-01",
-        "detected": "2026-10-18T05:31:03Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/fb2e8e50-bc5c-4095-8f9d-c30e1be5e98c?api-version=2022-04-01"
     },
     {
         "id": "d5a2ae44-610b-4500-93be-660a0c5f5ca6",
@@ -5867,9 +5865,7 @@
         "id": "5f70377a-ce1d-4a07-b3b9-12c99f22d21f",
         "name": "Windows 365 Service Connector User",
         "description": "Provides access to read service connectors and attach them to Windows 365 resources.",
-        "link": "https://management.azure.com/5f70377a-ce1d-4a07-b3b9-12c99f22d21f?api-version=2022-04-01",
-        "detected": "2026-10-18T05:31:03Z",
-        "deleted": "false"
+        "link": "https://management.azure.com/5f70377a-ce1d-4a07-b3b9-12c99f22d21f?api-version=2022-04-01"
     },
     {
         "id": "a6333a3e-0164-44c3-b281-7a577aff287f",
