@@ -8,6 +8,22 @@
         "deleted": "false"
     },
     {
+        "id": "7c27cbcc-1723-4201-8fbc-50f2e2c24ee5",
+        "name": "AI Gateway Contributor",
+        "description": "Manage gateway AI artifacts and assignments of AI Gateway Developer and the three runtime User roles at the assigned scope. Grants no runtime access.",
+        "link": "https://management.azure.com/7c27cbcc-1723-4201-8fbc-50f2e2c24ee5?api-version=2022-04-01",
+        "detected": "2026-10-28T06:41:53Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e71899cc-9858-44a9-a0e3-7b95f671540f",
+        "name": "AI Gateway Developer",
+        "description": "Read model alias and MCP server configuration and inspect own permissions at the assigned scope. Grants no runtime access.",
+        "link": "https://management.azure.com/e71899cc-9858-44a9-a0e3-7b95f671540f?api-version=2022-04-01",
+        "detected": "2026-10-28T06:41:53Z",
+        "deleted": "false"
+    },
+    {
         "id": "a6b68e3d-a1f0-4c60-8678-237c050cf4ea",
         "name": "AI Gateway Models User",
         "description": "Invoke models in the AI Gateway tier of Azure API Management. This role is in preview and subject to change.",
