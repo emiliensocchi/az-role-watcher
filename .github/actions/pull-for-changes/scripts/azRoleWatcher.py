@@ -342,9 +342,9 @@ def compare_assets(current_assets, snapshoted_assets, history_assets, asset_labe
         history_entry = find_history_entry(history_assets, asset_id)
 
         if history_entry is None:
-            # Asset predating the history files
+            # Asset predating the history files: default to the date of Azure's creation (see v1.1.3)
             history_entry = copy.deepcopy(asset)
-            history_entry['detected'] = ''
+            history_entry['detected'] = '2010-02-01T00:00:00Z'
             history_entry['deleted'] = 'false'
             history_assets.append(history_entry)
 
