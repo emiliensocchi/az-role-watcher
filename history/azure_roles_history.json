@@ -3368,6 +3368,14 @@
         "deleted": "false"
     },
     {
+        "id": "dc12e0a0-00bc-4af0-adf0-b8c90236ba03",
+        "name": "Container Apps Artifact App Operator",
+        "description": "Grants permissions for operators of Artifact Apps, including viewing application logs and running exec commands in a running Artifact App.",
+        "link": "https://management.azure.com/dc12e0a0-00bc-4af0-adf0-b8c90236ba03?api-version=2022-04-01",
+        "detected": "2026-10-30T08:48:58Z",
+        "deleted": "false"
+    },
+    {
         "id": "2aea396c-91f9-444f-a367-6bd94ab9a5cf",
         "name": "Container Apps Artifact Data Pull",
         "description": "Grants content pull permission for Container Apps Artifacts, allowing callers to pull the contents of Artifact versions.",

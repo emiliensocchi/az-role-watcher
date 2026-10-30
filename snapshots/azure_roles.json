@@ -1250,7 +1250,7 @@
     {
         "id": "3015e5ed-6856-4ab3-b2f0-b8492aa30ca6",
         "name": "Azure Managed Redis Contributor",
-        "description": "Lets you manage Azure Managed Redis resources, but not access the data stored in them.",
+        "description": "Permits management of Azure Managed Redis resources. Provides access to cache access keys and permits managing access policy assignments; these capabilities can grant read and write data access to cache. Also permits importing and exporting cache data.",
         "link": "https://management.azure.com/3015e5ed-6856-4ab3-b2f0-b8492aa30ca6?api-version=2022-04-01"
     },
     {
@@ -2488,6 +2488,12 @@
         "name": "Connector Writer",
         "description": "Write connectors and have basic customer permissions like reading authorizations, alert rules and resourceGroups",
         "link": "https://management.azure.com/c459b115-f629-486b-b359-35feb5568b83?api-version=2022-04-01"
+    },
+    {
+        "id": "dc12e0a0-00bc-4af0-adf0-b8c90236ba03",
+        "name": "Container Apps Artifact App Operator",
+        "description": "Grants permissions for operators of Artifact Apps, including viewing application logs and running exec commands in a running Artifact App.",
+        "link": "https://management.azure.com/dc12e0a0-00bc-4af0-adf0-b8c90236ba03?api-version=2022-04-01"
     },
     {
         "id": "2aea396c-91f9-444f-a367-6bd94ab9a5cf",
@@ -5024,7 +5030,7 @@
     {
         "id": "e0f68234-74aa-48ed-b826-c38b57376e17",
         "name": "Redis Cache Contributor",
-        "description": "Create and manage Azure Cache for Redis resources. Cannot read or write data stored in the cache.",
+        "description": "Permits management of Azure Cache for Redis resources. Provides access to cache access keys and permits managing access policies and assignments; these capabilities can grant read and write data access to cache. Also permits importing and exporting cache data.",
         "link": "https://management.azure.com/e0f68234-74aa-48ed-b826-c38b57376e17?api-version=2022-04-01"
     },
     {
@@ -5870,7 +5876,7 @@
     {
         "id": "edbce4e0-c70f-4f11-94ea-eb5f338fc09e",
         "name": "Windows 365 Service Connector Administrator",
-        "description": "Provides access to create, read, and update service connectors and attach them to Windows 365 resources.",
+        "description": "Provides access to create, read, update, and delete service connectors and attach them to Windows 365 resources.",
         "link": "https://management.azure.com/edbce4e0-c70f-4f11-94ea-eb5f338fc09e?api-version=2022-04-01"
     },
     {
