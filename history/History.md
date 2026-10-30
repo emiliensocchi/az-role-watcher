@@ -8,7 +8,7 @@ Full record of **additions** and **removals** of roles and permissions in Micros
 |----------|-------|---------|
 | ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">146</span> | <span style="color:#D55E00;font-weight:bold">6</span> |
 | 👤 Entra roles | <span style="color:#009E73;font-weight:bold">12</span> | 0 |
-| 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">114</span> | <span style="color:#D55E00;font-weight:bold">8</span> |
+| 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">114</span> | <span style="color:#D55E00;font-weight:bold">1</span> |
 
 ### 2025
 
@@ -16,7 +16,7 @@ Full record of **additions** and **removals** of roles and permissions in Micros
 |----------|-------|---------|
 | ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">117</span> | <span style="color:#D55E00;font-weight:bold">2</span> |
 | 👤 Entra roles | <span style="color:#009E73;font-weight:bold">8</span> | 0 |
-| 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">136</span> | <span style="color:#D55E00;font-weight:bold">2</span> |
+| 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">135</span> | <span style="color:#D55E00;font-weight:bold">2</span> |
 
 ### 2010
 

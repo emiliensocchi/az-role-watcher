@@ -33,6 +33,18 @@ import requests
 import sys
 
 
+DATETIME_FORMAT = '%Y-%m-%dT%H:%M:%SZ'
+
+# Microsoft APIs (ARM in particular) are subject to regional replication, caching and backend rollouts,
+# which can make assets temporarily disappear from responses. An asset is only reported as removed
+# once it has been continuously missing for this number of days.
+REMOVAL_DEBOUNCE_DAYS = 7
+
+# ARM routes 'management.azure.com' to the nearest region, which varies with the location of the GitHub runner.
+# Pinning a regional endpoint makes successive runs query the same ARM region.
+ARM_PINNED_REGION = 'eastus'
+
+
 def get_builtin_msgraph_app_permissions_from_documentation():
     """
         Retrieves the current built-in Microsoft Graph application permissions from Microsoft's documentation.
@@ -102,6 +114,26 @@ def get_builtin_azure_roles_from_documentation():
     return builtin_roles
 
 
+def log_graph_datacenter(response, category):
+    """
+        Prints the MS Graph datacenter that served the passed response, for troubleshooting inconsistencies.
+
+        Args:
+            response (requests.Response): a response from MS Graph
+            category (str): the category of assets retrieved with the response
+
+        Returns:
+            None
+
+    """
+    try:
+        datacenter = json.loads(response.headers.get('x-ms-ags-diagnostic', '{}'))['ServerInfo']['DataCenter']
+    except (ValueError, KeyError, TypeError):
+        datacenter = 'unknown'
+
+    print(f"{category}: served by MS Graph datacenter '{datacenter}' (HTTP {response.status_code})")
+
+
 def get_builtin_msgraph_app_permission_objects_from_graph(token):
     """
         Retrieves the current built-in Microsoft Graph application permission objects from MS Graph.
@@ -116,6 +148,7 @@ def get_builtin_msgraph_app_permission_objects_from_graph(token):
     endpoint = "https://graph.microsoft.com/v1.0/servicePrincipals(appId='00000003-0000-0000-c000-000000000000')"
     headers = {'Authorization': f"Bearer {token}"}
     response = requests.get(endpoint, headers = headers)
+    log_graph_datacenter(response, 'MS Graph app permissions')
 
     if response.status_code != 200:
         print('FATAL ERROR - The MS Graph application permissions could not be retrieved from Graph.')
@@ -139,6 +172,7 @@ def get_builtin_entra_role_objects_from_graph(token):
     endpoint = 'https://graph.microsoft.com/v1.0/roleManagement/directory/roleDefinitions?$filter=isBuiltIn eq true'
     headers = {'Authorization': f"Bearer {token}"}
     response = requests.get(endpoint, headers = headers)
+    log_graph_datacenter(response, 'Entra roles')
 
     if response.status_code != 200:
         print('FATAL ERROR - The Entra roles could not be retrieved from Graph.')
@@ -159,11 +193,25 @@ def get_builtin_azure_role_objects_from_arm(token):
             list(str): list of built-in Azure-role objects
 
     """
-    endpoint = "https://management.azure.com/providers/Microsoft.Authorization/roleDefinitions?$filter=type+eq+'BuiltInRole'&api-version=2022-04-01"
+    endpoint_path = "/providers/Microsoft.Authorization/roleDefinitions?$filter=type+eq+'BuiltInRole'&api-version=2022-04-01"
     headers = {'Authorization': f"Bearer {token}"}
-    response = requests.get(endpoint, headers = headers)
+    response = None
 
-    if response.status_code != 200:
+    for base_uri in [f"https://{ARM_PINNED_REGION}.management.azure.com", 'https://management.azure.com']:
+        try:
+            response = requests.get(f"{base_uri}{endpoint_path}", headers = headers)
+        except requests.exceptions.RequestException as error:
+            print(f"WARNING - ARM request to '{base_uri}' failed: {error}")
+            continue
+
+        # The routing header has the form 'REGION:timestamp:guid'
+        serving_region = response.headers.get('x-ms-routing-request-id', 'unknown').split(':')[0]
+        print(f"Azure roles: served by ARM region '{serving_region}' via '{base_uri}' (HTTP {response.status_code})")
+
+        if response.status_code == 200:
+            break
+
+    if response is None or response.status_code != 200:
         print('FATAL ERROR - The Azure roles could not be retrieved from ARM.')
         exit()
 
@@ -209,6 +257,112 @@ def update_file(local_file, content):
     except FileNotFoundError:
         print(f"FATAL ERROR - '{local_file}' could not be opened for writing.")
         exit()
+
+
+def find_history_entry(history, asset_id):
+    """
+        Retrieves the history entry of the passed asset.
+
+        Args:
+            history (list(dict())): the history of assets
+            asset_id (str): the id of the asset to look up
+
+        Returns:
+            dict(): the history entry of the asset, or None if the asset has no history
+
+    """
+    entries = [entry for entry in history if entry['id'] == asset_id]
+
+    if not entries:
+        return None
+
+    # Legacy history files may contain duplicates: prefer the entry that is not marked as deleted
+    active_entries = [entry for entry in entries if entry.get('deleted') != 'true']
+    return (active_entries or entries)[-1]
+
+
+def compare_assets(current_assets, snapshoted_assets, history_assets, asset_label, now):
+    """
+        Compares the current assets with the snapshoted ones, and updates the passed history in place.
+
+        Removals are debounced: an asset missing from the current assets is kept in the snapshot,
+        and only reported as removed once it has been continuously missing for REMOVAL_DEBOUNCE_DAYS.
+        Assets reappearing after a reported removal are reported as re-added, not as new.
+
+        Args:
+            current_assets (list(dict())): the assets currently returned by Microsoft APIs
+            snapshoted_assets (list(dict())): the assets from the local snapshot
+            history_assets (list(dict())): the assets from the local history (updated in place)
+            asset_label (str): the label of the asset type used in RSS titles (e.g. 'Azure role')
+            now (datetime.datetime): the current time
+
+        Returns:
+            tuple(list(dict()), list(dict())): the new snapshot and the RSS items to publish
+
+    """
+    now_str = now.strftime(DATETIME_FORMAT)
+    current_by_id = {asset['id']: asset for asset in current_assets}
+    snapshoted_by_id = {asset['id']: asset for asset in snapshoted_assets}
+    new_snapshot = [copy.deepcopy(asset) for asset in current_assets]
+    rss_items = []
+
+    # Additions
+    for asset_id, asset in current_by_id.items():
+        history_entry = find_history_entry(history_assets, asset_id)
+
+        if history_entry is not None:
+            # The asset is (back) in the API response: reset any pending removal
+            history_entry.pop('missing_since', None)
+
+        if asset_id in snapshoted_by_id:
+            continue
+
+        if history_entry is None:
+            title = f"🆕 ADDED {asset_label}"
+            new_history_entry = copy.deepcopy(asset)
+            new_history_entry['detected'] = now_str
+            new_history_entry['deleted'] = 'false'
+            history_assets.append(new_history_entry)
+        elif history_entry.get('deleted') == 'true':
+            title = f"♻️ RE-ADDED {asset_label}"
+            history_entry['deleted'] = 'false'
+        else:
+            # Already known and never reported as removed: do not announce it again
+            continue
+
+        rss_item = { 'title': title }
+        rss_item.update(copy.deepcopy(asset))
+        rss_items.append(rss_item)
+
+    # Removals
+    for asset_id, asset in snapshoted_by_id.items():
+        if asset_id in current_by_id:
+            continue
+
+        history_entry = find_history_entry(history_assets, asset_id)
+
+        if history_entry is None:
+            # Asset predating the history files
+            history_entry = copy.deepcopy(asset)
+            history_entry['detected'] = ''
+            history_entry['deleted'] = 'false'
+            history_assets.append(history_entry)
+
+        missing_since = history_entry.setdefault('missing_since', now_str)
+        missing_days = (now - datetime.datetime.strptime(missing_since, DATETIME_FORMAT)).days
+
+        if missing_days < REMOVAL_DEBOUNCE_DAYS:
+            new_snapshot.append(copy.deepcopy(asset))
+            continue
+
+        history_entry.pop('missing_since', None)
+        history_entry['deleted'] = 'true'
+
+        rss_item = { 'title': f"❌ REMOVED {asset_label}" }
+        rss_item.update(copy.deepcopy(asset))
+        rss_items.append(rss_item)
+
+    return new_snapshot, rss_items
 
 
 def generate_rss(items):
@@ -340,196 +494,30 @@ if __name__ == "__main__":
     history_builtin_msgraph_app_permissions = read_json_file(msgraph_app_permissions_history_file)
 
 
-    # Compare snapshoted built-in roles/permissions with those from MS Graph 
+    # Compare snapshoted built-in roles/permissions with those from Microsoft APIs
+    now = datetime.datetime.now()
     rss_items = []
+    comparisons = [
+        ('Azure roles', 'Azure role', current_builtin_azure_roles, snapshoted_builtin_azure_roles, history_builtin_azure_roles, azure_roles_snapshot_file),
+        ('Entra roles', 'Entra role', current_builtin_entra_roles, snapshoted_builtin_entra_roles, history_builtin_entra_roles, entra_roles_snapshot_file),
+        ('MS Graph app permissions', 'Graph app permission', current_builtin_msgraph_app_permissions, snapshoted_builtin_msgraph_app_permissions, history_builtin_msgraph_app_permissions, msgraph_app_permissions_snapshot_file),
+    ]
 
-    # Compare Azure roles
-    current_builtin_azure_roles_sorted = sorted(current_builtin_azure_roles, key=lambda x: x['id'])
-    snapshoted_builtin_azure_roles_sorted = sorted(snapshoted_builtin_azure_roles, key=lambda x: x['id'])
+    for category, asset_label, current_assets, snapshoted_assets, history_assets, snapshot_file in comparisons:
+        new_snapshot, category_rss_items = compare_assets(current_assets, snapshoted_assets, history_assets, asset_label, now)
+        rss_items.extend(category_rss_items)
 
-    current_role_ids = [role['id'] for role in current_builtin_azure_roles_sorted]
-    snapshoted_role_ids = [role['id'] for role in snapshoted_builtin_azure_roles_sorted]
-    added_role_ids = [role_id for role_id in current_role_ids if role_id not in snapshoted_role_ids]
-    removed_role_ids = [role_id for role_id in snapshoted_role_ids if role_id not in current_role_ids]
+        if category_rss_items:
+            print(f"{category}: changes have been detected!")
+        else:
+            print(f"{category}: no changes")
 
-    is_changed_detected = False
-
-    for added_role_id in added_role_ids:
-        is_changed_detected = True
-        azure_role_list = [role for role in current_builtin_azure_roles_sorted if role['id'] == added_role_id]
-        history_role_list = [role for role in history_builtin_azure_roles if role['id'] == added_role_id]
-
-        if not len(azure_role_list) == 1:
-            print ('FATAL ERROR - Something is wrong with the addition of Azure roles.')
-            exit()
-
-        # Add to RSS feed
-        azure_role = azure_role_list[0]
-        title = '🆕 ADDED Azure role'
-        rss_item = { 'title': title }
-        rss_item.update(azure_role)
-        rss_items.append(rss_item)
-
-        # Add to history
-        history_role_list = [role for role in history_builtin_azure_roles if role['id'] == added_role_id]
-        if not history_role_list:
-            azure_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            azure_role['deleted'] = 'false'               
-            history_builtin_azure_roles.append(azure_role)
-
-    for removed_role_id in removed_role_ids:
-        azure_role_list = [role for role in snapshoted_builtin_azure_roles_sorted if role['id'] == removed_role_id]
-        history_role_list = [role for role in history_builtin_azure_roles if role['id'] == removed_role_id]
-
-        if not len(azure_role_list) == 1:
-            print ('FATAL ERROR - Something is wrong with the removal of Azure roles.')
-            exit()
-
-        if len(history_role_list) == 1:
-            # The ARM API is subject to regional replication, caching, and backend updates that can cause temporary inconsistencies
-            # Check if the role was added recently
-            history_role = copy.deepcopy(history_role_list[0])
-            threshold_days = 7
-            if (datetime.datetime.now() - datetime.datetime.strptime(history_role['detected'], "%Y-%m-%dT%H:%M:%SZ")).days < threshold_days:
-                # The role was added for less than a week ago, skip its removal for now
-                history_role.pop('detected', None)
-                history_role.pop('deleted', None) 
-                current_builtin_azure_roles.append(history_role)
-                continue
-
-        is_changed_detected = True
-
-        # Add to RSS feed
-        azure_role = azure_role_list[0]
-        title = '❌ REMOVED Azure role'
-        rss_item = { 'title': title }
-        rss_item.update(azure_role)
-        rss_items.append(rss_item)
-
-        # Add to history
-        history_role = history_role_list[0]
-        history_builtin_azure_roles.remove(history_role)
-        history_role['deleted'] = 'true'
-        history_builtin_azure_roles.append(history_role)
-
-    if is_changed_detected:
-        print('Azure roles: changes have been detected!')
-    else:
-        print ('Azure roles: no changes')
-
-
-    # Compare Entra roles 
-    current_role_ids = [role['id'] for role in current_builtin_entra_roles]
-    snapshoted_role_ids = [role['id'] for role in snapshoted_builtin_entra_roles]
-    added_role_ids = [role_id for role_id in current_role_ids if role_id not in snapshoted_role_ids]
-    removed_role_ids = [role_id for role_id in snapshoted_role_ids if role_id not in current_role_ids]
-
-    if added_role_ids or removed_role_ids:
-        print('Entra roles: changes have been detected!')
-
-        for added_role_id in added_role_ids:
-            entra_role_list = [role for role in current_builtin_entra_roles if role['id'] == added_role_id]
-
-            if not len(entra_role_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the addition of Entra roles.')
-                exit() 
-
-            # Add to RSS feed
-            entra_role = copy.deepcopy(entra_role_list[0])
-            title = '🆕 ADDED Entra role'
-            rss_item = { 'title': title }
-            rss_item.update(entra_role)         
-            rss_items.append(rss_item)
-
-            # Add to history
-            entra_role['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            entra_role['deleted'] = 'false'               
-            history_builtin_entra_roles.append(entra_role)
-
-        for removed_role_id in removed_role_ids:
-            entra_role_list = [role for role in snapshoted_builtin_entra_roles if role['id'] == added_role_id]
-            history_role_list = [role for role in history_builtin_entra_roles if role['id'] == added_role_id]
-
-            if not len(entra_role_list) == 1 or not len(history_role) == 1:
-                print ('FATAL ERROR - Something is wrong with the addition of Entra roles.')
-                exit() 
-
-            # Add to RSS feed
-            entra_role = copy.deepcopy(entra_role_list[0])
-            title = '❌ REMOVED Entra role'
-            rss_item = { 'title': title }
-            rss_item.update(entra_role)         
-            rss_items.append(rss_item)
-
-            # Add to history
-            history_role = copy.deepcopy(history_role_list[0])
-            history_builtin_entra_roles.remove(history_role)
-            history_role['deleted'] = 'true'
-            history_builtin_entra_roles.append(history_role)
-    else:
-        print ('Entra roles: no changes')
-
-
-    # Compare MS Graph application permissions
-    current_permission_ids = [permission['id'] for permission in current_builtin_msgraph_app_permissions]
-    snapshoted_permission_ids = [permission['id'] for permission in snapshoted_builtin_msgraph_app_permissions]
-    added_permission_ids = [permission_id for permission_id in current_permission_ids if permission_id not in snapshoted_permission_ids]
-    removed_permission_ids = [permission_id for permission_id in snapshoted_permission_ids if permission_id not in current_permission_ids]
-
-    if added_permission_ids or removed_permission_ids:
-        print('MS Graph app permissions: changes have been detected!')
-
-        for added_permission_id in added_permission_ids:
-            msgraph_app_permissions_list = [permission for permission in current_builtin_msgraph_app_permissions if permission['id'] == added_permission_id]
-
-            if not len(msgraph_app_permissions_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the addition of MS Graph app permissions.')
-                exit() 
-
-            # Add to RSS feed
-            msgraph_app_permission = copy.deepcopy(msgraph_app_permissions_list[0])
-            title = '🆕 ADDED Graph app permission'
-            rss_item = { 'title': title }
-            rss_item.update(msgraph_app_permission)
-            rss_items.append(rss_item)
-
-            # Add to history
-            msgraph_app_permission['detected'] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            msgraph_app_permission['deleted'] = 'false'               
-            history_builtin_msgraph_app_permissions.append(msgraph_app_permission)
-
-        for removed_permission_id in removed_permission_ids:
-            msgraph_app_permissions_list = [permission for permission in snapshoted_builtin_msgraph_app_permissions if permission['id'] == removed_permission_id]
-            history_permission_list = [permission for permission in history_builtin_msgraph_app_permissions if permission['id'] == removed_permission_id]
-
-            if not len(msgraph_app_permissions_list) == 1 or not len(history_permission_list) == 1:
-                print ('FATAL ERROR - Something is wrong with the removal of MS Graph app permissions.')
-                exit() 
-
-            # Add to RSS feed
-            msgraph_app_permission = copy.deepcopy(msgraph_app_permissions_list[0])
-            title = '❌ REMOVED Graph app permission'
-            rss_item = { 'title': title }
-            rss_item.update(msgraph_app_permission)         
-            rss_items.append(rss_item)
-
-            # Add to history
-            history_permission = copy.deepcopy(history_permission_list[0])
-            history_builtin_msgraph_app_permissions.remove(history_permission)
-            history_permission['deleted'] = 'true'
-            history_builtin_msgraph_app_permissions.append(history_permission)
-    else:
-        print ('MS Graph app permissions: no changes')
-
+        # Update local snapshot with latest content from APIs (including assets pending removal)
+        update_file(snapshot_file, json.dumps(sorted(new_snapshot, key = lambda x: x['name']), indent = 4))
 
     # Generate RSS feed and update local rss file
     rss_feed = generate_rss(rss_items)
     update_file(rss_file, rss_feed)
-
-    # Update local snapshots with latest content from APIs
-    update_file(azure_roles_snapshot_file, json.dumps(sorted(current_builtin_azure_roles, key = lambda x: x['name']), indent = 4))
-    update_file(entra_roles_snapshot_file, json.dumps(sorted(current_builtin_entra_roles, key = lambda x: x['name']), indent = 4))
-    update_file(msgraph_app_permissions_snapshot_file, json.dumps(sorted(current_builtin_msgraph_app_permissions, key = lambda x: x['name']), indent = 4))
 
     # Update local history with latest content from APIs
     update_file(azure_roles_history_file, json.dumps(sorted(history_builtin_azure_roles, key = lambda x: x['name']), indent = 4))
