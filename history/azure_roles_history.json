@@ -2880,6 +2880,14 @@
         "deleted": "false"
     },
     {
+        "id": "bdbf2dae-53ba-4c03-8ce9-94534a11a9b3",
+        "name": "Cloud Device Platform Data Owner",
+        "description": "Read and manage Cloud Device Platform data for partner businesses only. Does not grant sandbox access, ARM management, or role-assignment permissions.",
+        "link": "https://management.azure.com/bdbf2dae-53ba-4c03-8ce9-94534a11a9b3?api-version=2022-04-01",
+        "detected": "2026-11-03T07:42:26Z",
+        "deleted": "false"
+    },
+    {
         "id": "1a22653f-3441-4c27-8f4a-ba9f93b30e5d",
         "name": "Cloud Device Platform Sandbox Partner Data Contributor",
         "description": "Read and manage resources for Cloud Device Platform sandbox partners.",
@@ -4453,6 +4461,22 @@
         "description": "Provides permission to backup vault to manage disk snapshots.",
         "link": "https://management.azure.com/7efff54f-a5b4-42b5-a1c5-5411624893ce?api-version=2022-04-01",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "541b4c51-7349-4db1-b5af-298b9f20dd79",
+        "name": "DiskSnapshotImmutabilityAdmin Service Role",
+        "description": "Can set a new locked immutability policy and modify (extend) it. Cannot change ImmutabilityPolicyType from locked to unlocked for an active immutable policy, and cannot reduce the ImmutabilityPolicyDurationDays for a locked immutability policy.",
+        "link": "https://management.azure.com/541b4c51-7349-4db1-b5af-298b9f20dd79?api-version=2022-04-01",
+        "detected": "2026-11-03T07:42:26Z",
+        "deleted": "false"
+    },
+    {
+        "id": "5cf89f2f-ccaa-445e-84aa-48d3e203ddf9",
+        "name": "DiskSnapshotImmutabilityOperator Service Role",
+        "description": "Can set an ImmutabilityPolicyType: unlocked on a snapshot and can modify the unlocked immutability policy (extend, reduce or remove). Cannot set or modify a locked immutability policy.",
+        "link": "https://management.azure.com/5cf89f2f-ccaa-445e-84aa-48d3e203ddf9?api-version=2022-04-01",
+        "detected": "2026-11-03T07:42:26Z",
         "deleted": "false"
     },
     {
