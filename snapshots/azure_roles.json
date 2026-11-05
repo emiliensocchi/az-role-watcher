@@ -2124,16 +2124,76 @@
         "link": "https://management.azure.com/d0a94e7a-d791-4571-b2e0-8bdd8f867544?api-version=2022-04-01"
     },
     {
+        "id": "ae722ee4-7a39-46d9-9a1c-b86ea7be8370",
+        "name": "Cloud Device Platform Collection Administrator",
+        "description": "Read and manage Cloud Device Platform collections, including profiles, applications, assignments, device specifications, snapshots, and profile snapshot SAS export for a partner business.",
+        "link": "https://management.azure.com/ae722ee4-7a39-46d9-9a1c-b86ea7be8370?api-version=2022-04-01"
+    },
+    {
+        "id": "758445d3-c703-4baf-9829-c395279585e0",
+        "name": "Cloud Device Platform Collection Reader",
+        "description": "Read Cloud Device Platform collection, application, user assignment, device, autoscale, profile, and snapshot metadata and status for a partner business. Excludes profile snapshot SAS export.",
+        "link": "https://management.azure.com/758445d3-c703-4baf-9829-c395279585e0?api-version=2022-04-01"
+    },
+    {
         "id": "bdbf2dae-53ba-4c03-8ce9-94534a11a9b3",
         "name": "Cloud Device Platform Data Owner",
         "description": "Read and manage Cloud Device Platform data for partner businesses only. Does not grant sandbox access, ARM management, or role-assignment permissions.",
         "link": "https://management.azure.com/bdbf2dae-53ba-4c03-8ce9-94534a11a9b3?api-version=2022-04-01"
     },
     {
+        "id": "2f626d6a-86af-49fb-9414-13a48f86f2d8",
+        "name": "Cloud Device Platform Data Reader",
+        "description": "Read Cloud Device Platform data and query device metrics for partner businesses only, excluding snapshot SAS export. Does not grant sandbox access, ARM management, or role-assignment permissions.",
+        "link": "https://management.azure.com/2f626d6a-86af-49fb-9414-13a48f86f2d8?api-version=2022-04-01"
+    },
+    {
+        "id": "8588d517-7712-4254-9c6e-00ad445bcd9e",
+        "name": "Cloud Device Platform Device Administrator",
+        "description": "Read and manage Cloud Device Platform devices, including lifecycle, user assignment, recovery, sessions, diagnostics, snapshots, and snapshot SAS export for a partner business.",
+        "link": "https://management.azure.com/8588d517-7712-4254-9c6e-00ad445bcd9e?api-version=2022-04-01"
+    },
+    {
+        "id": "78a66f20-a3c2-48fa-bf39-a4666b380a23",
+        "name": "Cloud Device Platform Device Operator",
+        "description": "Read Cloud Device Platform devices and operation status, query metrics, and start, restart, deallocate, or hibernate devices for a partner business. Excludes snapshot SAS export and other device mutations.",
+        "link": "https://management.azure.com/78a66f20-a3c2-48fa-bf39-a4666b380a23?api-version=2022-04-01"
+    },
+    {
+        "id": "295b45b9-e45c-481c-a0a0-738dae8739ff",
+        "name": "Cloud Device Platform Device Reader",
+        "description": "Read Cloud Device Platform device metadata, operation status, and snapshot metadata, and query device metrics for a partner business. Excludes snapshot SAS export.",
+        "link": "https://management.azure.com/295b45b9-e45c-481c-a0a0-738dae8739ff?api-version=2022-04-01"
+    },
+    {
+        "id": "1913c0ee-e341-4626-b2ee-ad4101335253",
+        "name": "Cloud Device Platform Device Start Operator",
+        "description": "Read Cloud Device Platform devices and operation status, and start devices for a partner business. Intended for Scalar wake-on-connect.",
+        "link": "https://management.azure.com/1913c0ee-e341-4626-b2ee-ad4101335253?api-version=2022-04-01"
+    },
+    {
+        "id": "7c60305f-1499-4fb6-b422-29b183bf3276",
+        "name": "Cloud Device Platform Network Administrator",
+        "description": "Read and manage Cloud Device Platform networks and network settings, including network operation status, for a partner business.",
+        "link": "https://management.azure.com/7c60305f-1499-4fb6-b422-29b183bf3276?api-version=2022-04-01"
+    },
+    {
+        "id": "1b117211-bc97-42f5-a429-ab44eb05af98",
+        "name": "Cloud Device Platform Network Reader",
+        "description": "Read Cloud Device Platform network metadata and network operation status for a partner business.",
+        "link": "https://management.azure.com/1b117211-bc97-42f5-a429-ab44eb05af98?api-version=2022-04-01"
+    },
+    {
         "id": "1a22653f-3441-4c27-8f4a-ba9f93b30e5d",
         "name": "Cloud Device Platform Sandbox Partner Data Contributor",
         "description": "Read and manage resources for Cloud Device Platform sandbox partners.",
         "link": "https://management.azure.com/1a22653f-3441-4c27-8f4a-ba9f93b30e5d?api-version=2022-04-01"
+    },
+    {
+        "id": "ee7fb110-4b69-462a-8965-b4088372ebf1",
+        "name": "Cloud Device Platform Snapshot Exporter",
+        "description": "Read device and collection profile snapshot metadata and request snapshot SAS export credentials for a Cloud Device Platform partner business. Does not grant snapshot creation, deletion, or restore.",
+        "link": "https://management.azure.com/ee7fb110-4b69-462a-8965-b4088372ebf1?api-version=2022-04-01"
     },
     {
         "id": "4e9d0bd4-5aab-4f91-92df-9def33fe287c",
@@ -5152,6 +5212,18 @@
         "name": "SRE Agent Reader",
         "description": "Grants read-only access to all SRE Agent data, including chats, incidents, logs, and configurations. Does not permit interaction with the agent.",
         "link": "https://management.azure.com/a4b156ac-253f-4a1a-9851-96d62b71b047?api-version=2022-04-01"
+    },
+    {
+        "id": "c2ad708c-75ea-4e88-b37d-a2b8729db02e",
+        "name": "SRE Agent Session Contributor",
+        "description": "Manage Agent Session resources without granting access to unrelated Microsoft.App resources.",
+        "link": "https://management.azure.com/c2ad708c-75ea-4e88-b37d-a2b8729db02e?api-version=2022-04-01"
+    },
+    {
+        "id": "577a432e-a42b-4308-bc40-6ea45e32bdf4",
+        "name": "SRE Agent Session Reader",
+        "description": "View Agent Session resources without changing their configuration or lifecycle.",
+        "link": "https://management.azure.com/577a432e-a42b-4308-bc40-6ea45e32bdf4?api-version=2022-04-01"
     },
     {
         "id": "2d84a65a-63b2-4343-bbb6-31105d857bc1",
