@@ -365,26 +365,28 @@ def compare_assets(current_assets, snapshoted_assets, history_assets, asset_labe
     return new_snapshot, rss_items
 
 
-def generate_rss(items):
+def generate_rss(items, title, description, link):
     """
         Generates an rss-feed string with the passed items.
 
         Args:
             items (list(dict())): the items to be added to the rss feed
+            title (str): the title of the rss feed
+            description (str): the description of the rss feed
+            link (str): the public URL of the rss feed
 
         Returns:
             str: the generated rss feed
     
     """
-    rss_feed_title = 'AzRoleWatcher'
-    rss_feed_description = 'Continuously monitor roles and permissions in Microsoft Entra ID and Azure.'
     rss_feed_language = 'en'
     now = datetime.datetime.now()
     rss_feed_last_updated = now.strftime("%a, %d %b %Y %X")
 
     rss = '<rss version="2.0"><channel>'
-    rss += f"<title>{rss_feed_title}</title>"
-    rss += f"<description>{rss_feed_description}</description>"
+    rss += f"<title>{title}</title>"
+    rss += f"<link>{link}</link>"
+    rss += f"<description>{description}</description>"
     rss += f"<language>{rss_feed_language}</language>"
 
     for item in items:
@@ -465,11 +467,20 @@ if __name__ == "__main__":
         })
   
 
-    # Set local rss file
+    # Set local rss files
     github_action_dir_name = '.github'
     absolute_path_to_script = os.path.abspath(sys.argv[0])
     root_dir = absolute_path_to_script.split(github_action_dir_name)[0]
     rss_file = root_dir + 'latest.rss'
+    feeds_dir = root_dir + 'feeds'
+    azure_roles_rss_file = f"{feeds_dir}/azure-roles.rss"
+    entra_roles_rss_file = f"{feeds_dir}/entra-roles.rss"
+    msgraph_app_permissions_rss_file = f"{feeds_dir}/msgraph-app-permissions.rss"
+    os.makedirs(feeds_dir, exist_ok = True)
+
+    # Set public base URL of the rss files (GITHUB_REPOSITORY is set by GitHub Actions, including in forks)
+    github_repository = os.environ.get('GITHUB_REPOSITORY') or 'emiliensocchi/az-role-watcher'
+    rss_base_url = f"https://raw.githubusercontent.com/{github_repository}/main/"
 
     # Set local snapshot files
     snapshot_dir = root_dir + 'snapshots'
@@ -498,25 +509,39 @@ if __name__ == "__main__":
     now = datetime.datetime.now()
     rss_items = []
     comparisons = [
-        ('Azure roles', 'Azure role', current_builtin_azure_roles, snapshoted_builtin_azure_roles, history_builtin_azure_roles, azure_roles_snapshot_file),
-        ('Entra roles', 'Entra role', current_builtin_entra_roles, snapshoted_builtin_entra_roles, history_builtin_entra_roles, entra_roles_snapshot_file),
-        ('MS Graph app permissions', 'Graph app permission', current_builtin_msgraph_app_permissions, snapshoted_builtin_msgraph_app_permissions, history_builtin_msgraph_app_permissions, msgraph_app_permissions_snapshot_file),
+        ('Azure roles', 'Azure role', current_builtin_azure_roles, snapshoted_builtin_azure_roles, history_builtin_azure_roles, azure_roles_snapshot_file, azure_roles_rss_file),
+        ('Entra roles', 'Entra role', current_builtin_entra_roles, snapshoted_builtin_entra_roles, history_builtin_entra_roles, entra_roles_snapshot_file, entra_roles_rss_file),
+        ('MS Graph app permissions', 'Graph app permission', current_builtin_msgraph_app_permissions, snapshoted_builtin_msgraph_app_permissions, history_builtin_msgraph_app_permissions, msgraph_app_permissions_snapshot_file, msgraph_app_permissions_rss_file),
     ]
 
-    for category, asset_label, current_assets, snapshoted_assets, history_assets, snapshot_file in comparisons:
+    for category, asset_label, current_assets, snapshoted_assets, history_assets, snapshot_file, category_rss_file in comparisons:
         new_snapshot, category_rss_items = compare_assets(current_assets, snapshoted_assets, history_assets, asset_label, now)
         rss_items.extend(category_rss_items)
 
         if category_rss_items:
             print(f"{category}: changes have been detected!")
+
+            # Only rewrite the category feed on changes, so it keeps its latest items and its last commit date reflects its latest change
+            category_rss_feed = generate_rss(
+                category_rss_items,
+                f"AzRoleWatcher - {category}",
+                f"Continuously monitor the addition and removal of {category}.",
+                rss_base_url + os.path.relpath(category_rss_file, root_dir).replace(os.sep, '/')
+            )
+            update_file(category_rss_file, category_rss_feed)
         else:
             print(f"{category}: no changes")
 
         # Update local snapshot with latest content from APIs (including assets pending removal)
         update_file(snapshot_file, json.dumps(sorted(new_snapshot, key = lambda x: x['name']), indent = 4))
 
-    # Generate RSS feed and update local rss file
-    rss_feed = generate_rss(rss_items)
+    # Generate combined RSS feed and update local rss file
+    rss_feed = generate_rss(
+        rss_items,
+        'AzRoleWatcher',
+        'Continuously monitor roles and permissions in Microsoft Entra ID and Azure.',
+        rss_base_url + 'latest.rss'
+    )
     update_file(rss_file, rss_feed)
 
     # Update local history with latest content from APIs

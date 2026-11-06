@@ -26,9 +26,20 @@ The latest available roles and permissions are pulled once a day from the MS Gra
 
 [Preview an example](https://www.joydeepdeb.com/misc/rss-feed-reader.html?url_id=https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/examples/example.rss)
 
-Point your favorite RSS reader to [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss). 
+Point your favorite RSS reader to the feed(s) matching what you want to monitor:
 
-The file is updated every time a change is detected and stays unmodified otherwise. This means the date of the **latest commit** corresponds to the date of the **latest addition or removal** of an Azure role, Entra role or Microsoft Graph application permission.
+| 🏷️ Monitored assets | 📡 Feed |
+|---|---|
+| ☁️ Azure roles | [`feeds/azure-roles.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/feeds/azure-roles.rss) |
+| 👤 Entra roles | [`feeds/entra-roles.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/feeds/entra-roles.rss) |
+| 🤖 MS Graph app permissions | [`feeds/msgraph-app-permissions.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/feeds/msgraph-app-permissions.rss) |
+| 🌐 All of the above | [`latest.rss`](https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss) |
+
+To monitor two categories, subscribe to both corresponding feeds.
+
+Each category feed is updated **only** when a change is detected in that category, and stays unmodified otherwise. This means the date of the **latest commit** to a category feed corresponds to the date of the **latest addition or removal** in that category.
+
+The combined `latest.rss` feed is updated every time a change is detected in any category. This means the date of its **latest commit** corresponds to the date of the **latest addition or removal** of an Azure role, Entra role or Microsoft Graph application permission.
 
 Note that AzRoleWatcher is **run daily** around 1:00 AM UTC to detect changes.
 
