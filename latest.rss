@@ -1,1 +1,1 @@
-<rss version="2.0"><channel><title>AzRoleWatcher</title><description>Continuously monitor roles and permissions in Microsoft Entra ID and Azure.</description><language>en</language></channel></rss>
+<rss version="2.0"><channel><title>AzRoleWatcher</title><link>https://raw.githubusercontent.com/emiliensocchi/az-role-watcher/main/latest.rss</link><description>Continuously monitor roles and permissions in Microsoft Entra ID and Azure.</description><language>en</language></channel></rss>
