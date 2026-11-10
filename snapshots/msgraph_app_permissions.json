@@ -3168,6 +3168,18 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/79c7e69c-0d9f-4eff-97a8-49170a5a08ba"
     },
     {
+        "id": "edca3046-3375-4d07-81a2-18dffcff6bc7",
+        "name": "RoleManagement-Authorization.Read.All",
+        "description": "Read unified role definitions and multi-scope role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/edca3046-3375-4d07-81a2-18dffcff6bc7"
+    },
+    {
+        "id": "7c4d6288-8d2f-40e0-82ce-efa72265e9fb",
+        "name": "RoleManagement-Authorization.ReadWrite.All",
+        "description": "Manage unified roles and multi-scope role assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7c4d6288-8d2f-40e0-82ce-efa72265e9fb"
+    },
+    {
         "id": "c7fbd983-d9aa-4fa7-84b8-17382c103bc4",
         "name": "RoleManagement.Read.All",
         "description": "Read role management data for all RBAC providers",

@@ -3391,14 +3391,14 @@
     },
     {
         "id": "541b4c51-7349-4db1-b5af-298b9f20dd79",
-        "name": "DiskSnapshotImmutabilityAdmin Service Role",
-        "description": "Can set a new locked immutability policy and modify (extend) it. Cannot change ImmutabilityPolicyType from locked to unlocked for an active immutable policy, and cannot reduce the ImmutabilityPolicyDurationDays for a locked immutability policy.",
+        "name": "Disk Snapshot Immutability Admin",
+        "description": "Create and manage unlocked snapshot immutability policies, and create or extend locked policies. Cannot unlock, shorten, or expire an active locked policy. This role is in preview and subject to change.",
         "link": "https://management.azure.com/541b4c51-7349-4db1-b5af-298b9f20dd79?api-version=2022-04-01"
     },
     {
         "id": "5cf89f2f-ccaa-445e-84aa-48d3e203ddf9",
-        "name": "DiskSnapshotImmutabilityOperator Service Role",
-        "description": "Can set an ImmutabilityPolicyType: unlocked on a snapshot and can modify the unlocked immutability policy (extend, reduce or remove). Cannot set or modify a locked immutability policy.",
+        "name": "Disk Snapshot Immutability Operator",
+        "description": "Create, extend, shorten, or expire unlocked snapshot immutability policies. Cannot lock policies or modify active locked policies. This role is in preview and subject to change.",
         "link": "https://management.azure.com/5cf89f2f-ccaa-445e-84aa-48d3e203ddf9?api-version=2022-04-01"
     },
     {
