@@ -6648,6 +6648,30 @@
         "deleted": "false"
     },
     {
+        "id": "a715612b-6d9c-4e9e-852d-50deb47ab794",
+        "name": "PostgreSQL Database Agent Administrator",
+        "description": "Includes PostgreSQL Database Agent Contributor permissions plus server mitigation approval and client-execution start and result reporting.",
+        "link": "https://management.azure.com/a715612b-6d9c-4e9e-852d-50deb47ab794?api-version=2022-04-01",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f86e2d45-38c4-4c0b-91d2-6cd8bc090016",
+        "name": "PostgreSQL Database Agent Contributor",
+        "description": "Read PostgreSQL Database Agent diagnostics, manage issue lifecycle and custom instructions, execute tasks, approve database mitigations, and force-resolve investigations.",
+        "link": "https://management.azure.com/f86e2d45-38c4-4c0b-91d2-6cd8bc090016?api-version=2022-04-01",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "86e02ec6-3f26-4bb9-be64-e8836fb6cb90",
+        "name": "PostgreSQL Database Agent Reader",
+        "description": "Read PostgreSQL Database Agent issue summaries and details, diagnostic data, custom instructions, server overview, and task descriptors.",
+        "link": "https://management.azure.com/86e02ec6-3f26-4bb9-be64-e8836fb6cb90?api-version=2022-04-01",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "c088a766-074b-43ba-90d4-1fb21feae531",
         "name": "PostgreSQL Flexible Server Long Term Retention Backup Role",
         "description": "Role to allow backup vault to access PostgreSQL Flexible Server Resource APIs for Long Term Retention Backup.",

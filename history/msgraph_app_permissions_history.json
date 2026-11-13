@@ -648,6 +648,22 @@
         "deleted": "false"
     },
     {
+        "id": "d80433ba-c09b-4b88-a6bf-1082396453c1",
+        "name": "AutomationRules.Read.All",
+        "description": "Read all security automation rules and runs",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d80433ba-c09b-4b88-a6bf-1082396453c1",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7204d4f0-1c22-42ce-adf2-a9f29db01c68",
+        "name": "AutomationRules.ReadWrite.All",
+        "description": "Read and write all security automation rules",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7204d4f0-1c22-42ce-adf2-a9f29db01c68",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "5fbb5982-3230-4882-93c0-2167523ce0c2",
         "name": "BackupRestore-Configuration.Read.All",
         "description": "Read all backup configuration policies",
@@ -1208,6 +1224,14 @@
         "deleted": "false"
     },
     {
+        "id": "4c0843c0-d623-4e87-b4c1-93777f7be9e8",
+        "name": "CloudLicensing.ClaimLicenses.All",
+        "description": "Claim and unclaim cloud licenses",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/4c0843c0-d623-4e87-b4c1-93777f7be9e8",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
         "id": "a9e09520-8ed4-4cde-838e-4fdea192c227",
         "name": "CloudPC.Read.All",
         "description": "Read Cloud PCs",
@@ -1357,6 +1381,54 @@
         "description": "Read contracts",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f9af4646-98b0-4e9d-a53e-40d4f6452fc4",
         "detected": "2026-03-24T03:35:49Z",
+        "deleted": "false"
+    },
+    {
+        "id": "8e41e0e4-d03a-475a-8ece-129d8cde33f2",
+        "name": "CopilotCostManagement-Assignment.Read.All",
+        "description": "Read Copilot spending policy assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8e41e0e4-d03a-475a-8ece-129d8cde33f2",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "e8d341e1-ddd7-422e-83ee-b3cd34f21d0a",
+        "name": "CopilotCostManagement-Assignment.ReadWrite.All",
+        "description": "Read and write Copilot spending policy assignments",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e8d341e1-ddd7-422e-83ee-b3cd34f21d0a",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "7f06c49d-bf28-43b5-bad0-0805f51d0bf7",
+        "name": "CopilotCostManagement-Policy.Read.All",
+        "description": "Read Copilot spending policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7f06c49d-bf28-43b5-bad0-0805f51d0bf7",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "14b35599-28a4-4a40-bc65-7cdca3d4e141",
+        "name": "CopilotCostManagement-Policy.ReadWrite.All",
+        "description": "Read and write Copilot spending policies",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/14b35599-28a4-4a40-bc65-7cdca3d4e141",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "ec42fb68-397f-40ab-baa1-c8d0b745a680",
+        "name": "CopilotCostManagement-Reports.Read.All",
+        "description": "Read Copilot cost reports and export results",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/ec42fb68-397f-40ab-baa1-c8d0b745a680",
+        "detected": "2026-11-13T07:40:31Z",
+        "deleted": "false"
+    },
+    {
+        "id": "f033faa1-6d51-46ba-824a-ad86f514eed1",
+        "name": "CopilotCostManagement.Read.All",
+        "description": "Read all Copilot cost management data",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/f033faa1-6d51-46ba-824a-ad86f514eed1",
+        "detected": "2026-11-13T07:40:31Z",
         "deleted": "false"
     },
     {
