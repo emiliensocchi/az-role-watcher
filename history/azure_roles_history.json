@@ -1,5 +1,13 @@
 [
     {
+        "id": "76c40f53-2c1e-4841-aeb5-e870be0528ba",
+        "name": "A365 Content Safety Policy Operator",
+        "description": "Manage Responsible AI policies and reusable Rego resources, and evaluate content through Azure AI Content Safety. Does not grant account key access or account management.",
+        "link": "https://management.azure.com/76c40f53-2c1e-4841-aeb5-e870be0528ba?api-version=2022-04-01",
+        "detected": "2026-11-19T08:29:48Z",
+        "deleted": "false"
+    },
+    {
         "id": "849de3f8-3686-489c-bd02-732984d0c145",
         "name": "A365 Gateway Policy Operator",
         "description": "Read Azure API Management services and update asset's access state according to A365 policies.",
