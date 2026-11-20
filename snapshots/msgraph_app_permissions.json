@@ -476,7 +476,7 @@
     {
         "id": "d80433ba-c09b-4b88-a6bf-1082396453c1",
         "name": "AutomationRules.Read.All",
-        "description": "Read all security automation rules and runs",
+        "description": "Read all security automation rules",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d80433ba-c09b-4b88-a6bf-1082396453c1"
     },
     {
@@ -1456,6 +1456,12 @@
         "name": "Domain.ReadWrite.All",
         "description": "Read and write domains",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/7e05723c-0bb0-42da-be95-ae9f08a6e53c"
+    },
+    {
+        "id": "3d67268e-b577-45f4-8feb-347a5ca24a37",
+        "name": "DynamicPermissions.Read.DetectionAndRemediation",
+        "description": "Read all dynamic permission detections and remediation history",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3d67268e-b577-45f4-8feb-347a5ca24a37"
     },
     {
         "id": "7c9db06a-ec2d-4e7b-a592-5a1e30992566",
@@ -4196,13 +4202,13 @@
     {
         "id": "dd98c7f5-2d42-42d3-a0e4-633161547251",
         "name": "ThreatHunting.Read.All",
-        "description": "Run hunting queries and read shared saved hunting queries",
+        "description": "Run hunting queries and read schemas, shared queries, and functions",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dd98c7f5-2d42-42d3-a0e4-633161547251"
     },
     {
         "id": "6e251752-0d87-4158-b87b-b60e768fa657",
         "name": "ThreatHunting.ReadWrite.All",
-        "description": "Run hunting queries and manage all hunting functions",
+        "description": "Run hunting queries and manage shared hunting functions",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e251752-0d87-4158-b87b-b60e768fa657"
     },
     {

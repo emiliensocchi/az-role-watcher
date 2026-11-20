@@ -1960,6 +1960,14 @@
         "deleted": "false"
     },
     {
+        "id": "3d67268e-b577-45f4-8feb-347a5ca24a37",
+        "name": "DynamicPermissions.Read.DetectionAndRemediation",
+        "description": "Read all dynamic permission detections and remediation history",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3d67268e-b577-45f4-8feb-347a5ca24a37",
+        "detected": "2026-11-20T08:11:36Z",
+        "deleted": "false"
+    },
+    {
         "id": "7c9db06a-ec2d-4e7b-a592-5a1e30992566",
         "name": "EduAdministration.Read.All",
         "description": "Read Education app settings",
