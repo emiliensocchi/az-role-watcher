@@ -7,7 +7,7 @@ Full record of **additions** and **removals** of roles and permissions in Micros
 | 🏷️ Category | ➕ Added | ❌ Removed |
 |----------|-------|---------|
 | ☁️ Azure roles | <span style="color:#009E73;font-weight:bold">168</span> | <span style="color:#D55E00;font-weight:bold">6</span> |
-| 👤 Entra roles | <span style="color:#009E73;font-weight:bold">15</span> | 0 |
+| 👤 Entra roles | <span style="color:#009E73;font-weight:bold">16</span> | 0 |
 | 🤖 MS Graph app permissions | <span style="color:#009E73;font-weight:bold">134</span> | <span style="color:#D55E00;font-weight:bold">1</span> |
 
 ### 2025
