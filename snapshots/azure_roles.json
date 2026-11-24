@@ -3456,6 +3456,12 @@
         "link": "https://management.azure.com/89f7a3ec-e9d0-40eb-9b96-c016a5c2a53f?api-version=2022-04-01"
     },
     {
+        "id": "bc578a8a-7f30-4777-bc46-55f9058a8388",
+        "name": "EBM Calc Data User",
+        "description": "Process health data in EBM Calc service API",
+        "link": "https://management.azure.com/bc578a8a-7f30-4777-bc46-55f9058a8388?api-version=2022-04-01"
+    },
+    {
         "id": "53e48117-a530-4075-bcbe-d91913e3bdb8",
         "name": "Edge Management Copilot User",
         "description": "Enables users access to Edge Management Copilot.",
