@@ -476,7 +476,7 @@
     {
         "id": "d80433ba-c09b-4b88-a6bf-1082396453c1",
         "name": "AutomationRules.Read.All",
-        "description": "Read all security automation rules",
+        "description": "Read all security automation rules and runs",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/d80433ba-c09b-4b88-a6bf-1082396453c1"
     },
     {
@@ -2664,6 +2664,12 @@
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/246dd0d5-5bd0-4def-940b-0421030a5b68"
     },
     {
+        "id": "e40cb444-6d43-4ec1-812c-7d2558b795a1",
+        "name": "Policy.Read.AuthFeatureToggle",
+        "description": "Read feature toggle policy",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e40cb444-6d43-4ec1-812c-7d2558b795a1"
+    },
+    {
         "id": "8e3bc81b-d2f3-4b7b-838c-32c88218d2f0",
         "name": "Policy.Read.AuthenticationMethod",
         "description": "Read authentication method policies",
@@ -2728,6 +2734,12 @@
         "name": "Policy.ReadWrite.ApplicationConfiguration",
         "description": "Read and write your organization's application configuration policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/be74164b-cff1-491c-8741-e671cb536e13"
+    },
+    {
+        "id": "8001e13e-118d-41c3-b49b-23d85b97ce96",
+        "name": "Policy.ReadWrite.AuthFeatureToggle",
+        "description": "Read and write feature toggle policy",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8001e13e-118d-41c3-b49b-23d85b97ce96"
     },
     {
         "id": "25f85f3c-f66c-4205-8cd5-de92dd7f0cec",
@@ -4202,13 +4214,13 @@
     {
         "id": "dd98c7f5-2d42-42d3-a0e4-633161547251",
         "name": "ThreatHunting.Read.All",
-        "description": "Run hunting queries and read schemas, shared queries, and functions",
+        "description": "Run hunting queries and read shared saved hunting queries",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/dd98c7f5-2d42-42d3-a0e4-633161547251"
     },
     {
         "id": "6e251752-0d87-4158-b87b-b60e768fa657",
         "name": "ThreatHunting.ReadWrite.All",
-        "description": "Run hunting queries and manage shared hunting functions",
+        "description": "Run hunting queries and manage all hunting functions",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/6e251752-0d87-4158-b87b-b60e768fa657"
     },
     {

@@ -1965,7 +1965,8 @@
         "description": "Read all dynamic permission detections and remediation history",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/3d67268e-b577-45f4-8feb-347a5ca24a37",
         "detected": "2026-11-20T08:11:36Z",
-        "deleted": "false"
+        "deleted": "false",
+        "missing_since": "2026-11-27T09:30:43Z"
     },
     {
         "id": "7c9db06a-ec2d-4e7b-a592-5a1e30992566",
@@ -3576,6 +3577,14 @@
         "deleted": "false"
     },
     {
+        "id": "e40cb444-6d43-4ec1-812c-7d2558b795a1",
+        "name": "Policy.Read.AuthFeatureToggle",
+        "description": "Read feature toggle policy",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/e40cb444-6d43-4ec1-812c-7d2558b795a1",
+        "detected": "2026-11-27T09:30:43Z",
+        "deleted": "false"
+    },
+    {
         "id": "8e3bc81b-d2f3-4b7b-838c-32c88218d2f0",
         "name": "Policy.Read.AuthenticationMethod",
         "description": "Read authentication method policies",
@@ -3661,6 +3670,14 @@
         "description": "Read and write your organization's application configuration policies",
         "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/be74164b-cff1-491c-8741-e671cb536e13",
         "detected": "2010-02-01T00:00:00Z",
+        "deleted": "false"
+    },
+    {
+        "id": "8001e13e-118d-41c3-b49b-23d85b97ce96",
+        "name": "Policy.ReadWrite.AuthFeatureToggle",
+        "description": "Read and write feature toggle policy",
+        "link": "https://graph.microsoft.com/v1.0/directoryRoleTemplates/8001e13e-118d-41c3-b49b-23d85b97ce96",
+        "detected": "2026-11-27T09:30:43Z",
         "deleted": "false"
     },
     {
